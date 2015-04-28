@@ -1,0 +1,38 @@
+{
+  "name": "careselector-compare",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://jamesmflight@bitbucket.org/jamesmflight/careselector-compare.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-jshint": "^1.10.0",
+    "gulp-cache": "^0.2.8",
+    "browserify": "^9.0.8",
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "fluxxor": "^1.5.3",
+    "reactify": "^1.1.0",
+    "gulp-react": "^3.0.1",
+    "react": "^0.13.2",
+    "watchify": "^3.1.1",
+    "react-router": "^0.13.2",
+    "rangeslider.js": "^1.2.0",
+    "jquery-ui-browserify": "^1.11.0-pre-seelio",
+    "jquery-browserify": "^1.8.1"
+  },
+  "dependencies": {
+    "pushstate-server": "^1.6.0"
+  }
+}

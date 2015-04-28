@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="4074171825">
+    <data-source source="LOCAL" name="PostgreSQL - homestead@localhost" uuid="8aa6888d-62ec-4c8d-87e1-8327a934a142">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:54320/homestead</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
