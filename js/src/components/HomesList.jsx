@@ -24,7 +24,7 @@ var HomesList = React.createClass({
             <div>
                 { this.state.loading ?
                     <div>
-                        <img src="/img/ajax.gif" style={{width: 'auto', position: 'relative', left: '50%', marginLeft: '-22px'}} />
+                        <img src="img/ajax.gif" style={{width: 'auto', position: 'relative', left: '50%', marginLeft: '-22px'}} />
                         <hr />
                     </div> : null
                 }
