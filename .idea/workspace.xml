@@ -62,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/js/src/components/HomesList.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.59232616" vertical-offset="0" max-vertical-offset="874">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -606,7 +606,7 @@
     <entry file="file://$PROJECT_DIR$/js/src/components/HomesList.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.59232616" vertical-offset="0" max-vertical-offset="874">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="96" />
           <folding />
         </state>
       </provider>
