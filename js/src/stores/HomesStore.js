@@ -6,6 +6,7 @@ module.exports = Fluxxor.createStore({
     initialize: function () {
         this.filters = filters;
         this.homes = [];
+        this.count = 0;
         this.loading = false;
 
         this.bindActions(
@@ -19,9 +20,10 @@ module.exports = Fluxxor.createStore({
         this.filters = filters;
         this.emit("change");
     },
-    loadHomesSuccess: function (homes) {
+    loadHomesSuccess: function (homesData) {
         this.loading = false;
-        this.homes = homes;
+        this.homes = homesData.data;
+        this.count = homesData.meta.count;
         this.emit("change");
     },
     getFilters: function () {
@@ -32,5 +34,8 @@ module.exports = Fluxxor.createStore({
     },
     isLoading: function () {
         return this.loading;
+    },
+    getCount: function () {
+        return this.count
     }
 });

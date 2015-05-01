@@ -68,9 +68,21 @@ var HomesFilterPanel = React.createClass({
                 Filter
                 </div>
                 <div className="panel-body">
+                    <div className="form-group">
+                        <label>Service Type</label>
+                        <select multiple="" onChange={this.filterServiceType} className="form-control">
+                            <option value="CARE_HOME">Care Home</option>
+                            <option value="NURSING_HOME">Nursing Home</option>
+                        </select>
+                    </div>
                     <h4>Needs/Specialities</h4>
 
                     <p>Show only homes that can accomodate residents with the following conditions:</p>
+                    <div className="checkbox">
+                        <label>
+                            <input type="checkbox" value="" value={this.state.filters.dementia} onChange={this.filterDementia}/> Dementia
+                        </label>
+                    </div>
                     <div className="checkbox">
                         <label>
                             <input type="checkbox" value={this.state.filters.substance_misuse} onChange={this.filterSubstanceMisuse}/> Substance Misuse
@@ -88,11 +100,6 @@ var HomesFilterPanel = React.createClass({
                     </div>
                     <div className="checkbox">
                         <label>
-                            <input type="checkbox" value="" value={this.state.filters.dementia} onChange={this.filterDementia}/> Dementia
-                        </label>
-                    </div>
-                    <div className="checkbox">
-                        <label>
                             <input type="checkbox" value="" value={this.state.filters.eating_disorder} onChange={this.filterEatingDisorder}/> Eating disorder
                         </label>
                     </div>
@@ -106,18 +113,7 @@ var HomesFilterPanel = React.createClass({
                             <input type="checkbox" value="" value={this.state.filters.sensory_impairment} onChange={this.filterSensoryImpairment}/> Sensory Impairment
                         </label>
                     </div>
-                    <div className="checkbox">
-                        <label>
-                            <input type="checkbox" value="" value={this.state.filters.filterAutism} onChange={this.filterAutism}/> Autism
-                        </label>
-                    </div>
-                    <div className="form-group">
-                        <label>Service Type</label>
-                        <select multiple="" onChange={this.filterServiceType} className="form-control">
-                            <option value="CARE_HOME">Care Home</option>
-                            <option value="NURSING_HOME">Nursing Home</option>
-                        </select>
-                    </div>
+
                 </div>
 
             </div>

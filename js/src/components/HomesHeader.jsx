@@ -24,7 +24,7 @@ var HomesHeader = React.createClass({
             value: event.target.value
         });
     },
-    render: function(){
+    render: function() {
         return (
             <div className="panel">
                 <div className="panel-body">
@@ -38,13 +38,11 @@ var HomesHeader = React.createClass({
                                     <input type="text" value={this.state.filters.postcode} onChange={this.filterPostcode} className="form-control block" id="postcode" placeholder="Postcode/Town" />
                                 </div>
 
-                                <div className="col-xs-4">
-                                    <input type="number" value={this.state.filters.radius} onChange={this.filterRadius} className="form-control" id="radius" placeholder="Radius (km)" />
+                                <div className="col-xs-3">
+                                    <input type="number" style={{display:"inline-block"}} value={this.state.filters.radius} onChange={this.filterRadius} className="form-control" id="radius" placeholder="Radius (km)" />
                                 </div>
+                                <div className="col-xs-1"><span>km</span></div>
                             </div>
-                        </div>
-                        <div className="col-xs-3 col-xs-offset-3">
-                            <img src="img/logo.png" />
                         </div>
                     </div>
                 </div>

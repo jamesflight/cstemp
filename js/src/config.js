@@ -1,3 +1,3 @@
 module.exports = {
-    API_URL: 'https://careselector-core.herokuapp.com/api/'
+    API_URL: 'http://careselector-core.herokuapp.com/api/'
 };

@@ -6,28 +6,27 @@ var StoreWatchMixin = Fluxxor.StoreWatchMixin;
 
 var HomesList = React.createClass({
     mixins: [FluxMixin, StoreWatchMixin("HomesStore")],
-    getInitialState: function () {
-        return {
-
-        }
-    },
     getStateFromFlux: function() {
         var flux = this.getFlux();
 
         return {
             carehomes: flux.store("HomesStore").getHomes(),
-            loading: flux.store("HomesStore").isLoading()
+            loading: flux.store("HomesStore").isLoading(),
+            count: flux.store("HomesStore").getCount()
         }
     },
     render: function(){
         return (
             <div>
+                <div><strong>Showing {this.state.count} results.</strong></div>
+                <hr />
                 { this.state.loading ?
                     <div>
                         <img src="http://jamesflight.github.io/careselector-compare/img/ajax.gif" style={{width: 'auto', position: 'relative', left: '50%', marginLeft: '-22px'}} />
                         <hr />
                     </div> : null
                 }
+
                 {this.state.carehomes.map(function(home) {
                     return (
                         <HomeListing home={home} />
