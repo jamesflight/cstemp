@@ -6,9 +6,11 @@ var routes = require('./routes.jsx');
 var actions = require('./actions.js');
 var Fluxxor = require("fluxxor");
 var HomesStore = require('./stores/HomesStore.js');
+var FilterStore = require('./stores/FilterStore.js');
 
 var stores = {
-    HomesStore: new HomesStore()
+    HomesStore: new HomesStore(),
+    FilterStore: new FilterStore()
 };
 
 var flux = new Fluxxor.Flux(stores, actions);

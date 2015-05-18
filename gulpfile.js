@@ -2,40 +2,43 @@ var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 var sourcemaps = require('gulp-sourcemaps');
 var jshint = require('gulp-jshint');
-var cache = require('gulp-cache');
 var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
 var browserify = require('browserify');
 var reactify = require('reactify');
 var watchify = require('watchify');
 
-gulp.task('default', function() {
-    var b = browserify({
-        entries: './js/src/main.js',
-        transform:[reactify],
-        debug: true,
-        cache: {}, // required for watchify
-        packageCache: {}, // required for watchify
+gulp.task('browserify', function() {
+    return browserify('./test/main.js')
+        .bundle()
+        .pipe(source('app.js'))
+        .pipe(gulp.dest('./testdist/'));
+});
+
+gulp.task('watch', function() {
+    var bundler = browserify({
+        entries:['./js/src/main.js'],
+        cache:{},
+        packageCache: {},
         fullPaths: true
     });
+    bundler.transform(reactify);
+    var bundler = watchify(bundler);
 
-    b = watchify(b);
+    bundler.on('update', rebundle);
 
-    b.on('update', function(){
-        b.bundle()
+    function rebundle() {
+        var date = new Date();
+        bundler.bundle()
             .pipe(source('app.js'))
             .pipe(buffer())
             .pipe(sourcemaps.init())
             .pipe(uglify())
             .pipe(sourcemaps.write('.'))
-            .pipe(gulp.dest('js/dist'));
-    });
+            .pipe(gulp.dest('./js/dist/'));
+        var ms = (new Date()).getTime() - date.getTime();
+        console.log('Rebundled in ' + ms + ' ms');
+    }
 
-    return b.bundle()
-        .pipe(source('app.js'))
-        .pipe(buffer())
-        .pipe(sourcemaps.init())
-        .pipe(uglify())
-        .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest('js/dist'));
+    return rebundle();
 });

@@ -8,6 +8,7 @@ var HomesListing = React.createClass({
         }
     },
     getName: function () {
+        console.log(this.props.home.website);
         var name = this.props.home.contact_name;
         if (name !== null) {
             var names = name.split(',');
@@ -29,39 +30,40 @@ var HomesListing = React.createClass({
     render: function(){
         return (
             <div className="panel panel-success">
-                <div className="panel-body">
-                    <h4><strong>{this.props.home.name}</strong> - within {this.props.home.distance}km</h4>
-                    <hr/>
+                <div className="panel-body no-padding">
                     <div className="row">
-                        <div className="col-xs-4">
-                            <address>
-                                <strong>{this.props.home.address_1}</strong><br/>
-                                {this.props.home.address_2}<br/>
-                                {this.props.home.address_3}<br/>
-                                {this.props.home.postcode}
-                            </address>
-
+                        <div className="col-xs-2 add-listing-button">
+                            <div className="add-listing-shortlisted">Shortlisted</div>
+                            <div className="add-listing-triangle"></div>
                         </div>
-                        <div className="col-xs-8">
-                            <div className="panel panel-info">
-                                <div className="panel-heading">
-                                    How to Contact
-                                </div>
-                                <div className="panel-body">
-                                    <div><strong>Tel: </strong>{this.getPhone()}</div>
-                                    <div><strong>Name: </strong>{this.getName()}</div>
-                                    <div><strong>Website:</strong> <a target="_blank" href={ this.getWebsite() }>{this.props.home.website}</a></div>
-                                    <div><strong>Total Beds:</strong> {this.props.home.total_beds}</div>
-                                </div>
-                            </div>
+                        <div className="col-xs-5">
+                            <h4><strong>{this.props.home.name}</strong> - within {this.props.home.distance}km</h4>
+                            <hr/>
+                                <address>
+                                { this.props.home.address_1 !== null ?
+                                    <div>
+                                        <strong>{this.props.home.address_1}</strong> < br />
+                                    </div> : null
+                                }
+                                { this.props.home.address_2 !== null ?
+                                    <div>
+                                        {this.props.home.address_2} < br />
+                                    </div> : null
+                                }
+                                 { this.props.home.address_3 !== null ?
+                                     <div>
+                                         {this.props.home.address_3} < br />
+                                     </div> : null
+                                 }
+                                { this.props.home.postcode !== null ?
+                                    <div>
+                                        {this.props.home.postcode} < br />
+                                    </div> : null
+                                    }
+                                </address>
                         </div>
-                        <div className="col-xs-12">
-                            <h4>Specialisms:</h4>
-                            {this.props.home.specialisms.map(function (specialism) {
-                                return (
-                                    <span className="btn btn-warning">{specialism}</span>
-                                );
-                            })}
+                        <div className="col-xs-5">
+                            <img src="img/no-picture.png" className="home-image" />
                         </div>
                     </div>
                 </div>

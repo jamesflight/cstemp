@@ -1,20 +1,11 @@
 var $ = require('jquery-browserify');
 var config = require('./../config.js');
 
-var filters = require('./FiltersModel.js');
-
 module.exports = {
-    get: function (success, error) {
-        var newFilters = {};
-        $.each(filters, function (key, value) {
-            if (value !== false) {
-                newFilters[key] = value;
-            }
-        });
-
+    get: function (filters, success, error) {
         $.ajax({
             url: config.API_URL + 'homes',
-            data: newFilters,
+            data: filters,
             success: function (response) {
                 success(response);
             },
