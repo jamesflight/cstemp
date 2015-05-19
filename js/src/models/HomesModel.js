@@ -10,7 +10,7 @@ module.exports = {
                 success(response);
             },
             error: function (response) {
-                error(response);
+                error(JSON.parse(response.responseText).errors.validation);
             }
         });
     }

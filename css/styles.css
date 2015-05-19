@@ -173,6 +173,15 @@ img {
     color:#b2b3b3;
 }
 
+.error {
+    color:red;
+}
+
+.ajax-spinner {
+    width:43px;
+    height:auto;
+}
+
 .pink-button {
     display:block;
     padding:5px 25px 5px 25px;

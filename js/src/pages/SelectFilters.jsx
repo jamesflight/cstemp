@@ -12,7 +12,7 @@ module.exports = React.createClass({
                 <div className="container">
                     <div>
                         <div className="row">
-                            <div className="col-xs-6 col-xs-offset-3 black-box">
+                            <div className="col-xs-6 col-xs-offset-3">
                                 <PostcodeSearch button={false} />
                             </div>
                         </div>

@@ -7,11 +7,20 @@ module.exports = Fluxxor.createStore({
             radius:10
         };
         this.bindActions(
-            "UPDATE_FILTER", this.updateFilter
+            "UPDATE_FILTER", this.updateFilter,
+            "REMOVE_FILTER", this.removeFilter
         );
     },
     updateFilter: function (payload) {
         this.filters[payload.filter] = payload.value;
+        this.emit("change");
+    },
+    removeFilter: function (name) {
+        delete this.filters[name];
+        this.emit("change");
+    },
+    hasFilter: function (name) {
+        return this.filters.hasOwnProperty(name);
     },
     getState: function () {
         return this.filters;
