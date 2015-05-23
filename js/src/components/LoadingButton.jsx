@@ -24,7 +24,7 @@ var LoadingButton = React.createClass({
                 }
 
                 { ! this.state.isLoading &&
-                    <button onClick={this.props.onClick} className="btn btn-lg btn-warning">{this.state.text}</button>
+                    <button onClick={this.props.onClick} className="btn btn-lg btn-warning big-button">{this.state.text}</button>
                 }
             </div>
         );

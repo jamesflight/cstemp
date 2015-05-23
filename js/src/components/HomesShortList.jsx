@@ -3,10 +3,17 @@ var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
 var StoreWatchMixin = Fluxxor.StoreWatchMixin;
 var $ = require('jquery-browserify');
+var LoadingButton = require('./LoadingButton.jsx');
 
 module.exports = React.createClass({
-    mixins: [FluxMixin],
+    mixins: [FluxMixin, StoreWatchMixin('HomesStore')],
     stuck: false,
+    getStateFromFlux: function () {
+        return {
+            homes: this.getFlux().store("HomesStore").getShortlist(),
+            isLoading: this.getFlux().store("HomesStore").getIsSendingShortlistToServer()
+        }
+    },
     componentDidMount: function() {
         var el = $(this.getDOMNode());
 
@@ -27,21 +34,50 @@ module.exports = React.createClass({
 
         }.bind(this));
     },
+    removeFromShortlist: function (event) {
+        this.getFlux().actions.removeFromShortlist(event.target.dataset.id);
+    },
+    postShortlist: function () {
+        this.getFlux().actions.postShortlistToServer(this.state.homes);
+    },
     render: function(){
         return (
-            <div className="panel panel-info padding-s">
-                <h2 className="pink-text text-center">My Shortlist</h2>
-                <hr/>
-                <div className="position-relative">
-                    <h5 className="blue-text">Stokeleigh Lodge - 1km</h5>
-                    <p className="grey-text">BS6 7QQ</p>
-                    <div className="close-icon grey-text">x</div>
-                </div>
-                <hr/>
-                <p className="grey-text text-center">Add care homes to create your shortlist for comparison.</p>
-                <hr/>
-                <div className="text-center">
-                    <a href="#" className="pink-button">Compare Homes</a>
+            <div className="padding-tb-s">
+                <div className="panel padding-s pink-border">
+                    <div className="shortlist-scroll">
+                        <h2 className="pink-text text-center">My Shortlist</h2>
+                        {
+                            this.state.homes.map(function (home) {
+                                return (
+                                    <div>
+                                        <hr/>
+                                        <div className="position-relative">
+                                            <h5 className="blue-text">{home.name}</h5>
+                                            <p className="grey-text">{home.postcode}</p>
+                                            <div data-id={home.id} onClick={this.removeFromShortlist} className="close-icon grey-text">x</div>
+                                        </div>
+                                    </div>
+                                )
+                            }.bind(this))
+                        }
+                        { this.state.homes.length === 0 &&
+                            <div>
+                                <hr/>
+                            <p className="grey-text text-center">Add care homes to create your shortlist for comparison.</p>
+                            </div>
+                        }
+                    </div>
+                    <div className="text-center button-section">
+                        <hr/>
+                        { this.state.isLoading &&
+                            <img className="ajax-spinner" src="img/ajax.gif" />
+                        }
+
+                        { ! this.state.isLoading &&
+                            <div onClick={this.postShortlist} className="pink-button">Compare Homes</div>
+                        }
+
+                    </div>
                 </div>
             </div>
         );

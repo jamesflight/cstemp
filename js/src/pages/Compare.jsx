@@ -15,6 +15,7 @@ module.exports = React.createClass({
                         <HomesShortList />
                     </div>
                     <div className="col-xs-8">
+                        <br/>
                         <ActiveFilters />
                         <hr/>
                         <HomesList />

@@ -7,10 +7,12 @@ var actions = require('./actions.js');
 var Fluxxor = require("fluxxor");
 var HomesStore = require('./stores/HomesStore.js');
 var FilterStore = require('./stores/FilterStore.js');
+var AddressStore = require('./stores/AddressStore.js');
 
 var stores = {
     HomesStore: new HomesStore(),
-    FilterStore: new FilterStore()
+    FilterStore: new FilterStore(),
+    AddressStore: new AddressStore()
 };
 
 var flux = new Fluxxor.Flux(stores, actions);

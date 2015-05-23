@@ -44,8 +44,14 @@ module.exports = React.createClass({
                 <FilterSelectorOption name="under_65" text="Under 65" isSelected={this.state.under_65} onYes={this.addFilter} onNo={this.removeFilter} />
                 <FilterSelectorOption name="sensory_impairment" text="Sensory Impariments (Deaf/Blind)" isSelected={this.state.sensory_impairment} onYes={this.addFilter} onNo={this.removeFilter} />
 
-                <div className="text-center">
-                    <LoadingButton onClick={this.submit} text="View Homes" isLoading={this.state.isLoading} />
+                <div className="row">
+                    <div className="col-xs-6 col-xs-offset-3">
+                        <div className="text-center">
+                            <br/>
+                            <LoadingButton onClick={this.submit} text="View Homes" isLoading={this.state.isLoading} />
+                            <br/><br/>
+                        </div>
+                    </div>
                 </div>
             </div>
         );

@@ -1,6 +1,17 @@
 var React = require('react');
+var Fluxxor = require('fluxxor');
+var FluxMixin = Fluxxor.FluxMixin(React);
 
 var HomesListing = React.createClass({
+    mixins:[FluxMixin],
+    propTypes: {
+       home:React.PropTypes.object.required
+    },
+    getInitialState: function () {
+        return {
+            buttonClass:'col-xs-2 add-listing-button'
+        }
+    },
     getPhone: function () {
         var phone = this.props.home.phone;
         if (phone !== '') {
@@ -24,43 +35,43 @@ var HomesListing = React.createClass({
             return returnName;
         }
     },
+    addToShortlist: function () {
+        if (! this.props.home.inShortlist) {
+            this.getFlux().actions.addToShortlist(this.props.home.id);
+        }
+
+    },
     getWebsite: function () {
         return "http://" + this.props.home.website;
+    },
+    componentWillReceiveProps: function (newProps) {
+        if (newProps.home.inShortlist === true) {
+            this.setState({
+                buttonClass:'col-xs-2 add-listing-button add-listing-button-shortlisted'
+            });
+            return;
+        }
+
+        this.setState({
+            buttonClass:'col-xs-2 add-listing-button'
+        });
     },
     render: function(){
         return (
             <div className="panel panel-success">
                 <div className="panel-body no-padding">
                     <div className="row">
-                        <div className="col-xs-2 add-listing-button">
+                        <div className={this.state.buttonClass} onClick={this.addToShortlist}>
                             <div className="add-listing-shortlisted">Shortlisted</div>
                             <div className="add-listing-triangle"></div>
                         </div>
                         <div className="col-xs-5">
-                            <h4><strong>{this.props.home.name}</strong> - within {this.props.home.distance}km</h4>
+                            <h4><strong>{this.props.home.name}</strong> - {this.props.home.address_3}</h4>
+                            <div>within <span className="grey-badge">{this.props.home.distance}km</span></div>
                             <hr/>
-                                <address>
-                                { this.props.home.address_1 !== null ?
-                                    <div>
-                                        <strong>{this.props.home.address_1}</strong> < br />
-                                    </div> : null
-                                }
-                                { this.props.home.address_2 !== null ?
-                                    <div>
-                                        {this.props.home.address_2} < br />
-                                    </div> : null
-                                }
-                                 { this.props.home.address_3 !== null ?
-                                     <div>
-                                         {this.props.home.address_3} < br />
-                                     </div> : null
-                                 }
-                                { this.props.home.postcode !== null ?
-                                    <div>
-                                        {this.props.home.postcode} < br />
-                                    </div> : null
-                                    }
-                                </address>
+                            <h5>Care Rating: <span className="grey-text">Unknown</span></h5>
+                            <h5>Beds available: <span className="grey-text">Unknown</span></h5>
+
                         </div>
                         <div className="col-xs-5">
                             <img src="img/no-picture.png" className="home-image" />

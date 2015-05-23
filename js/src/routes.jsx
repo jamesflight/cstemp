@@ -7,6 +7,7 @@ var Home = require('./pages/Home.jsx');
 var Homes = require('./components/Homes.jsx');
 var SelectFilters = require('./pages/SelectFilters.jsx');
 var Compare = require('./pages/Compare.jsx');
+var Email = require('./pages/Email.jsx');
 
 
 var routes = (
@@ -15,6 +16,7 @@ var routes = (
         <Route name="homes" handler={Homes} />
         <Route name="select-filters" handler={SelectFilters} />
         <Route name="compare" handler={Compare} />
+        <Route name="email" handler={Email} />
     </Route>
 );
 
