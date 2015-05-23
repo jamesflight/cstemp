@@ -29,7 +29,7 @@ module.exports = {
         this.dispatch(constants.POST_SHORTLIST_TO_SERVER);
 
         HomesModel.postShortlist(shortlist, function (id) {
-            this.dispatch(constants.POST_SHORTLIST_TO_SERVER_SUCCESS, id); 
+            this.dispatch(constants.POST_SHORTLIST_TO_SERVER_SUCCESS, id);
             window.location = 'http://advice.careselector.com/comparison-summary/?id=' + id;
         }.bind(this));
     }
