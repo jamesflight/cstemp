@@ -77,8 +77,8 @@ module.exports = {
         this.dispatch(constants.POST_SHORTLIST_TO_SERVER);
 
         HomesModel.postShortlist(shortlist, function (id) {
-            this.dispatch(constants.POST_SHORTLIST_TO_SERVER_SUCCESS, id);
-            window.location = 'http://www.careselector.com/comparison-summary/?id=' + id;
+            this.dispatch(constants.POST_SHORTLIST_TO_SERVER_SUCCESS, id); 
+            window.location = 'http://advice.careselector.com/comparison-summary/?id=' + id;
         }.bind(this));
     }
 };
@@ -1030,7 +1030,7 @@ module.exports = React.createClass({displayName: "exports",
 },{"./AddressSearchBox.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/AddressSearchBox.jsx","./CareTypeDropdown.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/CareTypeDropdown.jsx","./ErrorBox.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/ErrorBox.jsx","./LoadingButton.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/LoadingButton.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","jquery-browserify":"/Users/user/PhpstormProjects/careselector-compare/node_modules/jquery-browserify/lib/jquery.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-router":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/config.js":[function(require,module,exports){
 module.exports = {
     API_URL: 'http://careselector-core.herokuapp.com/api/'
-}; 
+};
 
 },{}],"/Users/user/PhpstormProjects/careselector-compare/js/src/constants.js":[function(require,module,exports){
 module.exports = {
