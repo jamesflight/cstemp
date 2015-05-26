@@ -77,7 +77,7 @@ module.exports = {
         this.dispatch(constants.POST_SHORTLIST_TO_SERVER);
 
         HomesModel.postShortlist(shortlist, function (id) {
-            this.dispatch(constants.POST_SHORTLIST_TO_SERVER_SUCCESS, id); 
+            this.dispatch(constants.POST_SHORTLIST_TO_SERVER_SUCCESS, id);
             window.location = 'http://advice.careselector.com/comparison-summary/?id=' + id;
         }.bind(this));
     }
@@ -498,6 +498,12 @@ var HomesListing = React.createClass({displayName: "HomesListing",
             buttonClass:'col-xs-2 add-listing-button'
         });
     },
+    getRatingSrc: function () {
+        if (this.props.home.rating === null) {
+            return "/img/rating-system-0.png";
+        }
+        return "/img/rating-system-" + this.props.home.rating + ".png";
+    },
     render: function(){
         return (
             React.createElement("div", {className: "panel panel-success"}, 
@@ -511,8 +517,8 @@ var HomesListing = React.createClass({displayName: "HomesListing",
                             React.createElement("h4", null, React.createElement("strong", null, this.props.home.name), " - ", this.props.home.address_3), 
                             React.createElement("div", null, "within ", React.createElement("span", {className: "grey-badge"}, this.props.home.distance, "km")), 
                             React.createElement("hr", null), 
-                            React.createElement("h5", null, "Care Rating: ", React.createElement("span", {className: "grey-text"}, "Unknown")), 
-                            React.createElement("h5", null, "Beds available: ", React.createElement("span", {className: "grey-text"}, "Unknown"))
+                            React.createElement("h5", null, "Care Rating:"), 
+                            React.createElement("img", {src: this.getRatingSrc(), className: "rating"})
 
                         ), 
                         React.createElement("div", {className: "col-xs-5"}, 
@@ -1029,7 +1035,7 @@ module.exports = React.createClass({displayName: "exports",
 
 },{"./AddressSearchBox.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/AddressSearchBox.jsx","./CareTypeDropdown.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/CareTypeDropdown.jsx","./ErrorBox.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/ErrorBox.jsx","./LoadingButton.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/LoadingButton.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","jquery-browserify":"/Users/user/PhpstormProjects/careselector-compare/node_modules/jquery-browserify/lib/jquery.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-router":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/config.js":[function(require,module,exports){
 module.exports = {
-    API_URL: 'http://careselector-core.herokuapp.com/api/'
+    API_URL: 'http://careselector-core.app:8000/api/'
 };
 
 },{}],"/Users/user/PhpstormProjects/careselector-compare/js/src/constants.js":[function(require,module,exports){

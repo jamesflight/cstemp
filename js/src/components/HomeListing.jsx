@@ -56,6 +56,12 @@ var HomesListing = React.createClass({
             buttonClass:'col-xs-2 add-listing-button'
         });
     },
+    getRatingSrc: function () {
+        if (this.props.home.rating === null) {
+            return "/img/rating-system-0.png";
+        }
+        return "/img/rating-system-" + this.props.home.rating + ".png";
+    },
     render: function(){
         return (
             <div className="panel panel-success">
@@ -69,8 +75,8 @@ var HomesListing = React.createClass({
                             <h4><strong>{this.props.home.name}</strong> - {this.props.home.address_3}</h4>
                             <div>within <span className="grey-badge">{this.props.home.distance}km</span></div>
                             <hr/>
-                            <h5>Care Rating: <span className="grey-text">Unknown</span></h5>
-                            <h5>Beds available: <span className="grey-text">Unknown</span></h5>
+                            <h5>Care Rating:</h5>
+                            <img src={this.getRatingSrc()} className="rating"/>
 
                         </div>
                         <div className="col-xs-5">
