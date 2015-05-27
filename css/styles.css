@@ -690,4 +690,24 @@ a:hover {
     .input-lg {
         font-size: 14px;
     }
+    /* Results Page */
+    h2.white-text {
+        font-size: 23px;
+    }
+    h1.pink-text {
+        font-size:22px;
+    }
+    .filter-option {
+        font-size: 16px;
+        padding: 9px;
+        margin: 10px 0;
+        min-height: 50px;
+    }
+    .filter-option span {
+        position: relative;
+        top: 5px;
+    }
+    .filter-button {
+        padding: 5px 10px 5px 10px;
+    }
 }
