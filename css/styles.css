@@ -664,5 +664,19 @@ a:hover {
     .padding-s > h2.small-header {
         font-size: 1.3em;
     }
-
+    #app .col-xs-6.col-xs-offset-3 {
+        width:100%;
+        margin:0 auto;
+    }
+    .big-button {
+        font-size:1.4em;
+    }
+    #DIV_2 {
+        width:100%;
+        margin:0;
+    }
+    #DIV_10,#DIV_19 {
+        clear: both;
+        max-width:100%;
+    }
 }
