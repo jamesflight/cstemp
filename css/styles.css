@@ -639,9 +639,30 @@ a:hover {
     padding:5px;
     border-radius:3px;
 }
-@media (max-width:568px;) {
+@media (max-width:568px) {
 
 }
-@media (max-width:375px;) {
+@media (max-width:375px) {
+    .container.header .col-xs-4 {
+        width:100% !important;
+    }
+    .container.header .col-xs-8.margin-top-48 {
+        margin-top:0 !important;
+        width:100%;
+    }
+    .container.header .col-xs-8.black-links a  {
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    .padding-s {
+        padding:10px;
+    }
+    .padding-s > h1.big-header {
+        font-size: 1.8em;
+    }
+    .padding-s > h2.small-header {
+        font-size: 1.3em;
+    }
 
 }
