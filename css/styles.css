@@ -674,9 +674,20 @@ a:hover {
     #DIV_2 {
         width:100%;
         margin:0;
+        height: 100%;
     }
     #DIV_10,#DIV_19 {
         clear: both;
         max-width:100%;
+    }
+    footer div, footer p {
+        width:100% !important;
+    }
+    footer {
+        height:100% !important;
+        text-align: center;
+    }
+    .input-lg {
+        font-size: 14px;
     }
 }
