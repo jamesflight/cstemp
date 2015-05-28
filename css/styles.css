@@ -710,4 +710,53 @@ a:hover {
     .filter-button {
         padding: 5px 10px 5px 10px;
     }
+    .container .fliter-option:nth-of-type(5) {
+        max-width: 140px;
+        display: inline-block;
+        float: left;
+    }
+    #app .container .row .col-xs-4, #app .container .row .col-xs-8 {
+        width: 100%;
+    }
+    .sticky, .sticky .shortlist-scroll, .sticky .button-section {
+        position: relative !important;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .filter-option-small {
+        padding: 15px 5px 24px 5px;
+    }
+    /* Care Home list */
+    .panel .panel-body .col-xs-2 {
+        width: 30%;
+    }
+    .panel .panel-body .col-xs-5 {
+        width: 70%;
+    }
+    .panel .panel-body .col-xs-5:last-child {
+        display: none;
+    }
+    .panel .panel-body .col-xs-5 h4 {
+        font-size: 15px;
+    }
+    .add-listing-button {
+        height:160px;
+    }
+    .add-listing-triangle {
+        border-width: 0;
+    }
+    .add-listing-triangle:after {
+        content: '+';
+        display: block;
+        font-size: 3em;
+        color: #FFF;
+        position: absolute;
+        top: 0;
+        font-weight: bold;
+    }
+    .rating {
+        width:100%;
+        max-width: 70%;
+        height: auto;
+    }
 }
