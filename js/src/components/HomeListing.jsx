@@ -80,7 +80,10 @@ var HomesListing = React.createClass({
 
                         </div>
                         <div className="col-xs-5">
-                            <img src="img/no-picture.png" className="home-image" />
+                        { this.props.home.thumbnail_url !== null &&
+                            <img src={this.props.home.thumbnail_url} className="home-image" />
+                            }
+
                         </div>
                     </div>
                 </div>
