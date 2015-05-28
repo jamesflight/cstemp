@@ -276,7 +276,7 @@
     color: rgb(184, 184, 184);
     height: 31px;
     text-align: center;
-    width: 1436px;
+    width:100%;
     perspective-origin: 718px 15.5px;
     transform-origin: 718px 15.5px;
     background: rgba(0, 0, 0, 0.0980392) none repeat scroll 0% 0% / auto padding-box border-box;
@@ -633,19 +633,42 @@ a:hover {
     padding: 5px;
     border-radius: 3px;
 }
-@media (max-width: 568px) {}
-@media (max-width: 375px) {
+@media (max-width:1024px){
+    .sticky {
+        width:280px;
+    }
+    .sticky .shortlist-scroll {
+        width:235px;
+    }
+    .sticky .button-section {
+        width:228px;
+    }
+    #DIV_2 {
+        margin-left: 0;
+    }
+}
+@media (max-width:800px) {
     .container.header .col-xs-4 {
         width: 100% !important;
+    }
+    .container.header .col-xs-4 img {
+        max-width: 240px;
+        margin: 0 auto;
+        display: block;
+    }
+    .container.header .col-xs-4 > div {
+        padding: 20px 0 10px !important;
     }
     .container.header .col-xs-8.margin-top-48 {
         margin-top: 0 !important;
         width: 100%;
+        text-align: center;
     }
     .container.header .col-xs-8.black-links a {
-        float: left;
+        float: none;
         margin-left: 10px;
         margin-bottom: 15px;
+        display:inline-block;
     }
     .padding-s {
         padding: 10px;
@@ -703,11 +726,6 @@ a:hover {
     .filter-button {
         padding: 5px 10px 5px 10px;
     }
-    .fliter-option:nth-of-type(5) {
-        max-width: 140px;
-        display: inline-block;
-        float: left;
-    }
     .fliter-option:last-child {
         max-width: 140px;
         display: inline-block;
@@ -759,11 +777,11 @@ a:hover {
         position: absolute;
         top: 40px;
         font-weight: bold;
-        left: 20px;
+        left: 40px;
     }
     .rating {
         width: 100%;
-        max-width: 70%;
+        max-width: 30%;
         height: auto;
     }
     .filter-option-small > span:first-child {
@@ -776,5 +794,33 @@ a:hover {
     }
     .add-listing-button-shortlisted .add-listing-shortlisted {
         font-size: 10px;
+    }
+    .grey-button-small {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .filter-button-grey {
+        padding: 5px 10px 5px 10px;
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .pink-button {
+        font-size: 1.7em;
+    }
+}
+@media (max-width: 320px) {
+    .filter-option:nth-of-type(5) span {
+        max-width: 140px;
+        display: inline-block;
+        float: left;
+    }
+    .rating {
+        max-width: 70%;
+    }
+    .add-listing-triangle:after {
+        left: 20px;
+    }
+    .container.header .col-xs-8.black-links a {
+        float: left;
     }
 }
