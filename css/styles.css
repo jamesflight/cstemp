@@ -24,7 +24,7 @@
     transform-origin: 585px 132px;
     border: 0px none rgb(255, 255, 255);
     font: normal normal 300 normal 14px/24.5px 'Open Sans', Helvetica, sans-serif;
-    margin: 0px 133px;
+    margin: 0;
     outline: rgb(255, 255, 255) none 0px;
     padding: 40px 0px;
 }
@@ -276,7 +276,7 @@
     color: rgb(184, 184, 184);
     height: 31px;
     text-align: center;
-    width:100%;
+    width: 100%;
     perspective-origin: 718px 15.5px;
     transform-origin: 718px 15.5px;
     background: rgba(0, 0, 0, 0.0980392) none repeat scroll 0% 0% / auto padding-box border-box;
@@ -320,9 +320,18 @@ img {
 .text-right {
     text-align: right;
 }
+.text-center {
+    text-align: center;
+}
 .black-links a, .black-links a:hover {
     color: #555555;
-    font-size: 15px;
+    font-size: 22px;
+}
+.container.header .col-xs-4:nth-last-of-type(2) p {
+    font-size: 22px;
+}
+.container.header .col-xs-4:nth-last-of-type(2) span {
+    font-size: 14px;
 }
 .rating {
     width: 190px;
@@ -402,7 +411,7 @@ img {
     background: #464646;
 }
 .pink-border {
-    border: 1px solid #e81690;
+    border: 3px solid #e81690;
 }
 .padding-tb-s {
     padding: 10px 0 10px 0;
@@ -588,6 +597,8 @@ a:hover {
 }
 .blue-background {
     background: #5cc4c8;
+    margin: 20px 0 50px;
+    padding: 10px 0 25px;
 }
 .button {
     cursor: pointer;
@@ -613,6 +624,7 @@ a:hover {
 .big-header {
     font-weight: bold;
     font-size: 3em;
+    text-transform: capitalize;
 }
 .small-header {
     font-weight: bold;
@@ -633,23 +645,37 @@ a:hover {
     padding: 5px;
     border-radius: 3px;
 }
-@media (max-width:1024px){
+.header.container .col-xs-4 a img {
+    max-width: 200px;
+}
+@media (max-width: 1024px) {
     .sticky {
-        width:280px;
+        width: 280px;
     }
     .sticky .shortlist-scroll {
-        width:235px;
+        width: 235px;
     }
     .sticky .button-section {
-        width:228px;
+        width: 228px;
     }
     #DIV_2 {
         margin-left: 0;
     }
 }
-@media (max-width:800px) {
+@media (max-width: 800px) {
     .container.header .col-xs-4 {
         width: 100% !important;
+        margin-top: 0;
+        text-align: center;
+    }
+    .black-links a,.black-links a:hover {
+        font-size:15px;
+    }
+    .container.header .col-xs-4.black-links {
+        padding-bottom: 10px;
+    }
+    .container.header .col-xs-4:nth-last-of-type(2) p {
+        font-size:18px;
     }
     .container.header .col-xs-4 img {
         max-width: 240px;
@@ -659,7 +685,7 @@ a:hover {
     .container.header .col-xs-4 > div {
         padding: 20px 0 10px !important;
     }
-    .container.header .col-xs-8.margin-top-48 {
+    .container.header .col-xs-8.margin-top-24 {
         margin-top: 0 !important;
         width: 100%;
         text-align: center;
@@ -668,7 +694,7 @@ a:hover {
         float: none;
         margin-left: 10px;
         margin-bottom: 15px;
-        display:inline-block;
+        display: inline-block;
     }
     .padding-s {
         padding: 10px;
