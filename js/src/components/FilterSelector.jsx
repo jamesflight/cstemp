@@ -37,12 +37,11 @@ module.exports = React.createClass({
     render: function(){
         return (
             <div className="container">
-                <h1 className="pink-text text-center">Do you need a care home that specialises in:</h1>
+                <h1 className="pink-text text-center">Do you need a home that specialises in:</h1>
                 <FilterSelectorOption name="dementia" text="Dementia" isSelected={this.state.dementia} onYes={this.addFilter} onNo={this.removeFilter} />
-                <FilterSelectorOption name="mental_health" text="Mental Health" isSelected={this.state.mental_health} onYes={this.addFilter} onNo={this.removeFilter} />
                 <FilterSelectorOption name="learning_disability" text="Learning Disability" isSelected={this.state.learning_disability} onYes={this.addFilter} onNo={this.removeFilter} />
                 <FilterSelectorOption name="under_65" text="Under 65" isSelected={this.state.under_65} onYes={this.addFilter} onNo={this.removeFilter} />
-                <FilterSelectorOption name="sensory_impairment" text="Sensory Impariments (Deaf/Blind)" isSelected={this.state.sensory_impairment} onYes={this.addFilter} onNo={this.removeFilter} />
+                <FilterSelectorOption name="sensory_impairment" text="Sensory Impairments (Deaf/Blind)" isSelected={this.state.sensory_impairment} onYes={this.addFilter} onNo={this.removeFilter} />
 
                 <div className="row">
                     <div className="col-xs-6 col-xs-offset-3">

@@ -38,28 +38,32 @@ module.exports = React.createClass({
     },
     render: function(){
         return (
-            <div className="padding-s">
-                <h1 className="text-center pink-text big-header">Find a care home your parents will love</h1>
-                <h2 className="text-center grey-text small-header">Compare homes in your area</h2>
-                <br/>
-                <div className="row">
-                    <div className="col-xs-6 col-xs-offset-3">
-                        <ErrorBox errors={this.state.errors} />
+            <div className="asdf">
+                <div className="padding-s">
+                    <br/><br/>
+                    <h1 className="text-center white-text big-header">Find a Care Home Your Parents Will Love</h1>
+                    <h2 className="text-center white-text small-header">Compare Homes In Your Area</h2>
+                    <br/>
+                    <br/>
+                    <div className="row">
+                        <div className="col-xs-6 col-xs-offset-3">
+                            <ErrorBox errors={this.state.errors} />
 
-                            <div className="form-group">
-                                <AddressSearchBox placeholder="Where would you like to find care? Town/City/Postcode" value={this.state.filters.address} onChange={this.updateAddressFilter} />
-                                <br/>
-                                <CareTypeDropdown ref="careTypeDropdown" text="What type of care do you need?" onChange={this.updateFilter} value={this.state.filters.care_type} />
+                                <div className="form-group">
+                                    <AddressSearchBox placeholder="Where do you need care? UK Town/Postcode" value={this.state.filters.address} onChange={this.updateAddressFilter} />
+                                    <br/>
+                                    <CareTypeDropdown ref="careTypeDropdown" text="What type of care do you need?" onChange={this.updateFilter} value={this.state.filters.care_type} />
+                                    <br/>
+                                </div>
+                                {
+                                    this.props.button &&
 
-                            </div>
-                            {
-                                this.props.button &&
-
-                                    <div className="text-center">
-                                        <br/>
-                                    <LoadingButton onClick={this.submit} text="Search For Homes Now" isLoading={this.state.isLoading} />
-                                    </div>
-                            }
+                                        <div className="text-center">
+                                            <br/>
+                                        <LoadingButton onClick={this.submit} text="Search For Homes Now" isLoading={this.state.isLoading} />
+                                        </div>
+                                }
+                        </div>
                     </div>
                 </div>
             </div>

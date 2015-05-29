@@ -18,7 +18,7 @@ module.exports = {
             });
         });
     },
-    postShortlist: function (shortlist, success) {
+    postShortlist: function (shortlist, postcode, success) {
         $.ajax
         ({
             type: "POST",
@@ -26,7 +26,7 @@ module.exports = {
             url: config.API_URL + 'careseekers/shortlist',
             dataType: 'json',
             //json object to sent to the authentication url
-            data: {providers:shortlist},
+            data: {postcode:postcode,providers:shortlist},
             success: function (response) {
                 success(response.id);
             }

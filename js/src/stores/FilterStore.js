@@ -40,7 +40,6 @@ module.exports = Fluxxor.createStore({
         specialisms = this.addSpecialismIfExists('learning_disability', specialisms);
         specialisms = this.addSpecialismIfExists('under_65', specialisms);
         specialisms = this.addSpecialismIfExists('sensory_impairment', specialisms);
-        console.log(specialisms);
         return specialisms;
     },
     addSpecialismIfExists: function (prop, array) {

@@ -25,12 +25,11 @@ module.exports = {
     removeFromShortlist: function (id) {
         this.dispatch(constants.REMOVE_FROM_SHORTLIST, id);
     },
-    postShortlistToServer: function (shortlist) {
+    postShortlistToServer: function (shortlist, filters) {
         this.dispatch(constants.POST_SHORTLIST_TO_SERVER);
-
-        HomesModel.postShortlist(shortlist, function (id) {
+        HomesModel.postShortlist(shortlist, filters.postcode, function (id) {
             this.dispatch(constants.POST_SHORTLIST_TO_SERVER_SUCCESS, id);
-            window.location = 'http://advice.careselector.com/comparison-summary/?id=' + id;
+            window.location = 'http://advice.careselector.com/comparison-summary/?id=' + id + '&location=' + filters.address + '&care_type=' + filters.care_type;
         }.bind(this));
     }
 };

@@ -10,11 +10,13 @@ module.exports = React.createClass({
     render: function() {
         return (
             <div>
-                <div className="container">
-                    <div>
-                        <div className="row">
-                            <div className="col-xs-12">
-                                <PostcodeSearch button={false} />
+                <div className="green-background-picture">
+                    <div className="container">
+                        <div>
+                            <div className="row">
+                                <div className="col-xs-12">
+                                    <PostcodeSearch button={false} />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -22,6 +24,7 @@ module.exports = React.createClass({
                 <NumberOfCareHomesBanner />
                 <FilterSelector />
             </div>
+
         );
     }
 });

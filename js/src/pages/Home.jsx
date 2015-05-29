@@ -11,13 +11,15 @@ var Home = React.createClass({
     },
     render: function() {
         return (
-            <div>
+            <div className="green-background-picture">
 
                 <div className="container">
                     <div>
                         <div className="row">
                             <div className="col-xs-12">
+                                <br/><br/>
                                 <PostcodeSearch  button={true} />
+                                <br/><br/>
                             </div>
                         </div>
                     </div>

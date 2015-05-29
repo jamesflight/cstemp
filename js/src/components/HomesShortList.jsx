@@ -6,10 +6,11 @@ var $ = require('jquery-browserify');
 var LoadingButton = require('./LoadingButton.jsx');
 
 module.exports = React.createClass({
-    mixins: [FluxMixin, StoreWatchMixin('HomesStore')],
+    mixins: [FluxMixin, StoreWatchMixin('HomesStore', 'FilterStore')],
     stuck: false,
     getStateFromFlux: function () {
         return {
+            filters: this.getFlux().store("FilterStore").getState(),
             homes: this.getFlux().store("HomesStore").getShortlist(),
             isLoading: this.getFlux().store("HomesStore").getIsSendingShortlistToServer()
         }
@@ -38,14 +39,14 @@ module.exports = React.createClass({
         this.getFlux().actions.removeFromShortlist(event.target.dataset.id);
     },
     postShortlist: function () {
-        this.getFlux().actions.postShortlistToServer(this.state.homes);
+        this.getFlux().actions.postShortlistToServer(this.state.homes, this.state.filters);
     },
     render: function(){
         return (
             <div className="padding-tb-s">
                 <div className="panel padding-s pink-border">
                     <div className="shortlist-scroll">
-                        <h2 className="pink-text text-center">My Shortlist</h2>
+                        <h2 className="pink-text text-center">Create Your Shortlist</h2>
                         {
                             this.state.homes.map(function (home) {
                                 return (
@@ -74,7 +75,7 @@ module.exports = React.createClass({
                         }
 
                         { ! this.state.isLoading &&
-                            <div onClick={this.postShortlist} className="pink-button">Compare Homes</div>
+                            <div onClick={this.postShortlist} className="pink-button">Compare Homes On My Shortlist</div>
                         }
 
                     </div>

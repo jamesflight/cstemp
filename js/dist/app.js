@@ -73,12 +73,11 @@ module.exports = {
     removeFromShortlist: function (id) {
         this.dispatch(constants.REMOVE_FROM_SHORTLIST, id);
     },
-    postShortlistToServer: function (shortlist) {
+    postShortlistToServer: function (shortlist, filters) {
         this.dispatch(constants.POST_SHORTLIST_TO_SERVER);
-
-        HomesModel.postShortlist(shortlist, function (id) {
+        HomesModel.postShortlist(shortlist, filters.postcode, function (id) {
             this.dispatch(constants.POST_SHORTLIST_TO_SERVER_SUCCESS, id);
-            window.location = 'http://advice.careselector.com/comparison-summary/?id=' + id;
+            window.location = 'http://advice.careselector.com/comparison-summary/?id=' + id + '&location=' + filters.address + '&care_type=' + filters.care_type;
         }.bind(this));
     }
 };
@@ -370,12 +369,11 @@ module.exports = React.createClass({displayName: "exports",
     render: function(){
         return (
             React.createElement("div", {className: "container"}, 
-                React.createElement("h1", {className: "pink-text text-center"}, "Do you need a care home that specialises in:"), 
+                React.createElement("h1", {className: "pink-text text-center"}, "Do you need a home that specialises in:"), 
                 React.createElement(FilterSelectorOption, {name: "dementia", text: "Dementia", isSelected: this.state.dementia, onYes: this.addFilter, onNo: this.removeFilter}), 
-                React.createElement(FilterSelectorOption, {name: "mental_health", text: "Mental Health", isSelected: this.state.mental_health, onYes: this.addFilter, onNo: this.removeFilter}), 
                 React.createElement(FilterSelectorOption, {name: "learning_disability", text: "Learning Disability", isSelected: this.state.learning_disability, onYes: this.addFilter, onNo: this.removeFilter}), 
                 React.createElement(FilterSelectorOption, {name: "under_65", text: "Under 65", isSelected: this.state.under_65, onYes: this.addFilter, onNo: this.removeFilter}), 
-                React.createElement(FilterSelectorOption, {name: "sensory_impairment", text: "Sensory Impariments (Deaf/Blind)", isSelected: this.state.sensory_impairment, onYes: this.addFilter, onNo: this.removeFilter}), 
+                React.createElement(FilterSelectorOption, {name: "sensory_impairment", text: "Sensory Impairments (Deaf/Blind)", isSelected: this.state.sensory_impairment, onYes: this.addFilter, onNo: this.removeFilter}), 
 
                 React.createElement("div", {className: "row"}, 
                     React.createElement("div", {className: "col-xs-6 col-xs-offset-3"}, 
@@ -443,15 +441,23 @@ module.exports = React.createClass({displayName: "exports",
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
+var ReactTooltip = require("react-tooltip");
+var Utils = require("./../utils.js");
+var StoreWatchMixin = Fluxxor.StoreWatchMixin;
 
 var HomesListing = React.createClass({displayName: "HomesListing",
-    mixins:[FluxMixin],
+    mixins:[FluxMixin, StoreWatchMixin("FilterStore")],
     propTypes: {
        home:React.PropTypes.object.required
     },
     getInitialState: function () {
         return {
             buttonClass:'col-xs-2 add-listing-button'
+        }
+    },
+    getStateFromFlux: function () {
+        return {
+            specialisms: this.getFlux().store("FilterStore").getSpecialismFilters()
         }
     },
     getPhone: function () {
@@ -504,6 +510,16 @@ var HomesListing = React.createClass({displayName: "HomesListing",
         }
         return "/img/rating-system-" + this.props.home.rating + ".png";
     },
+    getSpecialismString: function () {
+        var string = '';
+        this.state.specialisms.forEach(function (specialism, index) {
+            string += specialism.cleanName + ' | ';
+        });
+        if (string !== '') {
+            return string.substring(0, string.length - 3);
+        }
+        return '';
+    },
     render: function(){
         return (
             React.createElement("div", {className: "panel panel-success"}, 
@@ -513,15 +529,28 @@ var HomesListing = React.createClass({displayName: "HomesListing",
                             React.createElement("div", {className: "add-listing-shortlisted"}, "Shortlisted"), 
                             React.createElement("div", {className: "add-listing-triangle"})
                         ), 
-                        React.createElement("div", {className: "col-xs-5"}, 
-                            React.createElement("h4", null, React.createElement("strong", null, this.props.home.name), " - ", this.props.home.address_3), 
-                            React.createElement("div", null, "within ", React.createElement("span", {className: "grey-badge"}, this.props.home.distance, "km")), 
+                        React.createElement("div", {className: "col-xs-6"}, 
+                            React.createElement("h4", {"data-toggle": "tooltip", "data-tip": "Add to your shortlist to find out more."}, React.createElement("strong", null, this.props.home.name), " - within ", React.createElement("span", {className: "blue-text"}, this.props.home.distance, "km")), 
+                            React.createElement(ReactTooltip, null), 
+                            React.createElement("div", null, this.props.home.address_1, ", ", this.props.home.address_3, ", ", this.props.home.postcode), 
                             React.createElement("hr", null), 
-                            React.createElement("h5", null, "Care Rating:"), 
-                            React.createElement("img", {src: this.getRatingSrc(), className: "rating"})
+                            React.createElement("div", {className: "row"}, 
+                                React.createElement("div", {className: "col-xs-6"}, 
+                                    React.createElement("p", null, "Care Rating:"), 
+                                    React.createElement("img", {src: this.getRatingSrc(), "data-tip": "The care rating is provided by the Care Quality Commission, a government body that inspects care providers.", className: "rating"})), 
+                                React.createElement("b", null, "Score:", this.props.home.rating), 
+                                React.createElement("div", {className: "col-xs-6"}, 
+                                    
+                                        this.getSpecialismString() !== '' &&
+                                        React.createElement("p", null, "This home specialises in:"), 
+                                    
+                                    React.createElement("p", {className: "grey-text"}, this.getSpecialismString())
+                                )
+                            )
+
 
                         ), 
-                        React.createElement("div", {className: "col-xs-5"}, 
+                        React.createElement("div", {className: "col-xs-4"}, 
                          this.props.home.thumbnail_url !== null &&
                             React.createElement("img", {src: this.props.home.thumbnail_url, className: "home-image"})
                             
@@ -537,7 +566,7 @@ var HomesListing = React.createClass({displayName: "HomesListing",
 
 module.exports = HomesListing;
 
-},{"fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/Homes.jsx":[function(require,module,exports){
+},{"./../utils.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/utils.js","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-tooltip":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-tooltip/dist/react-tooltip.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/Homes.jsx":[function(require,module,exports){
 var React = require('react');
 var HomesHeader = require('./HomesHeader.jsx');
 var HomesFilterPanel = require('./HomesFilterPanel.jsx');
@@ -783,7 +812,7 @@ var HomesList = React.createClass({displayName: "HomesList",
     },
     render: function(){
         return (
-            React.createElement("div", null, 
+            React.createElement("div", {ref: "element"}, 
                 React.createElement("div", null, React.createElement("strong", null, "Showing ", this.state.count, " results.")), 
                 React.createElement("hr", null), 
                  this.state.loading ?
@@ -814,10 +843,11 @@ var $ = require('jquery-browserify');
 var LoadingButton = require('./LoadingButton.jsx');
 
 module.exports = React.createClass({displayName: "exports",
-    mixins: [FluxMixin, StoreWatchMixin('HomesStore')],
+    mixins: [FluxMixin, StoreWatchMixin('HomesStore', 'FilterStore')],
     stuck: false,
     getStateFromFlux: function () {
         return {
+            filters: this.getFlux().store("FilterStore").getState(),
             homes: this.getFlux().store("HomesStore").getShortlist(),
             isLoading: this.getFlux().store("HomesStore").getIsSendingShortlistToServer()
         }
@@ -846,14 +876,14 @@ module.exports = React.createClass({displayName: "exports",
         this.getFlux().actions.removeFromShortlist(event.target.dataset.id);
     },
     postShortlist: function () {
-        this.getFlux().actions.postShortlistToServer(this.state.homes);
+        this.getFlux().actions.postShortlistToServer(this.state.homes, this.state.filters);
     },
     render: function(){
         return (
             React.createElement("div", {className: "padding-tb-s"}, 
                 React.createElement("div", {className: "panel padding-s pink-border"}, 
                     React.createElement("div", {className: "shortlist-scroll"}, 
-                        React.createElement("h2", {className: "pink-text text-center"}, "My Shortlist"), 
+                        React.createElement("h2", {className: "pink-text text-center"}, "Create Your Shortlist"), 
                         
                             this.state.homes.map(function (home) {
                                 return (
@@ -882,7 +912,7 @@ module.exports = React.createClass({displayName: "exports",
                         
 
                          ! this.state.isLoading &&
-                            React.createElement("div", {onClick: this.postShortlist, className: "pink-button"}, "Compare Homes")
+                            React.createElement("div", {onClick: this.postShortlist, className: "pink-button"}, "Compare Homes On My Shortlist")
                         
 
                     )
@@ -1007,28 +1037,32 @@ module.exports = React.createClass({displayName: "exports",
     },
     render: function(){
         return (
-            React.createElement("div", {className: "padding-s"}, 
-                React.createElement("h1", {className: "text-center pink-text big-header"}, "Find a care home your parents will love"), 
-                React.createElement("h2", {className: "text-center grey-text small-header"}, "Compare homes in your area"), 
-                React.createElement("br", null), 
-                React.createElement("div", {className: "row"}, 
-                    React.createElement("div", {className: "col-xs-6 col-xs-offset-3"}, 
-                        React.createElement(ErrorBox, {errors: this.state.errors}), 
+            React.createElement("div", {className: "asdf"}, 
+                React.createElement("div", {className: "padding-s"}, 
+                    React.createElement("br", null), React.createElement("br", null), 
+                    React.createElement("h1", {className: "text-center white-text big-header"}, "Find a Care Home Your Parents Will Love"), 
+                    React.createElement("h2", {className: "text-center white-text small-header"}, "Compare Homes In Your Area"), 
+                    React.createElement("br", null), 
+                    React.createElement("br", null), 
+                    React.createElement("div", {className: "row"}, 
+                        React.createElement("div", {className: "col-xs-6 col-xs-offset-3"}, 
+                            React.createElement(ErrorBox, {errors: this.state.errors}), 
 
-                            React.createElement("div", {className: "form-group"}, 
-                                React.createElement(AddressSearchBox, {placeholder: "Where would you like to find care? Town/City/Postcode", value: this.state.filters.address, onChange: this.updateAddressFilter}), 
-                                React.createElement("br", null), 
-                                React.createElement(CareTypeDropdown, {ref: "careTypeDropdown", text: "What type of care do you need?", onChange: this.updateFilter, value: this.state.filters.care_type})
+                                React.createElement("div", {className: "form-group"}, 
+                                    React.createElement(AddressSearchBox, {placeholder: "Where do you need care? UK Town/Postcode", value: this.state.filters.address, onChange: this.updateAddressFilter}), 
+                                    React.createElement("br", null), 
+                                    React.createElement(CareTypeDropdown, {ref: "careTypeDropdown", text: "What type of care do you need?", onChange: this.updateFilter, value: this.state.filters.care_type}), 
+                                    React.createElement("br", null)
+                                ), 
+                                
+                                    this.props.button &&
 
-                            ), 
-                            
-                                this.props.button &&
-
-                                    React.createElement("div", {className: "text-center"}, 
-                                        React.createElement("br", null), 
-                                    React.createElement(LoadingButton, {onClick: this.submit, text: "Search For Homes Now", isLoading: this.state.isLoading})
-                                    )
-                            
+                                        React.createElement("div", {className: "text-center"}, 
+                                            React.createElement("br", null), 
+                                        React.createElement(LoadingButton, {onClick: this.submit, text: "Search For Homes Now", isLoading: this.state.isLoading})
+                                        )
+                                
+                        )
                     )
                 )
             )
@@ -1112,7 +1146,7 @@ module.exports = {
             });
         });
     },
-    postShortlist: function (shortlist, success) {
+    postShortlist: function (shortlist, postcode, success) {
         $.ajax
         ({
             type: "POST",
@@ -1120,7 +1154,7 @@ module.exports = {
             url: config.API_URL + 'careseekers/shortlist',
             dataType: 'json',
             //json object to sent to the authentication url
-            data: {providers:shortlist},
+            data: {postcode:postcode,providers:shortlist},
             success: function (response) {
                 success(response.id);
             }
@@ -1192,13 +1226,15 @@ var Home = React.createClass({displayName: "Home",
     },
     render: function() {
         return (
-            React.createElement("div", null, 
+            React.createElement("div", {className: "green-background-picture"}, 
 
                 React.createElement("div", {className: "container"}, 
                     React.createElement("div", null, 
                         React.createElement("div", {className: "row"}, 
                             React.createElement("div", {className: "col-xs-12"}, 
-                                React.createElement(PostcodeSearch, {button: true})
+                                React.createElement("br", null), React.createElement("br", null), 
+                                React.createElement(PostcodeSearch, {button: true}), 
+                                React.createElement("br", null), React.createElement("br", null)
                             )
                         )
                     )
@@ -1224,11 +1260,13 @@ module.exports = React.createClass({displayName: "exports",
     render: function() {
         return (
             React.createElement("div", null, 
-                React.createElement("div", {className: "container"}, 
-                    React.createElement("div", null, 
-                        React.createElement("div", {className: "row"}, 
-                            React.createElement("div", {className: "col-xs-12"}, 
-                                React.createElement(PostcodeSearch, {button: false})
+                React.createElement("div", {className: "green-background-picture"}, 
+                    React.createElement("div", {className: "container"}, 
+                        React.createElement("div", null, 
+                            React.createElement("div", {className: "row"}, 
+                                React.createElement("div", {className: "col-xs-12"}, 
+                                    React.createElement(PostcodeSearch, {button: false})
+                                )
                             )
                         )
                     )
@@ -1236,6 +1274,7 @@ module.exports = React.createClass({displayName: "exports",
                 React.createElement(NumberOfCareHomesBanner, null), 
                 React.createElement(FilterSelector, null)
             )
+
         );
     }
 });
@@ -1256,7 +1295,7 @@ var Email = require('./pages/Email.jsx');
 var routes = (
     React.createElement(Route, {handler: App, path: "/"}, 
         React.createElement(DefaultRoute, {handler: Home}), 
-        React.createElement(Route, {name: "homes", handler: Homes}), 
+        React.createElement(Route, {name: "home", path: "/home/:care_type_name/:care_type/:area", handler: Home}), 
         React.createElement(Route, {name: "select-filters", handler: SelectFilters}), 
         React.createElement(Route, {name: "compare", handler: Compare}), 
         React.createElement(Route, {name: "email", handler: Email})
@@ -1414,7 +1453,6 @@ module.exports = Fluxxor.createStore({
         specialisms = this.addSpecialismIfExists('learning_disability', specialisms);
         specialisms = this.addSpecialismIfExists('under_65', specialisms);
         specialisms = this.addSpecialismIfExists('sensory_impairment', specialisms);
-        console.log(specialisms);
         return specialisms;
     },
     addSpecialismIfExists: function (prop, array) {
@@ -18361,6 +18399,200 @@ exports.isBuffer = function (obj) {
         obj.constructor.isBuffer &&
         obj.constructor.isBuffer(obj));
 };
+
+},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-tooltip/dist/react-tooltip.js":[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _classnames = require('classnames');
+
+var _classnames2 = _interopRequireDefault(_classnames);
+
+var ReactTooltip = _react2['default'].createClass({
+
+  displayName: 'ReactTooltip',
+
+  propTypes: {
+    place: _react2['default'].PropTypes.string,
+    type: _react2['default'].PropTypes.string,
+    effect: _react2['default'].PropTypes.string },
+
+  getInitialState: function getInitialState() {
+    return {
+      show: false,
+      placeholder: '',
+      x: 'NONE',
+      y: 'NONE',
+      place: '',
+      type: '',
+      effect: '' };
+  },
+
+  showTooltip: function showTooltip(e) {
+    this.setState({
+      placeholder: e.target.dataset.tip,
+      place: e.target.dataset.place ? e.target.dataset.place : this.props.place ? this.props.place : 'top',
+      type: e.target.dataset.type ? e.target.dataset.type : this.props.type ? this.props.type : 'dark',
+      effect: e.target.dataset.effect ? e.target.dataset.effect : this.props.effect ? this.props.effect : 'float' });
+    this.updateTooltip(e);
+  },
+
+  updateTooltip: function updateTooltip(e) {
+    if (this.state.effect === 'float') {
+      this.setState({
+        show: true,
+        x: e.clientX,
+        y: e.clientY
+      });
+    } else if (this.state.effect === 'solid') {
+      var targetTop = e.target.getBoundingClientRect().top;
+      var targetLeft = e.target.getBoundingClientRect().left;
+      var tipWidth = document.querySelector('[data-id=\'tooltip\']') ? document.querySelector('[data-id=\'tooltip\']').clientWidth : 0;
+      var tipHeight = document.querySelector('[data-id=\'tooltip\']') ? document.querySelector('[data-id=\'tooltip\']').clientHeight : 0;
+      var targetWidth = e.target.clientWidth;
+      var targetHeight = e.target.clientHeight;
+      var place = this.state.place;
+
+      var x = undefined,
+          y = undefined;
+      if (place === 'top') {
+        x = targetLeft - tipWidth / 2 + targetWidth / 2;
+        y = targetTop - tipHeight - 8;
+      } else if (place === 'bottom') {
+        x = targetLeft - tipWidth / 2 + targetWidth / 2;
+        y = targetTop + targetHeight + 8;
+      } else if (place === 'left') {
+        x = targetLeft - tipWidth - 6;
+        y = targetTop + targetHeight / 2 - tipHeight / 2;
+      } else if (place === 'right') {
+        x = targetLeft + targetWidth + 6;
+        y = targetTop + targetHeight / 2 - tipHeight / 2;
+      }
+      this.setState({
+        show: true,
+        x: this.state.x === 'NONE' ? x : this.state.x,
+        y: this.state.y === 'NONE' ? y : this.state.y
+      });
+    }
+  },
+
+  hideTooltip: function hideTooltip(e) {
+    this.setState({
+      show: false,
+      x: 'NONE',
+      y: 'NONE' });
+  },
+
+  componentDidMount: function componentDidMount() {
+    var targetArray = document.querySelectorAll('[data-tip]');
+    for (var i = 0; i < targetArray.length; i++) {
+      targetArray[i].addEventListener('mouseenter', this.showTooltip, false);
+      targetArray[i].addEventListener('mousemove', this.updateTooltip, false);
+      targetArray[i].addEventListener('mouseleave', this.hideTooltip, false);
+    }
+  },
+
+  componentWillUnmount: function componentWillUnmount() {
+    var targetArray = document.querySelectorAll('[data-tip]');
+    for (var i = 0; i < targetArray.length; i++) {
+      targetArray[i].removeEventListener('mouseenter', this.showTooltip);
+      targetArray[i].removeEventListener('mousemove', this.updateTooltip);
+      targetArray[i].removeEventListener('mouseleave', this.hideTooltip);
+    }
+  },
+
+  render: function render() {
+    var tipWidth = document.querySelector('[data-id=\'tooltip\']') ? document.querySelector('[data-id=\'tooltip\']').clientWidth : 0;
+    var tipHeight = document.querySelector('[data-id=\'tooltip\']') ? document.querySelector('[data-id=\'tooltip\']').clientHeight : 0;
+    var offset = { x: 0, y: 0 };
+    var effect = this.state.effect;
+
+    if (effect === 'float') {
+      if (this.state.place === 'top') {
+        offset.x = -(tipWidth / 2);
+        offset.y = -50;
+      } else if (this.state.place === 'bottom') {
+        offset.x = -(tipWidth / 2);
+        offset.y = 30;
+      } else if (this.state.place === 'left') {
+        offset.x = -(tipWidth + 15);
+        offset.y = -(tipHeight / 2);
+      } else if (this.state.place === 'right') {
+        offset.x = 10;
+        offset.y = -(tipHeight / 2);
+      }
+    }
+    var style = {
+      left: this.state.x + offset.x + 'px',
+      top: this.state.y + offset.y + 'px'
+    };
+
+    var tooltipClass = (0, _classnames2['default'])('reactTooltip', { 'show': this.state.show }, { 'place-top': this.state.place === 'top' }, { 'place-bottom': this.state.place === 'bottom' }, { 'place-left': this.state.place === 'left' }, { 'place-right': this.state.place === 'right' }, { 'type-dark': this.state.type === 'dark' }, { 'type-success': this.state.type === 'success' }, { 'type-warning': this.state.type === 'warning' }, { 'type-error': this.state.type === 'error' }, { 'type-info': this.state.type === 'info' }, { 'type-light': this.state.type === 'light' });
+
+    return _react2['default'].createElement(
+      'span',
+      { className: tooltipClass, style: style, 'data-id': 'tooltip' },
+      this.state.placeholder
+    );
+  }
+});
+
+exports['default'] = ReactTooltip;
+module.exports = exports['default'];
+
+},{"classnames":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-tooltip/node_modules/classnames/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-tooltip/node_modules/classnames/index.js":[function(require,module,exports){
+/*!
+  Copyright (c) 2015 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/
+
+function classNames() {
+	var classes = '';
+	var arg;
+
+	for (var i = 0; i < arguments.length; i++) {
+		arg = arguments[i];
+		if (!arg) {
+			continue;
+		}
+
+		if ('string' === typeof arg || 'number' === typeof arg) {
+			classes += ' ' + arg;
+		} else if (Object.prototype.toString.call(arg) === '[object Array]') {
+			classes += ' ' + classNames.apply(null, arg);
+		} else if ('object' === typeof arg) {
+			for (var key in arg) {
+				if (!arg.hasOwnProperty(key) || !arg[key]) {
+					continue;
+				}
+				classes += ' ' + key;
+			}
+		}
+	}
+	return classes.substr(1);
+}
+
+// safely export classNames for node / browserify
+if (typeof module !== 'undefined' && module.exports) {
+	module.exports = classNames;
+}
+
+// safely export classNames for RequireJS
+if (typeof define !== 'undefined' && define.amd) {
+	define('classnames', [], function() {
+		return classNames;
+	});
+}
 
 },{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/addons.js":[function(require,module,exports){
 module.exports = require('./lib/ReactWithAddons');

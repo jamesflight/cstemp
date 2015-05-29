@@ -1,15 +1,23 @@
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
+var ReactTooltip = require("react-tooltip");
+var Utils = require("./../utils.js");
+var StoreWatchMixin = Fluxxor.StoreWatchMixin;
 
 var HomesListing = React.createClass({
-    mixins:[FluxMixin],
+    mixins:[FluxMixin, StoreWatchMixin("FilterStore")],
     propTypes: {
        home:React.PropTypes.object.required
     },
     getInitialState: function () {
         return {
             buttonClass:'col-xs-2 add-listing-button'
+        }
+    },
+    getStateFromFlux: function () {
+        return {
+            specialisms: this.getFlux().store("FilterStore").getSpecialismFilters()
         }
     },
     getPhone: function () {
@@ -62,6 +70,16 @@ var HomesListing = React.createClass({
         }
         return "/img/rating-system-" + this.props.home.rating + ".png";
     },
+    getSpecialismString: function () {
+        var string = '';
+        this.state.specialisms.forEach(function (specialism, index) {
+            string += specialism.cleanName + ' | ';
+        });
+        if (string !== '') {
+            return string.substring(0, string.length - 3);
+        }
+        return '';
+    },
     render: function(){
         return (
             <div className="panel panel-success">
@@ -71,15 +89,28 @@ var HomesListing = React.createClass({
                             <div className="add-listing-shortlisted">Shortlisted</div>
                             <div className="add-listing-triangle"></div>
                         </div>
-                        <div className="col-xs-5">
-                            <h4><strong>{this.props.home.name}</strong> - {this.props.home.address_3}</h4>
-                            <div>within <span className="grey-badge">{this.props.home.distance}km</span></div>
+                        <div className="col-xs-6">
+                            <h4 data-toggle="tooltip" data-tip="Add to your shortlist to find out more."><strong>{this.props.home.name}</strong> - within <span className="blue-text">{this.props.home.distance}km</span></h4>
+                            <ReactTooltip />
+                            <div>{this.props.home.address_1}, {this.props.home.address_3}, {this.props.home.postcode}</div>
                             <hr/>
-                            <h5>Care Rating:</h5>
-                            <img src={this.getRatingSrc()} className="rating"/>
+                            <div className="row">
+                                <div className="col-xs-6">
+                                    <p>Care Rating:</p>
+                                    <img src={this.getRatingSrc()} data-tip="The care rating is provided by the Care Quality Commission, a government body that inspects care providers." className="rating"/></div>
+                                <b>Score:{this.props.home.rating}</b>
+                                <div className="col-xs-6">
+                                    {
+                                        this.getSpecialismString() !== '' &&
+                                        <p>This home specialises in:</p>
+                                    }
+                                    <p className="grey-text">{this.getSpecialismString()}</p>
+                                </div>
+                            </div>
+
 
                         </div>
-                        <div className="col-xs-5">
+                        <div className="col-xs-4">
                         { this.props.home.thumbnail_url !== null &&
                             <img src={this.props.home.thumbnail_url} className="home-image" />
                             }

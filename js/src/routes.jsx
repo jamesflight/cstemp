@@ -13,7 +13,7 @@ var Email = require('./pages/Email.jsx');
 var routes = (
     <Route handler={App} path="/">
         <DefaultRoute handler={Home} />
-        <Route name="homes" handler={Homes} />
+        <Route name="home" path="/home/:care_type_name/:care_type/:area" handler={Home} />
         <Route name="select-filters" handler={SelectFilters} />
         <Route name="compare" handler={Compare} />
         <Route name="email" handler={Email} />
