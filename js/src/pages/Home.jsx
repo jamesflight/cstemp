@@ -9,6 +9,9 @@ var Home = React.createClass({
     test: function (address) {
         console.log(address);
     },
+    componentDidMount:function () {
+        ga('send', 'pageview', '/home');
+    },
     render: function() {
         return (
             <div className="green-background-picture">

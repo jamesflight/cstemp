@@ -7,6 +7,9 @@ var HomesList = require('./../components/HomesList.jsx');
 
 module.exports = React.createClass({
     mixins: [FluxMixin],
+    componentDidMount:function () {
+        ga('send', 'pageview', '/filtered');
+    },
     render: function() {
         return (
             <div className="container">

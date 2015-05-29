@@ -44,6 +44,7 @@ var HomesListing = React.createClass({
         }
     },
     addToShortlist: function () {
+        ga('send', 'pageview', '/homeadded');
         if (! this.props.home.inShortlist) {
             this.getFlux().actions.addToShortlist(this.props.home.id);
         }
@@ -98,7 +99,6 @@ var HomesListing = React.createClass({
                                 <div className="col-xs-6">
                                     <p>Care Rating:</p>
                                     <img src={this.getRatingSrc()} data-tip="The care rating is provided by the Care Quality Commission, a government body that inspects care providers." className="rating"/></div>
-                                <b>Score:{this.props.home.rating}</b>
                                 <div className="col-xs-6">
                                     {
                                         this.getSpecialismString() !== '' &&
