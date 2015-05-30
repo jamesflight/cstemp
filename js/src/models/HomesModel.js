@@ -4,6 +4,7 @@ var GeocodeService = require('./GoogleGeocodeApiService.js');
 
 module.exports = {
     get: function (filters, success, error) {
+
         GeocodeService.getPostcode(filters.address, function (postcode) {
             filters.postcode = postcode;
             $.ajax({

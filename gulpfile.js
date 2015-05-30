@@ -32,6 +32,7 @@ gulp.task('watch', function() {
         bundler.bundle()
             .pipe(source('app.js'))
             .pipe(buffer())
+            .pipe(uglify())
             .pipe(gulp.dest('./js/dist/'));
         var ms = (new Date()).getTime() - date.getTime();
         console.log('Rebundled in ' + ms + ' ms');

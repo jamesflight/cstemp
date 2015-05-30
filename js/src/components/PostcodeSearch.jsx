@@ -12,6 +12,24 @@ var $ = require('jquery-browserify');
 
 module.exports = React.createClass({
     mixins: [FluxMixin, StoreWatchMixin('FilterStore', 'HomesStore'), Navigation],
+    propTypes: {
+        careTypeSelection: React.PropTypes.string,
+        careType: React.PropTypes.string,
+        area: React.PropTypes.string
+    },
+    getDefaultProps: function () {
+        return {
+            careTypeSelection: 'Home',
+            careType: '',
+            area: 'Your Area'
+        }
+    },
+    componentDidMount: function () {
+        this.getFlux().actions.updateFilter({
+            filter:'care_type',
+            value:this.props.careType
+        });
+    },
     getStateFromFlux: function () {
         return {
             filters:this.getFlux().store("FilterStore").getState(),
@@ -41,8 +59,8 @@ module.exports = React.createClass({
             <div className="asdf">
                 <div className="padding-s">
                     <br/><br/>
-                    <h1 className="text-center white-text big-header">Find a Care Home Your Parents Will Love</h1>
-                    <h2 className="text-center white-text small-header">Compare Homes In Your Area</h2>
+                    <h1 className="text-center white-text big-header">Find a {this.props.careTypeSelection} Your Parents Will Love</h1>
+                    <h2 className="text-center white-text small-header">Compare Homes In {this.props.area}</h2>
                     <br/>
                     <br/>
                     <div className="row">

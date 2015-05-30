@@ -6,7 +6,7 @@ module.exports = Fluxxor.createStore({
         this.filters = {
             address:'',
             care_type:'',
-            radius:10
+            radius:25
         };
         this.bindActions(
             "UPDATE_FILTER", this.updateFilter,
