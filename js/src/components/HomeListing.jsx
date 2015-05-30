@@ -4,6 +4,7 @@ var FluxMixin = Fluxxor.FluxMixin(React);
 var ReactTooltip = require("react-tooltip");
 var Utils = require("./../utils.js");
 var StoreWatchMixin = Fluxxor.StoreWatchMixin;
+var ga = require('react-google-analytics');
 
 var HomesListing = React.createClass({
     mixins:[FluxMixin, StoreWatchMixin("FilterStore")],
@@ -44,7 +45,7 @@ var HomesListing = React.createClass({
         }
     },
     addToShortlist: function () {
-        window.ga('send', 'pageview', '/homeadded');
+        ga('send', 'pageview', '/homeadded');
         if (! this.props.home.inShortlist) {
             this.getFlux().actions.addToShortlist(this.props.home.id);
         }

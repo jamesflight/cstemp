@@ -4,11 +4,12 @@ var FluxMixin = Fluxxor.FluxMixin(React);
 var FilterSelector = require('./../components/FilterSelector.jsx');
 var PostcodeSearch = require('./../components/PostcodeSearch.jsx');
 var NumberOfCareHomesBanner = require('./../components/NumberOfCareHomesBanner.jsx');
+var ga = require('react-google-analytics');
 
 module.exports = React.createClass({
     mixins: [FluxMixin],
     componentDidMount:function () {
-        window.ga('send', 'pageview', '/searched');
+        ga('send', 'pageview', '/searched');
     },
     render: function() {
         return (

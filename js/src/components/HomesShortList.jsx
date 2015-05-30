@@ -4,6 +4,7 @@ var FluxMixin = Fluxxor.FluxMixin(React);
 var StoreWatchMixin = Fluxxor.StoreWatchMixin;
 var $ = require('jquery-browserify');
 var LoadingButton = require('./LoadingButton.jsx');
+var ga = require('react-google-analytics');
 
 module.exports = React.createClass({
     mixins: [FluxMixin, StoreWatchMixin('HomesStore', 'FilterStore')],
@@ -39,7 +40,7 @@ module.exports = React.createClass({
         this.getFlux().actions.removeFromShortlist(event.target.dataset.id);
     },
     postShortlist: function () {
-        window.ga('send', 'pageview', '/requestmade');
+        ga('send', 'pageview', '/requestmade');
         this.getFlux().actions.postShortlistToServer(this.state.homes, this.state.filters);
     },
     render: function(){
