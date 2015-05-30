@@ -39,7 +39,7 @@ module.exports = React.createClass({
         this.getFlux().actions.removeFromShortlist(event.target.dataset.id);
     },
     postShortlist: function () {
-        ga('send', 'pageview', '/requestmade');
+        window.ga('send', 'pageview', '/requestmade');
         this.getFlux().actions.postShortlistToServer(this.state.homes, this.state.filters);
     },
     render: function(){

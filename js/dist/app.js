@@ -484,7 +484,7 @@ var HomesListing = React.createClass({displayName: "HomesListing",
         }
     },
     addToShortlist: function () {
-        ga('send', 'pageview', '/homeadded');
+        window.ga('send', 'pageview', '/homeadded');
         if (! this.props.home.inShortlist) {
             this.getFlux().actions.addToShortlist(this.props.home.id);
         }
@@ -876,7 +876,7 @@ module.exports = React.createClass({displayName: "exports",
         this.getFlux().actions.removeFromShortlist(event.target.dataset.id);
     },
     postShortlist: function () {
-        ga('send', 'pageview', '/requestmade');
+        window.ga('send', 'pageview', '/requestmade');
         this.getFlux().actions.postShortlistToServer(this.state.homes, this.state.filters);
     },
     render: function(){
@@ -1174,7 +1174,7 @@ var HomesList = require('./../components/HomesList.jsx');
 module.exports = React.createClass({displayName: "exports",
     mixins: [FluxMixin],
     componentDidMount:function () {
-        ga('send', 'pageview', '/filtered');
+        window.ga('send', 'pageview', '/filtered');
     },
     render: function() {
         return (
@@ -1229,7 +1229,7 @@ var Home = React.createClass({displayName: "Home",
         console.log(address);
     },
     componentDidMount:function () {
-        ga('send', 'pageview', '/home');
+        window.ga('send', 'pageview', '/home');
     },
     render: function() {
         return (
@@ -1265,7 +1265,7 @@ var NumberOfCareHomesBanner = require('./../components/NumberOfCareHomesBanner.j
 module.exports = React.createClass({displayName: "exports",
     mixins: [FluxMixin],
     componentDidMount:function () {
-        ga('send', 'pageview', '/searched');
+        window.ga('send', 'pageview', '/searched');
     },
     render: function() {
         return (

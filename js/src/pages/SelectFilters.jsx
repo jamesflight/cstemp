@@ -8,7 +8,7 @@ var NumberOfCareHomesBanner = require('./../components/NumberOfCareHomesBanner.j
 module.exports = React.createClass({
     mixins: [FluxMixin],
     componentDidMount:function () {
-        ga('send', 'pageview', '/searched');
+        window.ga('send', 'pageview', '/searched');
     },
     render: function() {
         return (

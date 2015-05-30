@@ -44,7 +44,7 @@ var HomesListing = React.createClass({
         }
     },
     addToShortlist: function () {
-        ga('send', 'pageview', '/homeadded');
+        window.ga('send', 'pageview', '/homeadded');
         if (! this.props.home.inShortlist) {
             this.getFlux().actions.addToShortlist(this.props.home.id);
         }
