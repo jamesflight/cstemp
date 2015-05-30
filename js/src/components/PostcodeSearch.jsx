@@ -25,10 +25,12 @@ module.exports = React.createClass({
         }
     },
     componentDidMount: function () {
-        this.getFlux().actions.updateFilter({
-            filter:'care_type',
-            value:this.props.careType
-        });
+        if (this.props.careType !== '') {
+            this.getFlux().actions.updateFilter({
+                filter:'care_type',
+                value:this.props.careType
+            });
+        }
     },
     getStateFromFlux: function () {
         return {
