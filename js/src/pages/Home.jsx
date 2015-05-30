@@ -11,7 +11,7 @@ var Home = React.createClass({
     },
     componentDidMount:function () {
         console.log(window);
-        window.ga('send', 'pageview', '/home');
+        //window.ga('send', 'pageview', '/home');
     },
     render: function() {
         return (

@@ -1230,7 +1230,7 @@ var Home = React.createClass({displayName: "Home",
     },
     componentDidMount:function () {
         console.log(window);
-        window.ga('send', 'pageview', '/home');
+        //window.ga('send', 'pageview', '/home');
     },
     render: function() {
         return (
