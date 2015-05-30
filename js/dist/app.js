@@ -452,6 +452,7 @@ var FluxMixin = Fluxxor.FluxMixin(React);
 var ReactTooltip = require("react-tooltip");
 var Utils = require("./../utils.js");
 var StoreWatchMixin = Fluxxor.StoreWatchMixin;
+var ga = require('react-google-analytics');
 
 var HomesListing = React.createClass({displayName: "HomesListing",
     mixins:[FluxMixin, StoreWatchMixin("FilterStore")],
@@ -492,7 +493,7 @@ var HomesListing = React.createClass({displayName: "HomesListing",
         }
     },
     addToShortlist: function () {
-        window.ga('send', 'pageview', '/homeadded');
+        ga('send', 'pageview', '/homeadded');
         if (! this.props.home.inShortlist) {
             this.getFlux().actions.addToShortlist(this.props.home.id);
         }
@@ -574,7 +575,7 @@ var HomesListing = React.createClass({displayName: "HomesListing",
 
 module.exports = HomesListing;
 
-},{"./../utils.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/utils.js","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-tooltip":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-tooltip/dist/react-tooltip.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/Homes.jsx":[function(require,module,exports){
+},{"./../utils.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/utils.js","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-google-analytics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js","react-tooltip":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-tooltip/dist/react-tooltip.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/Homes.jsx":[function(require,module,exports){
 var React = require('react');
 var HomesHeader = require('./HomesHeader.jsx');
 var HomesFilterPanel = require('./HomesFilterPanel.jsx');
@@ -849,6 +850,7 @@ var FluxMixin = Fluxxor.FluxMixin(React);
 var StoreWatchMixin = Fluxxor.StoreWatchMixin;
 var $ = require('jquery-browserify');
 var LoadingButton = require('./LoadingButton.jsx');
+var ga = require('react-google-analytics');
 
 module.exports = React.createClass({displayName: "exports",
     mixins: [FluxMixin, StoreWatchMixin('HomesStore', 'FilterStore')],
@@ -884,7 +886,7 @@ module.exports = React.createClass({displayName: "exports",
         this.getFlux().actions.removeFromShortlist(event.target.dataset.id);
     },
     postShortlist: function () {
-        window.ga('send', 'pageview', '/requestmade');
+        ga('send', 'pageview', '/requestmade');
         this.getFlux().actions.postShortlistToServer(this.state.homes, this.state.filters);
     },
     render: function(){
@@ -931,7 +933,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./LoadingButton.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/LoadingButton.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","jquery-browserify":"/Users/user/PhpstormProjects/careselector-compare/node_modules/jquery-browserify/lib/jquery.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/LoadingButton.jsx":[function(require,module,exports){
+},{"./LoadingButton.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/LoadingButton.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","jquery-browserify":"/Users/user/PhpstormProjects/careselector-compare/node_modules/jquery-browserify/lib/jquery.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-google-analytics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/LoadingButton.jsx":[function(require,module,exports){
 var React = require('react');
 
 var LoadingButton = React.createClass({displayName: "LoadingButton",
@@ -1178,11 +1180,12 @@ var FluxMixin = Fluxxor.FluxMixin(React);
 var HomesShortList = require('./../components/HomesShortList.jsx');
 var ActiveFilters = require('./../components/ActiveFilters.jsx');
 var HomesList = require('./../components/HomesList.jsx');
+var ga = require('react-google-analytics');
 
 module.exports = React.createClass({displayName: "exports",
     mixins: [FluxMixin],
     componentDidMount:function () {
-        window.ga('send', 'pageview', '/filtered');
+        ga('send', 'pageview', '/filtered');
     },
     render: function() {
         return (
@@ -1203,7 +1206,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./../components/ActiveFilters.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/ActiveFilters.jsx","./../components/HomesList.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/HomesList.jsx","./../components/HomesShortList.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/HomesShortList.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/pages/Email.jsx":[function(require,module,exports){
+},{"./../components/ActiveFilters.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/ActiveFilters.jsx","./../components/HomesList.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/HomesList.jsx","./../components/HomesShortList.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/HomesShortList.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-google-analytics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/pages/Email.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -1238,7 +1241,7 @@ var Home = React.createClass({displayName: "Home",
         console.log(address);
     },
     componentDidMount:function () {
-        ga('send', 'pageview');
+        ga('send', 'pageview', '/home');
     },
     render: function() {
         return (
@@ -1270,11 +1273,12 @@ var FluxMixin = Fluxxor.FluxMixin(React);
 var FilterSelector = require('./../components/FilterSelector.jsx');
 var PostcodeSearch = require('./../components/PostcodeSearch.jsx');
 var NumberOfCareHomesBanner = require('./../components/NumberOfCareHomesBanner.jsx');
+var ga = require('react-google-analytics');
 
 module.exports = React.createClass({displayName: "exports",
     mixins: [FluxMixin],
     componentDidMount:function () {
-        window.ga('send', 'pageview', '/searched');
+        ga('send', 'pageview', '/searched');
     },
     render: function() {
         return (
@@ -1298,7 +1302,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./../components/FilterSelector.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/FilterSelector.jsx","./../components/NumberOfCareHomesBanner.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/NumberOfCareHomesBanner.jsx","./../components/PostcodeSearch.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/PostcodeSearch.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/routes.jsx":[function(require,module,exports){
+},{"./../components/FilterSelector.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/FilterSelector.jsx","./../components/NumberOfCareHomesBanner.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/NumberOfCareHomesBanner.jsx","./../components/PostcodeSearch.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/PostcodeSearch.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-google-analytics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/routes.jsx":[function(require,module,exports){
 var App = require('./App.jsx');
 var React = require('react');
 var Router = require('react-router');
