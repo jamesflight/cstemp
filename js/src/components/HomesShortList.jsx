@@ -37,7 +37,7 @@ module.exports = React.createClass({
         }.bind(this));
     },
     removeFromShortlist: function (event) {
-        this.getFlux().actions.removeFromShortlist(event.target.dataset.id);
+        this.getFlux().actions.removeFromShortlist(event.target.getAttribute('data-id'));
     },
     postShortlist: function () {
         ga('send', 'pageview', '/requestmade');

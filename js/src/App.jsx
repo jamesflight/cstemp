@@ -15,6 +15,7 @@ var App = React.createClass({
     mixins:[FluxMixin],
     componentDidMount:function () {
         ga('create', 'UA-50144493-2', 'auto');
+        ga('send', 'pageview', '/home');
     },
     render: function(){
 

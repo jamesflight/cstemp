@@ -26,7 +26,7 @@ module.exports = React.createClass({
     },
     updateFilter: function (event) {
         this.getFlux().actions.updateFilter({
-            filter:event.target.dataset.filter,
+            filter:event.target.getAttribute('data-filter'),
             value:event.target.value
         });
     },

@@ -39,6 +39,7 @@ var App = React.createClass({displayName: "App",
     mixins:[FluxMixin],
     componentDidMount:function () {
         ga('create', 'UA-50144493-2', 'auto');
+        ga('send', 'pageview', '/home');
     },
     render: function(){
 
@@ -109,7 +110,7 @@ module.exports = React.createClass({displayName: "exports",
         }
     },
     removeFilter: function (event) {
-        this.getFlux().actions.removeFilter(event.target.dataset.filter);
+        this.getFlux().actions.removeFilter(event.target.getAttribute('data-filter'));
         this.loadHomes();
     },
     addFilter: function (event) {
@@ -260,6 +261,7 @@ var LoadingButton = React.createClass({displayName: "LoadingButton",
             React.createElement("div", null, 
                 React.createElement("select", {"data-filter": "care_type", onChange: this.props.onChange, value: this.props.value, className: "form-control input-lg grey-text"}, 
                     React.createElement("option", {value: "", disabled: true, selected: true}, this.props.text), 
+                    React.createElement("option", {value: "NOT_SURE"}, "Care home"), 
                     React.createElement("option", {value: "CARE_HOME"}, "Care home"), 
                     React.createElement("option", {value: "NURSING_HOME"}, "Nursing home")
                 )
@@ -883,7 +885,7 @@ module.exports = React.createClass({displayName: "exports",
         }.bind(this));
     },
     removeFromShortlist: function (event) {
-        this.getFlux().actions.removeFromShortlist(event.target.dataset.id);
+        this.getFlux().actions.removeFromShortlist(event.target.getAttribute('data-id'));
     },
     postShortlist: function () {
         ga('send', 'pageview', '/requestmade');
@@ -1036,7 +1038,7 @@ module.exports = React.createClass({displayName: "exports",
     },
     updateFilter: function (event) {
         this.getFlux().actions.updateFilter({
-            filter:event.target.dataset.filter,
+            filter:event.target.getAttribute('data-filter'),
             value:event.target.value
         });
     },
@@ -1241,7 +1243,7 @@ var Home = React.createClass({displayName: "Home",
         console.log(address);
     },
     componentDidMount:function () {
-        ga('send', 'pageview', '/home');
+
     },
     render: function() {
         return (

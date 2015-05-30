@@ -16,7 +16,7 @@ module.exports = React.createClass({
         }
     },
     removeFilter: function (event) {
-        this.getFlux().actions.removeFilter(event.target.dataset.filter);
+        this.getFlux().actions.removeFilter(event.target.getAttribute('data-filter'));
         this.loadHomes();
     },
     addFilter: function (event) {

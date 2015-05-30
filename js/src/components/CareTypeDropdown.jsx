@@ -11,6 +11,7 @@ var LoadingButton = React.createClass({
             <div>
                 <select data-filter="care_type" onChange={this.props.onChange} value={this.props.value} className="form-control input-lg grey-text">
                     <option value="" disabled selected>{this.props.text}</option>
+                    <option value="NOT_SURE">Care home</option>
                     <option value="CARE_HOME">Care home</option>
                     <option value="NURSING_HOME">Nursing home</option>
                 </select>
