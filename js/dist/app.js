@@ -1229,6 +1229,7 @@ var Home = React.createClass({displayName: "Home",
         console.log(address);
     },
     componentDidMount:function () {
+        console.log(window);
         window.ga('send', 'pageview', '/home');
     },
     render: function() {

@@ -10,6 +10,7 @@ var Home = React.createClass({
         console.log(address);
     },
     componentDidMount:function () {
+        console.log(window);
         window.ga('send', 'pageview', '/home');
     },
     render: function() {
