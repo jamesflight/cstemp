@@ -6,6 +6,8 @@ var Model = require('./models/HomesModel.js');
 var RouteHandler = Router.RouteHandler;
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
+var ga = require('react-google-analytics');
+var GAInitiailizer = ga.Initializer;
 
 
 
@@ -14,7 +16,10 @@ var App = React.createClass({
     render: function(){
 
         return (
-            <RouteHandler />
+            <div>
+                <GAInitiailizer />
+                <RouteHandler />
+            </div>
         );
     }
 });

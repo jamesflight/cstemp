@@ -30,6 +30,8 @@ var Model = require('./models/HomesModel.js');
 var RouteHandler = Router.RouteHandler;
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
+var ga = require('react-google-analytics');
+var GAInitiailizer = ga.Initializer;
 
 
 
@@ -38,14 +40,17 @@ var App = React.createClass({displayName: "App",
     render: function(){
 
         return (
-            React.createElement(RouteHandler, null)
+            React.createElement("div", null, 
+                React.createElement(GAInitiailizer, null), 
+                React.createElement(RouteHandler, null)
+            )
         );
     }
 });
 
 module.exports = App;
 
-},{"./actions.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/actions.js","./models/HomesModel.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/models/HomesModel.js","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-router":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/actions.js":[function(require,module,exports){
+},{"./actions.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/actions.js","./models/HomesModel.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/models/HomesModel.js","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-google-analytics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js","react-router":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/actions.js":[function(require,module,exports){
 var constants = require('./constants.js');
 var HomesModel = require('./models/HomesModel.js');
 var GoogleApiService = require('./models/GoogleGeocodeApiService.js');
@@ -1222,6 +1227,7 @@ var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
 var PostcodeSearch = require('./../components/PostcodeSearch.jsx');
 var AddressSearchBox = require('./../components/AddressSearchBox.jsx');
+var ga = require('react-google-analytics');
 
 var Home = React.createClass({displayName: "Home",
     mixins: [FluxMixin],
@@ -1229,7 +1235,8 @@ var Home = React.createClass({displayName: "Home",
         console.log(address);
     },
     componentDidMount:function () {
-
+        ga('create', 'UA-50144493-2', 'auto');
+        ga('send', 'pageview');
     },
     render: function() {
         return (
@@ -1254,7 +1261,7 @@ var Home = React.createClass({displayName: "Home",
 
 module.exports = Home;
 
-},{"./../components/AddressSearchBox.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/AddressSearchBox.jsx","./../components/PostcodeSearch.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/PostcodeSearch.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/pages/SelectFilters.jsx":[function(require,module,exports){
+},{"./../components/AddressSearchBox.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/AddressSearchBox.jsx","./../components/PostcodeSearch.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/PostcodeSearch.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-google-analytics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/pages/SelectFilters.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -15430,7 +15437,71 @@ return jQuery;
 
 })( window ); }));
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Cancellation.js":[function(require,module,exports){
+},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js":[function(require,module,exports){
+var React, ga, script, scriptIsAdded, _name,
+  __slice = [].slice;
+
+React = require('react');
+
+script = React.DOM.script;
+
+if (typeof window !== "undefined" && window !== null) {
+  if (window.GoogleAnalyticsObject == null) {
+    window.GoogleAnalyticsObject = 'ga';
+  }
+}
+
+if (typeof window !== "undefined" && window !== null) {
+  if (window.ga == null) {
+    window.ga = ga;
+  }
+}
+
+ga = function() {
+  var args;
+  args = 1 <= arguments.length ? __slice.call(arguments, 0) : [];
+  return typeof window !== "undefined" && window !== null ? window[window.GoogleAnalyticsObject].apply(window, args) : void 0;
+};
+
+if (typeof window !== "undefined" && window !== null) {
+  if (window[_name = window.GoogleAnalyticsObject] == null) {
+    window[_name] = function() {
+      var api, args;
+      args = 1 <= arguments.length ? __slice.call(arguments, 0) : [];
+      api = window[window.GoogleAnalyticsObject];
+      (api.q || (api.q = [])).push(args);
+    };
+  }
+}
+
+scriptIsAdded = false;
+
+ga.Initializer = React.createClass({
+  displayName: 'GAInitializer',
+  componentDidMount: function() {
+    window[window.GoogleAnalyticsObject].l = new Date().getTime();
+    if (!scriptIsAdded) {
+      return this.addScript();
+    }
+  },
+  addScript: function() {
+    var el, s;
+    scriptIsAdded = true;
+    el = document.createElement('script');
+    el.type = 'text/javascript';
+    el.async = true;
+    el.src = '//www.google-analytics.com/analytics.js';
+    s = document.getElementsByTagName('script')[0];
+    return s.parentNode.insertBefore(el, s);
+  },
+  render: function() {
+    return script(null);
+  }
+});
+
+module.exports = ga;
+
+},{"react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Cancellation.js":[function(require,module,exports){
 "use strict";
 
 /**

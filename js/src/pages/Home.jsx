@@ -3,6 +3,7 @@ var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
 var PostcodeSearch = require('./../components/PostcodeSearch.jsx');
 var AddressSearchBox = require('./../components/AddressSearchBox.jsx');
+var ga = require('react-google-analytics');
 
 var Home = React.createClass({
     mixins: [FluxMixin],
@@ -10,7 +11,8 @@ var Home = React.createClass({
         console.log(address);
     },
     componentDidMount:function () {
-
+        ga('create', 'UA-50144493-2', 'auto');
+        ga('send', 'pageview');
     },
     render: function() {
         return (
