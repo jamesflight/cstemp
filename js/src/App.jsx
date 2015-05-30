@@ -13,6 +13,9 @@ var GAInitiailizer = ga.Initializer;
 
 var App = React.createClass({
     mixins:[FluxMixin],
+    componentDidMount:function () {
+        ga('create', 'UA-50144493-2', 'auto');
+    },
     render: function(){
 
         return (

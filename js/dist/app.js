@@ -37,6 +37,9 @@ var GAInitiailizer = ga.Initializer;
 
 var App = React.createClass({displayName: "App",
     mixins:[FluxMixin],
+    componentDidMount:function () {
+        ga('create', 'UA-50144493-2', 'auto');
+    },
     render: function(){
 
         return (
@@ -1235,7 +1238,6 @@ var Home = React.createClass({displayName: "Home",
         console.log(address);
     },
     componentDidMount:function () {
-        ga('create', 'UA-50144493-2', 'auto');
         ga('send', 'pageview');
     },
     render: function() {

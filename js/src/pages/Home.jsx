@@ -11,7 +11,6 @@ var Home = React.createClass({
         console.log(address);
     },
     componentDidMount:function () {
-        ga('create', 'UA-50144493-2', 'auto');
         ga('send', 'pageview');
     },
     render: function() {
