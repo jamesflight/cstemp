@@ -10,9 +10,7 @@ var Home = React.createClass({
         console.log(address);
     },
     componentDidMount:function () {
-        setTimeout(function () {
-            window.ga('send', 'pageview', '/home');
-        }, 1500);
+
     },
     render: function() {
         return (
