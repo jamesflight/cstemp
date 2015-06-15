@@ -14,6 +14,7 @@ var LoadingButton = React.createClass({
                     <option value="NOT_SURE">Not Sure</option>
                     <option value="CARE_HOME">Care home</option>
                     <option value="NURSING_HOME">Nursing home</option>
+                    <option value="HOME_CARE">Home care</option>
                 </select>
             </div>
         );
