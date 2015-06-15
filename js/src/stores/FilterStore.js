@@ -54,9 +54,9 @@ module.exports = Fluxxor.createStore({
     },
     getCost: function () {
         if (this.filters.care_type === 'nursing_home') {
-            return 800;
+            return 815;
         }
 
-        return 600;
+        return 608;
     }
 });
