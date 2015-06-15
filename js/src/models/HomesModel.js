@@ -5,8 +5,9 @@ var GeocodeService = require('./GoogleGeocodeApiService.js');
 module.exports = {
     get: function (filters, success, error) {
 
-        GeocodeService.getPostcode(filters.address, function (postcode) {
-            filters.postcode = postcode;
+        GeocodeService.getCoords(filters.address, function (long, lat) {
+            filters.long = long;
+            filters.lat = lat;
             $.ajax({
                 url: config.API_URL + 'homes',
                 data: filters,
