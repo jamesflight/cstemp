@@ -66,6 +66,29 @@ var HomesListing = React.createClass({
             buttonClass:'col-xs-2 add-listing-button'
         });
     },
+    componentDidMount: function () {
+        var listingbody = $(React.findDOMNode(this.refs.listingbody));
+        var listingtitle = $(React.findDOMNode(this.refs.listingtitle));
+        var listingcarerating = $(React.findDOMNode(this.refs.listingcarerating));
+        var listingimage = $(React.findDOMNode(this.refs.listingimage));
+
+        listingbody.click(function () {
+            ga('send', 'event', 'homelistingbody', 'click');
+        });
+
+        listingtitle.click(function () {
+            ga('send', 'event', 'listingtitle', 'click');
+        });
+
+        listingcarerating.click(function () {
+            ga('send', 'event', 'listingcarerating', 'click');
+        });
+
+        listingimage.click(function () {
+            ga('send', 'event', 'listingimage', 'click');
+        });
+
+    },
     getRatingSrc: function () {
         if (this.props.home.rating === null) {
             return "/img/rating-system-0.png";
@@ -91,15 +114,16 @@ var HomesListing = React.createClass({
                             <div className="add-listing-shortlisted">Shortlisted</div>
                             <div className="add-listing-triangle"></div>
                         </div>
-                        <div className="col-xs-6">
-                            <h4 data-toggle="tooltip" data-tip="Add to your shortlist to find out more."><strong>{this.props.home.name}</strong> - within <span className="blue-text">{this.props.home.distance}km</span></h4>
-                            <ReactTooltip />
+                        <div ref="listingbody" className="col-xs-6">
+                            <h4 ref="listingtitle" data-toggle="tooltip" data-tip="Add to your shortlist to find out more."><strong>{this.props.home.name}</strong> - within <span className="blue-text">{this.props.home.distance}km</span></h4>
+                            <ReactTooltip effect="solid" />
                             <div>{this.props.home.address_1}, {this.props.home.address_3}, {this.props.home.postcode}</div>
                             <hr/>
                             <div className="row">
-                                <div className="col-xs-6">
+                                <div ref="listingcarerating" className="col-xs-6">
                                     <p>Care Rating:</p>
-                                    <img src={this.getRatingSrc()} data-tip="The care rating is provided by the Care Quality Commission, a government body that inspects care providers." className="rating"/></div>
+                                    <img src={this.getRatingSrc()} data-tip="The care rating is provided by the Care Quality Commission, a government body that inspects care providers." className="rating"/>
+                                </div>
                                 <div className="col-xs-6">
                                     {
                                         this.getSpecialismString() !== '' &&
@@ -111,7 +135,7 @@ var HomesListing = React.createClass({
 
 
                         </div>
-                        <div className="col-xs-4">
+                        <div ref="listingimage" className="col-xs-4">
                         { this.props.home.thumbnail_url !== null &&
                             <img src={this.props.home.thumbnail_url} className="home-image" />
                             }

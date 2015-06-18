@@ -10,9 +10,6 @@ var Home = React.createClass({
         router: React.PropTypes.func
     },
     mixins: [FluxMixin],
-    test: function (address) {
-        console.log(address);
-    },
     componentDidMount:function () {
 
     },

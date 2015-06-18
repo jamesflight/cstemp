@@ -1,4 +1,6 @@
 var React = require('react');
+var ga = require('react-google-analytics');
+var $ = require('jquery-browserify');
 
 var LoadingButton = React.createClass({
     propTypes: {
@@ -6,10 +8,15 @@ var LoadingButton = React.createClass({
         value:React.PropTypes.string,
         text:React.string
     },
+    change: function (event) {
+        this.props.onChange(event);
+        var val = $(React.findDOMNode(this.refs.select)).val();
+        ga('set', 'dimension5', val);
+    },
     render: function(){
         return (
             <div>
-                <select data-filter="care_type" onChange={this.props.onChange} value={this.props.value} className="form-control input-lg grey-text">
+                <select ref="select" data-filter="care_type" onChange={this.change} value={this.props.value} className="form-control input-lg grey-text">
                     <option value="" disabled selected>{this.props.text}</option>
                     <option value="NOT_SURE">Not Sure</option>
                     <option value="CARE_HOME">Care home</option>

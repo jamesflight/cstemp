@@ -20,7 +20,7 @@ module.exports = {
             });
         });
     },
-    postShortlist: function (shortlist, postcode, success) {
+    postShortlist: function (shortlist, filters, success) {
         $.ajax
         ({
             type: "POST",
@@ -28,7 +28,16 @@ module.exports = {
             url: config.API_URL + 'careseekers/shortlist',
             dataType: 'json',
             //json object to sent to the authentication url
-            data: {postcode:postcode,providers:shortlist},
+            data: {
+                meta:{
+                    search_location:filters.address,
+                    search_care_type:filters.care_type,
+                    search_filter_dementia:filters.hasOwnProperty('dementia'),
+                    search_filter_learning_disability:filters.hasOwnProperty('learning_disability'),
+                    search_filter_under_65:filters.hasOwnProperty('under_65'),
+                    search_filter_sensory_impairments:filters.hasOwnProperty('sensory_impairments')
+                },
+                providers:shortlist},
             success: function (response) {
                 success(response.id);
             }

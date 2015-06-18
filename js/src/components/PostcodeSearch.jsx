@@ -19,7 +19,7 @@ module.exports = React.createClass({
     },
     getDefaultProps: function () {
         return {
-            careTypeSelection: 'Home',
+            careTypeSelection: 'Care Provider',
             careType: '',
             area: 'Your Area'
         }
@@ -41,7 +41,7 @@ module.exports = React.createClass({
     },
     submit: function () {
         this.getFlux().actions.loadHomes(this.state.filters, function () {
-            this.transitionTo('select-filters');
+            this.transitionTo('compare');
         }.bind(this));
     },
     updateFilter: function (event) {
@@ -62,7 +62,7 @@ module.exports = React.createClass({
                 <div className="padding-s">
                     <br/><br/>
                     <h1 className="text-center white-text big-header">Find a {this.props.careTypeSelection} Your Parents Will Love</h1>
-                    <h2 className="text-center white-text small-header">Compare Homes In {this.props.area}</h2>
+                    <h2 className="text-center white-text small-header">Compare Care Providers In {this.props.area}</h2>
                     <br/>
                     <br/>
                     <div className="row">

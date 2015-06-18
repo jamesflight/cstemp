@@ -5,9 +5,10 @@ var StoreWatchMixin = Fluxxor.StoreWatchMixin;
 var $ = require('jquery-browserify');
 var LoadingButton = require('./LoadingButton.jsx');
 var ga = require('react-google-analytics');
+var Navigation = require('react-router').Navigation;
 
 module.exports = React.createClass({
-    mixins: [FluxMixin, StoreWatchMixin('HomesStore', 'FilterStore')],
+    mixins: [FluxMixin, StoreWatchMixin('HomesStore', 'FilterStore'), Navigation],
     stuck: false,
     getStateFromFlux: function () {
         return {
@@ -41,7 +42,9 @@ module.exports = React.createClass({
     },
     postShortlist: function () {
         ga('send', 'pageview', '/requestmade');
-        this.getFlux().actions.postShortlistToServer(this.state.homes, this.state.filters);
+        this.getFlux().actions.postShortlistToServer(this.state.homes, this.state.filters, function () {
+            this.transitionTo('email');
+        }.bind(this));
     },
     render: function(){
         return (
@@ -66,7 +69,7 @@ module.exports = React.createClass({
                         { this.state.homes.length === 0 &&
                             <div>
                                 <hr/>
-                            <p className="grey-text text-center">Add care homes to create your shortlist for comparison.</p>
+                            <p className="grey-text text-center">Add care providers to create your shortlist for comparison.</p>
                             </div>
                         }
                     </div>
@@ -77,7 +80,7 @@ module.exports = React.createClass({
                         }
 
                         { ! this.state.isLoading &&
-                            <div onClick={this.postShortlist} className="pink-button">Compare Homes On My Shortlist</div>
+                            <div onClick={this.postShortlist} className="pink-button">Compare Care Providers On My Shortlist</div>
                         }
 
                     </div>
