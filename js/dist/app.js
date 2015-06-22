@@ -21,7 +21,7 @@ Router.run(routes, function (Handler) {
     React.render(React.createElement(Handler, {flux: flux}), document.getElementById("app"));
 });
 
-},{"./App.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/App.jsx","./actions.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/actions.js","./routes.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/routes.jsx","./stores/AddressStore.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/stores/AddressStore.js","./stores/FilterStore.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/stores/FilterStore.js","./stores/HomesStore.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/stores/HomesStore.js","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-router":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/App.jsx":[function(require,module,exports){
+},{"./App.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\App.jsx","./actions.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\actions.js","./routes.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\routes.jsx","./stores/AddressStore.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\stores\\AddressStore.js","./stores/FilterStore.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\stores\\FilterStore.js","./stores/HomesStore.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\stores\\HomesStore.js","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\App.jsx":[function(require,module,exports){
 var React = require('react');
 var Router = require('react-router'); // or var Router = ReactRouter; in browsers
 var actions = require('./actions.js');
@@ -59,7 +59,7 @@ var App = React.createClass({displayName: "App",
 
 module.exports = App;
 
-},{"./actions.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/actions.js","./conversionpixels/adwords-remarketing.html":"/Users/user/PhpstormProjects/careselector-compare/js/src/conversionpixels/adwords-remarketing.html","./conversionpixels/facebook-remarketing.html":"/Users/user/PhpstormProjects/careselector-compare/js/src/conversionpixels/facebook-remarketing.html","./models/HomesModel.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/models/HomesModel.js","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","jquery-browserify":"/Users/user/PhpstormProjects/careselector-compare/node_modules/jquery-browserify/lib/jquery.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-google-analytics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js","react-router":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/actions.js":[function(require,module,exports){
+},{"./actions.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\actions.js","./conversionpixels/adwords-remarketing.html":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\conversionpixels\\adwords-remarketing.html","./conversionpixels/facebook-remarketing.html":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\conversionpixels\\facebook-remarketing.html","./models/HomesModel.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\models\\HomesModel.js","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\actions.js":[function(require,module,exports){
 var constants = require('./constants.js');
 var HomesModel = require('./models/HomesModel.js');
 var GoogleApiService = require('./models/GoogleGeocodeApiService.js');
@@ -106,7 +106,7 @@ module.exports = {
     }
 };
 
-},{"./constants.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/constants.js","./models/CareseekerService.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/models/CareseekerService.js","./models/GoogleGeocodeApiService.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/models/GoogleGeocodeApiService.js","./models/HomesModel.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/models/HomesModel.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/ActiveFilters.jsx":[function(require,module,exports){
+},{"./constants.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\constants.js","./models/CareseekerService.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\models\\CareseekerService.js","./models/GoogleGeocodeApiService.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\models\\GoogleGeocodeApiService.js","./models/HomesModel.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\models\\HomesModel.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\ActiveFilters.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -214,7 +214,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./AddressSearchBox.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/AddressSearchBox.jsx","./CareTypeDropdown.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/CareTypeDropdown.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","jquery-browserify":"/Users/user/PhpstormProjects/careselector-compare/node_modules/jquery-browserify/lib/jquery.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-google-analytics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/AddressSearchBox.jsx":[function(require,module,exports){
+},{"./AddressSearchBox.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\AddressSearchBox.jsx","./CareTypeDropdown.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\CareTypeDropdown.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\AddressSearchBox.jsx":[function(require,module,exports){
 var React = require('react');
 var Link = require('react-router').Link;
 var Navigation = require('react-router').Navigation;
@@ -282,7 +282,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./ErrorBox.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/ErrorBox.jsx","./LoadingButton.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/LoadingButton.jsx","classnames":"/Users/user/PhpstormProjects/careselector-compare/node_modules/classnames/index.js","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","jquery-browserify":"/Users/user/PhpstormProjects/careselector-compare/node_modules/jquery-browserify/lib/jquery.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-router":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/CareTypeDropdown.jsx":[function(require,module,exports){
+},{"./ErrorBox.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\ErrorBox.jsx","./LoadingButton.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\LoadingButton.jsx","classnames":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\classnames\\index.js","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\CareTypeDropdown.jsx":[function(require,module,exports){
 var React = require('react');
 var ga = require('react-google-analytics');
 var $ = require('jquery-browserify');
@@ -315,7 +315,7 @@ var LoadingButton = React.createClass({displayName: "LoadingButton",
 
 module.exports = LoadingButton;
 
-},{"jquery-browserify":"/Users/user/PhpstormProjects/careselector-compare/node_modules/jquery-browserify/lib/jquery.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-google-analytics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/ErrorBox.jsx":[function(require,module,exports){
+},{"jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\ErrorBox.jsx":[function(require,module,exports){
 var React = require('react');
 
 var ErrorBox = React.createClass({displayName: "ErrorBox",
@@ -361,7 +361,7 @@ var ErrorBox = React.createClass({displayName: "ErrorBox",
 
 module.exports = ErrorBox;
 
-},{"react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/FilterSelector.jsx":[function(require,module,exports){
+},{"react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\FilterSelector.jsx":[function(require,module,exports){
 var React = require('react');
 var Link = require('react-router').Link;
 var Fluxxor = require('fluxxor');
@@ -421,7 +421,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./FilterSelectorOption.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/FilterSelectorOption.jsx","./LoadingButton.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/LoadingButton.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-router":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/FilterSelectorOption.jsx":[function(require,module,exports){
+},{"./FilterSelectorOption.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\FilterSelectorOption.jsx","./LoadingButton.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\LoadingButton.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\FilterSelectorOption.jsx":[function(require,module,exports){
 var React = require('react/addons');
 var cx = require('classnames');
 var Link = require('react-router').Link;
@@ -469,7 +469,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"classnames":"/Users/user/PhpstormProjects/careselector-compare/node_modules/classnames/index.js","react-router":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/index.js","react/addons":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/addons.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/HomeListing.jsx":[function(require,module,exports){
+},{"classnames":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\classnames\\index.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js","react/addons":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\addons.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomeListing.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -623,7 +623,7 @@ var HomesListing = React.createClass({displayName: "HomesListing",
 
 module.exports = HomesListing;
 
-},{"./../utils.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/utils.js","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-google-analytics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js","react-tooltip":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-tooltip/dist/react-tooltip.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/Homes.jsx":[function(require,module,exports){
+},{"./../utils.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\utils.js","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js","react-tooltip":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-tooltip\\dist\\react-tooltip.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\Homes.jsx":[function(require,module,exports){
 var React = require('react');
 var HomesHeader = require('./HomesHeader.jsx');
 var HomesFilterPanel = require('./HomesFilterPanel.jsx');
@@ -666,7 +666,7 @@ var Homes = React.createClass({displayName: "Homes",
 
 module.exports = Homes;
 
-},{"./HomesFilterPanel.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/HomesFilterPanel.jsx","./HomesHeader.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/HomesHeader.jsx","./HomesList.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/HomesList.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/HomesFilterPanel.jsx":[function(require,module,exports){
+},{"./HomesFilterPanel.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesFilterPanel.jsx","./HomesHeader.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesHeader.jsx","./HomesList.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesList.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesFilterPanel.jsx":[function(require,module,exports){
 var React = require('react');
 var Flux = require('fluxxor');
 var FluxMixin = Flux.FluxMixin(React);
@@ -793,7 +793,7 @@ var HomesFilterPanel = React.createClass({displayName: "HomesFilterPanel",
 
 module.exports = HomesFilterPanel;
 
-},{"fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/HomesHeader.jsx":[function(require,module,exports){
+},{"fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesHeader.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -849,7 +849,7 @@ var HomesHeader = React.createClass({displayName: "HomesHeader",
 
 module.exports = HomesHeader;
 
-},{"fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/HomesList.jsx":[function(require,module,exports){
+},{"fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesList.jsx":[function(require,module,exports){
 var React = require('react');
 var HomeListing = require('./HomeListing.jsx');
 var Fluxxor = require('fluxxor');
@@ -891,7 +891,7 @@ var HomesList = React.createClass({displayName: "HomesList",
 
 module.exports = HomesList;
 
-},{"./HomeListing.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/HomeListing.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/HomesShortList.jsx":[function(require,module,exports){
+},{"./HomeListing.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomeListing.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesShortList.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -984,7 +984,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./LoadingButton.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/LoadingButton.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","jquery-browserify":"/Users/user/PhpstormProjects/careselector-compare/node_modules/jquery-browserify/lib/jquery.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-google-analytics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js","react-router":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/LoadingButton.jsx":[function(require,module,exports){
+},{"./LoadingButton.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\LoadingButton.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\LoadingButton.jsx":[function(require,module,exports){
 var React = require('react');
 
 var LoadingButton = React.createClass({displayName: "LoadingButton",
@@ -1020,7 +1020,7 @@ var LoadingButton = React.createClass({displayName: "LoadingButton",
 
 module.exports = LoadingButton;
 
-},{"react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/NumberOfCareHomesBanner.jsx":[function(require,module,exports){
+},{"react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\NumberOfCareHomesBanner.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -1058,7 +1058,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","jquery-browserify":"/Users/user/PhpstormProjects/careselector-compare/node_modules/jquery-browserify/lib/jquery.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/PostcodeSearch.jsx":[function(require,module,exports){
+},{"fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\PostcodeSearch.jsx":[function(require,module,exports){
 var React = require('react');
 var Link = require('react-router').Link;
 var Navigation = require('react-router').Navigation;
@@ -1152,7 +1152,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./AddressSearchBox.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/AddressSearchBox.jsx","./CareTypeDropdown.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/CareTypeDropdown.jsx","./ErrorBox.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/ErrorBox.jsx","./LoadingButton.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/LoadingButton.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","jquery-browserify":"/Users/user/PhpstormProjects/careselector-compare/node_modules/jquery-browserify/lib/jquery.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-router":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/components/SubmitEmailBox.jsx":[function(require,module,exports){
+},{"./AddressSearchBox.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\AddressSearchBox.jsx","./CareTypeDropdown.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\CareTypeDropdown.jsx","./ErrorBox.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\ErrorBox.jsx","./LoadingButton.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\LoadingButton.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\SubmitEmailBox.jsx":[function(require,module,exports){
 var React = require('react');
 var Navigation = require('react-router').Navigation;
 var Fluxxor = require('fluxxor');
@@ -1169,14 +1169,32 @@ var SubmitEmailBox = React.createClass({displayName: "SubmitEmailBox",
     render: function(){
         return (
             React.createElement("div", null, 
-                React.createElement("h2", {className: "text-center pink-text"}, "Your comparison chart is being assembled and we are checking for availability."), 
-                React.createElement("h3", {className: "text-center blue-text"}, "Where should we send your chart when it is done?"), 
+                React.createElement("h2", {className: "text-center pink-text"}, "Your In Depth Comparison Report Is Being Prepared"), 
+                React.createElement("h4", {className: "text-center"}, "Your chosen care providers are updating us now on their latest availability and prices"), 
+            React.createElement("br", null), 
+            React.createElement("div", {className: "row"}, 
+                React.createElement("div", {className: "col-sm-6 col-sm-offset-1"}, React.createElement("img", {src: "img/table.gif"})), 
+                React.createElement("div", {className: "col-sm-4"}, 
+                React.createElement("h4", null, React.createElement("strong", null, "Reports Include")), 
+                React.createElement("ul", null, 
+                    React.createElement("li", null, "In depth information on how each provider can meet your loved ones needs"), 
+                    React.createElement("li", null, "Up to date ", React.createElement("strong", null, "availability")), 
+                    React.createElement("li", null, "Up to date ", React.createElement("strong", null, "prices"))
+                )
+                )
+            ), 
+            React.createElement("div", {className: "row"}, 
+                React.createElement("div", {className: "col-sm-10 col-sm-offset-1"}, 
                 React.createElement("br", null), 
+                React.createElement("h4", {className: "text-left"}, React.createElement("strong", null, "Where should we send your chart when it is done?")), 
                 React.createElement("input", {ref: "email", type: "email", className: "form-control input-lg", placeholder: "Enter your email"}), 
                 React.createElement("br", null), 
                 React.createElement("div", {className: "text-center"}, 
                     React.createElement("div", {href: "#", className: "btn btn-lg pink-button", onClick: this.submit}, "Send Me My Comparison")
                 )
+            )
+                
+            )
             )
         );
     }
@@ -1184,12 +1202,12 @@ var SubmitEmailBox = React.createClass({displayName: "SubmitEmailBox",
 
 module.exports = SubmitEmailBox;
 
-},{"fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-router":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/config.js":[function(require,module,exports){
+},{"fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\config.js":[function(require,module,exports){
 module.exports = {
     API_URL: 'http://careselector-core.herokuapp.com/api/'
 };
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/js/src/constants.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\constants.js":[function(require,module,exports){
 module.exports = {
     LOAD_HOMES: "LOAD_HOMES",
     LOAD_HOMES_SUCCESS: "LOAD_HOMES_SUCCESS",
@@ -1204,19 +1222,19 @@ module.exports = {
     UPDATE_CARESEEKER_EMAIL_SUCCESS:"UPDATE_CARESEEKER_EMAIL_SUCCESS"
 };
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/js/src/conversionpixels/adwords-conversion.html":[function(require,module,exports){
-module.exports = "<!-- Google Code for 7.0 Share Details Conversion Page -->\n<script type=\"text/javascript\">\n/* <![CDATA[ */\nvar google_conversion_id = 974625854;\nvar google_conversion_language = \"en\";\nvar google_conversion_format = \"3\";\nvar google_conversion_color = \"ffffff\";\nvar google_conversion_label = \"3e0rCNyc4lwQvrje0AM\";\nvar google_remarketing_only = false;\n/* ]]> */\n</script>\n<script type=\"text/javascript\" src=\"//www.googleadservices.com/pagead/conversion.js\">\n        </script>\n<noscript>\n    <div style=\"display:inline;\">\n    <img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\" src=\"//www.googleadservices.com/pagead/conversion/974625854/?label=3e0rCNyc4lwQvrje0AM&amp;guid=ON&amp;script=0\"/>\n    </div>\n</noscript>";
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\conversionpixels\\adwords-conversion.html":[function(require,module,exports){
+module.exports = "<!-- Google Code for 7.0 Share Details Conversion Page -->\r\n<script type=\"text/javascript\">\r\n/* <![CDATA[ */\r\nvar google_conversion_id = 974625854;\r\nvar google_conversion_language = \"en\";\r\nvar google_conversion_format = \"3\";\r\nvar google_conversion_color = \"ffffff\";\r\nvar google_conversion_label = \"3e0rCNyc4lwQvrje0AM\";\r\nvar google_remarketing_only = false;\r\n/* ]]> */\r\n</script>\r\n<script type=\"text/javascript\" src=\"//www.googleadservices.com/pagead/conversion.js\">\r\n        </script>\r\n<noscript>\r\n    <div style=\"display:inline;\">\r\n    <img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\" src=\"//www.googleadservices.com/pagead/conversion/974625854/?label=3e0rCNyc4lwQvrje0AM&amp;guid=ON&amp;script=0\"/>\r\n    </div>\r\n</noscript>";
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/js/src/conversionpixels/adwords-remarketing.html":[function(require,module,exports){
-module.exports = "<!-- Google Code for Remarketing Tag -->\n<!--------------------------------------------------\nRemarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup\n--------------------------------------------------->\n<script type=\"text/javascript\">\n/* <![CDATA[ */\nvar google_conversion_id = 974625854;\nvar google_custom_params = window.google_tag_params;\nvar google_remarketing_only = true;\n/* ]]> */\n\n</script>\n<script type=\"text/javascript\" src=\"//www.googleadservices.com/pagead/conversion.js\">\n        </script>\n<noscript>\n    <div style=\"display:inline;\">\n    <img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\" src=\"//googleads.g.doubleclick.net/pagead/viewthroughconversion/974625854/?value=0&amp;guid=ON&amp;script=0\"/>\n    </div>\n</noscript>";
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\conversionpixels\\adwords-remarketing.html":[function(require,module,exports){
+module.exports = "<!-- Google Code for Remarketing Tag -->\r\n<!--------------------------------------------------\r\nRemarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup\r\n--------------------------------------------------->\r\n<script type=\"text/javascript\">\r\n/* <![CDATA[ */\r\nvar google_conversion_id = 974625854;\r\nvar google_custom_params = window.google_tag_params;\r\nvar google_remarketing_only = true;\r\n/* ]]> */\r\n\r\n</script>\r\n<script type=\"text/javascript\" src=\"//www.googleadservices.com/pagead/conversion.js\">\r\n        </script>\r\n<noscript>\r\n    <div style=\"display:inline;\">\r\n    <img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\" src=\"//googleads.g.doubleclick.net/pagead/viewthroughconversion/974625854/?value=0&amp;guid=ON&amp;script=0\"/>\r\n    </div>\r\n</noscript>";
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/js/src/conversionpixels/facebook-conversion.html":[function(require,module,exports){
-module.exports = "<!-- Facebook Conversion Code for Request Comparison -->\n<script>(function() {\n    var _fbq = window._fbq || (window._fbq = []);\n    if (!_fbq.loaded) {\n        var fbds = document.createElement('script');\n        fbds.async = true;\n        fbds.src = '//connect.facebook.net/en_US/fbds.js';\n        var s = document.getElementsByTagName('script')[0];\n        s.parentNode.insertBefore(fbds, s);\n        _fbq.loaded = true;\n    }\n})();\nwindow._fbq = window._fbq || [];\nwindow._fbq.push(['track', '6023095392834', {'value':'0.01','currency':'GBP'}]);\n</script>\n<noscript><img height=\"1\" width=\"1\" alt=\"\" style=\"display:none\" src=\"https://www.facebook.com/tr?ev=6023095392834&amp;cd[value]=0.01&amp;cd[currency]=GBP&amp;noscript=1\" /></noscript>";
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\conversionpixels\\facebook-conversion.html":[function(require,module,exports){
+module.exports = "<!-- Facebook Conversion Code for Request Comparison -->\r\n<script>(function() {\r\n    var _fbq = window._fbq || (window._fbq = []);\r\n    if (!_fbq.loaded) {\r\n        var fbds = document.createElement('script');\r\n        fbds.async = true;\r\n        fbds.src = '//connect.facebook.net/en_US/fbds.js';\r\n        var s = document.getElementsByTagName('script')[0];\r\n        s.parentNode.insertBefore(fbds, s);\r\n        _fbq.loaded = true;\r\n    }\r\n})();\r\nwindow._fbq = window._fbq || [];\r\nwindow._fbq.push(['track', '6023095392834', {'value':'0.01','currency':'GBP'}]);\r\n</script>\r\n<noscript><img height=\"1\" width=\"1\" alt=\"\" style=\"display:none\" src=\"https://www.facebook.com/tr?ev=6023095392834&amp;cd[value]=0.01&amp;cd[currency]=GBP&amp;noscript=1\" /></noscript>";
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/js/src/conversionpixels/facebook-remarketing.html":[function(require,module,exports){
-module.exports = "<script>(function() {\n    var _fbq = window._fbq || (window._fbq = []);\n    if (!_fbq.loaded) {\n        var fbds = document.createElement('script');\n        fbds.async = true;\n        fbds.src = '//connect.facebook.net/en_US/fbds.js';\n        var s = document.getElementsByTagName('script')[0];\n        s.parentNode.insertBefore(fbds, s);\n        _fbq.loaded = true;\n    }\n    _fbq.push(['addPixelId', '273592576098324']);\n})();\nwindow._fbq = window._fbq || [];\nwindow._fbq.push(['track', 'PixelInitialized', {}]);\n</script>\n<noscript><img height=\"1\" width=\"1\" alt=\"\" style=\"display:none\" src=\"https://www.facebook.com/tr?id=273592576098324&amp;ev=PixelInitialized\" /></noscript>";
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\conversionpixels\\facebook-remarketing.html":[function(require,module,exports){
+module.exports = "<script>(function() {\r\n    var _fbq = window._fbq || (window._fbq = []);\r\n    if (!_fbq.loaded) {\r\n        var fbds = document.createElement('script');\r\n        fbds.async = true;\r\n        fbds.src = '//connect.facebook.net/en_US/fbds.js';\r\n        var s = document.getElementsByTagName('script')[0];\r\n        s.parentNode.insertBefore(fbds, s);\r\n        _fbq.loaded = true;\r\n    }\r\n    _fbq.push(['addPixelId', '273592576098324']);\r\n})();\r\nwindow._fbq = window._fbq || [];\r\nwindow._fbq.push(['track', 'PixelInitialized', {}]);\r\n</script>\r\n<noscript><img height=\"1\" width=\"1\" alt=\"\" style=\"display:none\" src=\"https://www.facebook.com/tr?id=273592576098324&amp;ev=PixelInitialized\" /></noscript>";
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/js/src/models/CareseekerService.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\models\\CareseekerService.js":[function(require,module,exports){
 var $ = require('jquery-browserify');
 var config = require('./../config.js');
 
@@ -1239,7 +1257,7 @@ module.exports = {
    }
 };
 
-},{"./../config.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/config.js","jquery-browserify":"/Users/user/PhpstormProjects/careselector-compare/node_modules/jquery-browserify/lib/jquery.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/models/GoogleGeocodeApiService.js":[function(require,module,exports){
+},{"./../config.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\config.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\models\\GoogleGeocodeApiService.js":[function(require,module,exports){
 var $ = require('jquery-browserify');
 
 module.exports = {
@@ -1255,7 +1273,7 @@ module.exports = {
     }
 };
 
-},{"jquery-browserify":"/Users/user/PhpstormProjects/careselector-compare/node_modules/jquery-browserify/lib/jquery.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/models/HomesModel.js":[function(require,module,exports){
+},{"jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\models\\HomesModel.js":[function(require,module,exports){
 var $ = require('jquery-browserify');
 var config = require('./../config.js');
 var GeocodeService = require('./GoogleGeocodeApiService.js');
@@ -1303,7 +1321,7 @@ module.exports = {
     }
 };
 
-},{"./../config.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/config.js","./GoogleGeocodeApiService.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/models/GoogleGeocodeApiService.js","jquery-browserify":"/Users/user/PhpstormProjects/careselector-compare/node_modules/jquery-browserify/lib/jquery.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/pages/Compare.jsx":[function(require,module,exports){
+},{"./../config.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\config.js","./GoogleGeocodeApiService.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\models\\GoogleGeocodeApiService.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\Compare.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -1336,7 +1354,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./../components/ActiveFilters.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/ActiveFilters.jsx","./../components/HomesList.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/HomesList.jsx","./../components/HomesShortList.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/HomesShortList.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-google-analytics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/pages/Home.jsx":[function(require,module,exports){
+},{"./../components/ActiveFilters.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\ActiveFilters.jsx","./../components/HomesList.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesList.jsx","./../components/HomesShortList.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesShortList.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\Home.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -1378,7 +1396,7 @@ var Home = React.createClass({displayName: "Home",
 
 module.exports = Home;
 
-},{"./../components/AddressSearchBox.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/AddressSearchBox.jsx","./../components/PostcodeSearch.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/PostcodeSearch.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-google-analytics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/pages/SelectFilters.jsx":[function(require,module,exports){
+},{"./../components/AddressSearchBox.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\AddressSearchBox.jsx","./../components/PostcodeSearch.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\PostcodeSearch.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\SelectFilters.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -1414,7 +1432,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./../components/FilterSelector.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/FilterSelector.jsx","./../components/NumberOfCareHomesBanner.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/NumberOfCareHomesBanner.jsx","./../components/PostcodeSearch.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/PostcodeSearch.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-google-analytics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/pages/SubmitEmail.jsx":[function(require,module,exports){
+},{"./../components/FilterSelector.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\FilterSelector.jsx","./../components/NumberOfCareHomesBanner.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\NumberOfCareHomesBanner.jsx","./../components/PostcodeSearch.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\PostcodeSearch.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\SubmitEmail.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -1441,7 +1459,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./../components/SubmitEmailBox.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/SubmitEmailBox.jsx","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-google-analytics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/pages/ThankYou.jsx":[function(require,module,exports){
+},{"./../components/SubmitEmailBox.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\SubmitEmailBox.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\ThankYou.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -1474,7 +1492,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./../conversionpixels/adwords-conversion.html":"/Users/user/PhpstormProjects/careselector-compare/js/src/conversionpixels/adwords-conversion.html","./../conversionpixels/facebook-conversion.html":"/Users/user/PhpstormProjects/careselector-compare/js/src/conversionpixels/facebook-conversion.html","fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-google-analytics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/routes.jsx":[function(require,module,exports){
+},{"./../conversionpixels/adwords-conversion.html":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\conversionpixels\\adwords-conversion.html","./../conversionpixels/facebook-conversion.html":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\conversionpixels\\facebook-conversion.html","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\routes.jsx":[function(require,module,exports){
 var App = require('./App.jsx');
 var React = require('react');
 var Router = require('react-router');
@@ -1501,7 +1519,7 @@ var routes = (
 
 module.exports = routes;
 
-},{"./App.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/App.jsx","./components/Homes.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/components/Homes.jsx","./pages/Compare.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/pages/Compare.jsx","./pages/Home.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/pages/Home.jsx","./pages/SelectFilters.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/pages/SelectFilters.jsx","./pages/SubmitEmail.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/pages/SubmitEmail.jsx","./pages/ThankYou.jsx":"/Users/user/PhpstormProjects/careselector-compare/js/src/pages/ThankYou.jsx","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react-router":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/stores/AddressStore.js":[function(require,module,exports){
+},{"./App.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\App.jsx","./components/Homes.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\Homes.jsx","./pages/Compare.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\Compare.jsx","./pages/Home.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\Home.jsx","./pages/SelectFilters.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\SelectFilters.jsx","./pages/SubmitEmail.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\SubmitEmail.jsx","./pages/ThankYou.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\ThankYou.jsx","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\stores\\AddressStore.js":[function(require,module,exports){
 var Fluxxor = require('Fluxxor');
 var constants = require('./../constants.js');
 var $ = require('jquery-browserify');
@@ -1607,7 +1625,7 @@ module.exports = Fluxxor.createStore({
     }
 });
 
-},{"./../constants.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/constants.js","./../utils.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/utils.js","Fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/index.js","jquery-browserify":"/Users/user/PhpstormProjects/careselector-compare/node_modules/jquery-browserify/lib/jquery.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/stores/FilterStore.js":[function(require,module,exports){
+},{"./../constants.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\constants.js","./../utils.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\utils.js","Fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\index.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\stores\\FilterStore.js":[function(require,module,exports){
 var Fluxxor = require('Fluxxor');
 var constants = require('./../constants.js');
 
@@ -1672,7 +1690,7 @@ module.exports = Fluxxor.createStore({
 });
 
 
-},{"./../constants.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/constants.js","Fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/stores/HomesStore.js":[function(require,module,exports){
+},{"./../constants.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\constants.js","Fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\stores\\HomesStore.js":[function(require,module,exports){
 var Fluxxor = require('Fluxxor');
 var constants = require('./../constants.js');
 
@@ -1793,14 +1811,14 @@ module.exports = Fluxxor.createStore({
     }
 });
 
-},{"./../constants.js":"/Users/user/PhpstormProjects/careselector-compare/js/src/constants.js","Fluxxor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/js/src/utils.js":[function(require,module,exports){
+},{"./../constants.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\constants.js","Fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\utils.js":[function(require,module,exports){
 module.exports = {
     arrayContains: function (array, value) {
         return array.indexOf(value) !== -1;
     }
 };
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\index.js":[function(require,module,exports){
 var Dispatcher = require("./lib/dispatcher"),
     Flux = require("./lib/flux"),
     FluxMixin = require("./lib/flux_mixin"),
@@ -1820,9 +1838,9 @@ var Fluxxor = {
 
 module.exports = Fluxxor;
 
-},{"./lib/create_store":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/create_store.js","./lib/dispatcher":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/dispatcher.js","./lib/flux":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/flux.js","./lib/flux_child_mixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/flux_child_mixin.js","./lib/flux_mixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/flux_mixin.js","./lib/store_watch_mixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/store_watch_mixin.js","./version":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/version.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/create_store.js":[function(require,module,exports){
-var _each = require("lodash-node/modern/collection/forEach"),
-    _isFunction = require("lodash-node/modern/lang/isFunction"),
+},{"./lib/create_store":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\create_store.js","./lib/dispatcher":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\dispatcher.js","./lib/flux":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux.js","./lib/flux_child_mixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_child_mixin.js","./lib/flux_mixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_mixin.js","./lib/store_watch_mixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\store_watch_mixin.js","./version":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\version.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\create_store.js":[function(require,module,exports){
+var _each = require("lodash/collection/forEach"),
+    _isFunction = require("lodash/lang/isFunction"),
     Store = require("./store"),
     inherits = require("./util/inherits");
 
@@ -1862,23 +1880,29 @@ var createStore = function(spec) {
 
 module.exports = createStore;
 
-},{"./store":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/store.js","./util/inherits":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/util/inherits.js","lodash-node/modern/collection/forEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/collection/forEach.js","lodash-node/modern/lang/isFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isFunction.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/dispatcher.js":[function(require,module,exports){
-var _clone = require("lodash-node/modern/lang/clone"),
-    _mapValues = require("lodash-node/modern/object/mapValues"),
-    _forOwn = require("lodash-node/modern/object/forOwn"),
-    _intersection = require("lodash-node/modern/array/intersection"),
-    _keys = require("lodash-node/modern/object/keys"),
-    _map = require("lodash-node/modern/collection/map"),
-    _each = require("lodash-node/modern/collection/forEach"),
-    _size = require("lodash-node/modern/collection/size"),
-    _findKey = require("lodash-node/modern/object/findKey"),
-    _uniq = require("lodash-node/modern/array/uniq");
+},{"./store":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\store.js","./util/inherits":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\util\\inherits.js","lodash/collection/forEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\forEach.js","lodash/lang/isFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isFunction.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\dispatcher.js":[function(require,module,exports){
+var _clone = require("lodash/lang/clone"),
+    _mapValues = require("lodash/object/mapValues"),
+    _forOwn = require("lodash/object/forOwn"),
+    _intersection = require("lodash/array/intersection"),
+    _keys = require("lodash/object/keys"),
+    _map = require("lodash/collection/map"),
+    _each = require("lodash/collection/forEach"),
+    _size = require("lodash/collection/size"),
+    _findKey = require("lodash/object/findKey"),
+    _uniq = require("lodash/array/uniq");
+
+var defaultDispatchInterceptor = function(action, dispatch) {
+  dispatch(action);
+};
 
 var Dispatcher = function(stores) {
   this.stores = {};
   this.currentDispatch = null;
   this.currentActionType = null;
   this.waitingToDispatch = [];
+  this.dispatchInterceptor = defaultDispatchInterceptor;
+  this._boundDispatch = this._dispatch.bind(this);
 
   for (var key in stores) {
     if (stores.hasOwnProperty(key)) {
@@ -1893,6 +1917,10 @@ Dispatcher.prototype.addStore = function(name, store) {
 };
 
 Dispatcher.prototype.dispatch = function(action) {
+  this.dispatchInterceptor(action, this._boundDispatch);
+};
+
+Dispatcher.prototype._dispatch = function(action) {
   if (!action || !action.type) {
     throw new Error("Can only dispatch actions with a 'type' property");
   }
@@ -2006,16 +2034,24 @@ Dispatcher.prototype.waitForStores = function(store, stores, fn) {
   dispatch.waitCallback = fn;
 };
 
+Dispatcher.prototype.setDispatchInterceptor = function(fn) {
+  if (fn) {
+    this.dispatchInterceptor = fn;
+  } else {
+    this.dispatchInterceptor = defaultDispatchInterceptor;
+  }
+};
+
 module.exports = Dispatcher;
 
-},{"lodash-node/modern/array/intersection":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/array/intersection.js","lodash-node/modern/array/uniq":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/array/uniq.js","lodash-node/modern/collection/forEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/collection/forEach.js","lodash-node/modern/collection/map":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/collection/map.js","lodash-node/modern/collection/size":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/collection/size.js","lodash-node/modern/lang/clone":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/clone.js","lodash-node/modern/object/findKey":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/findKey.js","lodash-node/modern/object/forOwn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/forOwn.js","lodash-node/modern/object/keys":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/keys.js","lodash-node/modern/object/mapValues":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/mapValues.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/flux.js":[function(require,module,exports){
+},{"lodash/array/intersection":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\intersection.js","lodash/array/uniq":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\uniq.js","lodash/collection/forEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\forEach.js","lodash/collection/map":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\map.js","lodash/collection/size":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\size.js","lodash/lang/clone":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\clone.js","lodash/object/findKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\findKey.js","lodash/object/forOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\forOwn.js","lodash/object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keys.js","lodash/object/mapValues":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\mapValues.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux.js":[function(require,module,exports){
 var EventEmitter = require("eventemitter3"),
     inherits = require("./util/inherits"),
     objectPath = require("object-path"),
-    _each = require("lodash-node/modern/collection/forEach"),
-    _reduce = require("lodash-node/modern/collection/reduce"),
-    _isFunction = require("lodash-node/modern/lang/isFunction"),
-    _isString = require("lodash-node/modern/lang/isString");
+    _each = require("lodash/collection/forEach"),
+    _reduce = require("lodash/collection/reduce"),
+    _isFunction = require("lodash/lang/isFunction"),
+    _isString = require("lodash/lang/isString");
 
 var Dispatcher = require("./dispatcher");
 
@@ -2127,9 +2163,13 @@ Flux.prototype.addStores = function(stores) {
   }
 };
 
+Flux.prototype.setDispatchInterceptor = function(fn) {
+  this.dispatcher.setDispatchInterceptor(fn);
+};
+
 module.exports = Flux;
 
-},{"./dispatcher":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/dispatcher.js","./util/inherits":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/util/inherits.js","eventemitter3":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/eventemitter3/index.js","lodash-node/modern/collection/forEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/collection/forEach.js","lodash-node/modern/collection/reduce":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/collection/reduce.js","lodash-node/modern/lang/isFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isFunction.js","lodash-node/modern/lang/isString":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isString.js","object-path":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/object-path/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/flux_child_mixin.js":[function(require,module,exports){
+},{"./dispatcher":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\dispatcher.js","./util/inherits":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\util\\inherits.js","eventemitter3":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\eventemitter3\\index.js","lodash/collection/forEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\forEach.js","lodash/collection/reduce":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\reduce.js","lodash/lang/isFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isFunction.js","lodash/lang/isString":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isString.js","object-path":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\object-path\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_child_mixin.js":[function(require,module,exports){
 var FluxChildMixin = function(React) {
   return {
     componentWillMount: function() {
@@ -2158,7 +2198,7 @@ FluxChildMixin.componentWillMount = function() {
 
 module.exports = FluxChildMixin;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/flux_mixin.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_mixin.js":[function(require,module,exports){
 var FluxMixin = function(React) {
   return {
     componentWillMount: function() {
@@ -2195,11 +2235,11 @@ FluxMixin.componentWillMount = function() {
 
 module.exports = FluxMixin;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/store.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\store.js":[function(require,module,exports){
 var EventEmitter = require("eventemitter3"),
     inherits = require("./util/inherits"),
-    _isFunction = require("lodash-node/modern/lang/isFunction"),
-    _isObject = require("lodash-node/modern/lang/isObject");
+    _isFunction = require("lodash/lang/isFunction"),
+    _isObject = require("lodash/lang/isObject");
 
 function Store(dispatcher) {
   this.dispatcher = dispatcher;
@@ -2267,8 +2307,8 @@ Store.prototype.waitFor = function(stores, fn) {
 
 module.exports = Store;
 
-},{"./util/inherits":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/util/inherits.js","eventemitter3":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/eventemitter3/index.js","lodash-node/modern/lang/isFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isFunction.js","lodash-node/modern/lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/store_watch_mixin.js":[function(require,module,exports){
-var _each = require("lodash-node/modern/collection/forEach");
+},{"./util/inherits":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\util\\inherits.js","eventemitter3":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\eventemitter3\\index.js","lodash/lang/isFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isFunction.js","lodash/lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\store_watch_mixin.js":[function(require,module,exports){
+var _each = require("lodash/collection/forEach");
 
 var StoreWatchMixin = function() {
   var storeNames = Array.prototype.slice.call(arguments);
@@ -2307,7 +2347,7 @@ StoreWatchMixin.componentWillMount = function() {
 
 module.exports = StoreWatchMixin;
 
-},{"lodash-node/modern/collection/forEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/collection/forEach.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/util/inherits.js":[function(require,module,exports){
+},{"lodash/collection/forEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\forEach.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\util\\inherits.js":[function(require,module,exports){
 // From https://github.com/isaacs/inherits
 // inherits is licensed under the ISC license:
 //
@@ -2352,7 +2392,7 @@ if (typeof Object.create === 'function') {
   };
 }
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/eventemitter3/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\eventemitter3\\index.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -2583,20 +2623,16 @@ EventEmitter.EventEmitter3 = EventEmitter;
 //
 module.exports = EventEmitter;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/array/intersection.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\intersection.js":[function(require,module,exports){
 var baseIndexOf = require('../internal/baseIndexOf'),
     cacheIndexOf = require('../internal/cacheIndexOf'),
     createCache = require('../internal/createCache'),
-    isArguments = require('../lang/isArguments'),
-    isArray = require('../lang/isArray');
+    isArrayLike = require('../internal/isArrayLike');
 
 /**
- * Creates an array of unique values in all provided arrays using `SameValueZero`
+ * Creates an array of unique values in all provided arrays using
+ * [`SameValueZero`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-samevaluezero)
  * for equality comparisons.
- *
- * **Note:** [`SameValueZero`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-samevaluezero)
- * comparisons are like strict equality comparisons, e.g. `===`, except that
- * `NaN` matches `NaN`.
  *
  * @static
  * @memberOf _
@@ -2618,7 +2654,7 @@ function intersection() {
 
   while (++argsIndex < argsLength) {
     var value = arguments[argsIndex];
-    if (isArray(value) || isArguments(value)) {
+    if (isArrayLike(value)) {
       args.push(value);
       caches.push((isCommon && value.length >= 120) ? createCache(argsIndex && value) : null);
     }
@@ -2654,7 +2690,7 @@ function intersection() {
 
 module.exports = intersection;
 
-},{"../internal/baseIndexOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseIndexOf.js","../internal/cacheIndexOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/cacheIndexOf.js","../internal/createCache":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createCache.js","../lang/isArguments":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArguments.js","../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArray.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/array/last.js":[function(require,module,exports){
+},{"../internal/baseIndexOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIndexOf.js","../internal/cacheIndexOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\cacheIndexOf.js","../internal/createCache":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createCache.js","../internal/isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\last.js":[function(require,module,exports){
 /**
  * Gets the last element of `array`.
  *
@@ -2675,15 +2711,16 @@ function last(array) {
 
 module.exports = last;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/array/uniq.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\uniq.js":[function(require,module,exports){
 var baseCallback = require('../internal/baseCallback'),
     baseUniq = require('../internal/baseUniq'),
     isIterateeCall = require('../internal/isIterateeCall'),
     sortedUniq = require('../internal/sortedUniq');
 
 /**
- * Creates a duplicate-free version of an array, using `SameValueZero` for
- * equality comparisons, in which only the first occurence of each element
+ * Creates a duplicate-free version of an array, using
+ * [`SameValueZero`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-samevaluezero)
+ * for equality comparisons, in which only the first occurence of each element
  * is kept. Providing `true` for `isSorted` performs a faster search algorithm
  * for sorted arrays. If an iteratee function is provided it is invoked for
  * each element in the array to generate the criterion by which uniqueness
@@ -2700,10 +2737,6 @@ var baseCallback = require('../internal/baseCallback'),
  * If an object is provided for `iteratee` the created `_.matches` style
  * callback returns `true` for elements that have the properties of the given
  * object, else `false`.
- *
- * **Note:** [`SameValueZero`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-samevaluezero)
- * comparisons are like strict equality comparisons, e.g. `===`, except that
- * `NaN` matches `NaN`.
  *
  * @static
  * @memberOf _
@@ -2751,7 +2784,7 @@ function uniq(array, isSorted, iteratee, thisArg) {
 
 module.exports = uniq;
 
-},{"../internal/baseCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseCallback.js","../internal/baseUniq":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseUniq.js","../internal/isIterateeCall":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isIterateeCall.js","../internal/sortedUniq":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/sortedUniq.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/collection/forEach.js":[function(require,module,exports){
+},{"../internal/baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","../internal/baseUniq":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseUniq.js","../internal/isIterateeCall":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIterateeCall.js","../internal/sortedUniq":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\sortedUniq.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\forEach.js":[function(require,module,exports){
 var arrayEach = require('../internal/arrayEach'),
     baseEach = require('../internal/baseEach'),
     createForEach = require('../internal/createForEach');
@@ -2790,7 +2823,7 @@ var forEach = createForEach(arrayEach, baseEach);
 
 module.exports = forEach;
 
-},{"../internal/arrayEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/arrayEach.js","../internal/baseEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseEach.js","../internal/createForEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createForEach.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/collection/map.js":[function(require,module,exports){
+},{"../internal/arrayEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayEach.js","../internal/baseEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseEach.js","../internal/createForEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createForEach.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\map.js":[function(require,module,exports){
 var arrayMap = require('../internal/arrayMap'),
     baseCallback = require('../internal/baseCallback'),
     baseMap = require('../internal/baseMap'),
@@ -2816,10 +2849,11 @@ var arrayMap = require('../internal/arrayMap'),
  * `_.every`, `_.filter`, `_.map`, `_.mapValues`, `_.reject`, and `_.some`.
  *
  * The guarded methods are:
- * `ary`, `callback`, `chunk`, `clone`, `create`, `curry`, `curryRight`, `drop`,
- * `dropRight`, `every`, `fill`, `flatten`, `invert`, `max`, `min`, `parseInt`,
- * `slice`, `sortBy`, `take`, `takeRight`, `template`, `trim`, `trimLeft`,
- * `trimRight`, `trunc`, `random`, `range`, `sample`, `some`, `uniq`, and `words`
+ * `ary`, `callback`, `chunk`, `clone`, `create`, `curry`, `curryRight`,
+ * `drop`, `dropRight`, `every`, `fill`, `flatten`, `invert`, `max`, `min`,
+ * `parseInt`, `slice`, `sortBy`, `take`, `takeRight`, `template`, `trim`,
+ * `trimLeft`, `trimRight`, `trunc`, `random`, `range`, `sample`, `some`,
+ * `sum`, `uniq`, and `words`
  *
  * @static
  * @memberOf _
@@ -2859,7 +2893,7 @@ function map(collection, iteratee, thisArg) {
 
 module.exports = map;
 
-},{"../internal/arrayMap":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/arrayMap.js","../internal/baseCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseCallback.js","../internal/baseMap":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseMap.js","../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArray.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/collection/reduce.js":[function(require,module,exports){
+},{"../internal/arrayMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayMap.js","../internal/baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","../internal/baseMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMap.js","../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\reduce.js":[function(require,module,exports){
 var arrayReduce = require('../internal/arrayReduce'),
     baseEach = require('../internal/baseEach'),
     createReduce = require('../internal/createReduce');
@@ -2904,7 +2938,7 @@ var reduce = createReduce(arrayReduce, baseEach);
 
 module.exports = reduce;
 
-},{"../internal/arrayReduce":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/arrayReduce.js","../internal/baseEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseEach.js","../internal/createReduce":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createReduce.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/collection/size.js":[function(require,module,exports){
+},{"../internal/arrayReduce":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayReduce.js","../internal/baseEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseEach.js","../internal/createReduce":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createReduce.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\size.js":[function(require,module,exports){
 var getLength = require('../internal/getLength'),
     isLength = require('../internal/isLength'),
     keys = require('../object/keys');
@@ -2936,7 +2970,7 @@ function size(collection) {
 
 module.exports = size;
 
-},{"../internal/getLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/getLength.js","../internal/isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isLength.js","../object/keys":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/keys.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/SetCache.js":[function(require,module,exports){
+},{"../internal/getLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\getLength.js","../internal/isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js","../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keys.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\SetCache.js":[function(require,module,exports){
 (function (global){
 var cachePush = require('./cachePush'),
     isNative = require('../lang/isNative');
@@ -2969,7 +3003,7 @@ SetCache.prototype.push = cachePush;
 module.exports = SetCache;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"../lang/isNative":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isNative.js","./cachePush":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/cachePush.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/arrayCopy.js":[function(require,module,exports){
+},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js","./cachePush":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\cachePush.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayCopy.js":[function(require,module,exports){
 /**
  * Copies the values of `source` to `array`.
  *
@@ -2991,7 +3025,7 @@ function arrayCopy(source, array) {
 
 module.exports = arrayCopy;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/arrayEach.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayEach.js":[function(require,module,exports){
 /**
  * A specialized version of `_.forEach` for arrays without support for callback
  * shorthands and `this` binding.
@@ -3015,7 +3049,7 @@ function arrayEach(array, iteratee) {
 
 module.exports = arrayEach;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/arrayMap.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayMap.js":[function(require,module,exports){
 /**
  * A specialized version of `_.map` for arrays without support for callback
  * shorthands and `this` binding.
@@ -3038,7 +3072,7 @@ function arrayMap(array, iteratee) {
 
 module.exports = arrayMap;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/arrayReduce.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayReduce.js":[function(require,module,exports){
 /**
  * A specialized version of `_.reduce` for arrays without support for callback
  * shorthands and `this` binding.
@@ -3066,14 +3100,14 @@ function arrayReduce(array, iteratee, accumulator, initFromArray) {
 
 module.exports = arrayReduce;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseAssign.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseAssign.js":[function(require,module,exports){
 var baseCopy = require('./baseCopy'),
     getSymbols = require('./getSymbols'),
     isNative = require('../lang/isNative'),
     keys = require('../object/keys');
 
 /** Native method references. */
-var preventExtensions = isNative(Object.preventExtensions = Object.preventExtensions) && preventExtensions;
+var preventExtensions = isNative(preventExtensions = Object.preventExtensions) && preventExtensions;
 
 /** Used as `baseAssign`. */
 var nativeAssign = (function() {
@@ -3083,12 +3117,19 @@ var nativeAssign = (function() {
   //
   // Use `Object.preventExtensions` on a plain object instead of simply using
   // `Object('x')` because Chrome and IE fail to throw an error when attempting
-  // to assign values to readonly indexes of strings in strict mode.
-  var object = { '1': 0 },
-      func = preventExtensions && isNative(func = Object.assign) && func;
-
-  try { func(preventExtensions(object), 'xo'); } catch(e) {}
-  return !object[1] && func;
+  // to assign values to readonly indexes of strings.
+  var func = preventExtensions && isNative(func = Object.assign) && func;
+  try {
+    if (func) {
+      var object = preventExtensions({ '1': 0 });
+      object[0] = 1;
+    }
+  } catch(e) {
+    // Only attempt in strict mode.
+    try { func(object, 'xo'); } catch(e) {}
+    return !object[1] && func;
+  }
+  return false;
 }());
 
 /**
@@ -3108,7 +3149,7 @@ var baseAssign = nativeAssign || function(object, source) {
 
 module.exports = baseAssign;
 
-},{"../lang/isNative":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isNative.js","../object/keys":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/keys.js","./baseCopy":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseCopy.js","./getSymbols":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/getSymbols.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseCallback.js":[function(require,module,exports){
+},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js","../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keys.js","./baseCopy":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCopy.js","./getSymbols":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\getSymbols.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCallback.js":[function(require,module,exports){
 var baseMatches = require('./baseMatches'),
     baseMatchesProperty = require('./baseMatchesProperty'),
     bindCallback = require('./bindCallback'),
@@ -3145,7 +3186,7 @@ function baseCallback(func, thisArg, argCount) {
 
 module.exports = baseCallback;
 
-},{"../utility/identity":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/utility/identity.js","../utility/property":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/utility/property.js","./baseMatches":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseMatches.js","./baseMatchesProperty":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseMatchesProperty.js","./bindCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/bindCallback.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseClone.js":[function(require,module,exports){
+},{"../utility/identity":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\identity.js","../utility/property":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\property.js","./baseMatches":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMatches.js","./baseMatchesProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMatchesProperty.js","./bindCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bindCallback.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseClone.js":[function(require,module,exports){
 var arrayCopy = require('./arrayCopy'),
     arrayEach = require('./arrayEach'),
     baseAssign = require('./baseAssign'),
@@ -3275,7 +3316,7 @@ function baseClone(value, isDeep, customizer, key, object, stackA, stackB) {
 
 module.exports = baseClone;
 
-},{"../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArray.js","../lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isObject.js","./arrayCopy":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/arrayCopy.js","./arrayEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/arrayEach.js","./baseAssign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseAssign.js","./baseForOwn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseForOwn.js","./initCloneArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/initCloneArray.js","./initCloneByTag":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/initCloneByTag.js","./initCloneObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/initCloneObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseCopy.js":[function(require,module,exports){
+},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js","./arrayCopy":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayCopy.js","./arrayEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayEach.js","./baseAssign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseAssign.js","./baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js","./initCloneArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneArray.js","./initCloneByTag":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneByTag.js","./initCloneObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCopy.js":[function(require,module,exports){
 /**
  * Copies properties of `source` to `object`.
  *
@@ -3300,7 +3341,7 @@ function baseCopy(source, props, object) {
 
 module.exports = baseCopy;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseEach.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseEach.js":[function(require,module,exports){
 var baseForOwn = require('./baseForOwn'),
     createBaseEach = require('./createBaseEach');
 
@@ -3317,7 +3358,7 @@ var baseEach = createBaseEach(baseForOwn);
 
 module.exports = baseEach;
 
-},{"./baseForOwn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseForOwn.js","./createBaseEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createBaseEach.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseFind.js":[function(require,module,exports){
+},{"./baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js","./createBaseEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createBaseEach.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseFind.js":[function(require,module,exports){
 /**
  * The base implementation of `_.find`, `_.findLast`, `_.findKey`, and `_.findLastKey`,
  * without support for callback shorthands and `this` binding, which iterates
@@ -3344,7 +3385,7 @@ function baseFind(collection, predicate, eachFunc, retKey) {
 
 module.exports = baseFind;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseFor.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseFor.js":[function(require,module,exports){
 var createBaseFor = require('./createBaseFor');
 
 /**
@@ -3363,7 +3404,7 @@ var baseFor = createBaseFor();
 
 module.exports = baseFor;
 
-},{"./createBaseFor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createBaseFor.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseForOwn.js":[function(require,module,exports){
+},{"./createBaseFor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createBaseFor.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js":[function(require,module,exports){
 var baseFor = require('./baseFor'),
     keys = require('../object/keys');
 
@@ -3382,7 +3423,7 @@ function baseForOwn(object, iteratee) {
 
 module.exports = baseForOwn;
 
-},{"../object/keys":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/keys.js","./baseFor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseFor.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseGet.js":[function(require,module,exports){
+},{"../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keys.js","./baseFor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseFor.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseGet.js":[function(require,module,exports){
 var toObject = require('./toObject');
 
 /**
@@ -3406,14 +3447,14 @@ function baseGet(object, path, pathKey) {
       length = path.length;
 
   while (object != null && ++index < length) {
-    var result = object = object[path[index]];
+    object = object[path[index]];
   }
-  return result;
+  return (index && index == length) ? object : undefined;
 }
 
 module.exports = baseGet;
 
-},{"./toObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/toObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseIndexOf.js":[function(require,module,exports){
+},{"./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIndexOf.js":[function(require,module,exports){
 var indexOfNaN = require('./indexOfNaN');
 
 /**
@@ -3442,7 +3483,7 @@ function baseIndexOf(array, value, fromIndex) {
 
 module.exports = baseIndexOf;
 
-},{"./indexOfNaN":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/indexOfNaN.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseIsEqual.js":[function(require,module,exports){
+},{"./indexOfNaN":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\indexOfNaN.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsEqual.js":[function(require,module,exports){
 var baseIsEqualDeep = require('./baseIsEqualDeep');
 
 /**
@@ -3461,8 +3502,7 @@ var baseIsEqualDeep = require('./baseIsEqualDeep');
 function baseIsEqual(value, other, customizer, isLoose, stackA, stackB) {
   // Exit early for identical values.
   if (value === other) {
-    // Treat `+0` vs. `-0` as not equal.
-    return value !== 0 || (1 / value == 1 / other);
+    return true;
   }
   var valType = typeof value,
       othType = typeof other;
@@ -3478,7 +3518,7 @@ function baseIsEqual(value, other, customizer, isLoose, stackA, stackB) {
 
 module.exports = baseIsEqual;
 
-},{"./baseIsEqualDeep":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseIsEqualDeep.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseIsEqualDeep.js":[function(require,module,exports){
+},{"./baseIsEqualDeep":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsEqualDeep.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsEqualDeep.js":[function(require,module,exports){
 var equalArrays = require('./equalArrays'),
     equalByTag = require('./equalByTag'),
     equalObjects = require('./equalObjects'),
@@ -3582,7 +3622,7 @@ function baseIsEqualDeep(object, other, equalFunc, customizer, isLoose, stackA, 
 
 module.exports = baseIsEqualDeep;
 
-},{"../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArray.js","../lang/isTypedArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isTypedArray.js","./equalArrays":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/equalArrays.js","./equalByTag":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/equalByTag.js","./equalObjects":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/equalObjects.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseIsFunction.js":[function(require,module,exports){
+},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","../lang/isTypedArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isTypedArray.js","./equalArrays":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalArrays.js","./equalByTag":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalByTag.js","./equalObjects":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalObjects.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsFunction.js":[function(require,module,exports){
 /**
  * The base implementation of `_.isFunction` without support for environments
  * with incorrect `typeof` results.
@@ -3599,7 +3639,7 @@ function baseIsFunction(value) {
 
 module.exports = baseIsFunction;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseIsMatch.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsMatch.js":[function(require,module,exports){
 var baseIsEqual = require('./baseIsEqual');
 
 /**
@@ -3650,10 +3690,9 @@ function baseIsMatch(object, props, values, strictCompareFlags, customizer) {
 
 module.exports = baseIsMatch;
 
-},{"./baseIsEqual":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseIsEqual.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseMap.js":[function(require,module,exports){
+},{"./baseIsEqual":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsEqual.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMap.js":[function(require,module,exports){
 var baseEach = require('./baseEach'),
-    getLength = require('./getLength'),
-    isLength = require('./isLength');
+    isArrayLike = require('./isArrayLike');
 
 /**
  * The base implementation of `_.map` without support for callback shorthands
@@ -3666,8 +3705,7 @@ var baseEach = require('./baseEach'),
  */
 function baseMap(collection, iteratee) {
   var index = -1,
-      length = getLength(collection),
-      result = isLength(length) ? Array(length) : [];
+      result = isArrayLike(collection) ? Array(collection.length) : [];
 
   baseEach(collection, function(value, key, collection) {
     result[++index] = iteratee(value, key, collection);
@@ -3677,7 +3715,7 @@ function baseMap(collection, iteratee) {
 
 module.exports = baseMap;
 
-},{"./baseEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseEach.js","./getLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/getLength.js","./isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isLength.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseMatches.js":[function(require,module,exports){
+},{"./baseEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseEach.js","./isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMatches.js":[function(require,module,exports){
 var baseIsMatch = require('./baseIsMatch'),
     constant = require('../utility/constant'),
     isStrictComparable = require('./isStrictComparable'),
@@ -3726,7 +3764,7 @@ function baseMatches(source) {
 
 module.exports = baseMatches;
 
-},{"../object/keys":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/keys.js","../utility/constant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/utility/constant.js","./baseIsMatch":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseIsMatch.js","./isStrictComparable":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isStrictComparable.js","./toObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/toObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseMatchesProperty.js":[function(require,module,exports){
+},{"../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keys.js","../utility/constant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\constant.js","./baseIsMatch":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsMatch.js","./isStrictComparable":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isStrictComparable.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMatchesProperty.js":[function(require,module,exports){
 var baseGet = require('./baseGet'),
     baseIsEqual = require('./baseIsEqual'),
     baseSlice = require('./baseSlice'),
@@ -3774,7 +3812,7 @@ function baseMatchesProperty(path, value) {
 
 module.exports = baseMatchesProperty;
 
-},{"../array/last":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/array/last.js","../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArray.js","./baseGet":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseGet.js","./baseIsEqual":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseIsEqual.js","./baseSlice":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseSlice.js","./isKey":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isKey.js","./isStrictComparable":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isStrictComparable.js","./toObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/toObject.js","./toPath":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/toPath.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseProperty.js":[function(require,module,exports){
+},{"../array/last":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\last.js","../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","./baseGet":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseGet.js","./baseIsEqual":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsEqual.js","./baseSlice":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseSlice.js","./isKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isKey.js","./isStrictComparable":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isStrictComparable.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js","./toPath":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toPath.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseProperty.js":[function(require,module,exports){
 /**
  * The base implementation of `_.property` without support for deep paths.
  *
@@ -3790,7 +3828,7 @@ function baseProperty(key) {
 
 module.exports = baseProperty;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/basePropertyDeep.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\basePropertyDeep.js":[function(require,module,exports){
 var baseGet = require('./baseGet'),
     toPath = require('./toPath');
 
@@ -3811,7 +3849,7 @@ function basePropertyDeep(path) {
 
 module.exports = basePropertyDeep;
 
-},{"./baseGet":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseGet.js","./toPath":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/toPath.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseReduce.js":[function(require,module,exports){
+},{"./baseGet":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseGet.js","./toPath":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toPath.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseReduce.js":[function(require,module,exports){
 /**
  * The base implementation of `_.reduce` and `_.reduceRight` without support
  * for callback shorthands and `this` binding, which iterates over `collection`
@@ -3837,7 +3875,7 @@ function baseReduce(collection, iteratee, accumulator, initFromCollection, eachF
 
 module.exports = baseReduce;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseSlice.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseSlice.js":[function(require,module,exports){
 /**
  * The base implementation of `_.slice` without an iteratee call guard.
  *
@@ -3871,7 +3909,7 @@ function baseSlice(array, start, end) {
 
 module.exports = baseSlice;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseToString.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseToString.js":[function(require,module,exports){
 /**
  * Converts `value` to a string if it is not one. An empty string is returned
  * for `null` or `undefined` values.
@@ -3889,7 +3927,7 @@ function baseToString(value) {
 
 module.exports = baseToString;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseUniq.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseUniq.js":[function(require,module,exports){
 var baseIndexOf = require('./baseIndexOf'),
     cacheIndexOf = require('./cacheIndexOf'),
     createCache = require('./createCache');
@@ -3948,7 +3986,7 @@ function baseUniq(array, iteratee) {
 
 module.exports = baseUniq;
 
-},{"./baseIndexOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseIndexOf.js","./cacheIndexOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/cacheIndexOf.js","./createCache":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createCache.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/bindCallback.js":[function(require,module,exports){
+},{"./baseIndexOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIndexOf.js","./cacheIndexOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\cacheIndexOf.js","./createCache":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createCache.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bindCallback.js":[function(require,module,exports){
 var identity = require('../utility/identity');
 
 /**
@@ -3989,7 +4027,7 @@ function bindCallback(func, thisArg, argCount) {
 
 module.exports = bindCallback;
 
-},{"../utility/identity":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/utility/identity.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/bufferClone.js":[function(require,module,exports){
+},{"../utility/identity":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\identity.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bufferClone.js":[function(require,module,exports){
 (function (global){
 var constant = require('../utility/constant'),
     isNative = require('../lang/isNative');
@@ -4048,7 +4086,7 @@ if (!bufferSlice) {
 module.exports = bufferClone;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"../lang/isNative":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isNative.js","../utility/constant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/utility/constant.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/cacheIndexOf.js":[function(require,module,exports){
+},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js","../utility/constant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\constant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\cacheIndexOf.js":[function(require,module,exports){
 var isObject = require('../lang/isObject');
 
 /**
@@ -4069,7 +4107,7 @@ function cacheIndexOf(cache, value) {
 
 module.exports = cacheIndexOf;
 
-},{"../lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/cachePush.js":[function(require,module,exports){
+},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\cachePush.js":[function(require,module,exports){
 var isObject = require('../lang/isObject');
 
 /**
@@ -4091,7 +4129,7 @@ function cachePush(value) {
 
 module.exports = cachePush;
 
-},{"../lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createBaseEach.js":[function(require,module,exports){
+},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createBaseEach.js":[function(require,module,exports){
 var getLength = require('./getLength'),
     isLength = require('./isLength'),
     toObject = require('./toObject');
@@ -4124,7 +4162,7 @@ function createBaseEach(eachFunc, fromRight) {
 
 module.exports = createBaseEach;
 
-},{"./getLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/getLength.js","./isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isLength.js","./toObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/toObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createBaseFor.js":[function(require,module,exports){
+},{"./getLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\getLength.js","./isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createBaseFor.js":[function(require,module,exports){
 var toObject = require('./toObject');
 
 /**
@@ -4153,7 +4191,7 @@ function createBaseFor(fromRight) {
 
 module.exports = createBaseFor;
 
-},{"./toObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/toObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createCache.js":[function(require,module,exports){
+},{"./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createCache.js":[function(require,module,exports){
 (function (global){
 var SetCache = require('./SetCache'),
     constant = require('../utility/constant'),
@@ -4179,7 +4217,7 @@ var createCache = !(nativeCreate && Set) ? constant(null) : function(values) {
 module.exports = createCache;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"../lang/isNative":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isNative.js","../utility/constant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/utility/constant.js","./SetCache":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/SetCache.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createFindKey.js":[function(require,module,exports){
+},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js","../utility/constant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\constant.js","./SetCache":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\SetCache.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createFindKey.js":[function(require,module,exports){
 var baseCallback = require('./baseCallback'),
     baseFind = require('./baseFind');
 
@@ -4199,7 +4237,7 @@ function createFindKey(objectFunc) {
 
 module.exports = createFindKey;
 
-},{"./baseCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseCallback.js","./baseFind":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseFind.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createForEach.js":[function(require,module,exports){
+},{"./baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","./baseFind":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseFind.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createForEach.js":[function(require,module,exports){
 var bindCallback = require('./bindCallback'),
     isArray = require('../lang/isArray');
 
@@ -4221,7 +4259,7 @@ function createForEach(arrayFunc, eachFunc) {
 
 module.exports = createForEach;
 
-},{"../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArray.js","./bindCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/bindCallback.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createForOwn.js":[function(require,module,exports){
+},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","./bindCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bindCallback.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createForOwn.js":[function(require,module,exports){
 var bindCallback = require('./bindCallback');
 
 /**
@@ -4242,7 +4280,35 @@ function createForOwn(objectFunc) {
 
 module.exports = createForOwn;
 
-},{"./bindCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/bindCallback.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createReduce.js":[function(require,module,exports){
+},{"./bindCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bindCallback.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createObjectMapper.js":[function(require,module,exports){
+var baseCallback = require('./baseCallback'),
+    baseForOwn = require('./baseForOwn');
+
+/**
+ * Creates a function for `_.mapKeys` or `_.mapValues`.
+ *
+ * @private
+ * @param {boolean} [isMapKeys] Specify mapping keys instead of values.
+ * @returns {Function} Returns the new map function.
+ */
+function createObjectMapper(isMapKeys) {
+  return function(object, iteratee, thisArg) {
+    var result = {};
+    iteratee = baseCallback(iteratee, thisArg, 3);
+
+    baseForOwn(object, function(value, key, object) {
+      var mapped = iteratee(value, key, object);
+      key = isMapKeys ? mapped : key;
+      value = isMapKeys ? value : mapped;
+      result[key] = value;
+    });
+    return result;
+  };
+}
+
+module.exports = createObjectMapper;
+
+},{"./baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","./baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createReduce.js":[function(require,module,exports){
 var baseCallback = require('./baseCallback'),
     baseReduce = require('./baseReduce'),
     isArray = require('../lang/isArray');
@@ -4266,7 +4332,7 @@ function createReduce(arrayFunc, eachFunc) {
 
 module.exports = createReduce;
 
-},{"../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArray.js","./baseCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseCallback.js","./baseReduce":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseReduce.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/equalArrays.js":[function(require,module,exports){
+},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","./baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","./baseReduce":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseReduce.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalArrays.js":[function(require,module,exports){
 /**
  * A specialized version of `baseIsEqualDeep` for arrays with support for
  * partial deep comparisons.
@@ -4322,7 +4388,7 @@ function equalArrays(array, other, equalFunc, customizer, isLoose, stackA, stack
 
 module.exports = equalArrays;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/equalByTag.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalByTag.js":[function(require,module,exports){
 /** `Object#toString` result references. */
 var boolTag = '[object Boolean]',
     dateTag = '[object Date]',
@@ -4359,8 +4425,7 @@ function equalByTag(object, other, tag) {
       // Treat `NaN` vs. `NaN` as equal.
       return (object != +object)
         ? other != +other
-        // But, treat `-0` vs. `+0` as not equal.
-        : (object == 0 ? ((1 / object) == (1 / other)) : object == +other);
+        : object == +other;
 
     case regexpTag:
     case stringTag:
@@ -4373,7 +4438,7 @@ function equalByTag(object, other, tag) {
 
 module.exports = equalByTag;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/equalObjects.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalObjects.js":[function(require,module,exports){
 var keys = require('../object/keys');
 
 /** Used for native method references. */
@@ -4449,14 +4514,14 @@ function equalObjects(object, other, equalFunc, customizer, isLoose, stackA, sta
 
 module.exports = equalObjects;
 
-},{"../object/keys":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/keys.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/getLength.js":[function(require,module,exports){
+},{"../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keys.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\getLength.js":[function(require,module,exports){
 var baseProperty = require('./baseProperty');
 
 /**
  * Gets the "length" property value of `object`.
  *
  * **Note:** This function is used to avoid a [JIT bug](https://bugs.webkit.org/show_bug.cgi?id=142792)
- * in Safari on iOS 8.1 ARM64.
+ * that affects Safari on at least iOS 8.1-8.3 ARM64.
  *
  * @private
  * @param {Object} object The object to query.
@@ -4466,7 +4531,7 @@ var getLength = baseProperty('length');
 
 module.exports = getLength;
 
-},{"./baseProperty":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseProperty.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/getSymbols.js":[function(require,module,exports){
+},{"./baseProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseProperty.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\getSymbols.js":[function(require,module,exports){
 var constant = require('../utility/constant'),
     isNative = require('../lang/isNative'),
     toObject = require('./toObject');
@@ -4487,7 +4552,7 @@ var getSymbols = !getOwnPropertySymbols ? constant([]) : function(object) {
 
 module.exports = getSymbols;
 
-},{"../lang/isNative":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isNative.js","../utility/constant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/utility/constant.js","./toObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/toObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/indexOfNaN.js":[function(require,module,exports){
+},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js","../utility/constant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\constant.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\indexOfNaN.js":[function(require,module,exports){
 /**
  * Gets the index at which the first occurrence of `NaN` is found in `array`.
  *
@@ -4512,7 +4577,7 @@ function indexOfNaN(array, fromIndex, fromRight) {
 
 module.exports = indexOfNaN;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/initCloneArray.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneArray.js":[function(require,module,exports){
 /** Used for native method references. */
 var objectProto = Object.prototype;
 
@@ -4540,7 +4605,7 @@ function initCloneArray(array) {
 
 module.exports = initCloneArray;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/initCloneByTag.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneByTag.js":[function(require,module,exports){
 var bufferClone = require('./bufferClone');
 
 /** `Object#toString` result references. */
@@ -4605,7 +4670,7 @@ function initCloneByTag(object, tag, isDeep) {
 
 module.exports = initCloneByTag;
 
-},{"./bufferClone":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/bufferClone.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/initCloneObject.js":[function(require,module,exports){
+},{"./bufferClone":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bufferClone.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneObject.js":[function(require,module,exports){
 /**
  * Initializes an object clone.
  *
@@ -4623,7 +4688,24 @@ function initCloneObject(object) {
 
 module.exports = initCloneObject;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isIndex.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js":[function(require,module,exports){
+var getLength = require('./getLength'),
+    isLength = require('./isLength');
+
+/**
+ * Checks if `value` is array-like.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is array-like, else `false`.
+ */
+function isArrayLike(value) {
+  return value != null && isLength(getLength(value));
+}
+
+module.exports = isArrayLike;
+
+},{"./getLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\getLength.js","./isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIndex.js":[function(require,module,exports){
 /**
  * Used as the [maximum length](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-number.max_safe_integer)
  * of an array-like value.
@@ -4646,10 +4728,9 @@ function isIndex(value, length) {
 
 module.exports = isIndex;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isIterateeCall.js":[function(require,module,exports){
-var getLength = require('./getLength'),
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIterateeCall.js":[function(require,module,exports){
+var isArrayLike = require('./isArrayLike'),
     isIndex = require('./isIndex'),
-    isLength = require('./isLength'),
     isObject = require('../lang/isObject');
 
 /**
@@ -4666,13 +4747,9 @@ function isIterateeCall(value, index, object) {
     return false;
   }
   var type = typeof index;
-  if (type == 'number') {
-    var length = getLength(object),
-        prereq = isLength(length) && isIndex(index, length);
-  } else {
-    prereq = type == 'string' && index in object;
-  }
-  if (prereq) {
+  if (type == 'number'
+      ? (isArrayLike(object) && isIndex(index, object.length))
+      : (type == 'string' && index in object)) {
     var other = object[index];
     return value === value ? (value === other) : (other !== other);
   }
@@ -4681,12 +4758,12 @@ function isIterateeCall(value, index, object) {
 
 module.exports = isIterateeCall;
 
-},{"../lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isObject.js","./getLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/getLength.js","./isIndex":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isIndex.js","./isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isLength.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isKey.js":[function(require,module,exports){
+},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js","./isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js","./isIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIndex.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isKey.js":[function(require,module,exports){
 var isArray = require('../lang/isArray'),
     toObject = require('./toObject');
 
 /** Used to match property names within property paths. */
-var reIsDeepProp = /\.|\[(?:[^[\]]+|(["'])(?:(?!\1)[^\n\\]|\\.)*?)\1\]/,
+var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\n\\]|\\.)*?\1)\]/,
     reIsPlainProp = /^\w*$/;
 
 /**
@@ -4711,7 +4788,7 @@ function isKey(value, object) {
 
 module.exports = isKey;
 
-},{"../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArray.js","./toObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/toObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isLength.js":[function(require,module,exports){
+},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js":[function(require,module,exports){
 /**
  * Used as the [maximum length](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-number.max_safe_integer)
  * of an array-like value.
@@ -4733,7 +4810,7 @@ function isLength(value) {
 
 module.exports = isLength;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isObjectLike.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js":[function(require,module,exports){
 /**
  * Checks if `value` is object-like.
  *
@@ -4747,7 +4824,7 @@ function isObjectLike(value) {
 
 module.exports = isObjectLike;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isStrictComparable.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isStrictComparable.js":[function(require,module,exports){
 var isObject = require('../lang/isObject');
 
 /**
@@ -4759,12 +4836,12 @@ var isObject = require('../lang/isObject');
  *  equality comparisons, else `false`.
  */
 function isStrictComparable(value) {
-  return value === value && (value === 0 ? ((1 / value) > 0) : !isObject(value));
+  return value === value && !isObject(value);
 }
 
 module.exports = isStrictComparable;
 
-},{"../lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/shimKeys.js":[function(require,module,exports){
+},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\shimKeys.js":[function(require,module,exports){
 var isArguments = require('../lang/isArguments'),
     isArray = require('../lang/isArray'),
     isIndex = require('./isIndex'),
@@ -4808,7 +4885,7 @@ function shimKeys(object) {
 
 module.exports = shimKeys;
 
-},{"../lang/isArguments":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArguments.js","../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArray.js","../object/keysIn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/keysIn.js","../support":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/support.js","./isIndex":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isIndex.js","./isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isLength.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/sortedUniq.js":[function(require,module,exports){
+},{"../lang/isArguments":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArguments.js","../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","../object/keysIn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keysIn.js","../support":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\support.js","./isIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIndex.js","./isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\sortedUniq.js":[function(require,module,exports){
 /**
  * An implementation of `_.uniq` optimized for sorted arrays without support
  * for callback shorthands and `this` binding.
@@ -4839,7 +4916,7 @@ function sortedUniq(array, iteratee) {
 
 module.exports = sortedUniq;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/toObject.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js":[function(require,module,exports){
 var isObject = require('../lang/isObject');
 
 /**
@@ -4855,7 +4932,7 @@ function toObject(value) {
 
 module.exports = toObject;
 
-},{"../lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/toPath.js":[function(require,module,exports){
+},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toPath.js":[function(require,module,exports){
 var baseToString = require('./baseToString'),
     isArray = require('../lang/isArray');
 
@@ -4885,7 +4962,7 @@ function toPath(value) {
 
 module.exports = toPath;
 
-},{"../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArray.js","./baseToString":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseToString.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/clone.js":[function(require,module,exports){
+},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","./baseToString":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseToString.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\clone.js":[function(require,module,exports){
 var baseClone = require('../internal/baseClone'),
     bindCallback = require('../internal/bindCallback'),
     isIterateeCall = require('../internal/isIterateeCall');
@@ -4956,8 +5033,8 @@ function clone(value, isDeep, customizer, thisArg) {
 
 module.exports = clone;
 
-},{"../internal/baseClone":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseClone.js","../internal/bindCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/bindCallback.js","../internal/isIterateeCall":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isIterateeCall.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArguments.js":[function(require,module,exports){
-var isLength = require('../internal/isLength'),
+},{"../internal/baseClone":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseClone.js","../internal/bindCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bindCallback.js","../internal/isIterateeCall":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIterateeCall.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArguments.js":[function(require,module,exports){
+var isArrayLike = require('../internal/isArrayLike'),
     isObjectLike = require('../internal/isObjectLike');
 
 /** `Object#toString` result references. */
@@ -4989,13 +5066,12 @@ var objToString = objectProto.toString;
  * // => false
  */
 function isArguments(value) {
-  var length = isObjectLike(value) ? value.length : undefined;
-  return isLength(length) && objToString.call(value) == argsTag;
+  return isObjectLike(value) && isArrayLike(value) && objToString.call(value) == argsTag;
 }
 
 module.exports = isArguments;
 
-},{"../internal/isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isLength.js","../internal/isObjectLike":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isObjectLike.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArray.js":[function(require,module,exports){
+},{"../internal/isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js","../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js":[function(require,module,exports){
 var isLength = require('../internal/isLength'),
     isNative = require('./isNative'),
     isObjectLike = require('../internal/isObjectLike');
@@ -5037,7 +5113,7 @@ var isArray = nativeIsArray || function(value) {
 
 module.exports = isArray;
 
-},{"../internal/isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isLength.js","../internal/isObjectLike":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isObjectLike.js","./isNative":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isNative.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isFunction.js":[function(require,module,exports){
+},{"../internal/isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js","../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js","./isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isFunction.js":[function(require,module,exports){
 (function (global){
 var baseIsFunction = require('../internal/baseIsFunction'),
     isNative = require('./isNative');
@@ -5083,7 +5159,7 @@ var isFunction = !(baseIsFunction(/x/) || (Uint8Array && !baseIsFunction(Uint8Ar
 module.exports = isFunction;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"../internal/baseIsFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseIsFunction.js","./isNative":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isNative.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isNative.js":[function(require,module,exports){
+},{"../internal/baseIsFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsFunction.js","./isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js":[function(require,module,exports){
 var escapeRegExp = require('../string/escapeRegExp'),
     isObjectLike = require('../internal/isObjectLike');
 
@@ -5139,7 +5215,7 @@ function isNative(value) {
 
 module.exports = isNative;
 
-},{"../internal/isObjectLike":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isObjectLike.js","../string/escapeRegExp":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/string/escapeRegExp.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isObject.js":[function(require,module,exports){
+},{"../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js","../string/escapeRegExp":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\string\\escapeRegExp.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js":[function(require,module,exports){
 /**
  * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
  * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
@@ -5169,7 +5245,7 @@ function isObject(value) {
 
 module.exports = isObject;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isString.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isString.js":[function(require,module,exports){
 var isObjectLike = require('../internal/isObjectLike');
 
 /** `Object#toString` result references. */
@@ -5206,7 +5282,7 @@ function isString(value) {
 
 module.exports = isString;
 
-},{"../internal/isObjectLike":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isObjectLike.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isTypedArray.js":[function(require,module,exports){
+},{"../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isTypedArray.js":[function(require,module,exports){
 var isLength = require('../internal/isLength'),
     isObjectLike = require('../internal/isObjectLike');
 
@@ -5282,7 +5358,7 @@ function isTypedArray(value) {
 
 module.exports = isTypedArray;
 
-},{"../internal/isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isLength.js","../internal/isObjectLike":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isObjectLike.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/findKey.js":[function(require,module,exports){
+},{"../internal/isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js","../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\findKey.js":[function(require,module,exports){
 var baseForOwn = require('../internal/baseForOwn'),
     createFindKey = require('../internal/createFindKey');
 
@@ -5338,7 +5414,7 @@ var findKey = createFindKey(baseForOwn);
 
 module.exports = findKey;
 
-},{"../internal/baseForOwn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseForOwn.js","../internal/createFindKey":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createFindKey.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/forOwn.js":[function(require,module,exports){
+},{"../internal/baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js","../internal/createFindKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createFindKey.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\forOwn.js":[function(require,module,exports){
 var baseForOwn = require('../internal/baseForOwn'),
     createForOwn = require('../internal/createForOwn');
 
@@ -5373,8 +5449,8 @@ var forOwn = createForOwn(baseForOwn);
 
 module.exports = forOwn;
 
-},{"../internal/baseForOwn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseForOwn.js","../internal/createForOwn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createForOwn.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/keys.js":[function(require,module,exports){
-var isLength = require('../internal/isLength'),
+},{"../internal/baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js","../internal/createForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createForOwn.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keys.js":[function(require,module,exports){
+var isArrayLike = require('../internal/isArrayLike'),
     isNative = require('../lang/isNative'),
     isObject = require('../lang/isObject'),
     shimKeys = require('../internal/shimKeys');
@@ -5410,12 +5486,9 @@ var nativeKeys = isNative(nativeKeys = Object.keys) && nativeKeys;
  * // => ['0', '1']
  */
 var keys = !nativeKeys ? shimKeys : function(object) {
-  if (object) {
-    var Ctor = object.constructor,
-        length = object.length;
-  }
+  var Ctor = object != null && object.constructor;
   if ((typeof Ctor == 'function' && Ctor.prototype === object) ||
-      (typeof object != 'function' && isLength(length))) {
+      (typeof object != 'function' && isArrayLike(object))) {
     return shimKeys(object);
   }
   return isObject(object) ? nativeKeys(object) : [];
@@ -5423,7 +5496,7 @@ var keys = !nativeKeys ? shimKeys : function(object) {
 
 module.exports = keys;
 
-},{"../internal/isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isLength.js","../internal/shimKeys":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/shimKeys.js","../lang/isNative":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isNative.js","../lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/keysIn.js":[function(require,module,exports){
+},{"../internal/isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js","../internal/shimKeys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\shimKeys.js","../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js","../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keysIn.js":[function(require,module,exports){
 var isArguments = require('../lang/isArguments'),
     isArray = require('../lang/isArray'),
     isIndex = require('../internal/isIndex'),
@@ -5490,9 +5563,8 @@ function keysIn(object) {
 
 module.exports = keysIn;
 
-},{"../internal/isIndex":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isIndex.js","../internal/isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isLength.js","../lang/isArguments":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArguments.js","../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArray.js","../lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isObject.js","../support":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/support.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/mapValues.js":[function(require,module,exports){
-var baseCallback = require('../internal/baseCallback'),
-    baseForOwn = require('../internal/baseForOwn');
+},{"../internal/isIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIndex.js","../internal/isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js","../lang/isArguments":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArguments.js","../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js","../support":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\support.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\mapValues.js":[function(require,module,exports){
+var createObjectMapper = require('../internal/createObjectMapper');
 
 /**
  * Creates an object with the same keys as `object` and values generated by
@@ -5535,19 +5607,11 @@ var baseCallback = require('../internal/baseCallback'),
  * _.mapValues(users, 'age');
  * // => { 'fred': 40, 'pebbles': 1 } (iteration order is not guaranteed)
  */
-function mapValues(object, iteratee, thisArg) {
-  var result = {};
-  iteratee = baseCallback(iteratee, thisArg, 3);
-
-  baseForOwn(object, function(value, key, object) {
-    result[key] = iteratee(value, key, object);
-  });
-  return result;
-}
+var mapValues = createObjectMapper();
 
 module.exports = mapValues;
 
-},{"../internal/baseCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseCallback.js","../internal/baseForOwn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseForOwn.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/string/escapeRegExp.js":[function(require,module,exports){
+},{"../internal/createObjectMapper":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createObjectMapper.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\string\\escapeRegExp.js":[function(require,module,exports){
 var baseToString = require('../internal/baseToString');
 
 /**
@@ -5581,7 +5645,7 @@ function escapeRegExp(string) {
 
 module.exports = escapeRegExp;
 
-},{"../internal/baseToString":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseToString.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/support.js":[function(require,module,exports){
+},{"../internal/baseToString":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseToString.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\support.js":[function(require,module,exports){
 (function (global){
 /** Used for native method references. */
 var objectProto = Object.prototype;
@@ -5603,6 +5667,7 @@ var support = {};
 
 (function(x) {
   var Ctor = function() { this.x = x; },
+      args = arguments,
       object = { '0': x, 'length': x },
       props = [];
 
@@ -5652,7 +5717,7 @@ var support = {};
    * @type boolean
    */
   try {
-    support.nonEnumArgs = !propertyIsEnumerable.call(arguments, 1);
+    support.nonEnumArgs = !propertyIsEnumerable.call(args, 1);
   } catch(e) {
     support.nonEnumArgs = true;
   }
@@ -5661,7 +5726,7 @@ var support = {};
 module.exports = support;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/utility/constant.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\constant.js":[function(require,module,exports){
 /**
  * Creates a function that returns `value`.
  *
@@ -5686,7 +5751,7 @@ function constant(value) {
 
 module.exports = constant;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/utility/identity.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\identity.js":[function(require,module,exports){
 /**
  * This method returns the first argument provided to it.
  *
@@ -5708,7 +5773,7 @@ function identity(value) {
 
 module.exports = identity;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/utility/property.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\property.js":[function(require,module,exports){
 var baseProperty = require('../internal/baseProperty'),
     basePropertyDeep = require('../internal/basePropertyDeep'),
     isKey = require('../internal/isKey');
@@ -5741,7 +5806,7 @@ function property(path) {
 
 module.exports = property;
 
-},{"../internal/baseProperty":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseProperty.js","../internal/basePropertyDeep":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/basePropertyDeep.js","../internal/isKey":"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isKey.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/object-path/index.js":[function(require,module,exports){
+},{"../internal/baseProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseProperty.js","../internal/basePropertyDeep":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\basePropertyDeep.js","../internal/isKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isKey.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\object-path\\index.js":[function(require,module,exports){
 (function (root, factory){
   'use strict';
 
@@ -5983,9 +6048,9 @@ module.exports = property;
 
   return objectPath;
 });
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/version.js":[function(require,module,exports){
-module.exports = "1.5.3"
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\version.js":[function(require,module,exports){
+module.exports = "1.6.0"
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js":[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -6045,246 +6110,252 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/classnames/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\classnames\\index.js":[function(require,module,exports){
 /*!
   Copyright (c) 2015 Jed Watson.
   Licensed under the MIT License (MIT), see
   http://jedwatson.github.io/classnames
 */
 
-function classNames () {
+(function () {
 	'use strict';
 
-	var classes = '';
+	function classNames () {
 
-	for (var i = 0; i < arguments.length; i++) {
-		var arg = arguments[i];
-		if (!arg) continue;
+		var classes = '';
 
-		var argType = typeof arg;
+		for (var i = 0; i < arguments.length; i++) {
+			var arg = arguments[i];
+			if (!arg) continue;
 
-		if ('string' === argType || 'number' === argType) {
-			classes += ' ' + arg;
+			var argType = typeof arg;
 
-		} else if (Array.isArray(arg)) {
-			classes += ' ' + classNames.apply(null, arg);
+			if ('string' === argType || 'number' === argType) {
+				classes += ' ' + arg;
 
-		} else if ('object' === argType) {
-			for (var key in arg) {
-				if (arg.hasOwnProperty(key) && arg[key]) {
-					classes += ' ' + key;
+			} else if (Array.isArray(arg)) {
+				classes += ' ' + classNames.apply(null, arg);
+
+			} else if ('object' === argType) {
+				for (var key in arg) {
+					if (arg.hasOwnProperty(key) && arg[key]) {
+						classes += ' ' + key;
+					}
 				}
 			}
 		}
+
+		return classes.substr(1);
 	}
 
-	return classes.substr(1);
-}
+	if (typeof define === 'function' && typeof define.amd === 'object' && define.amd) {
+		// AMD. Register as an anonymous module.
+		define(function () {
+			return classNames;
+		});
+	} else if (typeof module !== 'undefined' && module.exports) {
+		module.exports = classNames;
+	} else {
+		window.classNames = classNames;
+	}
 
-// safely export classNames for node / browserify
-if (typeof module !== 'undefined' && module.exports) {
-	module.exports = classNames;
-}
+}());
 
-/* global define */
-// safely export classNames for RequireJS
-if (typeof define !== 'undefined' && define.amd) {
-	define('classnames', [], function() {
-		return classNames;
-	});
-}
-
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/index.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/index.js"][0].apply(exports,arguments)
-},{"./lib/create_store":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/create_store.js","./lib/dispatcher":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/dispatcher.js","./lib/flux":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/flux.js","./lib/flux_child_mixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/flux_child_mixin.js","./lib/flux_mixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/flux_mixin.js","./lib/store_watch_mixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/store_watch_mixin.js","./version":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/version.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/create_store.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/create_store.js"][0].apply(exports,arguments)
-},{"./store":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/store.js","./util/inherits":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/util/inherits.js","lodash-node/modern/collection/forEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/collection/forEach.js","lodash-node/modern/lang/isFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isFunction.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/dispatcher.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/dispatcher.js"][0].apply(exports,arguments)
-},{"lodash-node/modern/array/intersection":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/array/intersection.js","lodash-node/modern/array/uniq":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/array/uniq.js","lodash-node/modern/collection/forEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/collection/forEach.js","lodash-node/modern/collection/map":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/collection/map.js","lodash-node/modern/collection/size":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/collection/size.js","lodash-node/modern/lang/clone":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/clone.js","lodash-node/modern/object/findKey":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/object/findKey.js","lodash-node/modern/object/forOwn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/object/forOwn.js","lodash-node/modern/object/keys":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/object/keys.js","lodash-node/modern/object/mapValues":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/object/mapValues.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/flux.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/flux.js"][0].apply(exports,arguments)
-},{"./dispatcher":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/dispatcher.js","./util/inherits":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/util/inherits.js","eventemitter3":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/eventemitter3/index.js","lodash-node/modern/collection/forEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/collection/forEach.js","lodash-node/modern/collection/reduce":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/collection/reduce.js","lodash-node/modern/lang/isFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isFunction.js","lodash-node/modern/lang/isString":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isString.js","object-path":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/object-path/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/flux_child_mixin.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/flux_child_mixin.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/flux_mixin.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/flux_mixin.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/store.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/store.js"][0].apply(exports,arguments)
-},{"./util/inherits":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/util/inherits.js","eventemitter3":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/eventemitter3/index.js","lodash-node/modern/lang/isFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isFunction.js","lodash-node/modern/lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/store_watch_mixin.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/store_watch_mixin.js"][0].apply(exports,arguments)
-},{"lodash-node/modern/collection/forEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/collection/forEach.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/lib/util/inherits.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/lib/util/inherits.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/eventemitter3/index.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/eventemitter3/index.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/array/intersection.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/array/intersection.js"][0].apply(exports,arguments)
-},{"../internal/baseIndexOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseIndexOf.js","../internal/cacheIndexOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/cacheIndexOf.js","../internal/createCache":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/createCache.js","../lang/isArguments":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isArguments.js","../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isArray.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/array/last.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/array/last.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/array/uniq.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/array/uniq.js"][0].apply(exports,arguments)
-},{"../internal/baseCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseCallback.js","../internal/baseUniq":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseUniq.js","../internal/isIterateeCall":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isIterateeCall.js","../internal/sortedUniq":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/sortedUniq.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/collection/forEach.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/collection/forEach.js"][0].apply(exports,arguments)
-},{"../internal/arrayEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/arrayEach.js","../internal/baseEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseEach.js","../internal/createForEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/createForEach.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/collection/map.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/collection/map.js"][0].apply(exports,arguments)
-},{"../internal/arrayMap":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/arrayMap.js","../internal/baseCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseCallback.js","../internal/baseMap":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseMap.js","../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isArray.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/collection/reduce.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/collection/reduce.js"][0].apply(exports,arguments)
-},{"../internal/arrayReduce":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/arrayReduce.js","../internal/baseEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseEach.js","../internal/createReduce":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/createReduce.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/collection/size.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/collection/size.js"][0].apply(exports,arguments)
-},{"../internal/getLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/getLength.js","../internal/isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isLength.js","../object/keys":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/object/keys.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/SetCache.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/SetCache.js"][0].apply(exports,arguments)
-},{"../lang/isNative":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isNative.js","./cachePush":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/cachePush.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/arrayCopy.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/arrayCopy.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/arrayEach.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/arrayEach.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/arrayMap.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/arrayMap.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/arrayReduce.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/arrayReduce.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseAssign.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseAssign.js"][0].apply(exports,arguments)
-},{"../lang/isNative":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isNative.js","../object/keys":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/object/keys.js","./baseCopy":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseCopy.js","./getSymbols":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/getSymbols.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseCallback.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseCallback.js"][0].apply(exports,arguments)
-},{"../utility/identity":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/utility/identity.js","../utility/property":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/utility/property.js","./baseMatches":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseMatches.js","./baseMatchesProperty":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseMatchesProperty.js","./bindCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/bindCallback.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseClone.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseClone.js"][0].apply(exports,arguments)
-},{"../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isArray.js","../lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isObject.js","./arrayCopy":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/arrayCopy.js","./arrayEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/arrayEach.js","./baseAssign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseAssign.js","./baseForOwn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseForOwn.js","./initCloneArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/initCloneArray.js","./initCloneByTag":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/initCloneByTag.js","./initCloneObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/initCloneObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseCopy.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseCopy.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseEach.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseEach.js"][0].apply(exports,arguments)
-},{"./baseForOwn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseForOwn.js","./createBaseEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/createBaseEach.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseFind.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseFind.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseFor.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseFor.js"][0].apply(exports,arguments)
-},{"./createBaseFor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/createBaseFor.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseForOwn.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseForOwn.js"][0].apply(exports,arguments)
-},{"../object/keys":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/object/keys.js","./baseFor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseFor.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseGet.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseGet.js"][0].apply(exports,arguments)
-},{"./toObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/toObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseIndexOf.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseIndexOf.js"][0].apply(exports,arguments)
-},{"./indexOfNaN":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/indexOfNaN.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseIsEqual.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseIsEqual.js"][0].apply(exports,arguments)
-},{"./baseIsEqualDeep":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseIsEqualDeep.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseIsEqualDeep.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseIsEqualDeep.js"][0].apply(exports,arguments)
-},{"../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isArray.js","../lang/isTypedArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isTypedArray.js","./equalArrays":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/equalArrays.js","./equalByTag":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/equalByTag.js","./equalObjects":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/equalObjects.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseIsFunction.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseIsFunction.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseIsMatch.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseIsMatch.js"][0].apply(exports,arguments)
-},{"./baseIsEqual":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseIsEqual.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseMap.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseMap.js"][0].apply(exports,arguments)
-},{"./baseEach":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseEach.js","./getLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/getLength.js","./isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isLength.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseMatches.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseMatches.js"][0].apply(exports,arguments)
-},{"../object/keys":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/object/keys.js","../utility/constant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/utility/constant.js","./baseIsMatch":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseIsMatch.js","./isStrictComparable":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isStrictComparable.js","./toObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/toObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseMatchesProperty.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseMatchesProperty.js"][0].apply(exports,arguments)
-},{"../array/last":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/array/last.js","../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isArray.js","./baseGet":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseGet.js","./baseIsEqual":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseIsEqual.js","./baseSlice":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseSlice.js","./isKey":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isKey.js","./isStrictComparable":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isStrictComparable.js","./toObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/toObject.js","./toPath":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/toPath.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseProperty.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseProperty.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/basePropertyDeep.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/basePropertyDeep.js"][0].apply(exports,arguments)
-},{"./baseGet":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseGet.js","./toPath":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/toPath.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseReduce.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseReduce.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseSlice.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseSlice.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseToString.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseToString.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseUniq.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/baseUniq.js"][0].apply(exports,arguments)
-},{"./baseIndexOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseIndexOf.js","./cacheIndexOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/cacheIndexOf.js","./createCache":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/createCache.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/bindCallback.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/bindCallback.js"][0].apply(exports,arguments)
-},{"../utility/identity":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/utility/identity.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/bufferClone.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/bufferClone.js"][0].apply(exports,arguments)
-},{"../lang/isNative":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isNative.js","../utility/constant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/utility/constant.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/cacheIndexOf.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/cacheIndexOf.js"][0].apply(exports,arguments)
-},{"../lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/cachePush.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/cachePush.js"][0].apply(exports,arguments)
-},{"../lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/createBaseEach.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createBaseEach.js"][0].apply(exports,arguments)
-},{"./getLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/getLength.js","./isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isLength.js","./toObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/toObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/createBaseFor.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createBaseFor.js"][0].apply(exports,arguments)
-},{"./toObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/toObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/createCache.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createCache.js"][0].apply(exports,arguments)
-},{"../lang/isNative":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isNative.js","../utility/constant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/utility/constant.js","./SetCache":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/SetCache.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/createFindKey.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createFindKey.js"][0].apply(exports,arguments)
-},{"./baseCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseCallback.js","./baseFind":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseFind.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/createForEach.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createForEach.js"][0].apply(exports,arguments)
-},{"../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isArray.js","./bindCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/bindCallback.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/createForOwn.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createForOwn.js"][0].apply(exports,arguments)
-},{"./bindCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/bindCallback.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/createReduce.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/createReduce.js"][0].apply(exports,arguments)
-},{"../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isArray.js","./baseCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseCallback.js","./baseReduce":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseReduce.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/equalArrays.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/equalArrays.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/equalByTag.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/equalByTag.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/equalObjects.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/equalObjects.js"][0].apply(exports,arguments)
-},{"../object/keys":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/object/keys.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/getLength.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/getLength.js"][0].apply(exports,arguments)
-},{"./baseProperty":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseProperty.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/getSymbols.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/getSymbols.js"][0].apply(exports,arguments)
-},{"../lang/isNative":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isNative.js","../utility/constant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/utility/constant.js","./toObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/toObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/indexOfNaN.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/indexOfNaN.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/initCloneArray.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/initCloneArray.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/initCloneByTag.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/initCloneByTag.js"][0].apply(exports,arguments)
-},{"./bufferClone":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/bufferClone.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/initCloneObject.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/initCloneObject.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isIndex.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isIndex.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isIterateeCall.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isIterateeCall.js"][0].apply(exports,arguments)
-},{"../lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isObject.js","./getLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/getLength.js","./isIndex":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isIndex.js","./isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isLength.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isKey.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isKey.js"][0].apply(exports,arguments)
-},{"../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isArray.js","./toObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/toObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isLength.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isLength.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isObjectLike.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isObjectLike.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isStrictComparable.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/isStrictComparable.js"][0].apply(exports,arguments)
-},{"../lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/shimKeys.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/shimKeys.js"][0].apply(exports,arguments)
-},{"../lang/isArguments":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isArguments.js","../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isArray.js","../object/keysIn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/object/keysIn.js","../support":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/support.js","./isIndex":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isIndex.js","./isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isLength.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/sortedUniq.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/sortedUniq.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/toObject.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/toObject.js"][0].apply(exports,arguments)
-},{"../lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/toPath.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/internal/toPath.js"][0].apply(exports,arguments)
-},{"../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isArray.js","./baseToString":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseToString.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/clone.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/clone.js"][0].apply(exports,arguments)
-},{"../internal/baseClone":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseClone.js","../internal/bindCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/bindCallback.js","../internal/isIterateeCall":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isIterateeCall.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isArguments.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArguments.js"][0].apply(exports,arguments)
-},{"../internal/isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isLength.js","../internal/isObjectLike":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isObjectLike.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isArray.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isArray.js"][0].apply(exports,arguments)
-},{"../internal/isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isLength.js","../internal/isObjectLike":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isObjectLike.js","./isNative":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isNative.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isFunction.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isFunction.js"][0].apply(exports,arguments)
-},{"../internal/baseIsFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseIsFunction.js","./isNative":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isNative.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isNative.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isNative.js"][0].apply(exports,arguments)
-},{"../internal/isObjectLike":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isObjectLike.js","../string/escapeRegExp":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/string/escapeRegExp.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isObject.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isObject.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isString.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isString.js"][0].apply(exports,arguments)
-},{"../internal/isObjectLike":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isObjectLike.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isTypedArray.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/lang/isTypedArray.js"][0].apply(exports,arguments)
-},{"../internal/isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isLength.js","../internal/isObjectLike":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isObjectLike.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/object/findKey.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/findKey.js"][0].apply(exports,arguments)
-},{"../internal/baseForOwn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseForOwn.js","../internal/createFindKey":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/createFindKey.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/object/forOwn.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/forOwn.js"][0].apply(exports,arguments)
-},{"../internal/baseForOwn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseForOwn.js","../internal/createForOwn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/createForOwn.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/object/keys.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/keys.js"][0].apply(exports,arguments)
-},{"../internal/isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isLength.js","../internal/shimKeys":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/shimKeys.js","../lang/isNative":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isNative.js","../lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isObject.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/object/keysIn.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/keysIn.js"][0].apply(exports,arguments)
-},{"../internal/isIndex":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isIndex.js","../internal/isLength":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isLength.js","../lang/isArguments":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isArguments.js","../lang/isArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isArray.js","../lang/isObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/lang/isObject.js","../support":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/support.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/object/mapValues.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/object/mapValues.js"][0].apply(exports,arguments)
-},{"../internal/baseCallback":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseCallback.js","../internal/baseForOwn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseForOwn.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/string/escapeRegExp.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/string/escapeRegExp.js"][0].apply(exports,arguments)
-},{"../internal/baseToString":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseToString.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/support.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/support.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/utility/constant.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/utility/constant.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/utility/identity.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/utility/identity.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/utility/property.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/lodash-node/modern/utility/property.js"][0].apply(exports,arguments)
-},{"../internal/baseProperty":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/baseProperty.js","../internal/basePropertyDeep":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/basePropertyDeep.js","../internal/isKey":"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/lodash-node/modern/internal/isKey.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/node_modules/object-path/index.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/node_modules/object-path/index.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/fluxxor/version.js":[function(require,module,exports){
-arguments[4]["/Users/user/PhpstormProjects/careselector-compare/node_modules/Fluxxor/version.js"][0].apply(exports,arguments)
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/jquery-browserify/lib/jquery.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\index.js"][0].apply(exports,arguments)
+},{"./lib/create_store":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\create_store.js","./lib/dispatcher":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\dispatcher.js","./lib/flux":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\flux.js","./lib/flux_child_mixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\flux_child_mixin.js","./lib/flux_mixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\flux_mixin.js","./lib/store_watch_mixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\store_watch_mixin.js","./version":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\version.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\create_store.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\create_store.js"][0].apply(exports,arguments)
+},{"./store":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\store.js","./util/inherits":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\util\\inherits.js","lodash/collection/forEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\forEach.js","lodash/lang/isFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isFunction.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\dispatcher.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\dispatcher.js"][0].apply(exports,arguments)
+},{"lodash/array/intersection":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\array\\intersection.js","lodash/array/uniq":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\array\\uniq.js","lodash/collection/forEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\forEach.js","lodash/collection/map":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\map.js","lodash/collection/size":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\size.js","lodash/lang/clone":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\clone.js","lodash/object/findKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\findKey.js","lodash/object/forOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\forOwn.js","lodash/object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keys.js","lodash/object/mapValues":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\mapValues.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\flux.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux.js"][0].apply(exports,arguments)
+},{"./dispatcher":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\dispatcher.js","./util/inherits":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\util\\inherits.js","eventemitter3":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\eventemitter3\\index.js","lodash/collection/forEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\forEach.js","lodash/collection/reduce":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\reduce.js","lodash/lang/isFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isFunction.js","lodash/lang/isString":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isString.js","object-path":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\object-path\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\flux_child_mixin.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_child_mixin.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\flux_mixin.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_mixin.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\store.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\store.js"][0].apply(exports,arguments)
+},{"./util/inherits":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\util\\inherits.js","eventemitter3":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\eventemitter3\\index.js","lodash/lang/isFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isFunction.js","lodash/lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\store_watch_mixin.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\store_watch_mixin.js"][0].apply(exports,arguments)
+},{"lodash/collection/forEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\forEach.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\util\\inherits.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\util\\inherits.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\eventemitter3\\index.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\eventemitter3\\index.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\array\\intersection.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\intersection.js"][0].apply(exports,arguments)
+},{"../internal/baseIndexOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIndexOf.js","../internal/cacheIndexOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\cacheIndexOf.js","../internal/createCache":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createCache.js","../internal/isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\array\\last.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\last.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\array\\uniq.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\uniq.js"][0].apply(exports,arguments)
+},{"../internal/baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","../internal/baseUniq":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseUniq.js","../internal/isIterateeCall":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isIterateeCall.js","../internal/sortedUniq":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\sortedUniq.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\forEach.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\forEach.js"][0].apply(exports,arguments)
+},{"../internal/arrayEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayEach.js","../internal/baseEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseEach.js","../internal/createForEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createForEach.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\map.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\map.js"][0].apply(exports,arguments)
+},{"../internal/arrayMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayMap.js","../internal/baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","../internal/baseMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseMap.js","../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\reduce.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\reduce.js"][0].apply(exports,arguments)
+},{"../internal/arrayReduce":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayReduce.js","../internal/baseEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseEach.js","../internal/createReduce":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createReduce.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\size.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\size.js"][0].apply(exports,arguments)
+},{"../internal/getLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\getLength.js","../internal/isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isLength.js","../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keys.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\SetCache.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\SetCache.js"][0].apply(exports,arguments)
+},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js","./cachePush":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\cachePush.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayCopy.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayCopy.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayEach.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayEach.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayMap.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayMap.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayReduce.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayReduce.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseAssign.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseAssign.js"][0].apply(exports,arguments)
+},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js","../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keys.js","./baseCopy":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseCopy.js","./getSymbols":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\getSymbols.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseCallback.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCallback.js"][0].apply(exports,arguments)
+},{"../utility/identity":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\identity.js","../utility/property":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\property.js","./baseMatches":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseMatches.js","./baseMatchesProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseMatchesProperty.js","./bindCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\bindCallback.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseClone.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseClone.js"][0].apply(exports,arguments)
+},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js","./arrayCopy":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayCopy.js","./arrayEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayEach.js","./baseAssign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseAssign.js","./baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js","./initCloneArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\initCloneArray.js","./initCloneByTag":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\initCloneByTag.js","./initCloneObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\initCloneObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseCopy.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCopy.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseEach.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseEach.js"][0].apply(exports,arguments)
+},{"./baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js","./createBaseEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createBaseEach.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseFind.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseFind.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseFor.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseFor.js"][0].apply(exports,arguments)
+},{"./createBaseFor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createBaseFor.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js"][0].apply(exports,arguments)
+},{"../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keys.js","./baseFor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseFor.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseGet.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseGet.js"][0].apply(exports,arguments)
+},{"./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIndexOf.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIndexOf.js"][0].apply(exports,arguments)
+},{"./indexOfNaN":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\indexOfNaN.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsEqual.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsEqual.js"][0].apply(exports,arguments)
+},{"./baseIsEqualDeep":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsEqualDeep.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsEqualDeep.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsEqualDeep.js"][0].apply(exports,arguments)
+},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","../lang/isTypedArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isTypedArray.js","./equalArrays":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\equalArrays.js","./equalByTag":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\equalByTag.js","./equalObjects":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\equalObjects.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsFunction.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsFunction.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsMatch.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsMatch.js"][0].apply(exports,arguments)
+},{"./baseIsEqual":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsEqual.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseMap.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMap.js"][0].apply(exports,arguments)
+},{"./baseEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseEach.js","./isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseMatches.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMatches.js"][0].apply(exports,arguments)
+},{"../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keys.js","../utility/constant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\constant.js","./baseIsMatch":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsMatch.js","./isStrictComparable":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isStrictComparable.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseMatchesProperty.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMatchesProperty.js"][0].apply(exports,arguments)
+},{"../array/last":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\array\\last.js","../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","./baseGet":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseGet.js","./baseIsEqual":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsEqual.js","./baseSlice":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseSlice.js","./isKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isKey.js","./isStrictComparable":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isStrictComparable.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toObject.js","./toPath":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toPath.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseProperty.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseProperty.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\basePropertyDeep.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\basePropertyDeep.js"][0].apply(exports,arguments)
+},{"./baseGet":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseGet.js","./toPath":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toPath.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseReduce.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseReduce.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseSlice.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseSlice.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseToString.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseToString.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseUniq.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseUniq.js"][0].apply(exports,arguments)
+},{"./baseIndexOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIndexOf.js","./cacheIndexOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\cacheIndexOf.js","./createCache":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createCache.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\bindCallback.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bindCallback.js"][0].apply(exports,arguments)
+},{"../utility/identity":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\identity.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\bufferClone.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bufferClone.js"][0].apply(exports,arguments)
+},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js","../utility/constant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\constant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\cacheIndexOf.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\cacheIndexOf.js"][0].apply(exports,arguments)
+},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\cachePush.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\cachePush.js"][0].apply(exports,arguments)
+},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createBaseEach.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createBaseEach.js"][0].apply(exports,arguments)
+},{"./getLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\getLength.js","./isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isLength.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createBaseFor.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createBaseFor.js"][0].apply(exports,arguments)
+},{"./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createCache.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createCache.js"][0].apply(exports,arguments)
+},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js","../utility/constant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\constant.js","./SetCache":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\SetCache.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createFindKey.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createFindKey.js"][0].apply(exports,arguments)
+},{"./baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","./baseFind":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseFind.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createForEach.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createForEach.js"][0].apply(exports,arguments)
+},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","./bindCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\bindCallback.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createForOwn.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createForOwn.js"][0].apply(exports,arguments)
+},{"./bindCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\bindCallback.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createObjectMapper.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createObjectMapper.js"][0].apply(exports,arguments)
+},{"./baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","./baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createReduce.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createReduce.js"][0].apply(exports,arguments)
+},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","./baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","./baseReduce":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseReduce.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\equalArrays.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalArrays.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\equalByTag.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalByTag.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\equalObjects.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalObjects.js"][0].apply(exports,arguments)
+},{"../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keys.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\getLength.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\getLength.js"][0].apply(exports,arguments)
+},{"./baseProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseProperty.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\getSymbols.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\getSymbols.js"][0].apply(exports,arguments)
+},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js","../utility/constant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\constant.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\indexOfNaN.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\indexOfNaN.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\initCloneArray.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneArray.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\initCloneByTag.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneByTag.js"][0].apply(exports,arguments)
+},{"./bufferClone":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\bufferClone.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\initCloneObject.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneObject.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js"][0].apply(exports,arguments)
+},{"./getLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\getLength.js","./isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isLength.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isIndex.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIndex.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isIterateeCall.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIterateeCall.js"][0].apply(exports,arguments)
+},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js","./isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js","./isIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isIndex.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isKey.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isKey.js"][0].apply(exports,arguments)
+},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isLength.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isStrictComparable.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isStrictComparable.js"][0].apply(exports,arguments)
+},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\shimKeys.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\shimKeys.js"][0].apply(exports,arguments)
+},{"../lang/isArguments":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArguments.js","../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","../object/keysIn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keysIn.js","../support":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\support.js","./isIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isIndex.js","./isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isLength.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\sortedUniq.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\sortedUniq.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toObject.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js"][0].apply(exports,arguments)
+},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toPath.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toPath.js"][0].apply(exports,arguments)
+},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","./baseToString":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseToString.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\clone.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\clone.js"][0].apply(exports,arguments)
+},{"../internal/baseClone":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseClone.js","../internal/bindCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\bindCallback.js","../internal/isIterateeCall":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isIterateeCall.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArguments.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArguments.js"][0].apply(exports,arguments)
+},{"../internal/isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js","../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js"][0].apply(exports,arguments)
+},{"../internal/isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isLength.js","../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js","./isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isFunction.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isFunction.js"][0].apply(exports,arguments)
+},{"../internal/baseIsFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsFunction.js","./isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js"][0].apply(exports,arguments)
+},{"../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js","../string/escapeRegExp":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\string\\escapeRegExp.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isString.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isString.js"][0].apply(exports,arguments)
+},{"../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isTypedArray.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isTypedArray.js"][0].apply(exports,arguments)
+},{"../internal/isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isLength.js","../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\findKey.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\findKey.js"][0].apply(exports,arguments)
+},{"../internal/baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js","../internal/createFindKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createFindKey.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\forOwn.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\forOwn.js"][0].apply(exports,arguments)
+},{"../internal/baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js","../internal/createForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createForOwn.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keys.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keys.js"][0].apply(exports,arguments)
+},{"../internal/isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js","../internal/shimKeys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\shimKeys.js","../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js","../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keysIn.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keysIn.js"][0].apply(exports,arguments)
+},{"../internal/isIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isIndex.js","../internal/isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isLength.js","../lang/isArguments":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArguments.js","../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js","../support":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\support.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\mapValues.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\mapValues.js"][0].apply(exports,arguments)
+},{"../internal/createObjectMapper":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createObjectMapper.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\string\\escapeRegExp.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\string\\escapeRegExp.js"][0].apply(exports,arguments)
+},{"../internal/baseToString":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseToString.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\support.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\support.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\constant.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\constant.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\identity.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\identity.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\property.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\property.js"][0].apply(exports,arguments)
+},{"../internal/baseProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseProperty.js","../internal/basePropertyDeep":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\basePropertyDeep.js","../internal/isKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isKey.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\object-path\\index.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\object-path\\index.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\version.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\version.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js":[function(require,module,exports){
 // Uses Node, AMD or browser globals to create a module.
 
 // If you want something that will work in other stricter CommonJS environments,
@@ -15618,7 +15689,7 @@ return jQuery;
 
 })( window ); }));
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-google-analytics/lib/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js":[function(require,module,exports){
 var React, ga, script, scriptIsAdded, _name,
   __slice = [].slice;
 
@@ -15682,21 +15753,21 @@ ga.Initializer = React.createClass({
 
 module.exports = ga;
 
-},{"react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Cancellation.js":[function(require,module,exports){
-"use strict";
-
+},{"react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Cancellation.js":[function(require,module,exports){
 /**
  * Represents a cancellation caused by navigating away
  * before the previous transition has fully resolved.
  */
+"use strict";
+
 function Cancellation() {}
 
 module.exports = Cancellation;
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/History.js":[function(require,module,exports){
-"use strict";
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\History.js":[function(require,module,exports){
+'use strict';
 
-var invariant = require("react/lib/invariant");
-var canUseDOM = require("react/lib/ExecutionEnvironment").canUseDOM;
+var invariant = require('react/lib/invariant');
+var canUseDOM = require('react/lib/ExecutionEnvironment').canUseDOM;
 
 var History = {
 
@@ -15711,7 +15782,7 @@ var History = {
    * Sends the browser back one entry in the history.
    */
   back: function back() {
-    invariant(canUseDOM, "Cannot use History.back without a DOM");
+    invariant(canUseDOM, 'Cannot use History.back without a DOM');
 
     // Do this first so that History.length will
     // be accurate in location change listeners.
@@ -15723,15 +15794,15 @@ var History = {
 };
 
 module.exports = History;
-},{"react/lib/ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Match.js":[function(require,module,exports){
-"use strict";
+},{"react/lib/ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Match.js":[function(require,module,exports){
+'use strict';
 
-var _createClass = (function () { function defineProperties(target, props) { for (var key in props) { var prop = props[key]; prop.configurable = true; if (prop.value) prop.writable = true; } Object.defineProperties(target, props); } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
 /* jshint -W084 */
-var PathUtils = require("./PathUtils");
+var PathUtils = require('./PathUtils');
 
 function deepSearch(route, pathname, query) {
   // Check the subtree first to find the most deeply-nested match.
@@ -15776,44 +15847,33 @@ var Match = (function () {
     this.routes = routes;
   }
 
-  _createClass(Match, null, {
-    findMatch: {
+  _createClass(Match, null, [{
+    key: 'findMatch',
 
-      /**
-       * Attempts to match depth-first a route in the given route's
-       * subtree against the given path and returns the match if it
-       * succeeds, null if no match can be made.
-       */
+    /**
+     * Attempts to match depth-first a route in the given route's
+     * subtree against the given path and returns the match if it
+     * succeeds, null if no match can be made.
+     */
+    value: function findMatch(routes, path) {
+      var pathname = PathUtils.withoutQuery(path);
+      var query = PathUtils.extractQuery(path);
+      var match = null;
 
-      value: function findMatch(routes, path) {
-        var pathname = PathUtils.withoutQuery(path);
-        var query = PathUtils.extractQuery(path);
-        var match = null;
+      for (var i = 0, len = routes.length; match == null && i < len; ++i) match = deepSearch(routes[i], pathname, query);
 
-        for (var i = 0, len = routes.length; match == null && i < len; ++i) match = deepSearch(routes[i], pathname, query);
-
-        return match;
-      }
+      return match;
     }
-  });
+  }]);
 
   return Match;
 })();
 
 module.exports = Match;
-},{"./PathUtils":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/PathUtils.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Navigation.js":[function(require,module,exports){
-"use strict";
+},{"./PathUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PathUtils.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Navigation.js":[function(require,module,exports){
+'use strict';
 
-var warning = require("react/lib/warning");
-var PropTypes = require("./PropTypes");
-
-function deprecatedMethod(routerMethodName, fn) {
-  return function () {
-    warning(false, "Router.Navigation is deprecated. Please use this.context.router." + routerMethodName + "() instead");
-
-    return fn.apply(this, arguments);
-  };
-}
+var PropTypes = require('./PropTypes');
 
 /**
  * A mixin for components that modify the URL.
@@ -15843,50 +15903,50 @@ var Navigation = {
    * Returns an absolute URL path created from the given route
    * name, URL parameters, and query values.
    */
-  makePath: deprecatedMethod("makePath", function (to, params, query) {
+  makePath: function makePath(to, params, query) {
     return this.context.router.makePath(to, params, query);
-  }),
+  },
 
   /**
    * Returns a string that may safely be used as the href of a
    * link to the route with the given name.
    */
-  makeHref: deprecatedMethod("makeHref", function (to, params, query) {
+  makeHref: function makeHref(to, params, query) {
     return this.context.router.makeHref(to, params, query);
-  }),
+  },
 
   /**
    * Transitions to the URL specified in the arguments by pushing
    * a new URL onto the history stack.
    */
-  transitionTo: deprecatedMethod("transitionTo", function (to, params, query) {
+  transitionTo: function transitionTo(to, params, query) {
     this.context.router.transitionTo(to, params, query);
-  }),
+  },
 
   /**
    * Transitions to the URL specified in the arguments by replacing
    * the current URL in the history stack.
    */
-  replaceWith: deprecatedMethod("replaceWith", function (to, params, query) {
+  replaceWith: function replaceWith(to, params, query) {
     this.context.router.replaceWith(to, params, query);
-  }),
+  },
 
   /**
    * Transitions to the previous URL.
    */
-  goBack: deprecatedMethod("goBack", function () {
+  goBack: function goBack() {
     return this.context.router.goBack();
-  })
+  }
 
 };
 
 module.exports = Navigation;
-},{"./PropTypes":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/PropTypes.js","react/lib/warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/PathUtils.js":[function(require,module,exports){
-"use strict";
+},{"./PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PathUtils.js":[function(require,module,exports){
+'use strict';
 
-var invariant = require("react/lib/invariant");
-var objectAssign = require("object-assign");
-var qs = require("qs");
+var invariant = require('react/lib/invariant');
+var assign = require('object-assign');
+var qs = require('qs');
 
 var paramCompileMatcher = /:([a-zA-Z_$][a-zA-Z0-9_$]*)|[*.()\[\]\\+|{}^$]/g;
 var paramInjectMatcher = /:([a-zA-Z_$][a-zA-Z0-9_$?]*[?]?)|[*]/g;
@@ -15901,17 +15961,17 @@ function compilePattern(pattern) {
     var source = pattern.replace(paramCompileMatcher, function (match, paramName) {
       if (paramName) {
         paramNames.push(paramName);
-        return "([^/?#]+)";
-      } else if (match === "*") {
-        paramNames.push("splat");
-        return "(.*?)";
+        return '([^/?#]+)';
+      } else if (match === '*') {
+        paramNames.push('splat');
+        return '(.*?)';
       } else {
-        return "\\" + match;
+        return '\\' + match;
       }
     });
 
     _compiledPatterns[pattern] = {
-      matcher: new RegExp("^" + source + "$", "i"),
+      matcher: new RegExp('^' + source + '$', 'i'),
       paramNames: paramNames
     };
   }
@@ -15925,14 +15985,14 @@ var PathUtils = {
    * Returns true if the given path is absolute.
    */
   isAbsolute: function isAbsolute(path) {
-    return path.charAt(0) === "/";
+    return path.charAt(0) === '/';
   },
 
   /**
    * Joins two URL paths together.
    */
   join: function join(a, b) {
-    return a.replace(/\/*$/, "/") + b;
+    return a.replace(/\/*$/, '/') + b;
   },
 
   /**
@@ -15976,28 +16036,28 @@ var PathUtils = {
     var splatIndex = 0;
 
     return pattern.replace(paramInjectMatcher, function (match, paramName) {
-      paramName = paramName || "splat";
+      paramName = paramName || 'splat';
 
       // If param is optional don't check for existence
-      if (paramName.slice(-1) === "?") {
+      if (paramName.slice(-1) === '?') {
         paramName = paramName.slice(0, -1);
 
-        if (params[paramName] == null) return "";
+        if (params[paramName] == null) return '';
       } else {
-        invariant(params[paramName] != null, "Missing \"%s\" parameter for path \"%s\"", paramName, pattern);
+        invariant(params[paramName] != null, 'Missing "%s" parameter for path "%s"', paramName, pattern);
       }
 
       var segment;
-      if (paramName === "splat" && Array.isArray(params[paramName])) {
+      if (paramName === 'splat' && Array.isArray(params[paramName])) {
         segment = params[paramName][splatIndex++];
 
-        invariant(segment != null, "Missing splat # %s for path \"%s\"", splatIndex, pattern);
+        invariant(segment != null, 'Missing splat # %s for path "%s"', splatIndex, pattern);
       } else {
         segment = params[paramName];
       }
 
       return segment;
-    }).replace(paramInjectTrailingSlashMatcher, "/");
+    }).replace(paramInjectTrailingSlashMatcher, '/');
   },
 
   /**
@@ -16013,7 +16073,7 @@ var PathUtils = {
    * Returns a version of the given path without the query string.
    */
   withoutQuery: function withoutQuery(path) {
-    return path.replace(queryMatcher, "");
+    return path.replace(queryMatcher, '');
   },
 
   /**
@@ -16023,24 +16083,24 @@ var PathUtils = {
   withQuery: function withQuery(path, query) {
     var existingQuery = PathUtils.extractQuery(path);
 
-    if (existingQuery) query = query ? objectAssign(existingQuery, query) : existingQuery;
+    if (existingQuery) query = query ? assign(existingQuery, query) : existingQuery;
 
-    var queryString = qs.stringify(query, { arrayFormat: "brackets" });
+    var queryString = qs.stringify(query, { arrayFormat: 'brackets' });
 
     if (queryString) {
-      return PathUtils.withoutQuery(path) + "?" + queryString;
+      return PathUtils.withoutQuery(path) + '?' + queryString;
     }return PathUtils.withoutQuery(path);
   }
 
 };
 
 module.exports = PathUtils;
-},{"object-assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/node_modules/object-assign/index.js","qs":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/node_modules/qs/index.js","react/lib/invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/PropTypes.js":[function(require,module,exports){
-"use strict";
+},{"object-assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\object-assign\\index.js","qs":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\index.js","react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js":[function(require,module,exports){
+'use strict';
 
-var assign = require("react/lib/Object.assign");
-var ReactPropTypes = require("react").PropTypes;
-var Route = require("./Route");
+var assign = require('react/lib/Object.assign');
+var ReactPropTypes = require('react').PropTypes;
+var Route = require('./Route');
 
 var PropTypes = assign({}, ReactPropTypes, {
 
@@ -16049,7 +16109,7 @@ var PropTypes = assign({}, ReactPropTypes, {
    */
   falsy: function falsy(props, propName, componentName) {
     if (props[propName]) {
-      return new Error("<" + componentName + "> may not have a \"" + propName + "\" prop");
+      return new Error('<' + componentName + '> should not have a "' + propName + '" prop');
     }
   },
 
@@ -16067,12 +16127,12 @@ var PropTypes = assign({}, ReactPropTypes, {
 });
 
 module.exports = PropTypes;
-},{"./Route":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Route.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react/lib/Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Redirect.js":[function(require,module,exports){
-"use strict";
-
+},{"./Route":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Route.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react/lib/Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Redirect.js":[function(require,module,exports){
 /**
  * Encapsulates a redirect to the given route.
  */
+"use strict";
+
 function Redirect(to, params, query) {
   this.to = to;
   this.params = params;
@@ -16080,17 +16140,17 @@ function Redirect(to, params, query) {
 }
 
 module.exports = Redirect;
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Route.js":[function(require,module,exports){
-"use strict";
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Route.js":[function(require,module,exports){
+'use strict';
 
-var _createClass = (function () { function defineProperties(target, props) { for (var key in props) { var prop = props[key]; prop.configurable = true; if (prop.value) prop.writable = true; } Object.defineProperties(target, props); } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var assign = require("react/lib/Object.assign");
-var invariant = require("react/lib/invariant");
-var warning = require("react/lib/warning");
-var PathUtils = require("./PathUtils");
+var assign = require('react/lib/Object.assign');
+var invariant = require('react/lib/invariant');
+var warning = require('react/lib/warning');
+var PathUtils = require('./PathUtils');
 
 var _currentRoute;
 
@@ -16109,191 +16169,184 @@ var Route = (function () {
     this.handler = handler;
   }
 
-  _createClass(Route, {
-    appendChild: {
+  _createClass(Route, [{
+    key: 'appendChild',
 
-      /**
-       * Appends the given route to this route's child routes.
-       */
+    /**
+     * Appends the given route to this route's child routes.
+     */
+    value: function appendChild(route) {
+      invariant(route instanceof Route, 'route.appendChild must use a valid Route');
 
-      value: function appendChild(route) {
-        invariant(route instanceof Route, "route.appendChild must use a valid Route");
+      if (!this.childRoutes) this.childRoutes = [];
 
-        if (!this.childRoutes) this.childRoutes = [];
-
-        this.childRoutes.push(route);
-      }
-    },
-    toString: {
-      value: function toString() {
-        var string = "<Route";
-
-        if (this.name) string += " name=\"" + this.name + "\"";
-
-        string += " path=\"" + this.path + "\">";
-
-        return string;
-      }
+      this.childRoutes.push(route);
     }
   }, {
-    createRoute: {
+    key: 'toString',
+    value: function toString() {
+      var string = '<Route';
 
-      /**
-       * Creates and returns a new route. Options may be a URL pathname string
-       * with placeholders for named params or an object with any of the following
-       * properties:
-       *
-       * - name                     The name of the route. This is used to lookup a
-       *                            route relative to its parent route and should be
-       *                            unique among all child routes of the same parent
-       * - path                     A URL pathname string with optional placeholders
-       *                            that specify the names of params to extract from
-       *                            the URL when the path matches. Defaults to `/${name}`
-       *                            when there is a name given, or the path of the parent
-       *                            route, or /
-       * - ignoreScrollBehavior     True to make this route (and all descendants) ignore
-       *                            the scroll behavior of the router
-       * - isDefault                True to make this route the default route among all
-       *                            its siblings
-       * - isNotFound               True to make this route the "not found" route among
-       *                            all its siblings
-       * - onEnter                  A transition hook that will be called when the
-       *                            router is going to enter this route
-       * - onLeave                  A transition hook that will be called when the
-       *                            router is going to leave this route
-       * - handler                  A React component that will be rendered when
-       *                            this route is active
-       * - parentRoute              The parent route to use for this route. This option
-       *                            is automatically supplied when creating routes inside
-       *                            the callback to another invocation of createRoute. You
-       *                            only ever need to use this when declaring routes
-       *                            independently of one another to manually piece together
-       *                            the route hierarchy
-       *
-       * The callback may be used to structure your route hierarchy. Any call to
-       * createRoute, createDefaultRoute, createNotFoundRoute, or createRedirect
-       * inside the callback automatically uses this route as its parent.
-       */
+      if (this.name) string += ' name="' + this.name + '"';
 
-      value: function createRoute(options, callback) {
-        options = options || {};
+      string += ' path="' + this.path + '">';
 
-        if (typeof options === "string") options = { path: options };
-
-        var parentRoute = _currentRoute;
-
-        if (parentRoute) {
-          warning(options.parentRoute == null || options.parentRoute === parentRoute, "You should not use parentRoute with createRoute inside another route's child callback; it is ignored");
-        } else {
-          parentRoute = options.parentRoute;
-        }
-
-        var name = options.name;
-        var path = options.path || name;
-
-        if (path && !(options.isDefault || options.isNotFound)) {
-          if (PathUtils.isAbsolute(path)) {
-            if (parentRoute) {
-              invariant(path === parentRoute.path || parentRoute.paramNames.length === 0, "You cannot nest path \"%s\" inside \"%s\"; the parent requires URL parameters", path, parentRoute.path);
-            }
-          } else if (parentRoute) {
-            // Relative paths extend their parent.
-            path = PathUtils.join(parentRoute.path, path);
-          } else {
-            path = "/" + path;
-          }
-        } else {
-          path = parentRoute ? parentRoute.path : "/";
-        }
-
-        if (options.isNotFound && !/\*$/.test(path)) path += "*"; // Auto-append * to the path of not found routes.
-
-        var route = new Route(name, path, options.ignoreScrollBehavior, options.isDefault, options.isNotFound, options.onEnter, options.onLeave, options.handler);
-
-        if (parentRoute) {
-          if (route.isDefault) {
-            invariant(parentRoute.defaultRoute == null, "%s may not have more than one default route", parentRoute);
-
-            parentRoute.defaultRoute = route;
-          } else if (route.isNotFound) {
-            invariant(parentRoute.notFoundRoute == null, "%s may not have more than one not found route", parentRoute);
-
-            parentRoute.notFoundRoute = route;
-          }
-
-          parentRoute.appendChild(route);
-        }
-
-        // Any routes created in the callback
-        // use this route as their parent.
-        if (typeof callback === "function") {
-          var currentRoute = _currentRoute;
-          _currentRoute = route;
-          callback.call(route, route);
-          _currentRoute = currentRoute;
-        }
-
-        return route;
-      }
-    },
-    createDefaultRoute: {
-
-      /**
-       * Creates and returns a route that is rendered when its parent matches
-       * the current URL.
-       */
-
-      value: function createDefaultRoute(options) {
-        return Route.createRoute(assign({}, options, { isDefault: true }));
-      }
-    },
-    createNotFoundRoute: {
-
-      /**
-       * Creates and returns a route that is rendered when its parent matches
-       * the current URL but none of its siblings do.
-       */
-
-      value: function createNotFoundRoute(options) {
-        return Route.createRoute(assign({}, options, { isNotFound: true }));
-      }
-    },
-    createRedirect: {
-
-      /**
-       * Creates and returns a route that automatically redirects the transition
-       * to another route. In addition to the normal options to createRoute, this
-       * function accepts the following options:
-       *
-       * - from         An alias for the `path` option. Defaults to *
-       * - to           The path/route/route name to redirect to
-       * - params       The params to use in the redirect URL. Defaults
-       *                to using the current params
-       * - query        The query to use in the redirect URL. Defaults
-       *                to using the current query
-       */
-
-      value: function createRedirect(options) {
-        return Route.createRoute(assign({}, options, {
-          path: options.path || options.from || "*",
-          onEnter: function onEnter(transition, params, query) {
-            transition.redirect(options.to, options.params || params, options.query || query);
-          }
-        }));
-      }
+      return string;
     }
-  });
+  }], [{
+    key: 'createRoute',
+
+    /**
+     * Creates and returns a new route. Options may be a URL pathname string
+     * with placeholders for named params or an object with any of the following
+     * properties:
+     *
+     * - name                     The name of the route. This is used to lookup a
+     *                            route relative to its parent route and should be
+     *                            unique among all child routes of the same parent
+     * - path                     A URL pathname string with optional placeholders
+     *                            that specify the names of params to extract from
+     *                            the URL when the path matches. Defaults to `/${name}`
+     *                            when there is a name given, or the path of the parent
+     *                            route, or /
+     * - ignoreScrollBehavior     True to make this route (and all descendants) ignore
+     *                            the scroll behavior of the router
+     * - isDefault                True to make this route the default route among all
+     *                            its siblings
+     * - isNotFound               True to make this route the "not found" route among
+     *                            all its siblings
+     * - onEnter                  A transition hook that will be called when the
+     *                            router is going to enter this route
+     * - onLeave                  A transition hook that will be called when the
+     *                            router is going to leave this route
+     * - handler                  A React component that will be rendered when
+     *                            this route is active
+     * - parentRoute              The parent route to use for this route. This option
+     *                            is automatically supplied when creating routes inside
+     *                            the callback to another invocation of createRoute. You
+     *                            only ever need to use this when declaring routes
+     *                            independently of one another to manually piece together
+     *                            the route hierarchy
+     *
+     * The callback may be used to structure your route hierarchy. Any call to
+     * createRoute, createDefaultRoute, createNotFoundRoute, or createRedirect
+     * inside the callback automatically uses this route as its parent.
+     */
+    value: function createRoute(options, callback) {
+      options = options || {};
+
+      if (typeof options === 'string') options = { path: options };
+
+      var parentRoute = _currentRoute;
+
+      if (parentRoute) {
+        warning(options.parentRoute == null || options.parentRoute === parentRoute, 'You should not use parentRoute with createRoute inside another route\'s child callback; it is ignored');
+      } else {
+        parentRoute = options.parentRoute;
+      }
+
+      var name = options.name;
+      var path = options.path || name;
+
+      if (path && !(options.isDefault || options.isNotFound)) {
+        if (PathUtils.isAbsolute(path)) {
+          if (parentRoute) {
+            invariant(path === parentRoute.path || parentRoute.paramNames.length === 0, 'You cannot nest path "%s" inside "%s"; the parent requires URL parameters', path, parentRoute.path);
+          }
+        } else if (parentRoute) {
+          // Relative paths extend their parent.
+          path = PathUtils.join(parentRoute.path, path);
+        } else {
+          path = '/' + path;
+        }
+      } else {
+        path = parentRoute ? parentRoute.path : '/';
+      }
+
+      if (options.isNotFound && !/\*$/.test(path)) path += '*'; // Auto-append * to the path of not found routes.
+
+      var route = new Route(name, path, options.ignoreScrollBehavior, options.isDefault, options.isNotFound, options.onEnter, options.onLeave, options.handler);
+
+      if (parentRoute) {
+        if (route.isDefault) {
+          invariant(parentRoute.defaultRoute == null, '%s may not have more than one default route', parentRoute);
+
+          parentRoute.defaultRoute = route;
+        } else if (route.isNotFound) {
+          invariant(parentRoute.notFoundRoute == null, '%s may not have more than one not found route', parentRoute);
+
+          parentRoute.notFoundRoute = route;
+        }
+
+        parentRoute.appendChild(route);
+      }
+
+      // Any routes created in the callback
+      // use this route as their parent.
+      if (typeof callback === 'function') {
+        var currentRoute = _currentRoute;
+        _currentRoute = route;
+        callback.call(route, route);
+        _currentRoute = currentRoute;
+      }
+
+      return route;
+    }
+  }, {
+    key: 'createDefaultRoute',
+
+    /**
+     * Creates and returns a route that is rendered when its parent matches
+     * the current URL.
+     */
+    value: function createDefaultRoute(options) {
+      return Route.createRoute(assign({}, options, { isDefault: true }));
+    }
+  }, {
+    key: 'createNotFoundRoute',
+
+    /**
+     * Creates and returns a route that is rendered when its parent matches
+     * the current URL but none of its siblings do.
+     */
+    value: function createNotFoundRoute(options) {
+      return Route.createRoute(assign({}, options, { isNotFound: true }));
+    }
+  }, {
+    key: 'createRedirect',
+
+    /**
+     * Creates and returns a route that automatically redirects the transition
+     * to another route. In addition to the normal options to createRoute, this
+     * function accepts the following options:
+     *
+     * - from         An alias for the `path` option. Defaults to *
+     * - to           The path/route/route name to redirect to
+     * - params       The params to use in the redirect URL. Defaults
+     *                to using the current params
+     * - query        The query to use in the redirect URL. Defaults
+     *                to using the current query
+     */
+    value: function createRedirect(options) {
+      return Route.createRoute(assign({}, options, {
+        path: options.path || options.from || '*',
+        onEnter: function onEnter(transition, params, query) {
+          transition.redirect(options.to, options.params || params, options.query || query);
+        }
+      }));
+    }
+  }]);
 
   return Route;
 })();
 
 module.exports = Route;
-},{"./PathUtils":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/PathUtils.js","react/lib/Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","react/lib/invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","react/lib/warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/ScrollHistory.js":[function(require,module,exports){
-"use strict";
+},{"./PathUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PathUtils.js","react/lib/Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","react/lib/warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\ScrollHistory.js":[function(require,module,exports){
+'use strict';
 
-var invariant = require("react/lib/invariant");
-var canUseDOM = require("react/lib/ExecutionEnvironment").canUseDOM;
-var getWindowScrollPosition = require("./getWindowScrollPosition");
+var invariant = require('react/lib/invariant');
+var canUseDOM = require('react/lib/ExecutionEnvironment').canUseDOM;
+var getWindowScrollPosition = require('./getWindowScrollPosition');
 
 function shouldUpdateScroll(state, prevState) {
   if (!prevState) {
@@ -16342,7 +16395,7 @@ var ScrollHistory = {
   },
 
   componentWillMount: function componentWillMount() {
-    invariant(this.constructor.getScrollBehavior() == null || canUseDOM, "Cannot use scroll behavior without a DOM");
+    invariant(this.constructor.getScrollBehavior() == null || canUseDOM, 'Cannot use scroll behavior without a DOM');
   },
 
   componentDidMount: function componentDidMount() {
@@ -16364,19 +16417,10 @@ var ScrollHistory = {
 };
 
 module.exports = ScrollHistory;
-},{"./getWindowScrollPosition":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/getWindowScrollPosition.js","react/lib/ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/State.js":[function(require,module,exports){
-"use strict";
+},{"./getWindowScrollPosition":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\getWindowScrollPosition.js","react/lib/ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\State.js":[function(require,module,exports){
+'use strict';
 
-var warning = require("react/lib/warning");
-var PropTypes = require("./PropTypes");
-
-function deprecatedMethod(routerMethodName, fn) {
-  return function () {
-    warning(false, "Router.State is deprecated. Please use this.context.router." + routerMethodName + "() instead");
-
-    return fn.apply(this, arguments);
-  };
-}
+var PropTypes = require('./PropTypes');
 
 /**
  * A mixin for components that need to know the path, routes, URL
@@ -16388,10 +16432,10 @@ function deprecatedMethod(routerMethodName, fn) {
  *     mixins: [ Router.State ],
  *     render() {
  *       var className = this.props.className;
- *   
+ *
  *       if (this.isActive('about'))
  *         className += ' is-active';
- *   
+ *
  *       return React.DOM.a({ className: className }, this.props.children);
  *     }
  *   });
@@ -16405,56 +16449,56 @@ var State = {
   /**
    * Returns the current URL path.
    */
-  getPath: deprecatedMethod("getCurrentPath", function () {
+  getPath: function getPath() {
     return this.context.router.getCurrentPath();
-  }),
+  },
 
   /**
    * Returns the current URL path without the query string.
    */
-  getPathname: deprecatedMethod("getCurrentPathname", function () {
+  getPathname: function getPathname() {
     return this.context.router.getCurrentPathname();
-  }),
+  },
 
   /**
    * Returns an object of the URL params that are currently active.
    */
-  getParams: deprecatedMethod("getCurrentParams", function () {
+  getParams: function getParams() {
     return this.context.router.getCurrentParams();
-  }),
+  },
 
   /**
    * Returns an object of the query params that are currently active.
    */
-  getQuery: deprecatedMethod("getCurrentQuery", function () {
+  getQuery: function getQuery() {
     return this.context.router.getCurrentQuery();
-  }),
+  },
 
   /**
    * Returns an array of the routes that are currently active.
    */
-  getRoutes: deprecatedMethod("getCurrentRoutes", function () {
+  getRoutes: function getRoutes() {
     return this.context.router.getCurrentRoutes();
-  }),
+  },
 
   /**
    * A helper method to determine if a given route, params, and query
    * are active.
    */
-  isActive: deprecatedMethod("isActive", function (to, params, query) {
+  isActive: function isActive(to, params, query) {
     return this.context.router.isActive(to, params, query);
-  })
+  }
 
 };
 
 module.exports = State;
-},{"./PropTypes":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/PropTypes.js","react/lib/warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Transition.js":[function(require,module,exports){
-"use strict";
-
+},{"./PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Transition.js":[function(require,module,exports){
 /* jshint -W058 */
 
-var Cancellation = require("./Cancellation");
-var Redirect = require("./Redirect");
+'use strict';
+
+var Cancellation = require('./Cancellation');
+var Redirect = require('./Redirect');
 
 /**
  * Encapsulates a transition to a given path.
@@ -16470,7 +16514,7 @@ function Transition(path, retry) {
 }
 
 Transition.prototype.abort = function (reason) {
-  if (this.abortReason == null) this.abortReason = reason || "ABORT";
+  if (this.abortReason == null) this.abortReason = reason || 'ABORT';
 };
 
 Transition.prototype.redirect = function (to, params, query) {
@@ -16524,36 +16568,36 @@ Transition.to = function (transition, routes, params, query, callback) {
 };
 
 module.exports = Transition;
-},{"./Cancellation":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Cancellation.js","./Redirect":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Redirect.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/actions/LocationActions.js":[function(require,module,exports){
-"use strict";
-
+},{"./Cancellation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Cancellation.js","./Redirect":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Redirect.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js":[function(require,module,exports){
 /**
  * Actions that modify the URL.
  */
+'use strict';
+
 var LocationActions = {
 
   /**
    * Indicates a new location is being pushed to the history stack.
    */
-  PUSH: "push",
+  PUSH: 'push',
 
   /**
    * Indicates the current location should be replaced.
    */
-  REPLACE: "replace",
+  REPLACE: 'replace',
 
   /**
    * Indicates the most recent entry should be removed from the history stack.
    */
-  POP: "pop"
+  POP: 'pop'
 
 };
 
 module.exports = LocationActions;
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/behaviors/ImitateBrowserBehavior.js":[function(require,module,exports){
-"use strict";
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\behaviors\\ImitateBrowserBehavior.js":[function(require,module,exports){
+'use strict';
 
-var LocationActions = require("../actions/LocationActions");
+var LocationActions = require('../actions/LocationActions');
 
 /**
  * A scroll behavior that attempts to imitate the default behavior
@@ -16580,13 +16624,13 @@ var ImitateBrowserBehavior = {
 };
 
 module.exports = ImitateBrowserBehavior;
-},{"../actions/LocationActions":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/actions/LocationActions.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/behaviors/ScrollToTopBehavior.js":[function(require,module,exports){
-"use strict";
-
+},{"../actions/LocationActions":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\behaviors\\ScrollToTopBehavior.js":[function(require,module,exports){
 /**
  * A scroll behavior that always scrolls to the top of the page
  * after a transition.
  */
+"use strict";
+
 var ScrollToTopBehavior = {
 
   updateScrollPosition: function updateScrollPosition() {
@@ -16596,14 +16640,14 @@ var ScrollToTopBehavior = {
 };
 
 module.exports = ScrollToTopBehavior;
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/ContextWrapper.js":[function(require,module,exports){
-"use strict";
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\ContextWrapper.js":[function(require,module,exports){
+'use strict';
 
-var _createClass = (function () { function defineProperties(target, props) { for (var key in props) { var prop = props[key]; prop.configurable = true; if (prop.value) prop.writable = true; } Object.defineProperties(target, props); } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
-var _inherits = function (subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
+var _inherits = function (subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
 
 /**
  * This component is necessary to get around a context warning
@@ -16611,7 +16655,7 @@ var _classCallCheck = function (instance, Constructor) { if (!(instance instance
  * between the "owner" and "parent" contexts.
  */
 
-var React = require("react");
+var React = require('react');
 
 var ContextWrapper = (function (_React$Component) {
   function ContextWrapper() {
@@ -16624,28 +16668,27 @@ var ContextWrapper = (function (_React$Component) {
 
   _inherits(ContextWrapper, _React$Component);
 
-  _createClass(ContextWrapper, {
-    render: {
-      value: function render() {
-        return this.props.children;
-      }
+  _createClass(ContextWrapper, [{
+    key: 'render',
+    value: function render() {
+      return this.props.children;
     }
-  });
+  }]);
 
   return ContextWrapper;
 })(React.Component);
 
 module.exports = ContextWrapper;
-},{"react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/DefaultRoute.js":[function(require,module,exports){
-"use strict";
+},{"react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\DefaultRoute.js":[function(require,module,exports){
+'use strict';
 
-var _inherits = function (subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
+var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
+var _inherits = function (subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
 
-var PropTypes = require("../PropTypes");
-var RouteHandler = require("./RouteHandler");
-var Route = require("./Route");
+var PropTypes = require('../PropTypes');
+var RouteHandler = require('./RouteHandler');
+var Route = require('./Route');
 
 /**
  * A <DefaultRoute> component is a special kind of <Route> that
@@ -16684,18 +16727,18 @@ DefaultRoute.defaultProps = {
 };
 
 module.exports = DefaultRoute;
-},{"../PropTypes":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/PropTypes.js","./Route":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/Route.js","./RouteHandler":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/RouteHandler.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/Link.js":[function(require,module,exports){
-"use strict";
+},{"../PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./Route":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Route.js","./RouteHandler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\RouteHandler.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Link.js":[function(require,module,exports){
+'use strict';
 
-var _createClass = (function () { function defineProperties(target, props) { for (var key in props) { var prop = props[key]; prop.configurable = true; if (prop.value) prop.writable = true; } Object.defineProperties(target, props); } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
-var _inherits = function (subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
+var _inherits = function (subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
 
-var React = require("react");
-var assign = require("react/lib/Object.assign");
-var PropTypes = require("../PropTypes");
+var React = require('react');
+var assign = require('react/lib/Object.assign');
+var PropTypes = require('../PropTypes');
 
 function isLeftClickEvent(event) {
   return event.button === 0;
@@ -16735,67 +16778,64 @@ var Link = (function (_React$Component) {
 
   _inherits(Link, _React$Component);
 
-  _createClass(Link, {
-    handleClick: {
-      value: function handleClick(event) {
-        var allowTransition = true;
-        var clickResult;
+  _createClass(Link, [{
+    key: 'handleClick',
+    value: function handleClick(event) {
+      var allowTransition = true;
+      var clickResult;
 
-        if (this.props.onClick) clickResult = this.props.onClick(event);
+      if (this.props.onClick) clickResult = this.props.onClick(event);
 
-        if (isModifiedEvent(event) || !isLeftClickEvent(event)) {
-          return;
-        }if (clickResult === false || event.defaultPrevented === true) allowTransition = false;
+      if (isModifiedEvent(event) || !isLeftClickEvent(event)) {
+        return;
+      }if (clickResult === false || event.defaultPrevented === true) allowTransition = false;
 
-        event.preventDefault();
+      event.preventDefault();
 
-        if (allowTransition) this.context.router.transitionTo(this.props.to, this.props.params, this.props.query);
-      }
-    },
-    getHref: {
-
-      /**
-       * Returns the value of the "href" attribute to use on the DOM element.
-       */
-
-      value: function getHref() {
-        return this.context.router.makeHref(this.props.to, this.props.params, this.props.query);
-      }
-    },
-    getClassName: {
-
-      /**
-       * Returns the value of the "class" attribute to use on the DOM element, which contains
-       * the value of the activeClassName property when this <Link> is active.
-       */
-
-      value: function getClassName() {
-        var className = this.props.className;
-
-        if (this.getActiveState()) className += " " + this.props.activeClassName;
-
-        return className;
-      }
-    },
-    getActiveState: {
-      value: function getActiveState() {
-        return this.context.router.isActive(this.props.to, this.props.params, this.props.query);
-      }
-    },
-    render: {
-      value: function render() {
-        var props = assign({}, this.props, {
-          href: this.getHref(),
-          className: this.getClassName(),
-          onClick: this.handleClick.bind(this)
-        });
-
-        if (props.activeStyle && this.getActiveState()) props.style = props.activeStyle;
-
-        return React.DOM.a(props, this.props.children);
-      }
+      if (allowTransition) this.context.router.transitionTo(this.props.to, this.props.params, this.props.query);
     }
-  });
+  }, {
+    key: 'getHref',
+
+    /**
+     * Returns the value of the "href" attribute to use on the DOM element.
+     */
+    value: function getHref() {
+      return this.context.router.makeHref(this.props.to, this.props.params, this.props.query);
+    }
+  }, {
+    key: 'getClassName',
+
+    /**
+     * Returns the value of the "class" attribute to use on the DOM element, which contains
+     * the value of the activeClassName property when this <Link> is active.
+     */
+    value: function getClassName() {
+      var className = this.props.className;
+
+      if (this.getActiveState()) className += ' ' + this.props.activeClassName;
+
+      return className;
+    }
+  }, {
+    key: 'getActiveState',
+    value: function getActiveState() {
+      return this.context.router.isActive(this.props.to, this.props.params, this.props.query);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var props = assign({}, this.props, {
+        href: this.getHref(),
+        className: this.getClassName(),
+        onClick: this.handleClick.bind(this)
+      });
+
+      if (props.activeStyle && this.getActiveState()) props.style = props.activeStyle;
+
+      return React.DOM.a(props, this.props.children);
+    }
+  }]);
 
   return Link;
 })(React.Component);
@@ -16818,21 +16858,21 @@ Link.propTypes = {
 };
 
 Link.defaultProps = {
-  activeClassName: "active",
-  className: ""
+  activeClassName: 'active',
+  className: ''
 };
 
 module.exports = Link;
-},{"../PropTypes":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/PropTypes.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react/lib/Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/NotFoundRoute.js":[function(require,module,exports){
-"use strict";
+},{"../PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react/lib/Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\NotFoundRoute.js":[function(require,module,exports){
+'use strict';
 
-var _inherits = function (subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
+var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
+var _inherits = function (subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
 
-var PropTypes = require("../PropTypes");
-var RouteHandler = require("./RouteHandler");
-var Route = require("./Route");
+var PropTypes = require('../PropTypes');
+var RouteHandler = require('./RouteHandler');
+var Route = require('./Route');
 
 /**
  * A <NotFoundRoute> is a special kind of <Route> that
@@ -16872,15 +16912,15 @@ NotFoundRoute.defaultProps = {
 };
 
 module.exports = NotFoundRoute;
-},{"../PropTypes":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/PropTypes.js","./Route":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/Route.js","./RouteHandler":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/RouteHandler.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/Redirect.js":[function(require,module,exports){
-"use strict";
+},{"../PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./Route":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Route.js","./RouteHandler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\RouteHandler.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Redirect.js":[function(require,module,exports){
+'use strict';
 
-var _inherits = function (subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
+var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
+var _inherits = function (subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
 
-var PropTypes = require("../PropTypes");
-var Route = require("./Route");
+var PropTypes = require('../PropTypes');
+var Route = require('./Route');
 
 /**
  * A <Redirect> component is a special kind of <Route> that always
@@ -16916,19 +16956,19 @@ Redirect.propTypes = {
 Redirect.defaultProps = {};
 
 module.exports = Redirect;
-},{"../PropTypes":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/PropTypes.js","./Route":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/Route.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/Route.js":[function(require,module,exports){
-"use strict";
+},{"../PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./Route":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Route.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Route.js":[function(require,module,exports){
+'use strict';
 
-var _createClass = (function () { function defineProperties(target, props) { for (var key in props) { var prop = props[key]; prop.configurable = true; if (prop.value) prop.writable = true; } Object.defineProperties(target, props); } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
-var _inherits = function (subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
+var _inherits = function (subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
 
-var React = require("react");
-var invariant = require("react/lib/invariant");
-var PropTypes = require("../PropTypes");
-var RouteHandler = require("./RouteHandler");
+var React = require('react');
+var invariant = require('react/lib/invariant');
+var PropTypes = require('../PropTypes');
+var RouteHandler = require('./RouteHandler');
 
 /**
  * <Route> components specify components that are rendered to the page when the
@@ -16982,13 +17022,12 @@ var Route = (function (_React$Component) {
 
   _inherits(Route, _React$Component);
 
-  _createClass(Route, {
-    render: {
-      value: function render() {
-        invariant(false, "%s elements are for router configuration only and should not be rendered", this.constructor.name);
-      }
+  _createClass(Route, [{
+    key: 'render',
+    value: function render() {
+      invariant(false, '%s elements are for router configuration only and should not be rendered', this.constructor.name);
     }
-  });
+  }]);
 
   return Route;
 })(React.Component);
@@ -17009,21 +17048,21 @@ Route.defaultProps = {
 };
 
 module.exports = Route;
-},{"../PropTypes":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/PropTypes.js","./RouteHandler":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/RouteHandler.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react/lib/invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/RouteHandler.js":[function(require,module,exports){
-"use strict";
+},{"../PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./RouteHandler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\RouteHandler.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\RouteHandler.js":[function(require,module,exports){
+'use strict';
 
-var _createClass = (function () { function defineProperties(target, props) { for (var key in props) { var prop = props[key]; prop.configurable = true; if (prop.value) prop.writable = true; } Object.defineProperties(target, props); } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
-var _inherits = function (subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
+var _inherits = function (subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
 
-var React = require("react");
-var ContextWrapper = require("./ContextWrapper");
-var assign = require("react/lib/Object.assign");
-var PropTypes = require("../PropTypes");
+var React = require('react');
+var ContextWrapper = require('./ContextWrapper');
+var assign = require('react/lib/Object.assign');
+var PropTypes = require('../PropTypes');
 
-var REF_NAME = "__routeHandler__";
+var REF_NAME = '__routeHandler__';
 
 /**
  * A <RouteHandler> component renders the active child route handler
@@ -17041,57 +17080,65 @@ var RouteHandler = (function (_React$Component) {
 
   _inherits(RouteHandler, _React$Component);
 
-  _createClass(RouteHandler, {
-    getChildContext: {
-      value: function getChildContext() {
-        return {
-          routeDepth: this.context.routeDepth + 1
-        };
-      }
-    },
-    componentDidMount: {
-      value: function componentDidMount() {
-        this._updateRouteComponent(this.refs[REF_NAME]);
-      }
-    },
-    componentDidUpdate: {
-      value: function componentDidUpdate() {
-        this._updateRouteComponent(this.refs[REF_NAME]);
-      }
-    },
-    componentWillUnmount: {
-      value: function componentWillUnmount() {
-        this._updateRouteComponent(null);
-      }
-    },
-    _updateRouteComponent: {
-      value: function _updateRouteComponent(component) {
-        this.context.router.setRouteComponentAtDepth(this.getRouteDepth(), component);
-      }
-    },
-    getRouteDepth: {
-      value: function getRouteDepth() {
-        return this.context.routeDepth;
-      }
-    },
-    createChildRouteHandler: {
-      value: function createChildRouteHandler(props) {
-        var route = this.context.router.getRouteAtDepth(this.getRouteDepth());
-        return route ? React.createElement(route.handler, assign({}, props || this.props, { ref: REF_NAME })) : null;
-      }
-    },
-    render: {
-      value: function render() {
-        var handler = this.createChildRouteHandler();
-        // <script/> for things like <CSSTransitionGroup/> that don't like null
-        return handler ? React.createElement(
-          ContextWrapper,
-          null,
-          handler
-        ) : React.createElement("script", null);
-      }
+  _createClass(RouteHandler, [{
+    key: 'getChildContext',
+    value: function getChildContext() {
+      return {
+        routeDepth: this.context.routeDepth + 1
+      };
     }
-  });
+  }, {
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      this._updateRouteComponent(this.refs[REF_NAME]);
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate() {
+      this._updateRouteComponent(this.refs[REF_NAME]);
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      this._updateRouteComponent(null);
+    }
+  }, {
+    key: '_updateRouteComponent',
+    value: function _updateRouteComponent(component) {
+      this.context.router.setRouteComponentAtDepth(this.getRouteDepth(), component);
+    }
+  }, {
+    key: 'getRouteDepth',
+    value: function getRouteDepth() {
+      return this.context.routeDepth;
+    }
+  }, {
+    key: 'createChildRouteHandler',
+    value: function createChildRouteHandler(props) {
+      var route = this.context.router.getRouteAtDepth(this.getRouteDepth());
+
+      if (route == null) {
+        return null;
+      }var childProps = assign({}, props || this.props, {
+        ref: REF_NAME,
+        params: this.context.router.getCurrentParams(),
+        query: this.context.router.getCurrentQuery()
+      });
+
+      return React.createElement(route.handler, childProps);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var handler = this.createChildRouteHandler();
+      // <script/> for things like <CSSTransitionGroup/> that don't like null
+      return handler ? React.createElement(
+        ContextWrapper,
+        null,
+        handler
+      ) : React.createElement('script', null);
+    }
+  }]);
 
   return RouteHandler;
 })(React.Component);
@@ -17110,38 +17157,38 @@ RouteHandler.childContextTypes = {
 };
 
 module.exports = RouteHandler;
-},{"../PropTypes":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/PropTypes.js","./ContextWrapper":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/ContextWrapper.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react/lib/Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/createRouter.js":[function(require,module,exports){
+},{"../PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./ContextWrapper":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\ContextWrapper.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react/lib/Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\createRouter.js":[function(require,module,exports){
 (function (process){
-"use strict";
-
 /* jshint -W058 */
-var React = require("react");
-var warning = require("react/lib/warning");
-var invariant = require("react/lib/invariant");
-var canUseDOM = require("react/lib/ExecutionEnvironment").canUseDOM;
-var LocationActions = require("./actions/LocationActions");
-var ImitateBrowserBehavior = require("./behaviors/ImitateBrowserBehavior");
-var HashLocation = require("./locations/HashLocation");
-var HistoryLocation = require("./locations/HistoryLocation");
-var RefreshLocation = require("./locations/RefreshLocation");
-var StaticLocation = require("./locations/StaticLocation");
-var ScrollHistory = require("./ScrollHistory");
-var createRoutesFromReactChildren = require("./createRoutesFromReactChildren");
-var isReactChildren = require("./isReactChildren");
-var Transition = require("./Transition");
-var PropTypes = require("./PropTypes");
-var Redirect = require("./Redirect");
-var History = require("./History");
-var Cancellation = require("./Cancellation");
-var Match = require("./Match");
-var Route = require("./Route");
-var supportsHistory = require("./supportsHistory");
-var PathUtils = require("./PathUtils");
+'use strict';
+
+var React = require('react');
+var warning = require('react/lib/warning');
+var invariant = require('react/lib/invariant');
+var canUseDOM = require('react/lib/ExecutionEnvironment').canUseDOM;
+var LocationActions = require('./actions/LocationActions');
+var ImitateBrowserBehavior = require('./behaviors/ImitateBrowserBehavior');
+var HashLocation = require('./locations/HashLocation');
+var HistoryLocation = require('./locations/HistoryLocation');
+var RefreshLocation = require('./locations/RefreshLocation');
+var StaticLocation = require('./locations/StaticLocation');
+var ScrollHistory = require('./ScrollHistory');
+var createRoutesFromReactChildren = require('./createRoutesFromReactChildren');
+var isReactChildren = require('./isReactChildren');
+var Transition = require('./Transition');
+var PropTypes = require('./PropTypes');
+var Redirect = require('./Redirect');
+var History = require('./History');
+var Cancellation = require('./Cancellation');
+var Match = require('./Match');
+var Route = require('./Route');
+var supportsHistory = require('./supportsHistory');
+var PathUtils = require('./PathUtils');
 
 /**
  * The default location for new routers.
  */
-var DEFAULT_LOCATION = canUseDOM ? HashLocation : "/";
+var DEFAULT_LOCATION = canUseDOM ? HashLocation : '/';
 
 /**
  * The default scroll behavior for new routers.
@@ -17179,7 +17226,7 @@ function addRoutesToNamedRoutes(routes, namedRoutes) {
     route = routes[i];
 
     if (route.name) {
-      invariant(namedRoutes[route.name] == null, "You may not have more than one route named \"%s\"", route.name);
+      invariant(namedRoutes[route.name] == null, 'You may not have more than one route named "%s"', route.name);
 
       namedRoutes[route.name] = route;
     }
@@ -17237,12 +17284,12 @@ function createRouter(options) {
   var pendingTransition = null;
   var dispatchHandler = null;
 
-  if (typeof location === "string") location = new StaticLocation(location);
+  if (typeof location === 'string') location = new StaticLocation(location);
 
   if (location instanceof StaticLocation) {
-    warning(!canUseDOM || process.env.NODE_ENV === "test", "You should not use a static location in a DOM environment because " + "the router will not be kept in sync with the current URL");
+    warning(!canUseDOM || process.env.NODE_ENV === 'test', 'You should not use a static location in a DOM environment because ' + 'the router will not be kept in sync with the current URL');
   } else {
-    invariant(canUseDOM || location.needsDOM === false, "You cannot use %s without a DOM", location);
+    invariant(canUseDOM || location.needsDOM === false, 'You cannot use %s without a DOM', location);
   }
 
   // Automatically fall back to full page refreshes in
@@ -17251,7 +17298,7 @@ function createRouter(options) {
 
   var Router = React.createClass({
 
-    displayName: "Router",
+    displayName: 'Router',
 
     statics: {
 
@@ -17310,7 +17357,7 @@ function createRouter(options) {
         } else {
           var route = to instanceof Route ? to : Router.namedRoutes[to];
 
-          invariant(route instanceof Route, "Cannot find a route named \"%s\"", to);
+          invariant(route instanceof Route, 'Cannot find a route named "%s"', to);
 
           path = route.path;
         }
@@ -17324,7 +17371,7 @@ function createRouter(options) {
        */
       makeHref: function makeHref(to, params, query) {
         var path = Router.makePath(to, params, query);
-        return location === HashLocation ? "#" + path : path;
+        return location === HashLocation ? '#' + path : path;
       },
 
       /**
@@ -17367,13 +17414,13 @@ function createRouter(options) {
           return true;
         }
 
-        warning(false, "goBack() was ignored because there is no router history");
+        warning(false, 'goBack() was ignored because there is no router history');
 
         return false;
       },
 
       handleAbort: options.onAbort || function (abortReason) {
-        if (location instanceof StaticLocation) throw new Error("Unhandled aborted transition! Reason: " + abortReason);
+        if (location instanceof StaticLocation) throw new Error('Unhandled aborted transition! Reason: ' + abortReason);
 
         if (abortReason instanceof Cancellation) {
           return;
@@ -17425,7 +17472,7 @@ function createRouter(options) {
 
         var match = Router.match(path);
 
-        warning(match != null, "No route matches path \"%s\". Make sure you have <Route path=\"%s\"> somewhere in your routes", path, path);
+        warning(match != null, 'No route matches path "%s". Make sure you have <Route path="%s"> somewhere in your routes', path, path);
 
         if (match == null) match = {};
 
@@ -17480,7 +17527,7 @@ function createRouter(options) {
        * Router.*Location objects (e.g. Router.HashLocation or Router.HistoryLocation).
        */
       run: function run(callback) {
-        invariant(!Router.isRunning, "Router is already running");
+        invariant(!Router.isRunning, 'Router is already running');
 
         dispatchHandler = function (error, transition, newState) {
           if (error) Router.handleError(error);
@@ -17627,20 +17674,20 @@ function createRouter(options) {
 
 module.exports = createRouter;
 }).call(this,require('_process'))
-},{"./Cancellation":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Cancellation.js","./History":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/History.js","./Match":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Match.js","./PathUtils":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/PathUtils.js","./PropTypes":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/PropTypes.js","./Redirect":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Redirect.js","./Route":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Route.js","./ScrollHistory":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/ScrollHistory.js","./Transition":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Transition.js","./actions/LocationActions":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/actions/LocationActions.js","./behaviors/ImitateBrowserBehavior":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/behaviors/ImitateBrowserBehavior.js","./createRoutesFromReactChildren":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/createRoutesFromReactChildren.js","./isReactChildren":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/isReactChildren.js","./locations/HashLocation":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/locations/HashLocation.js","./locations/HistoryLocation":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/locations/HistoryLocation.js","./locations/RefreshLocation":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/locations/RefreshLocation.js","./locations/StaticLocation":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/locations/StaticLocation.js","./supportsHistory":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/supportsHistory.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react/lib/ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","react/lib/warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/createRoutesFromReactChildren.js":[function(require,module,exports){
-"use strict";
-
+},{"./Cancellation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Cancellation.js","./History":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\History.js","./Match":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Match.js","./PathUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PathUtils.js","./PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./Redirect":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Redirect.js","./Route":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Route.js","./ScrollHistory":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\ScrollHistory.js","./Transition":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Transition.js","./actions/LocationActions":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js","./behaviors/ImitateBrowserBehavior":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\behaviors\\ImitateBrowserBehavior.js","./createRoutesFromReactChildren":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\createRoutesFromReactChildren.js","./isReactChildren":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\isReactChildren.js","./locations/HashLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HashLocation.js","./locations/HistoryLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HistoryLocation.js","./locations/RefreshLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\RefreshLocation.js","./locations/StaticLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\StaticLocation.js","./supportsHistory":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\supportsHistory.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react/lib/ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","react/lib/warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\createRoutesFromReactChildren.js":[function(require,module,exports){
 /* jshint -W084 */
-var React = require("react");
-var assign = require("react/lib/Object.assign");
-var warning = require("react/lib/warning");
-var DefaultRoute = require("./components/DefaultRoute");
-var NotFoundRoute = require("./components/NotFoundRoute");
-var Redirect = require("./components/Redirect");
-var Route = require("./Route");
+'use strict';
+
+var React = require('react');
+var assign = require('react/lib/Object.assign');
+var warning = require('react/lib/warning');
+var DefaultRoute = require('./components/DefaultRoute');
+var NotFoundRoute = require('./components/NotFoundRoute');
+var Redirect = require('./components/Redirect');
+var Route = require('./Route');
 
 function checkPropTypes(componentName, propTypes, props) {
-  componentName = componentName || "UnknownComponent";
+  componentName = componentName || 'UnknownComponent';
 
   for (var propName in propTypes) {
     if (propTypes.hasOwnProperty(propName)) {
@@ -17709,17 +17756,17 @@ function createRoutesFromReactChildren(children) {
 }
 
 module.exports = createRoutesFromReactChildren;
-},{"./Route":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Route.js","./components/DefaultRoute":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/DefaultRoute.js","./components/NotFoundRoute":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/NotFoundRoute.js","./components/Redirect":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/Redirect.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js","react/lib/Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","react/lib/warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/getWindowScrollPosition.js":[function(require,module,exports){
-"use strict";
+},{"./Route":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Route.js","./components/DefaultRoute":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\DefaultRoute.js","./components/NotFoundRoute":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\NotFoundRoute.js","./components/Redirect":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Redirect.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react/lib/Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","react/lib/warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\getWindowScrollPosition.js":[function(require,module,exports){
+'use strict';
 
-var invariant = require("react/lib/invariant");
-var canUseDOM = require("react/lib/ExecutionEnvironment").canUseDOM;
+var invariant = require('react/lib/invariant');
+var canUseDOM = require('react/lib/ExecutionEnvironment').canUseDOM;
 
 /**
  * Returns the current scroll position of the window as { x, y }.
  */
 function getWindowScrollPosition() {
-  invariant(canUseDOM, "Cannot get current scroll position without a DOM");
+  invariant(canUseDOM, 'Cannot get current scroll position without a DOM');
 
   return {
     x: window.pageXOffset || document.documentElement.scrollLeft,
@@ -17728,40 +17775,42 @@ function getWindowScrollPosition() {
 }
 
 module.exports = getWindowScrollPosition;
-},{"react/lib/ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js","react/lib/invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/index.js":[function(require,module,exports){
-"use strict";
+},{"react/lib/ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js":[function(require,module,exports){
+'use strict';
 
-exports.DefaultRoute = require("./components/DefaultRoute");
-exports.Link = require("./components/Link");
-exports.NotFoundRoute = require("./components/NotFoundRoute");
-exports.Redirect = require("./components/Redirect");
-exports.Route = require("./components/Route");
-exports.RouteHandler = require("./components/RouteHandler");
+exports.DefaultRoute = require('./components/DefaultRoute');
+exports.Link = require('./components/Link');
+exports.NotFoundRoute = require('./components/NotFoundRoute');
+exports.Redirect = require('./components/Redirect');
+exports.Route = require('./components/Route');
+exports.ActiveHandler = require('./components/RouteHandler');
+exports.RouteHandler = exports.ActiveHandler;
 
-exports.HashLocation = require("./locations/HashLocation");
-exports.HistoryLocation = require("./locations/HistoryLocation");
-exports.RefreshLocation = require("./locations/RefreshLocation");
-exports.StaticLocation = require("./locations/StaticLocation");
-exports.TestLocation = require("./locations/TestLocation");
+exports.HashLocation = require('./locations/HashLocation');
+exports.HistoryLocation = require('./locations/HistoryLocation');
+exports.RefreshLocation = require('./locations/RefreshLocation');
+exports.StaticLocation = require('./locations/StaticLocation');
+exports.TestLocation = require('./locations/TestLocation');
 
-exports.ImitateBrowserBehavior = require("./behaviors/ImitateBrowserBehavior");
-exports.ScrollToTopBehavior = require("./behaviors/ScrollToTopBehavior");
+exports.ImitateBrowserBehavior = require('./behaviors/ImitateBrowserBehavior');
+exports.ScrollToTopBehavior = require('./behaviors/ScrollToTopBehavior');
 
-exports.History = require("./History");
-exports.Navigation = require("./Navigation");
-exports.State = require("./State");
+exports.History = require('./History');
+exports.Navigation = require('./Navigation');
+exports.State = require('./State');
 
-exports.createRoute = require("./Route").createRoute;
-exports.createDefaultRoute = require("./Route").createDefaultRoute;
-exports.createNotFoundRoute = require("./Route").createNotFoundRoute;
-exports.createRedirect = require("./Route").createRedirect;
-exports.createRoutesFromReactChildren = require("./createRoutesFromReactChildren");
-exports.create = require("./createRouter");
-exports.run = require("./runRouter");
-},{"./History":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/History.js","./Navigation":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Navigation.js","./Route":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/Route.js","./State":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/State.js","./behaviors/ImitateBrowserBehavior":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/behaviors/ImitateBrowserBehavior.js","./behaviors/ScrollToTopBehavior":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/behaviors/ScrollToTopBehavior.js","./components/DefaultRoute":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/DefaultRoute.js","./components/Link":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/Link.js","./components/NotFoundRoute":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/NotFoundRoute.js","./components/Redirect":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/Redirect.js","./components/Route":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/Route.js","./components/RouteHandler":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/components/RouteHandler.js","./createRouter":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/createRouter.js","./createRoutesFromReactChildren":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/createRoutesFromReactChildren.js","./locations/HashLocation":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/locations/HashLocation.js","./locations/HistoryLocation":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/locations/HistoryLocation.js","./locations/RefreshLocation":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/locations/RefreshLocation.js","./locations/StaticLocation":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/locations/StaticLocation.js","./locations/TestLocation":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/locations/TestLocation.js","./runRouter":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/runRouter.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/isReactChildren.js":[function(require,module,exports){
-"use strict";
+exports.createRoute = require('./Route').createRoute;
+exports.createDefaultRoute = require('./Route').createDefaultRoute;
+exports.createNotFoundRoute = require('./Route').createNotFoundRoute;
+exports.createRedirect = require('./Route').createRedirect;
+exports.createRoutesFromReactChildren = require('./createRoutesFromReactChildren');
 
-var React = require("react");
+exports.create = require('./createRouter');
+exports.run = require('./runRouter');
+},{"./History":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\History.js","./Navigation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Navigation.js","./Route":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Route.js","./State":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\State.js","./behaviors/ImitateBrowserBehavior":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\behaviors\\ImitateBrowserBehavior.js","./behaviors/ScrollToTopBehavior":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\behaviors\\ScrollToTopBehavior.js","./components/DefaultRoute":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\DefaultRoute.js","./components/Link":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Link.js","./components/NotFoundRoute":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\NotFoundRoute.js","./components/Redirect":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Redirect.js","./components/Route":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Route.js","./components/RouteHandler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\RouteHandler.js","./createRouter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\createRouter.js","./createRoutesFromReactChildren":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\createRoutesFromReactChildren.js","./locations/HashLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HashLocation.js","./locations/HistoryLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HistoryLocation.js","./locations/RefreshLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\RefreshLocation.js","./locations/StaticLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\StaticLocation.js","./locations/TestLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\TestLocation.js","./runRouter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\runRouter.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\isReactChildren.js":[function(require,module,exports){
+'use strict';
+
+var React = require('react');
 
 function isValidChild(object) {
   return object == null || React.isValidElement(object);
@@ -17772,11 +17821,11 @@ function isReactChildren(object) {
 }
 
 module.exports = isReactChildren;
-},{"react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/locations/HashLocation.js":[function(require,module,exports){
-"use strict";
+},{"react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HashLocation.js":[function(require,module,exports){
+'use strict';
 
-var LocationActions = require("../actions/LocationActions");
-var History = require("../History");
+var LocationActions = require('../actions/LocationActions');
+var History = require('../History');
 
 var _listeners = [];
 var _isListening = false;
@@ -17798,9 +17847,9 @@ function notifyChange(type) {
 function ensureSlash() {
   var path = HashLocation.getCurrentPath();
 
-  if (path.charAt(0) === "/") {
+  if (path.charAt(0) === '/') {
     return true;
-  }HashLocation.replace("/" + path);
+  }HashLocation.replace('/' + path);
 
   return false;
 }
@@ -17830,9 +17879,9 @@ var HashLocation = {
 
     if (!_isListening) {
       if (window.addEventListener) {
-        window.addEventListener("hashchange", onHashChange, false);
+        window.addEventListener('hashchange', onHashChange, false);
       } else {
-        window.attachEvent("onhashchange", onHashChange);
+        window.attachEvent('onhashchange', onHashChange);
       }
 
       _isListening = true;
@@ -17846,9 +17895,9 @@ var HashLocation = {
 
     if (_listeners.length === 0) {
       if (window.removeEventListener) {
-        window.removeEventListener("hashchange", onHashChange, false);
+        window.removeEventListener('hashchange', onHashChange, false);
       } else {
-        window.removeEvent("onhashchange", onHashChange);
+        window.removeEvent('onhashchange', onHashChange);
       }
 
       _isListening = false;
@@ -17862,7 +17911,7 @@ var HashLocation = {
 
   replace: function replace(path) {
     _actionType = LocationActions.REPLACE;
-    window.location.replace(window.location.pathname + window.location.search + "#" + path);
+    window.location.replace(window.location.pathname + window.location.search + '#' + path);
   },
 
   pop: function pop() {
@@ -17874,21 +17923,21 @@ var HashLocation = {
     return decodeURI(
     // We can't use window.location.hash here because it's not
     // consistent across browsers - Firefox will pre-decode it!
-    window.location.href.split("#")[1] || "");
+    window.location.href.split('#')[1] || '');
   },
 
   toString: function toString() {
-    return "<HashLocation>";
+    return '<HashLocation>';
   }
 
 };
 
 module.exports = HashLocation;
-},{"../History":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/History.js","../actions/LocationActions":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/actions/LocationActions.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/locations/HistoryLocation.js":[function(require,module,exports){
-"use strict";
+},{"../History":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\History.js","../actions/LocationActions":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HistoryLocation.js":[function(require,module,exports){
+'use strict';
 
-var LocationActions = require("../actions/LocationActions");
-var History = require("../History");
+var LocationActions = require('../actions/LocationActions');
+var History = require('../History');
 
 var _listeners = [];
 var _isListening = false;
@@ -17922,9 +17971,9 @@ var HistoryLocation = {
 
     if (!_isListening) {
       if (window.addEventListener) {
-        window.addEventListener("popstate", onPopState, false);
+        window.addEventListener('popstate', onPopState, false);
       } else {
-        window.attachEvent("onpopstate", onPopState);
+        window.attachEvent('onpopstate', onPopState);
       }
 
       _isListening = true;
@@ -17938,9 +17987,9 @@ var HistoryLocation = {
 
     if (_listeners.length === 0) {
       if (window.addEventListener) {
-        window.removeEventListener("popstate", onPopState, false);
+        window.removeEventListener('popstate', onPopState, false);
       } else {
-        window.removeEvent("onpopstate", onPopState);
+        window.removeEvent('onpopstate', onPopState);
       }
 
       _isListening = false;
@@ -17948,13 +17997,13 @@ var HistoryLocation = {
   },
 
   push: function push(path) {
-    window.history.pushState({ path: path }, "", path);
+    window.history.pushState({ path: path }, '', path);
     History.length += 1;
     notifyChange(LocationActions.PUSH);
   },
 
   replace: function replace(path) {
-    window.history.replaceState({ path: path }, "", path);
+    window.history.replaceState({ path: path }, '', path);
     notifyChange(LocationActions.REPLACE);
   },
 
@@ -17965,17 +18014,17 @@ var HistoryLocation = {
   },
 
   toString: function toString() {
-    return "<HistoryLocation>";
+    return '<HistoryLocation>';
   }
 
 };
 
 module.exports = HistoryLocation;
-},{"../History":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/History.js","../actions/LocationActions":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/actions/LocationActions.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/locations/RefreshLocation.js":[function(require,module,exports){
-"use strict";
+},{"../History":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\History.js","../actions/LocationActions":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\RefreshLocation.js":[function(require,module,exports){
+'use strict';
 
-var HistoryLocation = require("./HistoryLocation");
-var History = require("../History");
+var HistoryLocation = require('./HistoryLocation');
+var History = require('../History');
 
 /**
  * A Location that uses full page refreshes. This is used as
@@ -17997,23 +18046,23 @@ var RefreshLocation = {
   getCurrentPath: HistoryLocation.getCurrentPath,
 
   toString: function toString() {
-    return "<RefreshLocation>";
+    return '<RefreshLocation>';
   }
 
 };
 
 module.exports = RefreshLocation;
-},{"../History":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/History.js","./HistoryLocation":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/locations/HistoryLocation.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/locations/StaticLocation.js":[function(require,module,exports){
-"use strict";
+},{"../History":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\History.js","./HistoryLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HistoryLocation.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\StaticLocation.js":[function(require,module,exports){
+'use strict';
 
-var _createClass = (function () { function defineProperties(target, props) { for (var key in props) { var prop = props[key]; prop.configurable = true; if (prop.value) prop.writable = true; } Object.defineProperties(target, props); } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var invariant = require("react/lib/invariant");
+var invariant = require('react/lib/invariant');
 
 function throwCannotModify() {
-  invariant(false, "You cannot modify a static location");
+  invariant(false, 'You cannot modify a static location');
 }
 
 /**
@@ -18029,18 +18078,17 @@ var StaticLocation = (function () {
     this.path = path;
   }
 
-  _createClass(StaticLocation, {
-    getCurrentPath: {
-      value: function getCurrentPath() {
-        return this.path;
-      }
-    },
-    toString: {
-      value: function toString() {
-        return "<StaticLocation path=\"" + this.path + "\">";
-      }
+  _createClass(StaticLocation, [{
+    key: 'getCurrentPath',
+    value: function getCurrentPath() {
+      return this.path;
     }
-  });
+  }, {
+    key: 'toString',
+    value: function toString() {
+      return '<StaticLocation path="' + this.path + '">';
+    }
+  }]);
 
   return StaticLocation;
 })();
@@ -18054,16 +18102,16 @@ StaticLocation.prototype.replace = throwCannotModify;
 StaticLocation.prototype.pop = throwCannotModify;
 
 module.exports = StaticLocation;
-},{"react/lib/invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/locations/TestLocation.js":[function(require,module,exports){
-"use strict";
+},{"react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\TestLocation.js":[function(require,module,exports){
+'use strict';
 
-var _createClass = (function () { function defineProperties(target, props) { for (var key in props) { var prop = props[key]; prop.configurable = true; if (prop.value) prop.writable = true; } Object.defineProperties(target, props); } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var invariant = require("react/lib/invariant");
-var LocationActions = require("../actions/LocationActions");
-var History = require("../History");
+var invariant = require('react/lib/invariant');
+var LocationActions = require('../actions/LocationActions');
+var History = require('../History');
 
 /**
  * A location that is convenient for testing and does not require a DOM.
@@ -18078,82 +18126,81 @@ var TestLocation = (function () {
     this._updateHistoryLength();
   }
 
-  _createClass(TestLocation, {
-    needsDOM: {
-      get: function () {
-        return false;
-      }
-    },
-    _updateHistoryLength: {
-      value: function _updateHistoryLength() {
-        History.length = this.history.length;
-      }
-    },
-    _notifyChange: {
-      value: function _notifyChange(type) {
-        var change = {
-          path: this.getCurrentPath(),
-          type: type
-        };
-
-        for (var i = 0, len = this.listeners.length; i < len; ++i) this.listeners[i].call(this, change);
-      }
-    },
-    addChangeListener: {
-      value: function addChangeListener(listener) {
-        this.listeners.push(listener);
-      }
-    },
-    removeChangeListener: {
-      value: function removeChangeListener(listener) {
-        this.listeners = this.listeners.filter(function (l) {
-          return l !== listener;
-        });
-      }
-    },
-    push: {
-      value: function push(path) {
-        this.history.push(path);
-        this._updateHistoryLength();
-        this._notifyChange(LocationActions.PUSH);
-      }
-    },
-    replace: {
-      value: function replace(path) {
-        invariant(this.history.length, "You cannot replace the current path with no history");
-
-        this.history[this.history.length - 1] = path;
-
-        this._notifyChange(LocationActions.REPLACE);
-      }
-    },
-    pop: {
-      value: function pop() {
-        this.history.pop();
-        this._updateHistoryLength();
-        this._notifyChange(LocationActions.POP);
-      }
-    },
-    getCurrentPath: {
-      value: function getCurrentPath() {
-        return this.history[this.history.length - 1];
-      }
-    },
-    toString: {
-      value: function toString() {
-        return "<TestLocation>";
-      }
+  _createClass(TestLocation, [{
+    key: 'needsDOM',
+    get: function () {
+      return false;
     }
-  });
+  }, {
+    key: '_updateHistoryLength',
+    value: function _updateHistoryLength() {
+      History.length = this.history.length;
+    }
+  }, {
+    key: '_notifyChange',
+    value: function _notifyChange(type) {
+      var change = {
+        path: this.getCurrentPath(),
+        type: type
+      };
+
+      for (var i = 0, len = this.listeners.length; i < len; ++i) this.listeners[i].call(this, change);
+    }
+  }, {
+    key: 'addChangeListener',
+    value: function addChangeListener(listener) {
+      this.listeners.push(listener);
+    }
+  }, {
+    key: 'removeChangeListener',
+    value: function removeChangeListener(listener) {
+      this.listeners = this.listeners.filter(function (l) {
+        return l !== listener;
+      });
+    }
+  }, {
+    key: 'push',
+    value: function push(path) {
+      this.history.push(path);
+      this._updateHistoryLength();
+      this._notifyChange(LocationActions.PUSH);
+    }
+  }, {
+    key: 'replace',
+    value: function replace(path) {
+      invariant(this.history.length, 'You cannot replace the current path with no history');
+
+      this.history[this.history.length - 1] = path;
+
+      this._notifyChange(LocationActions.REPLACE);
+    }
+  }, {
+    key: 'pop',
+    value: function pop() {
+      this.history.pop();
+      this._updateHistoryLength();
+      this._notifyChange(LocationActions.POP);
+    }
+  }, {
+    key: 'getCurrentPath',
+    value: function getCurrentPath() {
+      return this.history[this.history.length - 1];
+    }
+  }, {
+    key: 'toString',
+    value: function toString() {
+      return '<TestLocation>';
+    }
+  }]);
 
   return TestLocation;
 })();
 
 module.exports = TestLocation;
-},{"../History":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/History.js","../actions/LocationActions":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/actions/LocationActions.js","react/lib/invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/runRouter.js":[function(require,module,exports){
-"use strict";
+},{"../History":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\History.js","../actions/LocationActions":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js","react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\runRouter.js":[function(require,module,exports){
+'use strict';
 
-var createRouter = require("./createRouter");
+var createRouter = require('./createRouter');
 
 /**
  * A high-level convenience method that creates, configures, and
@@ -18185,7 +18232,7 @@ var createRouter = require("./createRouter");
  *   });
  */
 function runRouter(routes, location, callback) {
-  if (typeof location === "function") {
+  if (typeof location === 'function') {
     callback = location;
     location = null;
   }
@@ -18201,8 +18248,8 @@ function runRouter(routes, location, callback) {
 }
 
 module.exports = runRouter;
-},{"./createRouter":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/createRouter.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/lib/supportsHistory.js":[function(require,module,exports){
-"use strict";
+},{"./createRouter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\createRouter.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\supportsHistory.js":[function(require,module,exports){
+'use strict';
 
 function supportsHistory() {
   /*! taken from modernizr
@@ -18211,14 +18258,14 @@ function supportsHistory() {
    * changed to avoid false negatives for Windows Phones: https://github.com/rackt/react-router/issues/586
    */
   var ua = navigator.userAgent;
-  if ((ua.indexOf("Android 2.") !== -1 || ua.indexOf("Android 4.0") !== -1) && ua.indexOf("Mobile Safari") !== -1 && ua.indexOf("Chrome") === -1 && ua.indexOf("Windows Phone") === -1) {
+  if ((ua.indexOf('Android 2.') !== -1 || ua.indexOf('Android 4.0') !== -1) && ua.indexOf('Mobile Safari') !== -1 && ua.indexOf('Chrome') === -1 && ua.indexOf('Windows Phone') === -1) {
     return false;
   }
-  return window.history && "pushState" in window.history;
+  return window.history && 'pushState' in window.history;
 }
 
 module.exports = supportsHistory;
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/node_modules/object-assign/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\object-assign\\index.js":[function(require,module,exports){
 'use strict';
 
 function ToObject(val) {
@@ -18246,10 +18293,10 @@ module.exports = Object.assign || function (target, source) {
 	return to;
 };
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/node_modules/qs/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\index.js":[function(require,module,exports){
 module.exports = require('./lib/');
 
-},{"./lib/":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/node_modules/qs/lib/index.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/node_modules/qs/lib/index.js":[function(require,module,exports){
+},{"./lib/":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\index.js":[function(require,module,exports){
 // Load modules
 
 var Stringify = require('./stringify');
@@ -18266,7 +18313,7 @@ module.exports = {
     parse: Parse
 };
 
-},{"./parse":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/node_modules/qs/lib/parse.js","./stringify":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/node_modules/qs/lib/stringify.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/node_modules/qs/lib/parse.js":[function(require,module,exports){
+},{"./parse":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\parse.js","./stringify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\stringify.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\parse.js":[function(require,module,exports){
 // Load modules
 
 var Utils = require('./utils');
@@ -18429,7 +18476,7 @@ module.exports = function (str, options) {
     return Utils.compact(obj);
 };
 
-},{"./utils":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/node_modules/qs/lib/utils.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/node_modules/qs/lib/stringify.js":[function(require,module,exports){
+},{"./utils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\utils.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\stringify.js":[function(require,module,exports){
 // Load modules
 
 var Utils = require('./utils');
@@ -18528,7 +18575,7 @@ module.exports = function (obj, options) {
     return keys.join(delimiter);
 };
 
-},{"./utils":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/node_modules/qs/lib/utils.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-router/node_modules/qs/lib/utils.js":[function(require,module,exports){
+},{"./utils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\utils.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\utils.js":[function(require,module,exports){
 // Load modules
 
 
@@ -18662,7 +18709,7 @@ exports.isBuffer = function (obj) {
         obj.constructor.isBuffer(obj));
 };
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-tooltip/dist/react-tooltip.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-tooltip\\dist\\react-tooltip.js":[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -18686,93 +18733,11 @@ var ReactTooltip = _react2['default'].createClass({
   propTypes: {
     place: _react2['default'].PropTypes.string,
     type: _react2['default'].PropTypes.string,
-    effect: _react2['default'].PropTypes.string },
-
-  getInitialState: function getInitialState() {
-    return {
-      show: false,
-      placeholder: '',
-      x: 'NONE',
-      y: 'NONE',
-      place: '',
-      type: '',
-      effect: '' };
+    effect: _react2['default'].PropTypes.string,
+    positon: _react2['default'].PropTypes.object
   },
 
-  showTooltip: function showTooltip(e) {
-    this.setState({
-      placeholder: e.target.dataset.tip,
-      place: e.target.dataset.place ? e.target.dataset.place : this.props.place ? this.props.place : 'top',
-      type: e.target.dataset.type ? e.target.dataset.type : this.props.type ? this.props.type : 'dark',
-      effect: e.target.dataset.effect ? e.target.dataset.effect : this.props.effect ? this.props.effect : 'float' });
-    this.updateTooltip(e);
-  },
-
-  updateTooltip: function updateTooltip(e) {
-    if (this.state.effect === 'float') {
-      this.setState({
-        show: true,
-        x: e.clientX,
-        y: e.clientY
-      });
-    } else if (this.state.effect === 'solid') {
-      var targetTop = e.target.getBoundingClientRect().top;
-      var targetLeft = e.target.getBoundingClientRect().left;
-      var tipWidth = document.querySelector('[data-id=\'tooltip\']') ? document.querySelector('[data-id=\'tooltip\']').clientWidth : 0;
-      var tipHeight = document.querySelector('[data-id=\'tooltip\']') ? document.querySelector('[data-id=\'tooltip\']').clientHeight : 0;
-      var targetWidth = e.target.clientWidth;
-      var targetHeight = e.target.clientHeight;
-      var place = this.state.place;
-
-      var x = undefined,
-          y = undefined;
-      if (place === 'top') {
-        x = targetLeft - tipWidth / 2 + targetWidth / 2;
-        y = targetTop - tipHeight - 8;
-      } else if (place === 'bottom') {
-        x = targetLeft - tipWidth / 2 + targetWidth / 2;
-        y = targetTop + targetHeight + 8;
-      } else if (place === 'left') {
-        x = targetLeft - tipWidth - 6;
-        y = targetTop + targetHeight / 2 - tipHeight / 2;
-      } else if (place === 'right') {
-        x = targetLeft + targetWidth + 6;
-        y = targetTop + targetHeight / 2 - tipHeight / 2;
-      }
-      this.setState({
-        show: true,
-        x: this.state.x === 'NONE' ? x : this.state.x,
-        y: this.state.y === 'NONE' ? y : this.state.y
-      });
-    }
-  },
-
-  hideTooltip: function hideTooltip(e) {
-    this.setState({
-      show: false,
-      x: 'NONE',
-      y: 'NONE' });
-  },
-
-  componentDidMount: function componentDidMount() {
-    var targetArray = document.querySelectorAll('[data-tip]');
-    for (var i = 0; i < targetArray.length; i++) {
-      targetArray[i].addEventListener('mouseenter', this.showTooltip, false);
-      targetArray[i].addEventListener('mousemove', this.updateTooltip, false);
-      targetArray[i].addEventListener('mouseleave', this.hideTooltip, false);
-    }
-  },
-
-  componentWillUnmount: function componentWillUnmount() {
-    var targetArray = document.querySelectorAll('[data-tip]');
-    for (var i = 0; i < targetArray.length; i++) {
-      targetArray[i].removeEventListener('mouseenter', this.showTooltip);
-      targetArray[i].removeEventListener('mousemove', this.updateTooltip);
-      targetArray[i].removeEventListener('mouseleave', this.hideTooltip);
-    }
-  },
-
-  render: function render() {
+  _updatePosition: function _updatePosition() {
     var tipWidth = document.querySelector('[data-id=\'tooltip\']') ? document.querySelector('[data-id=\'tooltip\']').clientWidth : 0;
     var tipHeight = document.querySelector('[data-id=\'tooltip\']') ? document.querySelector('[data-id=\'tooltip\']').clientHeight : 0;
     var offset = { x: 0, y: 0 };
@@ -18793,16 +18758,155 @@ var ReactTooltip = _react2['default'].createClass({
         offset.y = -(tipHeight / 2);
       }
     }
-    var style = {
-      left: this.state.x + offset.x + 'px',
-      top: this.state.y + offset.y + 'px'
+    var xPosition = 0;var yPosition = 0;var position = this.state.position;
+
+    if (Object.prototype.toString.apply(position) === '[object String]') {
+      position = JSON.parse(position);
+    }
+    for (var key in position) {
+      if (key === 'top') {
+        yPosition -= parseInt(position[key]);
+      } else if (key === 'bottom') {
+        yPosition += parseInt(position[key]);
+      } else if (key === 'left') {
+        xPosition -= parseInt(position[key]);
+      } else if (key === 'right') {
+        xPosition += parseInt(position[key]);
+      }
+    }
+
+    var node = _react2['default'].findDOMNode(this);
+
+    node.style.left = this.state.x + offset.x + xPosition + 'px';
+    node.style.top = this.state.y + offset.y + yPosition + 'px';
+  },
+
+  getInitialState: function getInitialState() {
+    return {
+      show: false,
+      placeholder: '',
+      x: 'NONE',
+      y: 'NONE',
+      place: '',
+      type: '',
+      effect: '',
+      position: {}
     };
+  },
+
+  componentDidMount: function componentDidMount() {
+
+    this._updatePosition();
+
+    var targetArray = document.querySelectorAll('[data-tip]');
+    for (var i = 0; i < targetArray.length; i++) {
+      targetArray[i].addEventListener('mouseenter', this.showTooltip, false);
+      targetArray[i].addEventListener('mousemove', this.updateTooltip, false);
+      targetArray[i].addEventListener('mouseleave', this.hideTooltip, false);
+    }
+  },
+
+  componentWillUnmount: function componentWillUnmount() {
+    var targetArray = document.querySelectorAll('[data-tip]');
+    for (var i = 0; i < targetArray.length; i++) {
+      targetArray[i].removeEventListener('mouseenter', this.showTooltip);
+      targetArray[i].removeEventListener('mousemove', this.updateTooltip);
+      targetArray[i].removeEventListener('mouseleave', this.hideTooltip);
+    }
+  },
+
+  componentDidUpdate: function componentDidUpdate() {
+    this._updatePosition();
+  },
+
+  showTooltip: function showTooltip(e) {
+    this.setState({
+      placeholder: e.target.getAttribute('data-tip'),
+      place: e.target.getAttribute('data-place') ? e.target.getAttribute('data-place') : this.props.place ? this.props.place : 'top',
+      type: e.target.getAttribute('data-type') ? e.target.getAttribute('data-type') : this.props.type ? this.props.type : 'dark',
+      effect: e.target.getAttribute('data-effect') ? e.target.getAttribute('data-effect') : this.props.effect ? this.props.effect : 'float',
+      position: e.target.getAttribute('data-position') ? e.target.getAttribute('data-position') : this.props.position ? this.props.position : {}
+    });
+    this.updateTooltip(e);
+  },
+
+  updateTooltip: function updateTooltip(e) {
+    if (this.trim(this.state.placeholder).length > 0) {
+      if (this.state.effect === 'float') {
+        this.setState({
+          show: true,
+          x: e.clientX,
+          y: e.clientY
+        });
+      } else if (this.state.effect === 'solid') {
+        var targetTop = e.target.getBoundingClientRect().top;
+        var targetLeft = e.target.getBoundingClientRect().left;
+        var tipWidth = document.querySelector('[data-id=\'tooltip\']') ? document.querySelector('[data-id=\'tooltip\']').clientWidth : 0;
+        var tipHeight = document.querySelector('[data-id=\'tooltip\']') ? document.querySelector('[data-id=\'tooltip\']').clientHeight : 0;
+        var targetWidth = e.target.clientWidth;
+        var targetHeight = e.target.clientHeight;
+        var place = this.state.place;
+
+        var x = undefined,
+            y = undefined;
+        if (place === 'top') {
+          x = targetLeft - tipWidth / 2 + targetWidth / 2;
+          y = targetTop - tipHeight - 8;
+        } else if (place === 'bottom') {
+          x = targetLeft - tipWidth / 2 + targetWidth / 2;
+          y = targetTop + targetHeight + 8;
+        } else if (place === 'left') {
+          x = targetLeft - tipWidth - 6;
+          y = targetTop + targetHeight / 2 - tipHeight / 2;
+        } else if (place === 'right') {
+          x = targetLeft + targetWidth + 6;
+          y = targetTop + targetHeight / 2 - tipHeight / 2;
+        }
+        this.setState({
+          show: true,
+          x: this.state.x === 'NONE' ? x : this.state.x,
+          y: this.state.y === 'NONE' ? y : this.state.y
+        });
+      }
+    }
+  },
+
+  hideTooltip: function hideTooltip(e) {
+    this.setState({
+      show: false,
+      x: 'NONE',
+      y: 'NONE'
+    });
+  },
+
+  trim: function trim(string) {
+    var newString = string.split('');
+    var firstCount = 0,
+        lastCount = 0;
+    for (var i = 0; i < string.length; i++) {
+      if (string[i] !== ' ') {
+        break;
+      }
+      firstCount++;
+    }
+    for (var i = string.length - 1; i >= 0; i--) {
+      if (string[i] !== ' ') {
+        break;
+      }
+      lastCount++;
+    }
+    newString.splice(0, firstCount);
+    newString.splice(-lastCount, lastCount);
+    return newString.join('');
+  },
+
+  render: function render() {
 
     var tooltipClass = (0, _classnames2['default'])('reactTooltip', { 'show': this.state.show }, { 'place-top': this.state.place === 'top' }, { 'place-bottom': this.state.place === 'bottom' }, { 'place-left': this.state.place === 'left' }, { 'place-right': this.state.place === 'right' }, { 'type-dark': this.state.type === 'dark' }, { 'type-success': this.state.type === 'success' }, { 'type-warning': this.state.type === 'warning' }, { 'type-error': this.state.type === 'error' }, { 'type-info': this.state.type === 'info' }, { 'type-light': this.state.type === 'light' });
 
     return _react2['default'].createElement(
       'span',
-      { className: tooltipClass, style: style, 'data-id': 'tooltip' },
+      { className: tooltipClass, 'data-id': 'tooltip' },
       this.state.placeholder
     );
   }
@@ -18811,7 +18915,7 @@ var ReactTooltip = _react2['default'].createClass({
 exports['default'] = ReactTooltip;
 module.exports = exports['default'];
 
-},{"classnames":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-tooltip/node_modules/classnames/index.js","react":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react-tooltip/node_modules/classnames/index.js":[function(require,module,exports){
+},{"classnames":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-tooltip\\node_modules\\classnames\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-tooltip\\node_modules\\classnames\\index.js":[function(require,module,exports){
 /*!
   Copyright (c) 2015 Jed Watson.
   Licensed under the MIT License (MIT), see
@@ -18856,10 +18960,10 @@ if (typeof define !== 'undefined' && define.amd) {
 	});
 }
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/addons.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\addons.js":[function(require,module,exports){
 module.exports = require('./lib/ReactWithAddons');
 
-},{"./lib/ReactWithAddons":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactWithAddons.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/AutoFocusMixin.js":[function(require,module,exports){
+},{"./lib/ReactWithAddons":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactWithAddons.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\AutoFocusMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18886,7 +18990,7 @@ var AutoFocusMixin = {
 
 module.exports = AutoFocusMixin;
 
-},{"./focusNode":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/focusNode.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/BeforeInputEventPlugin.js":[function(require,module,exports){
+},{"./focusNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\focusNode.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\BeforeInputEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015 Facebook, Inc.
  * All rights reserved.
@@ -19381,7 +19485,7 @@ var BeforeInputEventPlugin = {
 
 module.exports = BeforeInputEventPlugin;
 
-},{"./EventConstants":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js","./FallbackCompositionState":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/FallbackCompositionState.js","./SyntheticCompositionEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticCompositionEvent.js","./SyntheticInputEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticInputEvent.js","./keyOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/keyOf.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/CSSCore.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPropagators":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./FallbackCompositionState":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\FallbackCompositionState.js","./SyntheticCompositionEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticCompositionEvent.js","./SyntheticInputEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticInputEvent.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CSSCore.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19493,7 +19597,7 @@ var CSSCore = {
 module.exports = CSSCore;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/CSSProperty.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CSSProperty.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19618,7 +19722,7 @@ var CSSProperty = {
 
 module.exports = CSSProperty;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/CSSPropertyOperations.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CSSPropertyOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19800,7 +19904,7 @@ var CSSPropertyOperations = {
 module.exports = CSSPropertyOperations;
 
 }).call(this,require('_process'))
-},{"./CSSProperty":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/CSSProperty.js","./ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js","./camelizeStyleName":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/camelizeStyleName.js","./dangerousStyleValue":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/dangerousStyleValue.js","./hyphenateStyleName":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/hyphenateStyleName.js","./memoizeStringOnly":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/CallbackQueue.js":[function(require,module,exports){
+},{"./CSSProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CSSProperty.js","./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./camelizeStyleName":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\camelizeStyleName.js","./dangerousStyleValue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\dangerousStyleValue.js","./hyphenateStyleName":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\hyphenateStyleName.js","./memoizeStringOnly":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\memoizeStringOnly.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CallbackQueue.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19900,7 +20004,7 @@ PooledClass.addPoolingTo(CallbackQueue);
 module.exports = CallbackQueue;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/PooledClass.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ChangeEventPlugin.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ChangeEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -20282,7 +20386,7 @@ var ChangeEventPlugin = {
 
 module.exports = ChangeEventPlugin;
 
-},{"./EventConstants":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js","./ReactUpdates":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticEvent.js","./isEventSupported":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/isEventSupported.js","./isTextInputElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/keyOf.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ClientReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPluginHub":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js","./EventPropagators":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./SyntheticEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js","./isEventSupported":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isEventSupported.js","./isTextInputElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isTextInputElement.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ClientReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -20307,7 +20411,7 @@ var ClientReactRootIndex = {
 
 module.exports = ClientReactRootIndex;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DOMChildrenOperations.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMChildrenOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -20445,7 +20549,7 @@ var DOMChildrenOperations = {
 module.exports = DOMChildrenOperations;
 
 }).call(this,require('_process'))
-},{"./Danger":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Danger.js","./ReactMultiChildUpdateTypes":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","./setTextContent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/setTextContent.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DOMProperty.js":[function(require,module,exports){
+},{"./Danger":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Danger.js","./ReactMultiChildUpdateTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMultiChildUpdateTypes.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./setTextContent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\setTextContent.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -20744,7 +20848,7 @@ var DOMProperty = {
 module.exports = DOMProperty;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DOMPropertyOperations.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -20936,7 +21040,7 @@ var DOMPropertyOperations = {
 module.exports = DOMPropertyOperations;
 
 }).call(this,require('_process'))
-},{"./DOMProperty":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DOMProperty.js","./quoteAttributeValueForBrowser":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/quoteAttributeValueForBrowser.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Danger.js":[function(require,module,exports){
+},{"./DOMProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./quoteAttributeValueForBrowser":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\quoteAttributeValueForBrowser.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Danger.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -21123,7 +21227,7 @@ var Danger = {
 module.exports = Danger;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js","./createNodesFromMarkup":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/createNodesFromMarkup.js","./emptyFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/emptyFunction.js","./getMarkupWrap":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DefaultEventPluginOrder.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./createNodesFromMarkup":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\createNodesFromMarkup.js","./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js","./getMarkupWrap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getMarkupWrap.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DefaultEventPluginOrder.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -21162,7 +21266,7 @@ var DefaultEventPluginOrder = [
 
 module.exports = DefaultEventPluginOrder;
 
-},{"./keyOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/keyOf.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EnterLeaveEventPlugin.js":[function(require,module,exports){
+},{"./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EnterLeaveEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -21302,7 +21406,7 @@ var EnterLeaveEventPlugin = {
 
 module.exports = EnterLeaveEventPlugin;
 
-},{"./EventConstants":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPropagators.js","./ReactMount":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMount.js","./SyntheticMouseEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticMouseEvent.js","./keyOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/keyOf.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventConstants.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPropagators":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./SyntheticMouseEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticMouseEvent.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -21374,7 +21478,7 @@ var EventConstants = {
 
 module.exports = EventConstants;
 
-},{"./keyMirror":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/keyMirror.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventListener.js":[function(require,module,exports){
+},{"./keyMirror":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventListener.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -21464,7 +21568,7 @@ var EventListener = {
 module.exports = EventListener;
 
 }).call(this,require('_process'))
-},{"./emptyFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/emptyFunction.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPluginHub.js":[function(require,module,exports){
+},{"./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -21742,7 +21846,7 @@ var EventPluginHub = {
 module.exports = EventPluginHub;
 
 }).call(this,require('_process'))
-},{"./EventPluginRegistry":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPluginRegistry.js","./EventPluginUtils":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPluginUtils.js","./accumulateInto":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPluginRegistry.js":[function(require,module,exports){
+},{"./EventPluginRegistry":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginRegistry.js","./EventPluginUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginUtils.js","./accumulateInto":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\accumulateInto.js","./forEachAccumulated":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\forEachAccumulated.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginRegistry.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -22022,7 +22126,7 @@ var EventPluginRegistry = {
 module.exports = EventPluginRegistry;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPluginUtils.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginUtils.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -22243,7 +22347,7 @@ var EventPluginUtils = {
 module.exports = EventPluginUtils;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventConstants.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPropagators.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -22385,7 +22489,7 @@ var EventPropagators = {
 module.exports = EventPropagators;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPluginHub.js","./accumulateInto":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/forEachAccumulated.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPluginHub":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js","./accumulateInto":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\accumulateInto.js","./forEachAccumulated":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\forEachAccumulated.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -22429,7 +22533,7 @@ var ExecutionEnvironment = {
 
 module.exports = ExecutionEnvironment;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/FallbackCompositionState.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\FallbackCompositionState.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -22520,7 +22624,7 @@ PooledClass.addPoolingTo(FallbackCompositionState);
 
 module.exports = FallbackCompositionState;
 
-},{"./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/PooledClass.js","./getTextContentAccessor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getTextContentAccessor.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/HTMLDOMPropertyConfig.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./getTextContentAccessor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getTextContentAccessor.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\HTMLDOMPropertyConfig.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -22731,7 +22835,7 @@ var HTMLDOMPropertyConfig = {
 
 module.exports = HTMLDOMPropertyConfig;
 
-},{"./DOMProperty":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DOMProperty.js","./ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/LinkedStateMixin.js":[function(require,module,exports){
+},{"./DOMProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LinkedStateMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -22772,7 +22876,7 @@ var LinkedStateMixin = {
 
 module.exports = LinkedStateMixin;
 
-},{"./ReactLink":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactLink.js","./ReactStateSetters":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactStateSetters.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/LinkedValueUtils.js":[function(require,module,exports){
+},{"./ReactLink":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactLink.js","./ReactStateSetters":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactStateSetters.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LinkedValueUtils.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -22928,7 +23032,7 @@ var LinkedValueUtils = {
 module.exports = LinkedValueUtils;
 
 }).call(this,require('_process'))
-},{"./ReactPropTypes":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPropTypes.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/LocalEventTrapMixin.js":[function(require,module,exports){
+},{"./ReactPropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypes.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LocalEventTrapMixin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -22985,7 +23089,7 @@ var LocalEventTrapMixin = {
 module.exports = LocalEventTrapMixin;
 
 }).call(this,require('_process'))
-},{"./ReactBrowserEventEmitter":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserEventEmitter.js","./accumulateInto":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/MobileSafariClickEventPlugin.js":[function(require,module,exports){
+},{"./ReactBrowserEventEmitter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./accumulateInto":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\accumulateInto.js","./forEachAccumulated":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\forEachAccumulated.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\MobileSafariClickEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -23043,7 +23147,7 @@ var MobileSafariClickEventPlugin = {
 
 module.exports = MobileSafariClickEventPlugin;
 
-},{"./EventConstants":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventConstants.js","./emptyFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/emptyFunction.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js":[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -23092,7 +23196,7 @@ function assign(target, sources) {
 
 module.exports = assign;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/PooledClass.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -23208,7 +23312,7 @@ var PooledClass = {
 module.exports = PooledClass;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/React.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\React.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -23320,7 +23424,7 @@ if ("production" !== process.env.NODE_ENV) {
       if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === 'undefined') {
         console.debug(
           'Download the React DevTools for a better development experience: ' +
-          'http://fb.me/react-devtools'
+          'https://fb.me/react-devtools'
         );
       }
     }
@@ -23347,7 +23451,7 @@ if ("production" !== process.env.NODE_ENV) {
       if (!expectedFeatures[i]) {
         console.error(
           'One or more ES5 shim/shams expected by React are not available: ' +
-          'http://fb.me/react-warning-polyfills'
+          'https://fb.me/react-warning-polyfills'
         );
         break;
       }
@@ -23355,12 +23459,12 @@ if ("production" !== process.env.NODE_ENV) {
   }
 }
 
-React.version = '0.13.2';
+React.version = '0.13.3';
 
 module.exports = React;
 
 }).call(this,require('_process'))
-},{"./EventPluginUtils":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPluginUtils.js","./ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./ReactChildren":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactChildren.js","./ReactClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactClass.js","./ReactComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactComponent.js","./ReactContext":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactCurrentOwner.js","./ReactDOM":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOM.js","./ReactDOMTextComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMTextComponent.js","./ReactDefaultInjection":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDefaultInjection.js","./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceHandles":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPerf.js","./ReactPropTypes":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPropTypes.js","./ReactReconciler":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactReconciler.js","./ReactServerRendering":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactServerRendering.js","./findDOMNode":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/findDOMNode.js","./onlyChild":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/onlyChild.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserComponentMixin.js":[function(require,module,exports){
+},{"./EventPluginUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginUtils.js","./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactChildren":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactChildren.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponent.js","./ReactContext":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactContext.js","./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactDOM":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOM.js","./ReactDOMTextComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMTextComponent.js","./ReactDefaultInjection":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultInjection.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactElementValidator":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js","./ReactInstanceHandles":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./ReactPropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypes.js","./ReactReconciler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js","./ReactServerRendering":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactServerRendering.js","./findDOMNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\findDOMNode.js","./onlyChild":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\onlyChild.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -23391,7 +23495,7 @@ var ReactBrowserComponentMixin = {
 
 module.exports = ReactBrowserComponentMixin;
 
-},{"./findDOMNode":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/findDOMNode.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserEventEmitter.js":[function(require,module,exports){
+},{"./findDOMNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\findDOMNode.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -23744,7 +23848,7 @@ var ReactBrowserEventEmitter = assign({}, ReactEventEmitterMixin, {
 
 module.exports = ReactBrowserEventEmitter;
 
-},{"./EventConstants":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPluginHub.js","./EventPluginRegistry":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPluginRegistry.js","./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./ReactEventEmitterMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactEventEmitterMixin.js","./ViewportMetrics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ViewportMetrics.js","./isEventSupported":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/isEventSupported.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactCSSTransitionGroup.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPluginHub":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js","./EventPluginRegistry":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginRegistry.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactEventEmitterMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEventEmitterMixin.js","./ViewportMetrics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ViewportMetrics.js","./isEventSupported":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isEventSupported.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCSSTransitionGroup.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -23814,7 +23918,7 @@ var ReactCSSTransitionGroup = React.createClass({
 
 module.exports = ReactCSSTransitionGroup;
 
-},{"./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./React":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/React.js","./ReactCSSTransitionGroupChild":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactCSSTransitionGroupChild.js","./ReactTransitionGroup":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactTransitionGroup.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactCSSTransitionGroupChild.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./React":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\React.js","./ReactCSSTransitionGroupChild":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCSSTransitionGroupChild.js","./ReactTransitionGroup":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionGroup.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCSSTransitionGroupChild.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -23962,7 +24066,7 @@ var ReactCSSTransitionGroupChild = React.createClass({
 module.exports = ReactCSSTransitionGroupChild;
 
 }).call(this,require('_process'))
-},{"./CSSCore":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/CSSCore.js","./React":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/React.js","./ReactTransitionEvents":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactTransitionEvents.js","./onlyChild":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/onlyChild.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactChildReconciler.js":[function(require,module,exports){
+},{"./CSSCore":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CSSCore.js","./React":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\React.js","./ReactTransitionEvents":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionEvents.js","./onlyChild":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\onlyChild.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactChildReconciler.js":[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -24089,7 +24193,7 @@ var ReactChildReconciler = {
 
 module.exports = ReactChildReconciler;
 
-},{"./ReactReconciler":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactReconciler.js","./flattenChildren":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/flattenChildren.js","./instantiateReactComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/instantiateReactComponent.js","./shouldUpdateReactComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/shouldUpdateReactComponent.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactChildren.js":[function(require,module,exports){
+},{"./ReactReconciler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js","./flattenChildren":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\flattenChildren.js","./instantiateReactComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\instantiateReactComponent.js","./shouldUpdateReactComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\shouldUpdateReactComponent.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -24242,7 +24346,7 @@ var ReactChildren = {
 module.exports = ReactChildren;
 
 }).call(this,require('_process'))
-},{"./PooledClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/PooledClass.js","./ReactFragment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactFragment.js","./traverseAllChildren":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactClass.js":[function(require,module,exports){
+},{"./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactFragment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js","./traverseAllChildren":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\traverseAllChildren.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -25080,7 +25184,7 @@ var ReactClass = {
         ("production" !== process.env.NODE_ENV ? warning(
           this instanceof Constructor,
           'Something is calling a React component directly. Use a factory or ' +
-          'JSX instead. See: http://fb.me/react-legacyfactory'
+          'JSX instead. See: https://fb.me/react-legacyfactory'
         ) : null);
       }
 
@@ -25188,7 +25292,7 @@ var ReactClass = {
 module.exports = ReactClass;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactComponent.js","./ReactCurrentOwner":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./ReactErrorUtils":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactErrorUtils.js","./ReactInstanceMap":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInstanceMap.js","./ReactLifeCycle":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactLifeCycle.js","./ReactPropTypeLocationNames":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPropTypeLocations.js","./ReactUpdateQueue":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactUpdateQueue.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","./keyMirror":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/keyMirror.js","./keyOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/keyOf.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactComponent.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponent.js","./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactErrorUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactErrorUtils.js","./ReactInstanceMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactLifeCycle":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactLifeCycle.js","./ReactPropTypeLocationNames":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocations.js","./ReactUpdateQueue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdateQueue.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./keyMirror":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -25292,20 +25396,38 @@ ReactComponent.prototype.forceUpdate = function(callback) {
  */
 if ("production" !== process.env.NODE_ENV) {
   var deprecatedAPIs = {
-    getDOMNode: 'getDOMNode',
-    isMounted: 'isMounted',
-    replaceProps: 'replaceProps',
-    replaceState: 'replaceState',
-    setProps: 'setProps'
+    getDOMNode: [
+      'getDOMNode',
+      'Use React.findDOMNode(component) instead.'
+    ],
+    isMounted: [
+      'isMounted',
+      'Instead, make sure to clean up subscriptions and pending requests in ' +
+      'componentWillUnmount to prevent memory leaks.'
+    ],
+    replaceProps: [
+      'replaceProps',
+      'Instead, call React.render again at the top level.'
+    ],
+    replaceState: [
+      'replaceState',
+      'Refactor your code to use setState instead (see ' +
+      'https://github.com/facebook/react/issues/3236).'
+    ],
+    setProps: [
+      'setProps',
+      'Instead, call React.render again at the top level.'
+    ]
   };
-  var defineDeprecationWarning = function(methodName, displayName) {
+  var defineDeprecationWarning = function(methodName, info) {
     try {
       Object.defineProperty(ReactComponent.prototype, methodName, {
         get: function() {
           ("production" !== process.env.NODE_ENV ? warning(
             false,
-            '%s(...) is deprecated in plain JavaScript React classes.',
-            displayName
+            '%s(...) is deprecated in plain JavaScript React classes. %s',
+            info[0],
+            info[1]
           ) : null);
           return undefined;
         }
@@ -25324,7 +25446,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = ReactComponent;
 
 }).call(this,require('_process'))
-},{"./ReactUpdateQueue":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactUpdateQueue.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactComponentBrowserEnvironment.js":[function(require,module,exports){
+},{"./ReactUpdateQueue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdateQueue.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentBrowserEnvironment.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -25371,7 +25493,7 @@ var ReactComponentBrowserEnvironment = {
 
 module.exports = ReactComponentBrowserEnvironment;
 
-},{"./ReactDOMIDOperations":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMIDOperations.js","./ReactMount":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMount.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactComponentEnvironment.js":[function(require,module,exports){
+},{"./ReactDOMIDOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMIDOperations.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentEnvironment.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -25432,7 +25554,7 @@ var ReactComponentEnvironment = {
 module.exports = ReactComponentEnvironment;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactComponentWithPureRenderMixin.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentWithPureRenderMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -25481,7 +25603,7 @@ var ReactComponentWithPureRenderMixin = {
 
 module.exports = ReactComponentWithPureRenderMixin;
 
-},{"./shallowEqual":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/shallowEqual.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactCompositeComponent.js":[function(require,module,exports){
+},{"./shallowEqual":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\shallowEqual.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCompositeComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -25703,6 +25825,7 @@ var ReactCompositeComponentMixin = {
     this._pendingReplaceState = false;
     this._pendingForceUpdate = false;
 
+    var childContext;
     var renderedElement;
 
     var previouslyMounting = ReactLifeCycle.currentlyMountingInstance;
@@ -25717,7 +25840,8 @@ var ReactCompositeComponentMixin = {
         }
       }
 
-      renderedElement = this._renderValidatedComponent();
+      childContext = this._getValidatedChildContext(context);
+      renderedElement = this._renderValidatedComponent(childContext);
     } finally {
       ReactLifeCycle.currentlyMountingInstance = previouslyMounting;
     }
@@ -25731,7 +25855,7 @@ var ReactCompositeComponentMixin = {
       this._renderedComponent,
       rootID,
       transaction,
-      this._processChildContext(context)
+      this._mergeChildContext(context, childContext)
     );
     if (inst.componentDidMount) {
       transaction.getReactMountReady().enqueue(inst.componentDidMount, inst);
@@ -25861,7 +25985,7 @@ var ReactCompositeComponentMixin = {
    * @return {object}
    * @private
    */
-  _processChildContext: function(currentContext) {
+  _getValidatedChildContext: function(currentContext) {
     var inst = this._instance;
     var childContext = inst.getChildContext && inst.getChildContext();
     if (childContext) {
@@ -25886,6 +26010,13 @@ var ReactCompositeComponentMixin = {
           name
         ) : invariant(name in inst.constructor.childContextTypes));
       }
+      return childContext;
+    }
+    return null;
+  },
+
+  _mergeChildContext: function(currentContext, childContext) {
+    if (childContext) {
       return assign({}, currentContext, childContext);
     }
     return currentContext;
@@ -26145,6 +26276,10 @@ var ReactCompositeComponentMixin = {
       return inst.state;
     }
 
+    if (replace && queue.length === 1) {
+      return queue[0];
+    }
+
     var nextState = assign({}, replace ? queue[0] : inst.state);
     for (var i = replace ? 1 : 0; i < queue.length; i++) {
       var partial = queue[i];
@@ -26214,13 +26349,14 @@ var ReactCompositeComponentMixin = {
   _updateRenderedComponent: function(transaction, context) {
     var prevComponentInstance = this._renderedComponent;
     var prevRenderedElement = prevComponentInstance._currentElement;
-    var nextRenderedElement = this._renderValidatedComponent();
+    var childContext = this._getValidatedChildContext();
+    var nextRenderedElement = this._renderValidatedComponent(childContext);
     if (shouldUpdateReactComponent(prevRenderedElement, nextRenderedElement)) {
       ReactReconciler.receiveComponent(
         prevComponentInstance,
         nextRenderedElement,
         transaction,
-        this._processChildContext(context)
+        this._mergeChildContext(context, childContext)
       );
     } else {
       // These two IDs are actually the same! But nothing should rely on that.
@@ -26236,7 +26372,7 @@ var ReactCompositeComponentMixin = {
         this._renderedComponent,
         thisID,
         transaction,
-        this._processChildContext(context)
+        this._mergeChildContext(context, childContext)
       );
       this._replaceNodeWithMarkupByID(prevComponentID, nextMarkup);
     }
@@ -26274,11 +26410,12 @@ var ReactCompositeComponentMixin = {
   /**
    * @private
    */
-  _renderValidatedComponent: function() {
+  _renderValidatedComponent: function(childContext) {
     var renderedComponent;
     var previousContext = ReactContext.current;
-    ReactContext.current = this._processChildContext(
-      this._currentElement._context
+    ReactContext.current = this._mergeChildContext(
+      this._currentElement._context,
+      childContext
     );
     ReactCurrentOwner.current = this;
     try {
@@ -26379,7 +26516,7 @@ var ReactCompositeComponent = {
 module.exports = ReactCompositeComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./ReactComponentEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactComponentEnvironment.js","./ReactContext":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceMap":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInstanceMap.js","./ReactLifeCycle":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactLifeCycle.js","./ReactNativeComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPerf.js","./ReactPropTypeLocationNames":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPropTypeLocations.js","./ReactReconciler":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactReconciler.js","./ReactUpdates":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactUpdates.js","./emptyObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/emptyObject.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","./shouldUpdateReactComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactContext.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactComponentEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentEnvironment.js","./ReactContext":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactContext.js","./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactElementValidator":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js","./ReactInstanceMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactLifeCycle":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactLifeCycle.js","./ReactNativeComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactNativeComponent.js","./ReactPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./ReactPropTypeLocationNames":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocations.js","./ReactReconciler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./emptyObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./shouldUpdateReactComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\shouldUpdateReactComponent.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactContext.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -26457,7 +26594,7 @@ var ReactContext = {
 module.exports = ReactContext;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./emptyObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/emptyObject.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactCurrentOwner.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./emptyObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -26491,7 +26628,7 @@ var ReactCurrentOwner = {
 
 module.exports = ReactCurrentOwner;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOM.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOM.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -26647,6 +26784,7 @@ var ReactDOM = mapObject({
 
   // SVG
   circle: 'circle',
+  clipPath: 'clipPath',
   defs: 'defs',
   ellipse: 'ellipse',
   g: 'g',
@@ -26669,7 +26807,7 @@ var ReactDOM = mapObject({
 module.exports = ReactDOM;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElementValidator.js","./mapObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/mapObject.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMButton.js":[function(require,module,exports){
+},{"./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactElementValidator":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js","./mapObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\mapObject.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMButton.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -26733,7 +26871,7 @@ var ReactDOMButton = ReactClass.createClass({
 
 module.exports = ReactDOMButton;
 
-},{"./AutoFocusMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/AutoFocusMixin.js","./ReactBrowserComponentMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./keyMirror":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/keyMirror.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMComponent.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\AutoFocusMixin.js","./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./keyMirror":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -26798,11 +26936,13 @@ function assertValidProps(props) {
       'Can only set one of `children` or `props.dangerouslySetInnerHTML`.'
     ) : invariant(props.children == null));
     ("production" !== process.env.NODE_ENV ? invariant(
-      props.dangerouslySetInnerHTML.__html != null,
+      typeof props.dangerouslySetInnerHTML === 'object' &&
+      '__html' in props.dangerouslySetInnerHTML,
       '`props.dangerouslySetInnerHTML` must be in the form `{__html: ...}`. ' +
-      'Please visit http://fb.me/react-invariant-dangerously-set-inner-html ' +
+      'Please visit https://fb.me/react-invariant-dangerously-set-inner-html ' +
       'for more information.'
-    ) : invariant(props.dangerouslySetInnerHTML.__html != null));
+    ) : invariant(typeof props.dangerouslySetInnerHTML === 'object' &&
+    '__html' in props.dangerouslySetInnerHTML));
   }
   if ("production" !== process.env.NODE_ENV) {
     ("production" !== process.env.NODE_ENV ? warning(
@@ -27241,7 +27381,7 @@ ReactDOMComponent.injection = {
 module.exports = ReactDOMComponent;
 
 }).call(this,require('_process'))
-},{"./CSSPropertyOperations":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/CSSPropertyOperations.js","./DOMProperty":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DOMProperty.js","./DOMPropertyOperations":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./ReactBrowserEventEmitter":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponentBrowserEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactMount":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPerf.js","./escapeTextContentForBrowser":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/escapeTextContentForBrowser.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","./isEventSupported":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/isEventSupported.js","./keyOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/keyOf.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMForm.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CSSPropertyOperations.js","./DOMProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./DOMPropertyOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactBrowserEventEmitter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./ReactComponentBrowserEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentBrowserEnvironment.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactMultiChild":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMultiChild.js","./ReactPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./escapeTextContentForBrowser":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\escapeTextContentForBrowser.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./isEventSupported":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isEventSupported.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMForm.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -27290,7 +27430,7 @@ var ReactDOMForm = ReactClass.createClass({
 
 module.exports = ReactDOMForm;
 
-},{"./EventConstants":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMIDOperations.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./LocalEventTrapMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMIDOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -27458,7 +27598,7 @@ ReactPerf.measureMethods(ReactDOMIDOperations, 'ReactDOMIDOperations', {
 module.exports = ReactDOMIDOperations;
 
 }).call(this,require('_process'))
-},{"./CSSPropertyOperations":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/CSSPropertyOperations.js","./DOMChildrenOperations":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DOMChildrenOperations.js","./DOMPropertyOperations":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DOMPropertyOperations.js","./ReactMount":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPerf.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/setInnerHTML.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMIframe.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CSSPropertyOperations.js","./DOMChildrenOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMChildrenOperations.js","./DOMPropertyOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./setInnerHTML":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\setInnerHTML.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMIframe.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -27503,7 +27643,7 @@ var ReactDOMIframe = ReactClass.createClass({
 
 module.exports = ReactDOMIframe;
 
-},{"./EventConstants":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMImg.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./LocalEventTrapMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMImg.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -27549,7 +27689,7 @@ var ReactDOMImg = ReactClass.createClass({
 
 module.exports = ReactDOMImg;
 
-},{"./EventConstants":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMInput.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./LocalEventTrapMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMInput.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -27726,7 +27866,7 @@ var ReactDOMInput = ReactClass.createClass({
 module.exports = ReactDOMInput;
 
 }).call(this,require('_process'))
-},{"./AutoFocusMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./ReactMount":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMOption.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\AutoFocusMixin.js","./DOMPropertyOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js","./LinkedValueUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LinkedValueUtils.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMOption.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -27778,7 +27918,7 @@ var ReactDOMOption = ReactClass.createClass({
 module.exports = ReactDOMOption;
 
 }).call(this,require('_process'))
-},{"./ReactBrowserComponentMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMSelect.js":[function(require,module,exports){
+},{"./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMSelect.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -27956,7 +28096,7 @@ var ReactDOMSelect = ReactClass.createClass({
 
 module.exports = ReactDOMSelect;
 
-},{"./AutoFocusMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/AutoFocusMixin.js","./LinkedValueUtils":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactUpdates.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMSelection.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\AutoFocusMixin.js","./LinkedValueUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LinkedValueUtils.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMSelection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -28169,7 +28309,7 @@ var ReactDOMSelection = {
 
 module.exports = ReactDOMSelection;
 
-},{"./ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js","./getNodeForCharacterOffset":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getNodeForCharacterOffset.js","./getTextContentAccessor":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getTextContentAccessor.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMTextComponent.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./getNodeForCharacterOffset":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getNodeForCharacterOffset.js","./getTextContentAccessor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getTextContentAccessor.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMTextComponent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -28286,7 +28426,7 @@ assign(ReactDOMTextComponent.prototype, {
 
 module.exports = ReactDOMTextComponent;
 
-},{"./DOMPropertyOperations":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./ReactComponentBrowserEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMComponent.js","./escapeTextContentForBrowser":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/escapeTextContentForBrowser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMTextarea.js":[function(require,module,exports){
+},{"./DOMPropertyOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactComponentBrowserEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentBrowserEnvironment.js","./ReactDOMComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMComponent.js","./escapeTextContentForBrowser":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\escapeTextContentForBrowser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMTextarea.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -28426,7 +28566,7 @@ var ReactDOMTextarea = ReactClass.createClass({
 module.exports = ReactDOMTextarea;
 
 }).call(this,require('_process'))
-},{"./AutoFocusMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDefaultBatchingStrategy.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\AutoFocusMixin.js","./DOMPropertyOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js","./LinkedValueUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LinkedValueUtils.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultBatchingStrategy.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -28499,7 +28639,7 @@ var ReactDefaultBatchingStrategy = {
 
 module.exports = ReactDefaultBatchingStrategy;
 
-},{"./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./ReactUpdates":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactUpdates.js","./Transaction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/emptyFunction.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDefaultInjection.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./Transaction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Transaction.js","./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultInjection.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -28658,7 +28798,7 @@ module.exports = {
 };
 
 }).call(this,require('_process'))
-},{"./BeforeInputEventPlugin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/BeforeInputEventPlugin.js","./ChangeEventPlugin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ChangeEventPlugin.js","./ClientReactRootIndex":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ClientReactRootIndex.js","./DefaultEventPluginOrder":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EnterLeaveEventPlugin.js","./ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactClass.js","./ReactComponentBrowserEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMButton":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMButton.js","./ReactDOMComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMComponent.js","./ReactDOMForm":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMForm.js","./ReactDOMIDOperations":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMIDOperations.js","./ReactDOMIframe":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMIframe.js","./ReactDOMImg":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMImg.js","./ReactDOMInput":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMInput.js","./ReactDOMOption":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMOption.js","./ReactDOMSelect":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMSelect.js","./ReactDOMTextComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMTextComponent.js","./ReactDOMTextarea":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDefaultPerf.js","./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./ReactEventListener":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactEventListener.js","./ReactInjection":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInjection.js","./ReactInstanceHandles":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMount.js","./ReactReconcileTransaction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactReconcileTransaction.js","./SVGDOMPropertyConfig":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SVGDOMPropertyConfig.js","./SelectEventPlugin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SelectEventPlugin.js","./ServerReactRootIndex":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ServerReactRootIndex.js","./SimpleEventPlugin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SimpleEventPlugin.js","./createFullPageComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/createFullPageComponent.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDefaultPerf.js":[function(require,module,exports){
+},{"./BeforeInputEventPlugin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\BeforeInputEventPlugin.js","./ChangeEventPlugin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ChangeEventPlugin.js","./ClientReactRootIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ClientReactRootIndex.js","./DefaultEventPluginOrder":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EnterLeaveEventPlugin.js","./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactComponentBrowserEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentBrowserEnvironment.js","./ReactDOMButton":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMButton.js","./ReactDOMComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMComponent.js","./ReactDOMForm":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMForm.js","./ReactDOMIDOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMIDOperations.js","./ReactDOMIframe":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMIframe.js","./ReactDOMImg":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMImg.js","./ReactDOMInput":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMInput.js","./ReactDOMOption":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMOption.js","./ReactDOMSelect":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMSelect.js","./ReactDOMTextComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMTextComponent.js","./ReactDOMTextarea":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultPerf.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactEventListener":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEventListener.js","./ReactInjection":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInjection.js","./ReactInstanceHandles":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactReconcileTransaction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconcileTransaction.js","./SVGDOMPropertyConfig":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SVGDOMPropertyConfig.js","./SelectEventPlugin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SelectEventPlugin.js","./ServerReactRootIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ServerReactRootIndex.js","./SimpleEventPlugin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SimpleEventPlugin.js","./createFullPageComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\createFullPageComponent.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultPerf.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -28924,7 +29064,7 @@ var ReactDefaultPerf = {
 
 module.exports = ReactDefaultPerf;
 
-},{"./DOMProperty":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DOMProperty.js","./ReactDefaultPerfAnalysis":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDefaultPerfAnalysis.js","./ReactMount":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPerf.js","./performanceNow":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/performanceNow.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDefaultPerfAnalysis.js":[function(require,module,exports){
+},{"./DOMProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./ReactDefaultPerfAnalysis":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultPerfAnalysis.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./performanceNow":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\performanceNow.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultPerfAnalysis.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -29130,7 +29270,7 @@ var ReactDefaultPerfAnalysis = {
 
 module.exports = ReactDefaultPerfAnalysis;
 
-},{"./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -29438,7 +29578,7 @@ ReactElement.isValidElement = function(object) {
 module.exports = ReactElement;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./ReactContext":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactCurrentOwner.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElementValidator.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactContext":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactContext.js","./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -29608,7 +29748,7 @@ function warnAndMonitorForKeyUse(message, element, parentType) {
 
   ("production" !== process.env.NODE_ENV ? warning(
     false,
-    message + '%s%s See http://fb.me/react-warning-keys for more information.',
+    message + '%s%s See https://fb.me/react-warning-keys for more information.',
     parentOrOwnerAddendum,
     childOwnerAddendum
   ) : null);
@@ -29903,7 +30043,7 @@ var ReactElementValidator = {
 module.exports = ReactElementValidator;
 
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./ReactFragment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactFragment.js","./ReactNativeComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactNativeComponent.js","./ReactPropTypeLocationNames":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPropTypeLocations.js","./getIteratorFn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getIteratorFn.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactEmptyComponent.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactFragment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js","./ReactNativeComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactNativeComponent.js","./ReactPropTypeLocationNames":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocations.js","./getIteratorFn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getIteratorFn.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEmptyComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -29998,7 +30138,7 @@ var ReactEmptyComponent = {
 module.exports = ReactEmptyComponent;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./ReactInstanceMap":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInstanceMap.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactErrorUtils.js":[function(require,module,exports){
+},{"./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactInstanceMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactErrorUtils.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -30030,7 +30170,7 @@ var ReactErrorUtils = {
 
 module.exports = ReactErrorUtils;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactEventEmitterMixin.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEventEmitterMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -30080,7 +30220,7 @@ var ReactEventEmitterMixin = {
 
 module.exports = ReactEventEmitterMixin;
 
-},{"./EventPluginHub":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPluginHub.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactEventListener.js":[function(require,module,exports){
+},{"./EventPluginHub":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEventListener.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -30263,7 +30403,7 @@ var ReactEventListener = {
 
 module.exports = ReactEventListener;
 
-},{"./EventListener":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventListener.js","./ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/PooledClass.js","./ReactInstanceHandles":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactUpdates.js","./getEventTarget":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getEventTarget.js","./getUnboundedScrollPosition":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactFragment.js":[function(require,module,exports){
+},{"./EventListener":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventListener.js","./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactInstanceHandles":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./getEventTarget":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventTarget.js","./getUnboundedScrollPosition":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getUnboundedScrollPosition.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015, Facebook, Inc.
@@ -30448,7 +30588,7 @@ var ReactFragment = {
 module.exports = ReactFragment;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInjection.js":[function(require,module,exports){
+},{"./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInjection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -30490,7 +30630,7 @@ var ReactInjection = {
 
 module.exports = ReactInjection;
 
-},{"./DOMProperty":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DOMProperty.js","./EventPluginHub":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPluginHub.js","./ReactBrowserEventEmitter":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactClass.js","./ReactComponentEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactComponentEnvironment.js","./ReactDOMComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMComponent.js","./ReactEmptyComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPerf.js","./ReactRootIndex":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactRootIndex.js","./ReactUpdates":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactUpdates.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInputSelection.js":[function(require,module,exports){
+},{"./DOMProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./EventPluginHub":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js","./ReactBrowserEventEmitter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactComponentEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentEnvironment.js","./ReactDOMComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMComponent.js","./ReactEmptyComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEmptyComponent.js","./ReactNativeComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactNativeComponent.js","./ReactPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./ReactRootIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactRootIndex.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInputSelection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -30625,7 +30765,7 @@ var ReactInputSelection = {
 
 module.exports = ReactInputSelection;
 
-},{"./ReactDOMSelection":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDOMSelection.js","./containsNode":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/containsNode.js","./focusNode":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/focusNode.js","./getActiveElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getActiveElement.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInstanceHandles.js":[function(require,module,exports){
+},{"./ReactDOMSelection":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMSelection.js","./containsNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\containsNode.js","./focusNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\focusNode.js","./getActiveElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getActiveElement.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -30961,7 +31101,7 @@ var ReactInstanceHandles = {
 module.exports = ReactInstanceHandles;
 
 }).call(this,require('_process'))
-},{"./ReactRootIndex":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactRootIndex.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInstanceMap.js":[function(require,module,exports){
+},{"./ReactRootIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactRootIndex.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -31010,7 +31150,7 @@ var ReactInstanceMap = {
 
 module.exports = ReactInstanceMap;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactLifeCycle.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactLifeCycle.js":[function(require,module,exports){
 /**
  * Copyright 2015, Facebook, Inc.
  * All rights reserved.
@@ -31047,7 +31187,7 @@ var ReactLifeCycle = {
 
 module.exports = ReactLifeCycle;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactLink.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactLink.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -31120,7 +31260,7 @@ ReactLink.PropTypes = {
 
 module.exports = ReactLink;
 
-},{"./React":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/React.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMarkupChecksum.js":[function(require,module,exports){
+},{"./React":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\React.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMarkupChecksum.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -31168,7 +31308,7 @@ var ReactMarkupChecksum = {
 
 module.exports = ReactMarkupChecksum;
 
-},{"./adler32":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/adler32.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMount.js":[function(require,module,exports){
+},{"./adler32":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\adler32.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -32059,7 +32199,7 @@ ReactPerf.measureMethods(ReactMount, 'ReactMount', {
 module.exports = ReactMount;
 
 }).call(this,require('_process'))
-},{"./DOMProperty":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DOMProperty.js","./ReactBrowserEventEmitter":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactCurrentOwner":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElementValidator.js","./ReactEmptyComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactEmptyComponent.js","./ReactInstanceHandles":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInstanceHandles.js","./ReactInstanceMap":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInstanceMap.js","./ReactMarkupChecksum":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMarkupChecksum.js","./ReactPerf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPerf.js","./ReactReconciler":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactReconciler.js","./ReactUpdateQueue":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactUpdateQueue.js","./ReactUpdates":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactUpdates.js","./containsNode":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/containsNode.js","./emptyObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/emptyObject.js","./getReactRootElementInContainer":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getReactRootElementInContainer.js","./instantiateReactComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/setInnerHTML.js","./shouldUpdateReactComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMultiChild.js":[function(require,module,exports){
+},{"./DOMProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./ReactBrowserEventEmitter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactElementValidator":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js","./ReactEmptyComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEmptyComponent.js","./ReactInstanceHandles":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactInstanceMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactMarkupChecksum":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMarkupChecksum.js","./ReactPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./ReactReconciler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js","./ReactUpdateQueue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdateQueue.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./containsNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\containsNode.js","./emptyObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js","./getReactRootElementInContainer":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getReactRootElementInContainer.js","./instantiateReactComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\instantiateReactComponent.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./setInnerHTML":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\setInnerHTML.js","./shouldUpdateReactComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\shouldUpdateReactComponent.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMultiChild.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -32489,7 +32629,7 @@ var ReactMultiChild = {
 
 module.exports = ReactMultiChild;
 
-},{"./ReactChildReconciler":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactChildReconciler.js","./ReactComponentEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactComponentEnvironment.js","./ReactMultiChildUpdateTypes":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./ReactReconciler":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactReconciler.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMultiChildUpdateTypes.js":[function(require,module,exports){
+},{"./ReactChildReconciler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactChildReconciler.js","./ReactComponentEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentEnvironment.js","./ReactMultiChildUpdateTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMultiChildUpdateTypes.js","./ReactReconciler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMultiChildUpdateTypes.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -32522,7 +32662,7 @@ var ReactMultiChildUpdateTypes = keyMirror({
 
 module.exports = ReactMultiChildUpdateTypes;
 
-},{"./keyMirror":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/keyMirror.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactNativeComponent.js":[function(require,module,exports){
+},{"./keyMirror":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactNativeComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -32629,7 +32769,7 @@ var ReactNativeComponent = {
 module.exports = ReactNativeComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactOwner.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactOwner.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -32741,7 +32881,7 @@ var ReactOwner = {
 module.exports = ReactOwner;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPerf.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -32845,7 +32985,7 @@ function _noMeasure(objName, fnName, func) {
 module.exports = ReactPerf;
 
 }).call(this,require('_process'))
-},{"_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPropTransferer.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTransferer.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -32955,7 +33095,7 @@ var ReactPropTransferer = {
 
 module.exports = ReactPropTransferer;
 
-},{"./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./emptyFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/emptyFunction.js","./joinClasses":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/joinClasses.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPropTypeLocationNames.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js","./joinClasses":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\joinClasses.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocationNames.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -32983,7 +33123,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = ReactPropTypeLocationNames;
 
 }).call(this,require('_process'))
-},{"_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPropTypeLocations.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocations.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -33007,7 +33147,7 @@ var ReactPropTypeLocations = keyMirror({
 
 module.exports = ReactPropTypeLocations;
 
-},{"./keyMirror":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/keyMirror.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPropTypes.js":[function(require,module,exports){
+},{"./keyMirror":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypes.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -33356,7 +33496,7 @@ function getPreciseType(propValue) {
 
 module.exports = ReactPropTypes;
 
-},{"./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./ReactFragment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactFragment.js","./ReactPropTypeLocationNames":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPropTypeLocationNames.js","./emptyFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/emptyFunction.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPutListenerQueue.js":[function(require,module,exports){
+},{"./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactFragment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js","./ReactPropTypeLocationNames":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocationNames.js","./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPutListenerQueue.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -33412,7 +33552,7 @@ PooledClass.addPoolingTo(ReactPutListenerQueue);
 
 module.exports = ReactPutListenerQueue;
 
-},{"./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserEventEmitter.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactReconcileTransaction.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactBrowserEventEmitter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconcileTransaction.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -33588,7 +33728,7 @@ PooledClass.addPoolingTo(ReactReconcileTransaction);
 
 module.exports = ReactReconcileTransaction;
 
-},{"./CallbackQueue":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactInputSelection":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInputSelection.js","./ReactPutListenerQueue":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Transaction.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactReconciler.js":[function(require,module,exports){
+},{"./CallbackQueue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CallbackQueue.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactBrowserEventEmitter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./ReactInputSelection":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInputSelection.js","./ReactPutListenerQueue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPutListenerQueue.js","./Transaction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Transaction.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -33712,7 +33852,7 @@ var ReactReconciler = {
 module.exports = ReactReconciler;
 
 }).call(this,require('_process'))
-},{"./ReactElementValidator":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElementValidator.js","./ReactRef":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactRef.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactRef.js":[function(require,module,exports){
+},{"./ReactElementValidator":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js","./ReactRef":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactRef.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactRef.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -33783,7 +33923,7 @@ ReactRef.detachRefs = function(instance, element) {
 
 module.exports = ReactRef;
 
-},{"./ReactOwner":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactOwner.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactRootIndex.js":[function(require,module,exports){
+},{"./ReactOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactOwner.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -33814,7 +33954,7 @@ var ReactRootIndex = {
 
 module.exports = ReactRootIndex;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactServerRendering.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactServerRendering.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -33896,7 +34036,7 @@ module.exports = {
 };
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInstanceHandles.js","./ReactMarkupChecksum":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactServerRenderingTransaction.js","./emptyObject":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/emptyObject.js","./instantiateReactComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactServerRenderingTransaction.js":[function(require,module,exports){
+},{"./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactInstanceHandles":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactMarkupChecksum":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactServerRenderingTransaction.js","./emptyObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js","./instantiateReactComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\instantiateReactComponent.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactServerRenderingTransaction.js":[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -34009,7 +34149,7 @@ PooledClass.addPoolingTo(ReactServerRenderingTransaction);
 
 module.exports = ReactServerRenderingTransaction;
 
-},{"./CallbackQueue":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/PooledClass.js","./ReactPutListenerQueue":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/emptyFunction.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactStateSetters.js":[function(require,module,exports){
+},{"./CallbackQueue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CallbackQueue.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactPutListenerQueue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPutListenerQueue.js","./Transaction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Transaction.js","./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactStateSetters.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -34115,7 +34255,7 @@ ReactStateSetters.Mixin = {
 
 module.exports = ReactStateSetters;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactTestUtils.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTestUtils.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -34144,6 +34284,7 @@ var ReactUpdates = require("./ReactUpdates");
 var SyntheticEvent = require("./SyntheticEvent");
 
 var assign = require("./Object.assign");
+var emptyObject = require("./emptyObject");
 
 var topLevelTypes = EventConstants.topLevelTypes;
 
@@ -34485,6 +34626,9 @@ assign(
 );
 
 ReactShallowRenderer.prototype.render = function(element, context) {
+  if (!context) {
+    context = emptyObject;
+  }
   var transaction = ReactUpdates.ReactReconcileTransaction.getPooled();
   this._render(element, transaction, context);
   ReactUpdates.ReactReconcileTransaction.release(transaction);
@@ -34625,7 +34769,7 @@ for (eventType in topLevelTypes) {
 
 module.exports = ReactTestUtils;
 
-},{"./EventConstants":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPropagators.js","./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./React":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/React.js","./ReactBrowserEventEmitter":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactCompositeComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactCompositeComponent.js","./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./ReactEmptyComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactEmptyComponent.js","./ReactInstanceHandles":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInstanceHandles.js","./ReactInstanceMap":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInstanceMap.js","./ReactMount":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticEvent.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactTransitionChildMapping.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPluginHub":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js","./EventPropagators":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./React":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\React.js","./ReactBrowserEventEmitter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./ReactCompositeComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCompositeComponent.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactEmptyComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEmptyComponent.js","./ReactInstanceHandles":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactInstanceMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./SyntheticEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js","./emptyObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionChildMapping.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -34730,7 +34874,7 @@ var ReactTransitionChildMapping = {
 
 module.exports = ReactTransitionChildMapping;
 
-},{"./ReactChildren":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactChildren.js","./ReactFragment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactFragment.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactTransitionEvents.js":[function(require,module,exports){
+},{"./ReactChildren":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactChildren.js","./ReactFragment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionEvents.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -34841,7 +34985,7 @@ var ReactTransitionEvents = {
 
 module.exports = ReactTransitionEvents;
 
-},{"./ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactTransitionGroup.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionGroup.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -35071,7 +35215,7 @@ var ReactTransitionGroup = React.createClass({
 
 module.exports = ReactTransitionGroup;
 
-},{"./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./React":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/React.js","./ReactTransitionChildMapping":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactTransitionChildMapping.js","./cloneWithProps":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/cloneWithProps.js","./emptyFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/emptyFunction.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactUpdateQueue.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./React":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\React.js","./ReactTransitionChildMapping":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionChildMapping.js","./cloneWithProps":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\cloneWithProps.js","./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdateQueue.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015, Facebook, Inc.
@@ -35370,7 +35514,7 @@ var ReactUpdateQueue = {
 module.exports = ReactUpdateQueue;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./ReactCurrentOwner":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./ReactInstanceMap":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInstanceMap.js","./ReactLifeCycle":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactLifeCycle.js","./ReactUpdates":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactUpdates.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactInstanceMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactLifeCycle":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactLifeCycle.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -35652,7 +35796,7 @@ var ReactUpdates = {
 module.exports = ReactUpdates;
 
 }).call(this,require('_process'))
-},{"./CallbackQueue":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/PooledClass.js","./ReactCurrentOwner":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactCurrentOwner.js","./ReactPerf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPerf.js","./ReactReconciler":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactReconciler.js","./Transaction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Transaction.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactWithAddons.js":[function(require,module,exports){
+},{"./CallbackQueue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CallbackQueue.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./ReactReconciler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js","./Transaction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Transaction.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactWithAddons.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -35708,7 +35852,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = React;
 
 }).call(this,require('_process'))
-},{"./LinkedStateMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/LinkedStateMixin.js","./React":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/React.js","./ReactCSSTransitionGroup":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactCSSTransitionGroup.js","./ReactComponentWithPureRenderMixin":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactComponentWithPureRenderMixin.js","./ReactDefaultPerf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactDefaultPerf.js","./ReactFragment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactFragment.js","./ReactTestUtils":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactTestUtils.js","./ReactTransitionGroup":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactTransitionGroup.js","./ReactUpdates":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactUpdates.js","./cloneWithProps":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/cloneWithProps.js","./cx":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/cx.js","./update":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/update.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SVGDOMPropertyConfig.js":[function(require,module,exports){
+},{"./LinkedStateMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LinkedStateMixin.js","./React":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\React.js","./ReactCSSTransitionGroup":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCSSTransitionGroup.js","./ReactComponentWithPureRenderMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentWithPureRenderMixin.js","./ReactDefaultPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultPerf.js","./ReactFragment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js","./ReactTestUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTestUtils.js","./ReactTransitionGroup":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionGroup.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./cloneWithProps":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\cloneWithProps.js","./cx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\cx.js","./update":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\update.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SVGDOMPropertyConfig.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -35730,6 +35874,7 @@ var MUST_USE_ATTRIBUTE = DOMProperty.injection.MUST_USE_ATTRIBUTE;
 
 var SVGDOMPropertyConfig = {
   Properties: {
+    clipPath: MUST_USE_ATTRIBUTE,
     cx: MUST_USE_ATTRIBUTE,
     cy: MUST_USE_ATTRIBUTE,
     d: MUST_USE_ATTRIBUTE,
@@ -35775,6 +35920,7 @@ var SVGDOMPropertyConfig = {
     y: MUST_USE_ATTRIBUTE
   },
   DOMAttributeNames: {
+    clipPath: 'clip-path',
     fillOpacity: 'fill-opacity',
     fontFamily: 'font-family',
     fontSize: 'font-size',
@@ -35800,7 +35946,7 @@ var SVGDOMPropertyConfig = {
 
 module.exports = SVGDOMPropertyConfig;
 
-},{"./DOMProperty":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/DOMProperty.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SelectEventPlugin.js":[function(require,module,exports){
+},{"./DOMProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SelectEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -35995,7 +36141,7 @@ var SelectEventPlugin = {
 
 module.exports = SelectEventPlugin;
 
-},{"./EventConstants":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPropagators.js","./ReactInputSelection":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInputSelection.js","./SyntheticEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticEvent.js","./getActiveElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getActiveElement.js","./isTextInputElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/keyOf.js","./shallowEqual":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/shallowEqual.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ServerReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPropagators":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./ReactInputSelection":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInputSelection.js","./SyntheticEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js","./getActiveElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getActiveElement.js","./isTextInputElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isTextInputElement.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","./shallowEqual":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\shallowEqual.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ServerReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36026,7 +36172,7 @@ var ServerReactRootIndex = {
 
 module.exports = ServerReactRootIndex;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SimpleEventPlugin.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SimpleEventPlugin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -36454,7 +36600,7 @@ var SimpleEventPlugin = {
 module.exports = SimpleEventPlugin;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventConstants.js","./EventPluginUtils":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPluginUtils.js","./EventPropagators":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/EventPropagators.js","./SyntheticClipboardEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticClipboardEvent.js","./SyntheticDragEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticDragEvent.js","./SyntheticEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticEvent.js","./SyntheticFocusEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticMouseEvent.js","./SyntheticTouchEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticTouchEvent.js","./SyntheticUIEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticUIEvent.js","./SyntheticWheelEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticWheelEvent.js","./getEventCharCode":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getEventCharCode.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","./keyOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/keyOf.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticClipboardEvent.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPluginUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginUtils.js","./EventPropagators":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./SyntheticClipboardEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticClipboardEvent.js","./SyntheticDragEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticDragEvent.js","./SyntheticEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js","./SyntheticFocusEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticMouseEvent.js","./SyntheticTouchEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticTouchEvent.js","./SyntheticUIEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js","./SyntheticWheelEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticWheelEvent.js","./getEventCharCode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventCharCode.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticClipboardEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36499,7 +36645,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 
 module.exports = SyntheticClipboardEvent;
 
-},{"./SyntheticEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticEvent.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticCompositionEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticCompositionEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36544,7 +36690,7 @@ SyntheticEvent.augmentClass(
 
 module.exports = SyntheticCompositionEvent;
 
-},{"./SyntheticEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticEvent.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticDragEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticDragEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36583,7 +36729,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 
 module.exports = SyntheticDragEvent;
 
-},{"./SyntheticMouseEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticEvent.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticMouseEvent.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36749,7 +36895,7 @@ PooledClass.addPoolingTo(SyntheticEvent, PooledClass.threeArgumentPooler);
 
 module.exports = SyntheticEvent;
 
-},{"./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/PooledClass.js","./emptyFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/emptyFunction.js","./getEventTarget":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getEventTarget.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticFocusEvent.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js","./getEventTarget":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventTarget.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticFocusEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36788,7 +36934,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 
 module.exports = SyntheticFocusEvent;
 
-},{"./SyntheticUIEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticUIEvent.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticInputEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticInputEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36834,7 +36980,7 @@ SyntheticEvent.augmentClass(
 
 module.exports = SyntheticInputEvent;
 
-},{"./SyntheticEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticEvent.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticKeyboardEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticKeyboardEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36921,7 +37067,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 
 module.exports = SyntheticKeyboardEvent;
 
-},{"./SyntheticUIEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticUIEvent.js","./getEventCharCode":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getEventCharCode.js","./getEventKey":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getEventKey.js","./getEventModifierState":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getEventModifierState.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticMouseEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js","./getEventCharCode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventCharCode.js","./getEventKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventKey.js","./getEventModifierState":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventModifierState.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticMouseEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37002,7 +37148,7 @@ SyntheticUIEvent.augmentClass(SyntheticMouseEvent, MouseEventInterface);
 
 module.exports = SyntheticMouseEvent;
 
-},{"./SyntheticUIEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticUIEvent.js","./ViewportMetrics":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ViewportMetrics.js","./getEventModifierState":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getEventModifierState.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticTouchEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js","./ViewportMetrics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ViewportMetrics.js","./getEventModifierState":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventModifierState.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticTouchEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37050,7 +37196,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 
 module.exports = SyntheticTouchEvent;
 
-},{"./SyntheticUIEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticUIEvent.js","./getEventModifierState":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getEventModifierState.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticUIEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js","./getEventModifierState":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventModifierState.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37112,7 +37258,7 @@ SyntheticEvent.augmentClass(SyntheticUIEvent, UIEventInterface);
 
 module.exports = SyntheticUIEvent;
 
-},{"./SyntheticEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticEvent.js","./getEventTarget":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getEventTarget.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticWheelEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js","./getEventTarget":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventTarget.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticWheelEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37173,7 +37319,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 
 module.exports = SyntheticWheelEvent;
 
-},{"./SyntheticMouseEvent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Transaction.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticMouseEvent.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Transaction.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -37414,7 +37560,7 @@ var Transaction = {
 module.exports = Transaction;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ViewportMetrics.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ViewportMetrics.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37443,7 +37589,7 @@ var ViewportMetrics = {
 
 module.exports = ViewportMetrics;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/accumulateInto.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\accumulateInto.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -37509,7 +37655,7 @@ function accumulateInto(current, next) {
 module.exports = accumulateInto;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/adler32.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\adler32.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37543,7 +37689,7 @@ function adler32(data) {
 
 module.exports = adler32;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/camelize.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\camelize.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37575,7 +37721,7 @@ function camelize(string) {
 
 module.exports = camelize;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/camelizeStyleName.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\camelizeStyleName.js":[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -37617,7 +37763,7 @@ function camelizeStyleName(string) {
 
 module.exports = camelizeStyleName;
 
-},{"./camelize":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/camelize.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/cloneWithProps.js":[function(require,module,exports){
+},{"./camelize":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\camelize.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\cloneWithProps.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -37676,7 +37822,7 @@ function cloneWithProps(child, props) {
 module.exports = cloneWithProps;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./ReactPropTransferer":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactPropTransferer.js","./keyOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/keyOf.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/containsNode.js":[function(require,module,exports){
+},{"./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactPropTransferer":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTransferer.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\containsNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37720,7 +37866,7 @@ function containsNode(outerNode, innerNode) {
 
 module.exports = containsNode;
 
-},{"./isTextNode":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/isTextNode.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/createArrayFromMixed.js":[function(require,module,exports){
+},{"./isTextNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isTextNode.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\createArrayFromMixed.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37806,7 +37952,7 @@ function createArrayFromMixed(obj) {
 
 module.exports = createArrayFromMixed;
 
-},{"./toArray":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/toArray.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/createFullPageComponent.js":[function(require,module,exports){
+},{"./toArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\toArray.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\createFullPageComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -37868,7 +38014,7 @@ function createFullPageComponent(tag) {
 module.exports = createFullPageComponent;
 
 }).call(this,require('_process'))
-},{"./ReactClass":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactClass.js","./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/createNodesFromMarkup.js":[function(require,module,exports){
+},{"./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\createNodesFromMarkup.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -37958,7 +38104,7 @@ function createNodesFromMarkup(markup, handleScript) {
 module.exports = createNodesFromMarkup;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js","./createArrayFromMixed":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/createArrayFromMixed.js","./getMarkupWrap":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/cx.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./createArrayFromMixed":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\createArrayFromMixed.js","./getMarkupWrap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getMarkupWrap.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\cx.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -38014,7 +38160,7 @@ function cx(classNames) {
 module.exports = cx;
 
 }).call(this,require('_process'))
-},{"./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/dangerousStyleValue.js":[function(require,module,exports){
+},{"./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\dangerousStyleValue.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38072,7 +38218,7 @@ function dangerousStyleValue(name, value) {
 
 module.exports = dangerousStyleValue;
 
-},{"./CSSProperty":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/CSSProperty.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/emptyFunction.js":[function(require,module,exports){
+},{"./CSSProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CSSProperty.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38106,7 +38252,7 @@ emptyFunction.thatReturnsArgument = function(arg) { return arg; };
 
 module.exports = emptyFunction;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/emptyObject.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -38130,7 +38276,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = emptyObject;
 
 }).call(this,require('_process'))
-},{"_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/escapeTextContentForBrowser.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\escapeTextContentForBrowser.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38170,7 +38316,7 @@ function escapeTextContentForBrowser(text) {
 
 module.exports = escapeTextContentForBrowser;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/findDOMNode.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\findDOMNode.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -38243,7 +38389,7 @@ function findDOMNode(componentOrElement) {
 module.exports = findDOMNode;
 
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactCurrentOwner.js","./ReactInstanceMap":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInstanceMap.js","./ReactMount":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactMount.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","./isNode":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/isNode.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/flattenChildren.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactInstanceMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./isNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isNode.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\flattenChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -38301,7 +38447,7 @@ function flattenChildren(children) {
 module.exports = flattenChildren;
 
 }).call(this,require('_process'))
-},{"./traverseAllChildren":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/focusNode.js":[function(require,module,exports){
+},{"./traverseAllChildren":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\traverseAllChildren.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\focusNode.js":[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -38330,7 +38476,7 @@ function focusNode(node) {
 
 module.exports = focusNode;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/forEachAccumulated.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\forEachAccumulated.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38361,7 +38507,7 @@ var forEachAccumulated = function(arr, cb, scope) {
 
 module.exports = forEachAccumulated;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getActiveElement.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getActiveElement.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38390,7 +38536,7 @@ function getActiveElement() /*?DOMElement*/ {
 
 module.exports = getActiveElement;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getEventCharCode.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventCharCode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38442,7 +38588,7 @@ function getEventCharCode(nativeEvent) {
 
 module.exports = getEventCharCode;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getEventKey.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventKey.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38547,7 +38693,7 @@ function getEventKey(nativeEvent) {
 
 module.exports = getEventKey;
 
-},{"./getEventCharCode":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getEventCharCode.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getEventModifierState.js":[function(require,module,exports){
+},{"./getEventCharCode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventCharCode.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventModifierState.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38594,7 +38740,7 @@ function getEventModifierState(nativeEvent) {
 
 module.exports = getEventModifierState;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getEventTarget.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventTarget.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38625,7 +38771,7 @@ function getEventTarget(nativeEvent) {
 
 module.exports = getEventTarget;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getIteratorFn.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getIteratorFn.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38669,7 +38815,7 @@ function getIteratorFn(maybeIterable) {
 
 module.exports = getIteratorFn;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getMarkupWrap.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getMarkupWrap.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -38702,6 +38848,7 @@ var shouldWrap = {
   // Force wrapping for SVG elements because if they get created inside a <div>,
   // they will be initialized in the wrong namespace (and will not display).
   'circle': true,
+  'clipPath': true,
   'defs': true,
   'ellipse': true,
   'g': true,
@@ -38744,6 +38891,7 @@ var markupWrap = {
   'th': trWrap,
 
   'circle': svgWrap,
+  'clipPath': svgWrap,
   'defs': svgWrap,
   'ellipse': svgWrap,
   'g': svgWrap,
@@ -38786,7 +38934,7 @@ function getMarkupWrap(nodeName) {
 module.exports = getMarkupWrap;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getNodeForCharacterOffset.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getNodeForCharacterOffset.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38861,7 +39009,7 @@ function getNodeForCharacterOffset(root, offset) {
 
 module.exports = getNodeForCharacterOffset;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getReactRootElementInContainer.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getReactRootElementInContainer.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38896,7 +39044,7 @@ function getReactRootElementInContainer(container) {
 
 module.exports = getReactRootElementInContainer;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getTextContentAccessor.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getTextContentAccessor.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38933,7 +39081,7 @@ function getTextContentAccessor() {
 
 module.exports = getTextContentAccessor;
 
-},{"./ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getUnboundedScrollPosition.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getUnboundedScrollPosition.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38973,7 +39121,7 @@ function getUnboundedScrollPosition(scrollable) {
 
 module.exports = getUnboundedScrollPosition;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/hyphenate.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\hyphenate.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39006,7 +39154,7 @@ function hyphenate(string) {
 
 module.exports = hyphenate;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/hyphenateStyleName.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\hyphenateStyleName.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39047,7 +39195,7 @@ function hyphenateStyleName(string) {
 
 module.exports = hyphenateStyleName;
 
-},{"./hyphenate":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/hyphenate.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/instantiateReactComponent.js":[function(require,module,exports){
+},{"./hyphenate":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\hyphenate.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\instantiateReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -39185,7 +39333,7 @@ function instantiateReactComponent(node, parentCompositeType) {
 module.exports = instantiateReactComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./ReactCompositeComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactCompositeComponent.js","./ReactEmptyComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactNativeComponent.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactCompositeComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCompositeComponent.js","./ReactEmptyComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEmptyComponent.js","./ReactNativeComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactNativeComponent.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -39242,7 +39390,7 @@ var invariant = function(condition, format, a, b, c, d, e, f) {
 module.exports = invariant;
 
 }).call(this,require('_process'))
-},{"_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/isEventSupported.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isEventSupported.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39307,7 +39455,7 @@ function isEventSupported(eventNameSuffix, capture) {
 
 module.exports = isEventSupported;
 
-},{"./ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/isNode.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39334,7 +39482,7 @@ function isNode(object) {
 
 module.exports = isNode;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/isTextInputElement.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isTextInputElement.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39377,7 +39525,7 @@ function isTextInputElement(elem) {
 
 module.exports = isTextInputElement;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/isTextNode.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isTextNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39402,7 +39550,7 @@ function isTextNode(object) {
 
 module.exports = isTextNode;
 
-},{"./isNode":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/isNode.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/joinClasses.js":[function(require,module,exports){
+},{"./isNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isNode.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\joinClasses.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39443,7 +39591,7 @@ function joinClasses(className/*, ... */) {
 
 module.exports = joinClasses;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/keyMirror.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -39498,7 +39646,7 @@ var keyMirror = function(obj) {
 module.exports = keyMirror;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/keyOf.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39534,7 +39682,7 @@ var keyOf = function(oneKeyObj) {
 
 module.exports = keyOf;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/mapObject.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\mapObject.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39587,7 +39735,7 @@ function mapObject(object, callback, context) {
 
 module.exports = mapObject;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/memoizeStringOnly.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\memoizeStringOnly.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39620,7 +39768,7 @@ function memoizeStringOnly(callback) {
 
 module.exports = memoizeStringOnly;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/onlyChild.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\onlyChild.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -39660,7 +39808,7 @@ function onlyChild(children) {
 module.exports = onlyChild;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/performance.js":[function(require,module,exports){
+},{"./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\performance.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39688,7 +39836,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = performance || {};
 
-},{"./ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/performanceNow.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\performanceNow.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39716,7 +39864,7 @@ var performanceNow = performance.now.bind(performance);
 
 module.exports = performanceNow;
 
-},{"./performance":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/performance.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/quoteAttributeValueForBrowser.js":[function(require,module,exports){
+},{"./performance":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\performance.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\quoteAttributeValueForBrowser.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39744,7 +39892,7 @@ function quoteAttributeValueForBrowser(value) {
 
 module.exports = quoteAttributeValueForBrowser;
 
-},{"./escapeTextContentForBrowser":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/escapeTextContentForBrowser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/setInnerHTML.js":[function(require,module,exports){
+},{"./escapeTextContentForBrowser":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\escapeTextContentForBrowser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\setInnerHTML.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39833,7 +39981,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = setInnerHTML;
 
-},{"./ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/setTextContent.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\setTextContent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39875,7 +40023,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = setTextContent;
 
-},{"./ExecutionEnvironment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ExecutionEnvironment.js","./escapeTextContentForBrowser":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/escapeTextContentForBrowser.js","./setInnerHTML":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/setInnerHTML.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/shallowEqual.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./escapeTextContentForBrowser":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\escapeTextContentForBrowser.js","./setInnerHTML":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\setInnerHTML.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\shallowEqual.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39919,7 +40067,7 @@ function shallowEqual(objA, objB) {
 
 module.exports = shallowEqual;
 
-},{}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/shouldUpdateReactComponent.js":[function(require,module,exports){
+},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\shouldUpdateReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -40023,7 +40171,7 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 module.exports = shouldUpdateReactComponent;
 
 }).call(this,require('_process'))
-},{"./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/toArray.js":[function(require,module,exports){
+},{"./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\toArray.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -40095,7 +40243,7 @@ function toArray(obj) {
 module.exports = toArray;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/traverseAllChildren.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\traverseAllChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -40348,7 +40496,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 module.exports = traverseAllChildren;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactElement.js","./ReactFragment":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactFragment.js","./ReactInstanceHandles":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/ReactInstanceHandles.js","./getIteratorFn":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/getIteratorFn.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","./warning":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/update.js":[function(require,module,exports){
+},{"./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactFragment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js","./ReactInstanceHandles":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./getIteratorFn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getIteratorFn.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\update.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -40519,7 +40667,7 @@ function update(value, spec) {
 module.exports = update;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/Object.assign.js","./invariant":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/invariant.js","./keyOf":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/keyOf.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/warning.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -40582,7 +40730,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = warning;
 
 }).call(this,require('_process'))
-},{"./emptyFunction":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/emptyFunction.js","_process":"/Users/user/PhpstormProjects/careselector-compare/node_modules/browserify/node_modules/process/browser.js"}],"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/react.js":[function(require,module,exports){
+},{"./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js":[function(require,module,exports){
 module.exports = require('./lib/React');
 
-},{"./lib/React":"/Users/user/PhpstormProjects/careselector-compare/node_modules/react/lib/React.js"}]},{},["./js/src/main.js"]);
+},{"./lib/React":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\React.js"}]},{},["./js/src/main.js"]);
