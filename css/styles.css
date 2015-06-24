@@ -135,7 +135,7 @@
 }
 /*#IMG_7*/
 
-#BR_8, #SPAN_9, #BR_13, #BR_15, #BR_17, #BR_23, #BR_26 {
+#BR_8,#BR_9, #SPAN_9,#SPAN_10, #BR_13, #BR_15, #BR_17, #BR_23, #BR_26 {
     box-sizing: border-box;
     color: rgb(255, 255, 255);
     border: 0px none rgb(255, 255, 255);
@@ -143,8 +143,11 @@
     list-style: none outside none;
     outline: rgb(255, 255, 255) none 0px;
 }
-/*#BR_8, #SPAN_9, #BR_13, #BR_15, #BR_17, #BR_23, #BR_26*/
-
+/*#BR_8,#BR_9, #SPAN_9,#SPAN_10, #BR_13, #BR_15, #BR_17, #BR_23, #BR_26*/
+#SPAN_10 a {
+    color: white;
+    text-decoration: underline;
+}
 #DIV_10 {
     box-sizing: border-box;
     color: rgb(255, 255, 255);
@@ -326,6 +329,9 @@ img {
 .black-links a, .black-links a:hover {
     color: #555555;
     font-size: 22px;
+}
+.black-links a:first-child {
+     text-decoration: underline;
 }
 .container.header .col-xs-4:nth-last-of-type(2) p {
     font-size: 22px;
