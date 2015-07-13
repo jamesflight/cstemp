@@ -7,6 +7,7 @@ var buffer = require('vinyl-buffer');
 var browserify = require('browserify');
 var reactify = require('reactify');
 var watchify = require('watchify');
+var stringify = require('stringify');
 
 gulp.task('browserify', function() {
     return browserify('./test/main.js')
@@ -23,6 +24,7 @@ gulp.task('watch', function() {
         fullPaths: true
     });
     bundler.transform(reactify);
+    bundler.transform(stringify(['.html']));
     var bundler = watchify(bundler);
 
     bundler.on('update', rebundle);

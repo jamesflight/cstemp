@@ -48,6 +48,7 @@ module.exports = React.createClass({
         }
     },
     changeAddress: function (value) {
+        ga('set', 'dimension6', value);
         this.props.onChange(value);
 
         if (this.enterPressed === true) {

@@ -12,6 +12,26 @@ var $ = require('jquery-browserify');
 
 module.exports = React.createClass({
     mixins: [FluxMixin, StoreWatchMixin('FilterStore', 'HomesStore'), Navigation],
+    propTypes: {
+        careTypeSelection: React.PropTypes.string,
+        careType: React.PropTypes.string,
+        area: React.PropTypes.string
+    },
+    getDefaultProps: function () {
+        return {
+            careTypeSelection: 'Care Provider',
+            careType: '',
+            area: 'Your Area'
+        }
+    },
+    componentDidMount: function () {
+        if (this.props.careType !== '') {
+            this.getFlux().actions.updateFilter({
+                filter:'care_type',
+                value:this.props.careType
+            });
+        }
+    },
     getStateFromFlux: function () {
         return {
             filters:this.getFlux().store("FilterStore").getState(),
@@ -21,12 +41,12 @@ module.exports = React.createClass({
     },
     submit: function () {
         this.getFlux().actions.loadHomes(this.state.filters, function () {
-            this.transitionTo('select-filters');
+            this.transitionTo('compare');
         }.bind(this));
     },
     updateFilter: function (event) {
         this.getFlux().actions.updateFilter({
-            filter:event.target.dataset.filter,
+            filter:event.target.getAttribute('data-filter'),
             value:event.target.value
         });
     },
@@ -38,28 +58,32 @@ module.exports = React.createClass({
     },
     render: function(){
         return (
-            <div className="padding-s">
-                <h1 className="text-center pink-text big-header">Find a care home your parents will love</h1>
-                <h2 className="text-center grey-text small-header">Compare homes in your area</h2>
-                <br/>
-                <div className="row">
-                    <div className="col-xs-6 col-xs-offset-3">
-                        <ErrorBox errors={this.state.errors} />
+            <div className="asdf">
+                <div className="padding-s">
+                    <br/><br/>
+                    <h1 className="text-center white-text big-header">Find a {this.props.careTypeSelection} Your Parents Will Love</h1>
+                    <h2 className="text-center white-text small-header">Compare Care Providers In {this.props.area}</h2>
+                    <br/>
+                    <br/>
+                    <div className="row">
+                        <div className="col-xs-6 col-xs-offset-3">
+                            <ErrorBox errors={this.state.errors} />
 
-                            <div className="form-group">
-                                <AddressSearchBox placeholder="Where would you like to find care? Town/City/Postcode" value={this.state.filters.address} onChange={this.updateAddressFilter} />
-                                <br/>
-                                <CareTypeDropdown ref="careTypeDropdown" text="What type of care do you need?" onChange={this.updateFilter} value={this.state.filters.care_type} />
+                                <div className="form-group">
+                                    <AddressSearchBox placeholder="Where do you need care? UK Town/Postcode" value={this.state.filters.address} onChange={this.updateAddressFilter} />
+                                    <br/>
+                                    <CareTypeDropdown ref="careTypeDropdown" text="What type of care do you need?" onChange={this.updateFilter} value={this.state.filters.care_type} />
+                                    <br/>
+                                </div>
+                                {
+                                    this.props.button &&
 
-                            </div>
-                            {
-                                this.props.button &&
-
-                                    <div className="text-center">
-                                        <br/>
-                                    <LoadingButton onClick={this.submit} text="Search For Homes Now" isLoading={this.state.isLoading} />
-                                    </div>
-                            }
+                                        <div className="text-center">
+                                            <br/>
+                                        <LoadingButton onClick={this.submit} text="Search For Homes Now" isLoading={this.state.isLoading} />
+                                        </div>
+                                }
+                        </div>
                     </div>
                 </div>
             </div>

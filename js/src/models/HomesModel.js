@@ -4,8 +4,10 @@ var GeocodeService = require('./GoogleGeocodeApiService.js');
 
 module.exports = {
     get: function (filters, success, error) {
-        GeocodeService.getPostcode(filters.address, function (postcode) {
-            filters.postcode = postcode;
+
+        GeocodeService.getCoords(filters.address, function (long, lat) {
+            filters.long = long;
+            filters.lat = lat;
             $.ajax({
                 url: config.API_URL + 'homes',
                 data: filters,
@@ -18,7 +20,7 @@ module.exports = {
             });
         });
     },
-    postShortlist: function (shortlist, success) {
+    postShortlist: function (shortlist, filters, success) {
         $.ajax
         ({
             type: "POST",
@@ -26,7 +28,16 @@ module.exports = {
             url: config.API_URL + 'careseekers/shortlist',
             dataType: 'json',
             //json object to sent to the authentication url
-            data: {providers:shortlist},
+            data: {
+                meta:{
+                    search_location:filters.address,
+                    search_care_type:filters.care_type,
+                    search_filter_dementia:filters.hasOwnProperty('dementia'),
+                    search_filter_learning_disability:filters.hasOwnProperty('learning_disability'),
+                    search_filter_under_65:filters.hasOwnProperty('under_65'),
+                    search_filter_sensory_impairments:filters.hasOwnProperty('sensory_impairments')
+                },
+                providers:shortlist},
             success: function (response) {
                 success(response.id);
             }

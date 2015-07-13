@@ -4,9 +4,13 @@ var FluxMixin = Fluxxor.FluxMixin(React);
 var HomesShortList = require('./../components/HomesShortList.jsx');
 var ActiveFilters = require('./../components/ActiveFilters.jsx');
 var HomesList = require('./../components/HomesList.jsx');
+var ga = require('react-google-analytics');
 
 module.exports = React.createClass({
     mixins: [FluxMixin],
+    componentDidMount:function () {
+        ga('send', 'pageview', '/filtered');
+    },
     render: function() {
         return (
             <div className="container">

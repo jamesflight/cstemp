@@ -17,7 +17,7 @@ var HomesList = React.createClass({
     },
     render: function(){
         return (
-            <div>
+            <div ref="element">
                 <div><strong>Showing {this.state.count} results.</strong></div>
                 <hr />
                 { this.state.loading ?

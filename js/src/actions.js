@@ -1,6 +1,7 @@
 var constants = require('./constants.js');
 var HomesModel = require('./models/HomesModel.js');
 var GoogleApiService = require('./models/GoogleGeocodeApiService.js');
+var CareseekerService = require('./models/CareseekerService.js');
 
 module.exports = {
     loadHomes: function(filters, success) {
@@ -25,12 +26,20 @@ module.exports = {
     removeFromShortlist: function (id) {
         this.dispatch(constants.REMOVE_FROM_SHORTLIST, id);
     },
-    postShortlistToServer: function (shortlist) {
+    postShortlistToServer: function (shortlist, filters, success) {
         this.dispatch(constants.POST_SHORTLIST_TO_SERVER);
-
-        HomesModel.postShortlist(shortlist, function (id) {
+        HomesModel.postShortlist(shortlist, filters, function (id) {
             this.dispatch(constants.POST_SHORTLIST_TO_SERVER_SUCCESS, id);
-            window.location = 'http://advice.careselector.com/comparison-summary/?id=' + id;
+            localStorage.setItem('careseeker_id', id);
+            success();
+        }.bind(this));
+    },
+    updateCareseekerEmail: function (email, success) {
+        var id = localStorage.getItem('careseeker_id');
+        this.dispatch(constants.UPDATE_CARESEEKER_EMAIL);
+        CareseekerService.updateEmail(id, email, function () {
+            this.dispatch(constants.UPDATE_CARESEEKER_EMAIL_SUCCESS);
+            success();
         }.bind(this));
     }
 };

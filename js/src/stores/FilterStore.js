@@ -6,7 +6,7 @@ module.exports = Fluxxor.createStore({
         this.filters = {
             address:'',
             care_type:'',
-            radius:10
+            radius:25
         };
         this.bindActions(
             "UPDATE_FILTER", this.updateFilter,
@@ -40,7 +40,6 @@ module.exports = Fluxxor.createStore({
         specialisms = this.addSpecialismIfExists('learning_disability', specialisms);
         specialisms = this.addSpecialismIfExists('under_65', specialisms);
         specialisms = this.addSpecialismIfExists('sensory_impairment', specialisms);
-        console.log(specialisms);
         return specialisms;
     },
     addSpecialismIfExists: function (prop, array) {
@@ -55,9 +54,9 @@ module.exports = Fluxxor.createStore({
     },
     getCost: function () {
         if (this.filters.care_type === 'nursing_home') {
-            return 800;
+            return 815;
         }
 
-        return 600;
+        return 608;
     }
 });

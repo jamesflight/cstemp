@@ -5,6 +5,7 @@ var StoreWatchMixin = Fluxxor.StoreWatchMixin;
 var $ = require('jquery-browserify');
 var CareTypeDropdown = require('./CareTypeDropdown.jsx');
 var AddressSearchBox = require('./AddressSearchBox.jsx');
+var ga = require('react-google-analytics');
 
 module.exports = React.createClass({
     mixins:[FluxMixin, StoreWatchMixin('FilterStore')],
@@ -16,13 +17,32 @@ module.exports = React.createClass({
         }
     },
     removeFilter: function (event) {
-        this.getFlux().actions.removeFilter(event.target.dataset.filter);
+        this.getFlux().actions.removeFilter(event.target.getAttribute('data-filter'));
         this.loadHomes();
     },
     addFilter: function (event) {
         var select = $(event.target);
+
+        var val = select.val();
+
+        if (val === 'dementia') {
+            ga('set', 'dimension1', true);
+        }
+
+        if (val === 'learning_disability') {
+            ga('set', 'dimension2', true);
+        }
+
+        if (val === 'under_65') {
+            ga('set', 'dimension3', true);
+        }
+
+        if (val === 'sensory_impairment') {
+            ga('set', 'dimension4', true);
+        }
+
         this.getFlux().actions.updateFilter({
-            filter:select.val(),
+            filter:val,
             value:true
         });
         select.val('');
@@ -70,7 +90,6 @@ module.exports = React.createClass({
                     <select onChange={this.addFilter} className="grey-button-small active">
                         <option value="" selected disabled>&#43; Add Filter</option>
                         <option value="dementia">Dementia</option>
-                        <option value="mental_health">Mental health</option>
                         <option value="learning_disability">Learning disability</option>
                         <option value="under_65">Under 65</option>
                         <option value="sensory_impairment">Sensory impairment</option>
