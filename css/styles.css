@@ -893,7 +893,7 @@ a:hover {
         display: inline-block;
         float: left;
     }
-    #app .container .row .col-xs-4, #app .container .row .col-xs-8 {
+    #app .container .row .col-xs-4:nth-of-type(1), #app .container .row .col-xs-8 {
         width: 100%;
     }
     .sticky, .sticky .shortlist-scroll, .sticky .button-section {
@@ -907,8 +907,7 @@ a:hover {
     /* Care Home list */
 
     .panel .panel-body .col-xs-2 {
-        width: 20%;
-        margin-left: 10px;
+        ;
     }
     .panel .panel-body .col-xs-5 {
         width: 70%;
@@ -926,12 +925,12 @@ a:hover {
         margin-top: 20px;
     }
     .add-listing-button {
-        height: 140px;
+        height: 200px;
     }
     .add-listing-triangle {
         border-width: 0;
     }
-    .add-listing-triangle:after {
+    /*.add-listing-triangle:after {
         content: '+';
         display: block;
         font-size: 3em;
@@ -940,7 +939,7 @@ a:hover {
         top: 40px;
         font-weight: bold;
         left: 40px;
-    }
+    }*/
     .rating {
         width: 100%;
         max-width: 30%;
@@ -970,7 +969,7 @@ a:hover {
         font-size: 1.7em;
     }
 }
-@media (max-width: 320px) {
+@media (max-width: 768px) {
     .filter-option:nth-of-type(5) span {
         max-width: 140px;
         display: inline-block;
@@ -980,11 +979,45 @@ a:hover {
         max-width: 70%;
     }
     .add-listing-triangle:after {
-        left: 20px;
+        left: 27px;
+    }
+    .container.header .col-xs-8.black-links {
+        text-align: center;
+        width: 100%;
+        margin-top: 0;
     }
     .container.header .col-xs-8.black-links a {
-        float: left;
+        float: none;
+          margin: 0 0 15px;
     }
+    footer div,footer p {
+          height: auto !important;
+    }    
+}
+@media (max-width: 620px) {
+    #app .container .row .panel .col-xs-4 {
+        display: none;
+    }
+    #app .container .row .panel .col-xs-2 {
+        width: 30%;
+        margin-left: 15px;
+        height: 228px;
+    }
+    #app .container .row .panel .col-xs-6 {
+        width:60%;
+    }
+    .add-listing-triangle {
+        right:37px;   
+    }
+    .add-listing-triangle:after {
+      left: -27px;
+    }
+    .add-listing-triangle {
+        top:80px;
+    }   
+     #app .container .row .col-xs-6 .col-xs-6 {
+        width:100%;   
+     }
 }
 
 .green-background-picture {
