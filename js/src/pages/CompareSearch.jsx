@@ -24,6 +24,9 @@ module.exports = React.createClass({
                     <div className="col-xs-8">
                         <br/>
                         <ActiveFilters
+                        location={this.context.router.getCurrentParams().location}
+                        care_type={this.context.router.getCurrentParams().care_type}
+                        dementia={this.context.router.getCurrentParams().dementia}
                         />
                         <hr/>
                         <HomesList />

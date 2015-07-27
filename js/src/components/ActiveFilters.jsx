@@ -9,6 +9,38 @@ var ga = require('react-google-analytics');
 
 module.exports = React.createClass({
     mixins:[FluxMixin, StoreWatchMixin('FilterStore')],
+    propTypes: {
+        location: React.PropTypes.string,
+        care_type: React.PropTypes.string,
+        dementia: React.PropTypes.string
+    },
+    componentDidMount: function () {
+        if (this.props.location !== undefined) {
+            this.getFlux().actions.updateFilter({
+                filter:'address',
+                value:this.props.location
+            });
+        }
+        if (this.props.care_type !== undefined) {
+            this.getFlux().actions.updateFilter({
+                filter: 'care_type',
+                value: this.props.care_type
+            });
+        }
+        if (this.props.dementia !== undefined) {
+            var val;
+            if (this.props.dementia === '0') {
+                val = false;
+            } else {
+                val = true;
+            }
+            this.getFlux().actions.updateFilter({
+                filter:'dementia',
+                value:val
+            });
+        }
+        this.getFlux().actions.loadHomes(this.state.filters);
+    },
     getStateFromFlux: function () {
         return {
             filters: this.getFlux().store('FilterStore').getState(),
