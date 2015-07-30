@@ -53,9 +53,8 @@ function image($boolean, $address){
     <title><?php echo $json_data["data"]["name"]; ?> | <?php echo $addressString; ?></title>
 
     <!-- Bootstrap -->
-    <link href="./generator_files/bootstrap.css" rel="stylesheet">
-    <link href="./generator_files/style.css" rel="stylesheet">
-    <link href="./generator_files/css" rel="stylesheet" type="text/css">
+    <link href="../generator_files/bootstrap.css" rel="stylesheet">
+    <link href="../generator_files/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -81,7 +80,7 @@ function image($boolean, $address){
 <body cz-shortcut-listen="true">
 <div class="container">
     <section class="intro">
-        <img src="./generator_files/careselector-logo.jpg">
+        <img src="../generator_files/careselector-logo.jpg">
         <h1><?php echo $json_data["data"]["name"]; ?></h1>
         <h2><?php echo $addressString; ?></h2>
     </section>
@@ -145,7 +144,20 @@ function image($boolean, $address){
                                     </tr>
                                     <tr>
                                         <th>Telephone number</th>
-                                        <td><?php echo $json_data["data"]["phone"]; ?></td>
+                                       
+                                        <td>
+
+                                        <script>
+                                        function showDiv() {
+                                        document.getElementById('welcomeDiv').style.display = "block";
+                                        document.getElementById('showhide').style.display = "none";
+                                        }
+                                        </script>
+
+                                    
+                                        <div id="welcomeDiv"  style="display:none;" class="answer_list" > <?php echo $json_data["data"]["phone"]; ?></div>
+                                        <input type="button" id="showhide" class="reveal" name="answer" value="Reveal phone number" onclick="showDiv()"></function>
+
                                         <td></td>
                                         <td></td>
                                         <td></td>
@@ -252,9 +264,9 @@ function image($boolean, $address){
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="file://script.crazyegg.com/pages/scripts/0023/1266.js?398823" async="" type="text/javascript"></script><script src="file://script.crazyegg.com/pages/scripts/0023/1266.js?398822" async="" type="text/javascript"></script><script src="./generator_files/1266(2).js" async="" type="text/javascript"></script><script src="./generator_files/jquery.min.js"></script>
+    <script src="http://script.crazyegg.com/pages/scripts/0023/1266.js?398823" async="" type="text/javascript"></script><script src="http://script.crazyegg.com/pages/scripts/0023/1266.js?398822" async="" type="text/javascript"></script><script src="../generator_files/1266(2).js" async="" type="text/javascript"></script><script src="../generator_files/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./generator_files/jquery-scrolltofixed-min.js"></script><!-- For fixed widget when it hits the header -->
+    <script src="../generator_files/jquery-scrolltofixed-min.js"></script><!-- For fixed widget when it hits the header -->
     <script>
         $(document).ready(function() {
                     $('#widget').scrollToFixed({

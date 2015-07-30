@@ -131,6 +131,7 @@ module.exports = React.createClass({displayName: "exports",
     },
     addFilter: function (event) {
         var select = $(event.target);
+        ga('send','event','item','compare','click','filter_button',1);
 
         var val = select.val();
 
@@ -303,7 +304,7 @@ var LoadingButton = React.createClass({displayName: "LoadingButton",
             React.createElement("div", null, 
                 React.createElement("select", {ref: "select", "data-filter": "care_type", onChange: this.change, value: this.props.value, className: "form-control input-lg grey-text"}, 
                     React.createElement("option", {value: "", disabled: true, selected: true}, this.props.text), 
-                    React.createElement("option", {value: "NOT_SURE"}, "Not Sure"), 
+                    React.createElement("option", {value: "NOT_SURE"}, "Not Sure"),
                     React.createElement("option", {value: "CARE_HOME"}, "Care home"), 
                     React.createElement("option", {value: "NURSING_HOME"}, "Nursing home"), 
                     React.createElement("option", {value: "HOME_CARE"}, "Home care")

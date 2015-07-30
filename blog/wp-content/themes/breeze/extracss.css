@@ -1,3 +1,7 @@
+.post-meta ul li:nth-of-type(5),.post-meta ul li:nth-of-type(4){
+	display:none;
+}	
+
 .format-standard p a, .format-standard p a:hover span:before, .format-standard p a:focus span:before, .widget_tag_cloud .tagcloud a:hover {
 	background-color:white !important;
 	color:#F35353 !important;	
