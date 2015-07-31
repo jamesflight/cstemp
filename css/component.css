@@ -20,6 +20,7 @@ perspective effects (not including the modals and the overlay).
 
 
 .md-modal {
+	pointer-events: none;
 	transition-duration: 5s;
 	position: fixed;
 	top: 50%;
@@ -41,21 +42,25 @@ perspective effects (not including the modals and the overlay).
 
 .md-show {
 	visibility: visible;
+	pointer-events: auto;
+}
+
+#overlay {
+	pointer-events: none;
+	position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 .md-overlay {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	visibility: hidden;
-	top: 0;
-	left: 0;
-	z-index: 1000;
-	opacity: 0;
-	background: rgba(143,27,15,0.8);
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+	    background-color: rgba(0,0,0,0.5);
+
 }
 
 .md-show ~ .md-overlay {
@@ -66,7 +71,7 @@ perspective effects (not including the modals and the overlay).
 /* Content styles */
 .md-content {
 	color: #fff;
-	background: #e74c3c;
+	background: #57C5C7;
 	position: relative;
 	border-radius: 3px;
 	margin: 0 auto;

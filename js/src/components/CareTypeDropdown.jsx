@@ -22,16 +22,19 @@ var LoadingButton = React.createClass({
             this.setState({
                 showPopup:true
             });
+            $('#overlay').addClass("md-overlay")
         } else {
             this.setState({
                 showPopup:false
             });
+            $('#overlay').removeClass("md-overlay")
         }
     },
     click: function () {
         this.setState({
             showPopup:false
         });
+        $('#overlay').removeClass("md-overlay")
     },
     render: function(){
         return (
