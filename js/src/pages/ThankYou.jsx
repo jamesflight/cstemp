@@ -15,7 +15,7 @@ module.exports = React.createClass({
         $('body').append(facebookConversion);
     },
        getReportUrl: function () {
-     	  return config.CORE_URL + 'careseekers/' + localStorage.getItem('careseeker_id') + '/report';
+      	  return config.CORE_URL + 'careseekers/' + localStorage.getItem('careseeker_id') + '/report';
     },
     render: function() {
         return (

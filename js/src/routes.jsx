@@ -18,7 +18,7 @@ var routes = (
         <Route name="home" path="/home/:care_type_name/:care_type/:area" handler={Home} />
         <Route name="select-filters" handler={SelectFilters} />
         <Route name="compare" path="/compare" handler={Compare} />
-        <Route name="compare-search" path="/compare-search/:location/:care_type/:dementia" handler={CompareSearch} />
+        <Route name="compare-search" path="/compare-search/:location/:care_type" handler={CompareSearch} />
         <Route name="email" handler={SubmitEmail} />
         <Route name="thank-you" handler={ThankYou} />
     </Route>
