@@ -49,10 +49,12 @@ var LoadingButton = React.createClass({
 
         <div className={ this.state.showPopup ? "md-modal md-effect-8 md-show" : "md-modal md-effect-8"} id="modal-8">
             <div className="md-content">
-                <h3>Not sure?</h3>
+                <h3><center>Not sure?</center></h3>
                 <div>
-                    <p>Not sure what to choose? Read our article.</p>
-                    <button onClick={this.click} className="buttonpop">Close me!</button>
+                    <h4><center>Not sure what to choose? Reading the article on our blog will help you understand what type of care you need!</center></h4><br></br>
+                    <a href="http://careselector.com/blog/getting-care-understanding-what-type-of-care-you-need"><button className="buttonpop"><h5>Take me to the article!</h5></button></a>
+                    <br></br>
+                    <button onClick={this.click} className="buttonpop"><h5>No thanks!</h5></button>
                 </div>
             </div>
         </div>
