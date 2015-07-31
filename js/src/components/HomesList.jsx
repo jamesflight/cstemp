@@ -18,7 +18,7 @@ var HomesList = React.createClass({
     render: function(){
         return (
             <div ref="element">
-                <div><strong>Press the + button to add provider to the shortlist</strong></div>
+                <div><h3>Press the + button to add provider to the shortlist</h3></div>
                 <hr />
                 { this.state.loading ?
                     <div>
