@@ -8,6 +8,9 @@ var ga = require('react-google-analytics');
 
 module.exports = React.createClass({
     mixins: [FluxMixin],
+       contextTypes: {
+       router: React.PropTypes.func
+    },
     componentDidMount:function () {
         ga('send', 'pageview', '/filtered');
     },

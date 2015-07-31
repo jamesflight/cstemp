@@ -80,7 +80,7 @@ module.exports = React.createClass({
 
                                         <div className="text-center">
                                             <br/>
-                                        <LoadingButton onClick={this.submit} text="Search For Homes Now" isLoading={this.state.isLoading} />
+                                        <LoadingButton onClick={this.submit} text="Search For Providers Now" isLoading={this.state.isLoading} />
                                         </div>
                                 }
                         </div>

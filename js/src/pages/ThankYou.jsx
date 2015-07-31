@@ -4,6 +4,7 @@ var FluxMixin = Fluxxor.FluxMixin(React);
 var ga = require('react-google-analytics');
 var adwordsConversion = require('./../conversionpixels/adwords-conversion.html');
 var facebookConversion = require('./../conversionpixels/facebook-conversion.html');
+var config = require('./../config.js');
 
 module.exports = React.createClass({
     mixins: [FluxMixin],
@@ -13,6 +14,9 @@ module.exports = React.createClass({
         $('body').append(adwordsConversion);
         $('body').append(facebookConversion);
     },
+       getReportUrl: function () {
+     	  return config.CORE_URL + 'careseekers/' + localStorage.getItem('careseeker_id') + '/report';
+    },
     render: function() {
         return (
             <div>
@@ -21,6 +25,7 @@ module.exports = React.createClass({
                         <div className="col-xs-12">
                             <br/><br/>
                             <h1 className="text-center">Thank you, your chart will be with you shortly.</h1>
+                            <a href={this.getReportUrl()} target="_blank">Get you report!</a>
                             <br/><br/>
                         </div>
                     </div>

@@ -14,6 +14,7 @@ var SubmitEmailBox = React.createClass({
     render: function(){
         return (
             <div>
+<<<<<<< HEAD
                 <h2 className="text-center pink-text">Your In Depth Comparison Report Is Being Prepared</h2>
                 <h4 className="text-center">Your chosen care providers are updating us now on their latest availability and prices</h4>            
             <br/>
@@ -32,15 +33,23 @@ var SubmitEmailBox = React.createClass({
                 <div className="col-sm-10 col-sm-offset-1">
                 <br/>
                 <h4 className="text-left"><strong>Where should we send your chart when it is done&#63;</strong></h4>
+=======
+                <h2 className="text-center pink-text">Your comparison chart is being assembled and we are checking for availability.</h2>
+                <h3 className="text-center blue-text">Where should we send your chart when it is done&#63;</h3>
+                <br/>
+>>>>>>> origin/master
                 <input ref="email" type="email" className="form-control input-lg" placeholder="Enter your email" />
                 <br/>
                 <div className="text-center">
                     <div href="#" className="btn btn-lg pink-button" onClick={this.submit}>Send Me My Comparison</div>
                 </div>
             </div>
+<<<<<<< HEAD
                 
             </div>
             </div>
+=======
+>>>>>>> origin/master
         );
     }
 });

@@ -8,10 +8,25 @@ var LoadingButton = React.createClass({
         value:React.PropTypes.string,
         text:React.string
     },
+        getInitialState: function () {
+        return {
+            shopPopup:false
+       }
+    },
     change: function (event) {
         this.props.onChange(event);
         var val = $(React.findDOMNode(this.refs.select)).val();
         ga('set', 'dimension5', val);
+
+        if (val === 'NOT_SURE') {
+            this.setState({
+                showPopup:true
+            });
+        } else {
+            this.setState({
+                showPopup:false
+            });
+        }
     },
     render: function(){
         return (
@@ -23,6 +38,13 @@ var LoadingButton = React.createClass({
                     <option value="NURSING_HOME">Nursing home</option>
                     <option value="HOME_CARE">Home care</option>
                 </select>
+
+                { this.state.showPopup &&
+                    <div>
+                        <h1>Popup kjdsafjkl alkj kjladfs</h1>
+                    </div>
+                }
+
             </div>
         );
     }

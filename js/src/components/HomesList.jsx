@@ -18,7 +18,7 @@ var HomesList = React.createClass({
     render: function(){
         return (
             <div ref="element">
-                <div><strong>Showing {this.state.count} results.</strong></div>
+                <div><strong>Press the + button to add provider to the shortlist</strong></div>
                 <hr />
                 { this.state.loading ?
                     <div>

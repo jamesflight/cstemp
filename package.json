@@ -34,7 +34,8 @@
     "stringify": "^3.1.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
-    "watchify": "^3.1.1"
+    "watchify": "^3.1.1",
+    "stringify": "^3.1.0"
   },
   "dependencies": {
     "pushstate-server": "^1.6.0"

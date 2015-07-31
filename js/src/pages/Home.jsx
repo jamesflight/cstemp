@@ -10,9 +10,7 @@ var Home = React.createClass({
         router: React.PropTypes.func
     },
     mixins: [FluxMixin],
-    componentDidMount:function () {
 
-    },
     render: function() {
         return (
             <div className="green-background-picture">

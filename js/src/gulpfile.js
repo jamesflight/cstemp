@@ -10,6 +10,7 @@ var watchify = require('watchify');
 var stringify = require('stringify');
 
 
+
 gulp.task('watch', function() {
     var bundler = browserify({
         entries:['./js/src/main.js'],
@@ -33,7 +34,7 @@ gulp.task('watch', function() {
             .pipe(gulp.dest('./js/dist/'));
     }
 
-    bundler.on('log', function (msg) {
+	bundler.on('log', function (msg) {
         console.log(msg);
     });
 
