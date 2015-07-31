@@ -28,6 +28,11 @@ var LoadingButton = React.createClass({
             });
         }
     },
+    click: function () {
+        this.setState({
+            showPopup:false
+        });
+    },
     render: function(){
         return (
             <div>
@@ -39,11 +44,15 @@ var LoadingButton = React.createClass({
                     <option value="HOME_CARE">Home care</option>
                 </select>
 
-                { this.state.showPopup &&
-                    <div>
-                        <h1>Popup kjdsafjkl alkj kjladfs</h1>
-                    </div>
-                }
+        <div className={ this.state.showPopup ? "md-modal md-effect-8 md-show" : "md-modal md-effect-8"} id="modal-8">
+            <div className="md-content">
+                <h3>Not sure?</h3>
+                <div>
+                    <p>Not sure what to choose? Read our article.</p>
+                    <button onClick={this.click} className="buttonpop">Close me!</button>
+                </div>
+            </div>
+        </div>
 
             </div>
         );
