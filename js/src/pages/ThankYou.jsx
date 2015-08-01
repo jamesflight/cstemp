@@ -24,8 +24,8 @@ module.exports = React.createClass({
                     <div className="row">
                         <div className="col-xs-12">
                             <br/><br/>
-                            <h1 className="text-center">Thank you, your chart will be with you shortly.</h1>
-                            <a href={this.getReportUrl()} target="_blank">Get you report!</a>
+                            <h1 className="text-center">Thank you, your chart will be with you shortly.</h1><br></br>
+                            <a href={this.getReportUrl()} target="_blank"><button className="hvr-wobble-horizontal">Get your report instantly!</button></a>
                             <br/><br/>
                         </div>
                     </div>
