@@ -2,14 +2,30 @@ var React = require('react');
 var Navigation = require('react-router').Navigation;
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
-
 var SubmitEmailBox = React.createClass({
     mixins: [FluxMixin, Navigation],
     submit: function () {
-        this.getFlux().actions.updateCareseekerEmail(React.findDOMNode(this.refs.email).value, function () {
-            console.log('done');
-            this.transitionTo('thank-you');
-        }.bind(this));
+        var re = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+        if (re.test(React.findDOMNode(this.refs.email).value)) {
+            this.getFlux().actions.updateCareseekerEmail(React.findDOMNode(this.refs.email).value, function () {
+                console.log('done');
+                this.transitionTo('thank-you');
+            }.bind(this));
+        } else {
+            // create the notification
+                        var notification = new NotificationFx({
+                            wrapper: document.body,
+                            message : '<h4>Please enter a valid e-mail!</h4>',
+                            layout : 'growl',
+                            effect : 'jelly',
+                            type : 'notice', // notice, warning, error or success
+                            onClose : function() {
+                            }
+                        });
+
+                        // show the notification
+                        notification.show();
+        }
     },
     render: function(){
         return (
@@ -37,7 +53,9 @@ var SubmitEmailBox = React.createClass({
                 <div className="text-center">
                     <div href="#" className="btn btn-lg pink-button" onClick={this.submit}>Send Me My Comparison</div>
                 </div>
+                <br></br><br></br>
             </div>
+
                 
             </div>
             </div>
