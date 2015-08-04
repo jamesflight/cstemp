@@ -1,7 +1,6 @@
 /* Common, default styles for the notification box */
 
 .ns-box {
-	position: fixed;
 	background: rgba(42,45,50,0.85);
 	padding: 22px;
 	line-height: 1.4;
@@ -39,7 +38,6 @@
 .ns-close {
 	width: 20px;
 	height: 20px;
-	position: absolute;
 	right: 4px;
 	top: 4px;
 	overflow: hidden;
@@ -57,7 +55,6 @@
 .ns-close::before,
 .ns-close::after {
 	content: '';
-	position: absolute;
 	width: 3px;
 	height: 60%;
 	top: 50%;

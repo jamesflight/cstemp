@@ -13,9 +13,11 @@ var SubmitEmailBox = React.createClass({
             }.bind(this));
         } else {
             // create the notification
-                        var notification = new NotificationFx({
-                            wrapper: document.body,
-                            message : '<h4>Please enter a valid e-mail!</h4>',
+            $(".ns-show").remove();
+
+                            var notification = new NotificationFx({
+                            wrapper: document.getElementById("message"),
+                            message : '<h5>Please enter a valid e-mail!</h5>',
                             layout : 'growl',
                             effect : 'jelly',
                             type : 'notice', // notice, warning, error or success
@@ -50,6 +52,7 @@ var SubmitEmailBox = React.createClass({
                 <h4 className="text-left"><strong>Where should we send your chart when it is done&#63;</strong></h4>
                 <input ref="email" type="email" className="form-control input-lg" placeholder="Enter your email" />
                 <br/>
+                <div id="message"></div>
                 <div className="text-center">
                     <div href="#" className="btn btn-lg pink-button" onClick={this.submit}>Send Me My Comparison</div>
                 </div>
