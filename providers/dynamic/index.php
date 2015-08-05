@@ -250,7 +250,7 @@ function image($boolean, $address){
                 <div></div><div></div>
             </div>
 
-            <a href="http://careselector.com"><button class="big-button">Search For Other Care Homes in <?php echo $json_data["data"]["address_3"]; ?></button></a>
+            <a href="http://careselector.com/#/compare-search/<?php echo $json_data["data"]["address_3"]; ?>/<?php echo $json_data["data"]["service_type"]; ?>"><button class="big-button">Search For Other Care Homes in <?php echo $json_data["data"]["address_3"]; ?></button></a>
 
             <br>
             <br>

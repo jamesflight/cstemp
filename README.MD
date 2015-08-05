@@ -1,6 +1,6 @@
 # Careselector Compare Site
 
-This is the front end to the careslector system
+This is the front end to the careselector system
 
 ## Requirements
 
