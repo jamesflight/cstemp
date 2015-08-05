@@ -59,8 +59,7 @@ perspective effects (not including the modals and the overlay).
 }
 
 .md-overlay {
-	    background-color: rgba(0,0,0,0.5);
-
+    background-color: rgba(0,0,0,0.5);
 }
 
 .md-show ~ .md-overlay {
@@ -70,8 +69,8 @@ perspective effects (not including the modals and the overlay).
 
 /* Content styles */
 .md-content {
-	color: #fff;
-	background: #57C5C7;
+	color: #333;
+	background: white;
 	position: relative;
 	border-radius: 3px;
 	margin: 0 auto;

@@ -755,15 +755,6 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
-  padding: 1em;
-  text-decoration: none;
-  font-size: 2em;
-  width: 100%;
-  padding: 10px 0 10px 0;
-  background:#f7941d;
-  border-radius: 5px;
-  border: 1px solid transparent;
-  color: #fff;
 }
 .hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active {
   -webkit-animation-name: hvr-wobble-horizontal;
