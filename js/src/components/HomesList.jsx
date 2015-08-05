@@ -15,6 +15,15 @@ var HomesList = React.createClass({
             count: flux.store("HomesStore").getCount()
         }
     },
+    componentDidMount: function() {
+        
+
+        // Initialize the tour
+        tour.init();
+
+        // Start the tour
+        tour.start(true);
+    },
     render: function(){
         return (
             <div ref="element">
@@ -32,6 +41,9 @@ var HomesList = React.createClass({
                         <HomeListing home={home} />
                     );
                 })}
+
+                
+
             </div>
         );
     }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-tour.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/sb-admin-2.css"/>
     <link rel="stylesheet" href="css/styles.css"/>
@@ -30,6 +31,8 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="js/bootstrap-tour.js"></script>
+
 </head>
 <body>
 <div id="overlay"></div>
@@ -128,5 +131,27 @@
 /* custom configuration goes here (www.olark.com/documentation) */
 olark.identify('8577-881-10-1786');/*]]>*/</script><noscript><a href="https://www.olark.com/site/8577-881-10-1786/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
 <!-- end olark code -->
+<script type="text/javascript">
+    // Instance the tour
+        var tour = new Tour({
+          steps: [
+               {
+            element: ".grey-button-small:first",
+            title: "Add your unique needs",
+            content: "Create your comparison report in three simple steps. Firstly, add any unique needs you have (e.g. dementia)."
+          },
+
+          {
+            element: ".add-listing-button:first",
+            title: "Add the providers",
+            content: "Next, press the + button next to each home you want to compare"
+          },
+          {
+            element: ".pink-button:first",
+            title: "Get your report",
+            content: "Complete by clicking here. We’ll send your report right away!"
+          }
+          ]});
+</script>
 </body>
 </html>
