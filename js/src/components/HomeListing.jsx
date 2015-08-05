@@ -116,6 +116,7 @@ var HomesListing = React.createClass({
                         </div>
                         <div ref="listingbody" className="col-xs-6">
                             <h4 ref="listingtitle" data-toggle="tooltip" data-tip="Add to your shortlist to find out more."><strong>{this.props.home.name}</strong> - within <span className="blue-text">{this.props.home.distance}km</span></h4>
+                            ga('send','event','item','compare','click','click_on_a_home',1);
                             <ReactTooltip effect="solid" />
                             <div>{this.props.home.address_1}, {this.props.home.address_3}, {this.props.home.postcode}</div>
                             <hr/>
@@ -123,6 +124,7 @@ var HomesListing = React.createClass({
                                 <div ref="listingcarerating" className="col-xs-6">
                                     <p>Care Rating:</p>
                                     <img src={this.getRatingSrc()} data-tip="The care rating is provided by the Care Quality Commission, a government body that inspects care providers." className="rating"/>
+                                    ga('send','event','item','compare','click','click_on_quality_rating',1);
                                 </div>
                                 <div className="col-xs-6">
                                     {
@@ -139,6 +141,7 @@ var HomesListing = React.createClass({
                         { this.props.home.thumbnail_url !== null &&
                             <img src={this.props.home.thumbnail_url} className="home-image" />
                             }
+                            ga('send','event','item','compare','click','click_on_an_image',1);
 
                         </div>
                     </div>

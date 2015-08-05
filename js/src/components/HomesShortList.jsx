@@ -59,8 +59,10 @@ module.exports = React.createClass({
                                         <hr/>
                                         <div className="position-relative">
                                             <h5 className="blue-text">{home.name}</h5>
+                                            ga('send','event','item','compare','click','click_on_home_in_shortlist',1);
                                             <p className="grey-text">{home.postcode}</p>
                                             <div data-id={home.id} onClick={this.removeFromShortlist} className="close-icon grey-text">x</div>
+                                            ga('send','event','item','compare','click','remove_item_from_shortlist',1);
                                         </div>
                                     </div>
                                 )
