@@ -17,12 +17,13 @@ var HomesList = React.createClass({
     },
     componentDidMount: function() {
         
-
+        try {
         // Initialize the tour
         tour.init();
 
         // Start the tour
         tour.restart();
+    } catch {}
     },
     render: function(){
         return (
