@@ -1,0 +1,9 @@
+RewriteCond %{HTTP_HOST} ^blog\.careselector\.com
+RewriteRule ^(.*)$ http://careselector.com/blog/$1 [R=301]
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+rewritebase /
+RewriteCond %{REQUEST_FILENAME} !-f
+rewriterule ([^/]+\.html) providers/$1 [L]

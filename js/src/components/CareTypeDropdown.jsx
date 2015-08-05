@@ -8,10 +8,10 @@ var LoadingButton = React.createClass({
         value:React.PropTypes.string,
         text:React.string
     },
-    getInitialState: function () {
+        getInitialState: function () {
         return {
             shopPopup:false
-        }
+       }
     },
     change: function (event) {
         this.props.onChange(event);
@@ -22,11 +22,19 @@ var LoadingButton = React.createClass({
             this.setState({
                 showPopup:true
             });
+            $('#overlay').addClass("md-overlay")
         } else {
             this.setState({
                 showPopup:false
             });
+            $('#overlay').removeClass("md-overlay")
         }
+    },
+    click: function () {
+        this.setState({
+            showPopup:false
+        });
+        $('#overlay').removeClass("md-overlay")
     },
     render: function(){
         return (
@@ -39,11 +47,17 @@ var LoadingButton = React.createClass({
                     <option value="HOME_CARE">Home care</option>
                 </select>
 
-                { this.state.showPopup &&
-                    <div>
-                        <h1>Popup kjdsafjkl alkj kjladfs</h1>
-                    </div>
-                }
+        <div className={ this.state.showPopup ? "md-modal md-effect-8 md-show" : "md-modal md-effect-8"} id="modal-8">
+            <div className="md-content">
+                <h3><center>Not sure?</center></h3>
+                <div>
+                    <h4><center>Not sure what to choose? Reading the article on our blog will help you understand what type of care you need!</center></h4><br></br>
+                    <a href="http://careselector.com/blog/getting-care-understanding-what-type-of-care-you-need"><button className="buttonpop"><h5>Take me to the article!</h5></button></a>
+                    <br></br>
+                    <button onClick={this.click} className="buttonpop"><h5>No thanks!</h5></button>
+                </div>
+            </div>
+        </div>
 
             </div>
         );

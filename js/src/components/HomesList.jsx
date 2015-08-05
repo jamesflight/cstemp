@@ -15,10 +15,19 @@ var HomesList = React.createClass({
             count: flux.store("HomesStore").getCount()
         }
     },
+    componentDidMount: function() {
+        
+
+        // Initialize the tour
+        tour.init();
+
+        // Start the tour
+        tour.start(true);
+    },
     render: function(){
         return (
             <div ref="element">
-                <div><strong>Showing {this.state.count} results.</strong></div>
+                <div><h3>Press the + button to add provider to the shortlist</h3></div>
                 <hr />
                 { this.state.loading ?
                     <div>
@@ -32,6 +41,9 @@ var HomesList = React.createClass({
                         <HomeListing home={home} />
                     );
                 })}
+
+                
+
             </div>
         );
     }

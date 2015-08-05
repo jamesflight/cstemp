@@ -1,0 +1,442 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width"/>
+
+
+<style type="text/css">
+/*////// RESET STYLES //////*/
+body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+table{border-collapse:collapse;}
+img, a img{border:0; outline:none; text-decoration:none;}
+h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
+p{margin: 1em 0;}
+
+/*////// CLIENT-SPECIFIC STYLES //////*/
+.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail/Outlook.com to display emails at full width. */
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div{line-height:100%;} /* Force Hotmail/Outlook.com to display line heights normally. */
+table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up. */
+#outlook a{padding:0;} /* Force Outlook 2007 and up to provide a "view in browser" message. */
+img{-ms-interpolation-mode: bicubic;} /* Force IE to smoothly render resized images. */
+body, table, td, p, a, li, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;} /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
+
+/*////// FRAMEWORK STYLES //////*/
+.flexibleContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}
+.flexibleImage{height:auto;}
+.bottomShim{padding-bottom:20px;}
+.imageContent, .imageContentLast{padding-bottom:20px;}
+.nestedContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}
+
+/*////// GENERAL STYLES //////*/
+body, #bodyTable{background-color:#F5F5F5;}
+#bodyCell{padding-top:40px; padding-bottom:40px;}
+#emailBody{background-color:#FFFFFF; border:1px solid #DDDDDD; border-collapse:separate; border-radius:4px;}
+h1, h2, h3, h4, h5, h6{color:#202020; font-family:Helvetica; font-size:20px; line-height:125%; text-align:Left;}
+.textContent, .textContentLast{color:#404040; font-family:Helvetica; font-size:16px; line-height:125%; text-align:Left; padding-bottom:20px;}
+.textContent a, .textContentLast a{color:#2C9AB7; text-decoration:underline;}
+.nestedContainer{background-color:#E5E5E5; border:1px solid #CCCCCC;}
+.emailButton{background-color:#2C9AB7; border-collapse:separate; border-radius:4px;}
+.buttonContent{color:#FFFFFF; font-family:Helvetica; font-size:18px; font-weight:bold; line-height:100%; padding:15px; text-align:center;}
+.buttonContent a{color:#FFFFFF; display:block; text-decoration:none;}
+.emailCalendar{background-color:#FFFFFF; border:1px solid #CCCCCC;}
+.emailCalendarMonth{background-color:#2C9AB7; color:#FFFFFF; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:bold; padding-top:10px; padding-bottom:10px; text-align:center;}
+.emailCalendarDay{color:#2C9AB7; font-family:Helvetica, Arial, sans-serif; font-size:60px; font-weight:bold; line-height:100%; padding-top:20px; padding-bottom:20px; text-align:center;}
+
+/*////// MOBILE STYLES //////*/
+@media only screen and (max-width: 480px){
+/*////// CLIENT-SPECIFIC STYLES //////*/
+body{width:100% !important; min-width:100% !important;} /* Force iOS Mail to render the email at full width. */
+
+/*////// FRAMEWORK STYLES //////*/
+/*
+CSS selectors are written in attribute
+selector format to prevent Yahoo Mail
+from rendering media query styles on
+desktop.
+*/
+table[id="emailBody"], table[class="flexibleContainer"]{width:100% !important;}
+
+/*
+The following style rule makes any
+image classed with 'flexibleImage'
+fluid when the query activates.
+Make sure you add an inline max-width
+to those images to prevent them
+from blowing out. 
+*/
+img[class="flexibleImage"]{height:auto !important; width:100% !important;}
+
+/*
+Make buttons in the email span the
+full width of their container, allowing
+for left- or right-handed ease of use.
+*/
+table[class="emailButton"]{width:100% !important;}
+td[class="buttonContent"]{padding:0 !important;}
+td[class="buttonContent"] a{padding:15px !important;}
+
+td[class="textContentLast"], td[class="imageContentLast"]{padding-top:20px !important;}
+
+/*////// GENERAL STYLES //////*/
+td[id="bodyCell"]{padding-top:10px !important; padding-Right:10px !important; padding-Left:10px !important;}
+}
+</style>
+<!--
+Outlook Conditional CSS
+
+These two style blocks target Outlook 2007 & 2010 specifically, forcing
+columns into a single vertical stack as on mobile clients. This is
+primarily done to avoid the 'page break bug' and is optional.
+
+More information here:
+http://templates.mailchimp.com/development/css/outlook-conditional-css
+-->
+<!--[if mso 12]>
+<style type="text/css">
+.flexibleContainer{display:block !important; width:100% !important;}
+</style>
+<![endif]-->
+<!--[if mso 14]>
+<style type="text/css">
+.flexibleContainer{display:block !important; width:100% !important;}
+</style>
+<![endif]-->
+</head>
+<body>
+<center>
+<table border="0" cellpadding="0" cellspacing="0" id="bodyTable" style="width: 100%; height: 100%;">
+<tbody>
+<tr>
+<td align="center" valign="top" id="bodyCell"><!-- EMAIL CONTAINER // --> <!--
+The table "emailBody" is the email's container.
+Its width can be set to 100% for a color band
+that spans the width of the page.
+-->
+<table border="0" cellpadding="0" cellspacing="0" id="emailBody" style="width: 600px;"><!-- MODULE ROW // -->
+<tbody>
+<tr style="background-color: #484848;">
+<td align="center" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer" style="width: 600px;">
+<tbody>
+<tr>
+<td align="center" valign="top" width="600" class="flexibleContainerCell"><!-- CONTENT TABLE // --> <!--
+The content table is the first element
+that's entirely separate from the structural
+framework of the email.
+-->
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody>
+<tr>
+<td valign="top" class="textContent">
+<h3 style="color: white;">Care Selector Allows People To Find Your Service And Become Paying Clients</h3>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- // CONTENT TABLE --></td>
+</tr>
+</tbody>
+</table>
+<!-- // FLEXIBLE CONTAINER --></td>
+</tr>
+</tbody>
+</table>
+<!-- // CENTERING TABLE --></td>
+</tr>
+<!-- // MODULE ROW --> <!-- MODULE ROW // -->
+<tr>
+<td align="center" valign="top"><!-- CENTERING TABLE // -->
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="center" valign="top"><!-- FLEXIBLE CONTAINER // -->
+<table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer" style="width: 600px;">
+<tbody>
+<tr>
+<td align="center" valign="top" width="600" class="flexibleContainerCell"><!-- CONTENT TABLE // -->
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody>
+<tr>
+<td valign="top" class="textContent">
+<h3>This week, %ORGANIZATION% has...</h3>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- // CONTENT TABLE --></td>
+</tr>
+</tbody>
+</table>
+<!-- // FLEXIBLE CONTAINER --></td>
+</tr>
+</tbody>
+</table>
+<!-- // CENTERING TABLE --></td>
+</tr>
+<!-- // MODULE ROW --> <!-- MODULE ROW // -->
+<tr>
+<td align="center" valign="top"><!-- CENTERING TABLE // -->
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="center" valign="top"><!-- FLEXIBLE CONTAINER // -->
+<table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer" style="width: 600px;">
+<tbody>
+<tr>
+<td valign="top" width="600" class="flexibleContainerCell"><!-- CONTENT TABLE // --> <!--
+In multi-column content blocks, the
+content tables are given set widths
+and the flexibleContainer class.
+-->
+<table align="Left" border="0" cellpadding="0" cellspacing="0" class="flexibleContainer" style="width: 260px;">
+<tbody>
+<tr>
+<td valign="top" class="textContent">
+<h3>Appeared in</h3>
+<br>
+<div style="color: #ef33a3; font-size: 20px; font-weight: bold;">%TIMES_SEARCHED%</div>
+searches</td>
+</tr>
+</tbody>
+</table>
+<!-- // CONTENT TABLE --> <!-- CONTENT TABLE // -->
+<table align="Right" border="0" cellpadding="0" cellspacing="0" class="flexibleContainer" style="width: 260px;">
+<tbody>
+<tr>
+<td valign="top" class="textContentLast">
+<h3>Been placed in</h3>
+<br>
+<div style="color: #ef33a3; font-size: 20px; font-weight: bold;">%TIMES_SHORTLISTED%</div>
+shortlists</td>
+</tr>
+</tbody>
+</table>
+<!-- // CONTENT TABLE --></td>
+</tr>
+</tbody>
+</table>
+<!-- // FLEXIBLE CONTAINER --></td>
+</tr>
+</tbody>
+</table>
+<!-- // CENTERING TABLE --></td>
+</tr>
+<!-- // MODULE ROW --> <!-- MODULE ROW // -->
+<tr style="background-color: #f3f3f3;">
+<td align="center" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer" style="width: 600px;">
+<tbody>
+<tr>
+<td align="center" valign="top" width="600" class="flexibleContainerCell"><!-- CONTENT TABLE // --> <!--
+The content table is the first element
+that's entirely separate from the structural
+framework of the email.
+-->
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #484848;" valign="top" class="textContent">At the moment you are appearing below</td>
+</tr>
+<tr>
+<td style="color: #ef33a3;" valign="top" class="textContent">%COMPETITOR1%, %COMPETITOR2% and %COMPETITOR3%</td>
+</tr>
+</tbody>
+</table>
+<!-- // CONTENT TABLE --></td>
+</tr>
+</tbody>
+</table>
+<!-- // FLEXIBLE CONTAINER --></td>
+</tr>
+</tbody>
+</table>
+<!-- // CENTERING TABLE --></td>
+</tr>
+<!-- // MODULE ROW --> <!-- MODULE ROW // -->
+<tr>
+<td align="center" valign="top"><!-- CENTERING TABLE // -->
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="center" valign="top"><!-- FLEXIBLE CONTAINER // -->
+<table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer" style="width: 600px;">
+<tbody>
+<tr>
+<td align="center" valign="top" width="600" class="flexibleContainerCell"><!-- CONTENT TABLE // -->
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody>
+<tr>
+<td valign="top" class="textContent">
+<h2>Want To Get More Enquiries For Your Service?</h2>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- // CONTENT TABLE --></td>
+</tr>
+</tbody>
+</table>
+<!-- // FLEXIBLE CONTAINER --></td>
+</tr>
+</tbody>
+</table>
+<!-- // CENTERING TABLE --></td>
+</tr>
+<!-- // MODULE ROW --> <!-- MODULE ROW // -->
+<tr>
+<td align="center" valign="top"><!-- CENTERING TABLE // -->
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="center" valign="top"><!-- FLEXIBLE CONTAINER // -->
+<table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer" style="width: 600px;">
+<tbody>
+<tr>
+<td align="center" valign="top" width="600" class="flexibleContainerCell bottomShim"><!-- CONTENT TABLE // --> <!--
+The emailButton table's width can be changed
+to affect the look of the button. To make the
+button width dependent on the text inside, leave
+the width blank. When a button is placed in a column,
+it's helpful to set the width to 100%.
+-->
+<div><!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.careselector.com/providers/inquire" style="height:60px;v-text-anchor:middle;width:800px;" arcsize="7%" stroke="f" fillcolor="#ef33a3">
+<w:anchorlock/>
+<center>
+<![endif]--> <a href="http://provider.careselector.com/carer-request-talk/?utm_medium=Email&utm_term=&utm_content=Initial_contact&utm_campaign=1&email=%EMAIL%http://provider.careselector.com/carer-request-talk/?utm_medium=Email&amp;utm_term=&amp;utm_content=Initial_contact&amp;utm_campaign=1&amp;email=%EMAIL%" style="background-color: #ef33a3; border-radius: 4px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 19px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; -webkit-text-size-adjust: none; width: 100%;">Yes, Please Contact Me So I Can Find Out More</a> <!--[if mso]>
+</center>
+</v:roundrect>
+<![endif]--></div>
+<!-- // CONTENT TABLE --></td>
+</tr>
+</tbody>
+</table>
+<!-- // FLEXIBLE CONTAINER --></td>
+</tr>
+</tbody>
+</table>
+<!-- // CENTERING TABLE --></td>
+</tr>
+<!-- // MODULE ROW --> <!-- MODULE ROW // -->
+<tr>
+<td align="center" valign="top"><!-- CENTERING TABLE // -->
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="center" valign="top"><!-- FLEXIBLE CONTAINER // -->
+<table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer" style="width: 600px;">
+<tbody>
+<tr>
+<td align="center" valign="top" width="600" class="flexibleContainerCell"><!-- CONTENT TABLE // -->
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody>
+<tr>
+<td valign="top" class="textContent">
+<h2>or</h2>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- // CONTENT TABLE --></td>
+</tr>
+</tbody>
+</table>
+<!-- // FLEXIBLE CONTAINER --></td>
+</tr>
+</tbody>
+</table>
+<!-- // CENTERING TABLE --></td>
+</tr>
+<!-- // MODULE ROW --> <!-- MODULE ROW // -->
+<tr>
+<td align="center" valign="top"><!-- CENTERING TABLE // -->
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="center" valign="top"><!-- FLEXIBLE CONTAINER // -->
+<table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer" style="width: 600px;">
+<tbody>
+<tr>
+<td align="center" valign="top" width="600" class="flexibleContainerCell bottomShim"><!-- CONTENT TABLE // --> <!--
+The emailButton table's width can be changed
+to affect the look of the button. To make the
+button width dependent on the text inside, leave
+the width blank. When a button is placed in a column,
+it's helpful to set the width to 100%.
+-->
+<div><!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="%FORWARD2FRIEND%" style="height:60px;v-text-anchor:middle;width:800px;" arcsize="7%" stroke="f" fillcolor="#57c5c7">
+<w:anchorlock/>
+<center>
+<![endif]--> <a href="http://provider.careselector.com/forward/?email=%EMAIL%" style="background-color: #57c5c7; border-radius: 4px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 19px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; -webkit-text-size-adjust: none; width: 100%;">Forward This Email To The Right Person</a> <!--[if mso]>
+</center>
+</v:roundrect>
+<![endif]--></div>
+<!-- // CONTENT TABLE --></td>
+</tr>
+</tbody>
+</table>
+<!-- // FLEXIBLE CONTAINER --></td>
+</tr>
+</tbody>
+</table>
+<!-- // CENTERING TABLE --></td>
+</tr>
+<!-- // MODULE ROW --> <!-- MODULE ROW // -->
+<tr style="background-color: #4f4f4f;">
+<td align="center" valign="top"><!-- CENTERING TABLE // -->
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="center" valign="top"><!-- FLEXIBLE CONTAINER // -->
+<table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer" style="width: 600px;">
+<tbody>
+<tr>
+<td valign="top" width="600" class="flexibleContainerCell"><!-- CONTENT TABLE // --> <!--
+In multi-column content blocks, the
+content tables are given set widths
+and the flexibleContainer class.
+-->
+<table align="Left" border="0" cellpadding="0" cellspacing="0" class="flexibleContainer" style="width: 260px;">
+<tbody>
+<tr>
+<td valign="top" class="textContent" style="color: white;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAAtCAYAAADr0SSvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUFEMkRBOERGQTIxMTFFNDk3RThCMkM3RjRFMTY5MTkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUFEMkRBOEVGQTIxMTFFNDk3RThCMkM3RjRFMTY5MTkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QUQyREE4QkZBMjExMUU0OTdFOEIyQzdGNEUxNjkxOSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QUQyREE4Q0ZBMjExMUU0OTdFOEIyQzdGNEUxNjkxOSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PhZkSKoAABI4SURBVHja7V0LWFVV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"><br>© 2015<br>1-3 St Johns Court<br>Whiteladies Road<br>Clifton<br>Bristol<br>BS8 2QY</td>
+</tr>
+</tbody>
+</table>
+<!-- // CONTENT TABLE --> <!-- CONTENT TABLE // -->
+<table align="Right" border="0" cellpadding="0" cellspacing="0" class="flexibleContainer" style="width: 260px;">
+<tbody>
+<tr>
+<td valign="top" class="textContentLast" style="color: white;"><a style="color: white; text-decoration: none;" href="https://www.facebook.com/careselector">Facebook</a><br> <a style="color: white; text-decoration: none;">Twitter</a><br> <a style="color: white; text-decoration: none;" href="https://www.linkedin.com/company/care-selector">LinkedIn</a><br> <a style="color: white; text-decoration: none;" href="#">Skype</a></td>
+</tr>
+</tbody>
+</table>
+<!-- // CONTENT TABLE --></td>
+</tr>
+</tbody>
+</table>
+<!-- // FLEXIBLE CONTAINER --></td>
+</tr>
+</tbody>
+</table>
+<!-- // CENTERING TABLE --></td>
+</tr>
+<!-- // MODULE ROW --></tbody>
+</table>
+<!-- // EMAIL CONTAINER --></td>
+</tr>
+</tbody>
+</table>
+</center>
+</body>
+</html>

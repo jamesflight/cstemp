@@ -7,40 +7,41 @@ var CareTypeDropdown = require('./CareTypeDropdown.jsx');
 var AddressSearchBox = require('./AddressSearchBox.jsx');
 var ga = require('react-google-analytics');
 
-module.exports = React.createClass({
-    mixins:[FluxMixin, StoreWatchMixin('FilterStore')],
-    propTypes: {
-        location: React.PropTypes.string,
-        care_type: React.PropTypes.string,
-        dementia: React.PropTypes.string
-    },
-    componentDidMount: function () {
-        if (this.props.location !== undefined) {
-            this.getFlux().actions.updateFilter({
-                filter:'address',
-                value:this.props.location
-            });
-        }
-        if (this.props.care_type !== undefined) {
-            this.getFlux().actions.updateFilter({
-                filter: 'care_type',
-                value: this.props.care_type
-            });
-        }
-        if (this.props.dementia !== undefined) {
-            var val;
-            if (this.props.dementia === '0') {
-                val = false;
-            } else {
-                val = true;
-            }
-            this.getFlux().actions.updateFilter({
-                filter:'dementia',
-                value:val
-            });
-        }
-        this.getFlux().actions.loadHomes(this.state.filters);
-    },
+	module.exports = React.createClass({
+	    mixins:[FluxMixin, StoreWatchMixin('FilterStore')],
+	    propTypes: {
+	        location: React.PropTypes.string,
+	        care_type: React.PropTypes.string,
+	        dementia: React.PropTypes.string
+	    },
+	    componentDidMount: function () {
+	        if (this.props.location !== undefined) {
+	            this.getFlux().actions.updateFilter({
+	               filter:'address',
+	            value:this.props.location
+	            });
+	    }
+	        if (this.props.care_type !== undefined) {
+	            this.getFlux().actions.updateFilter({
+	                filter: 'care_type',
+	                value: this.props.care_type
+	            });
+	        }
+	        if (this.props.dementia !== undefined) {
+	            var val;
+	            if (this.props.dementia === '0') {
+	                val = false;
+	            } else {
+	                val = true;
+	            }
+	           this.getFlux().actions.updateFilter({
+	                filter:'dementia',
+	                value:val
+	            });
+	        }
+	        this.getFlux().actions.loadHomes(this.state.filters);
+	    },
+
     getStateFromFlux: function () {
         return {
             filters: this.getFlux().store('FilterStore').getState(),
@@ -55,22 +56,24 @@ module.exports = React.createClass({
     addFilter: function (event) {
         var select = $(event.target);
 
+
         var val = select.val();
+        ga('send','event','item','compare','click','filter_button',1);
 
         if (val === 'dementia') {
-            ga('set', 'dimension1', true);
+            ga('send','event','item','compare','click','filter_by_dementia',1);
         }
 
         if (val === 'learning_disability') {
-            ga('set', 'dimension2', true);
+            ga('send','event','item','compare','click','filter_by_learning',1);
         }
 
         if (val === 'under_65') {
-            ga('set', 'dimension3', true);
+            ga('send','event','item','compare','click','filter_by_under_65',1);
         }
 
         if (val === 'sensory_impairment') {
-            ga('set', 'dimension4', true);
+            ga('send','event','item','compare','click','filter_by_senory_impairment',1);
         }
 
         this.getFlux().actions.updateFilter({
@@ -120,7 +123,7 @@ module.exports = React.createClass({
                 <div>
                     <h4 className="grey-text">Filters </h4>
                     <select onChange={this.addFilter} className="grey-button-small active">
-                        <option value="" selected disabled>&#43; Add Filter</option>
+                        <option value="" selected disabled>Have any unique needs? Select them by clicking here</option>
                         <option value="dementia">Dementia</option>
                         <option value="learning_disability">Learning disability</option>
                         <option value="under_65">Under 65</option>

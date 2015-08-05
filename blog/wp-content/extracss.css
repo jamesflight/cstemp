@@ -1,0 +1,70 @@
+.morris {
+	background: url("http://argenticc.com/careselector/wp-content/uploads/2015/04/photodune-5498190-middle-age-man-using-notebook-m-copy.original.jpg");
+	background-size:cover;
+}
+
+.white {
+	color:white !important;
+	font-weight:bold;
+}
+
+.black-box {
+	padding:10px 40px 40px 40px;
+	background:url("black-background.png");
+}
+
+.morris input {
+	border-radius:3px;
+	border:1px solid white;
+}
+
+.morris input[type="submit"], .orange-button a {
+	color:white;
+	background:rgba(247,148,29,1);
+	font-weight:bold;
+	font-size:20px;
+	padding:15px 40px 15px 40px;
+	margin-top:20px;
+}
+
+.blue-section {
+	background:#03aeee;
+}
+
+.center-input {
+	text-align: center;
+}
+
+.center-input input {
+	width:70% !important;
+	display:inline-block;
+	border-radius:3px;
+	border:1px solid white;
+}
+
+.grey-text {
+	color:#9d9d9d;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.striped-list li {
+	padding-left:30% !important;
+	padding-top:20px !important;
+	padding-bottom: 20px !important;
+
+}
+
+.striped-list li a {
+	font-size:20px !important;
+	color:#04acea !important;
+}
+
+.striped-list li:nth-child(odd) {
+	background:#ebebeb;
+	width:100%;
+}
+
+.striped-list .badge {
+	display:none;
+}

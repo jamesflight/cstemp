@@ -17,5 +17,7 @@ var stores = {
 
 var flux = new Fluxxor.Flux(stores, actions);
 Router.run(routes, function (Handler) {
+	tour.end()
+	$(".popover.tour-tour").remove()
     React.render(<Handler flux={flux} />, document.getElementById("app"));
 });

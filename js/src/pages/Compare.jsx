@@ -8,8 +8,8 @@ var ga = require('react-google-analytics');
 
 module.exports = React.createClass({
     mixins: [FluxMixin],
-    contextTypes: {
-        router: React.PropTypes.func
+       contextTypes: {
+       router: React.PropTypes.func
     },
     componentDidMount:function () {
         ga('send', 'pageview', '/filtered');
@@ -23,8 +23,7 @@ module.exports = React.createClass({
                     </div>
                     <div className="col-xs-8">
                         <br/>
-                        <ActiveFilters
-                        />
+                        <ActiveFilters />
                         <hr/>
                         <HomesList />
                     </div>
