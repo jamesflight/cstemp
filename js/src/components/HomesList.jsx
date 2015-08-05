@@ -22,7 +22,7 @@ var HomesList = React.createClass({
         tour.init();
 
         // Start the tour
-        tour.start(true);
+        tour.start();
     },
     render: function(){
         return (
