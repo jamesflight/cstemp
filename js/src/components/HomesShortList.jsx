@@ -66,6 +66,9 @@ module.exports = React.createClass({
         }
         
     },
+        trackingclickhomeshortlist: function () {
+        ga('send','event','item','compare','click','click_on_home_in_shortlist',1);
+    },
     render: function(){
         return (
             <div className="padding-tb-s">
@@ -78,7 +81,7 @@ module.exports = React.createClass({
                                     <div>
                                         <hr/>
                                         <div className="position-relative">
-                                            <h5 className="blue-text">{home.name}</h5>
+                                            <h5 className="blue-text" onClick={this.trackingclickhomeshortlist}>{home.name}</h5>
                                             <p className="grey-text">{home.postcode}</p>
                                             <div data-id={home.id} onClick={this.removeFromShortlist} className="close-icon grey-text">x</div>
                                         </div>
