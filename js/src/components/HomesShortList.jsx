@@ -38,13 +38,33 @@ module.exports = React.createClass({
         }.bind(this));
     },
     removeFromShortlist: function (event) {
+        ga('send','event','item','compare','click','remove_item_from_shortlist',1);
         this.getFlux().actions.removeFromShortlist(event.target.getAttribute('data-id'));
     },
     postShortlist: function () {
         ga('send', 'pageview', '/requestmade');
-        this.getFlux().actions.postShortlistToServer(this.state.homes, this.state.filters, function () {
-            this.transitionTo('email');
-        }.bind(this));
+        if (this.state.homes.length > 0){
+            this.getFlux().actions.postShortlistToServer(this.state.homes, this.state.filters, function () {
+                this.transitionTo('email');
+            }.bind(this));
+        } else {
+            // create the notification
+            $(".ns-show").remove();
+
+                            var notification = new NotificationFx({
+                            wrapper: document.getElementById("message"),
+                            message : '<h5><font color="#57C5C7">Please add providers to the shortlist!</font></h5>',
+                            layout : 'growl',
+                            effect : 'jelly',
+                            type : 'notice', // notice, warning, error or success
+                            onClose : function() {
+                            }
+                        });
+
+                        // show the notification
+                        notification.show();
+        }
+        
     },
     render: function(){
         return (
@@ -59,10 +79,8 @@ module.exports = React.createClass({
                                         <hr/>
                                         <div className="position-relative">
                                             <h5 className="blue-text">{home.name}</h5>
-                                            ga('send','event','item','compare','click','click_on_home_in_shortlist',1);
                                             <p className="grey-text">{home.postcode}</p>
                                             <div data-id={home.id} onClick={this.removeFromShortlist} className="close-icon grey-text">x</div>
-                                            ga('send','event','item','compare','click','remove_item_from_shortlist',1);
                                         </div>
                                     </div>
                                 )
@@ -74,6 +92,7 @@ module.exports = React.createClass({
                             <p className="grey-text text-center">Add care providers to create your shortlist for comparison.</p>
                             </div>
                         }
+                        <div id="message"></div>
                     </div>
                     <div className="text-center button-section">
                         <hr/>
