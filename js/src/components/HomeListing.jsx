@@ -49,7 +49,8 @@ var HomesListing = React.createClass({
         ga('send','event','item','compare','click','click_on_home_in_shortlist',1);
         if (! this.props.home.inShortlist) {
             this.getFlux().actions.addToShortlist(this.props.home.id);
-        }
+            }
+        $(".ns-show").remove();
 
     },
     getWebsite: function () {
@@ -106,6 +107,15 @@ var HomesListing = React.createClass({
         }
         return '';
     },
+    trackinghomename: function () {
+        ga('send','event','item','compare','click','click_on_a_home',1);
+    },
+    trackinghomeimage: function () {
+        ga('send','event','item','compare','click','click_on_an_image',1);
+    },
+    trackinghomerating: function () {
+        ga('send','event','item','compare','click','click_on_quality_rating',1);
+    },
     render: function(){
         return (
             <div className="panel panel-success">
@@ -116,14 +126,14 @@ var HomesListing = React.createClass({
                             <div className="add-listing-triangle"></div>
                         </div>
                         <div ref="listingbody" className="col-xs-6">
-                            <h4 ref="listingtitle" data-toggle="tooltip" data-tip="Add to your shortlist to find out more."><strong>{this.props.home.name}</strong> - within <span className="blue-text">{this.props.home.distance}km</span></h4>
+                            <h4 ref="listingtitle" data-toggle="tooltip" data-tip="Add to your shortlist to find out more."><strong onClick={this.trackinghomename}>{this.props.home.name}</strong> - within <span className="blue-text">{this.props.home.distance}km</span></h4>
                             <ReactTooltip effect="solid" />
                             <div>{this.props.home.address_1}, {this.props.home.address_3}, {this.props.home.postcode}</div>
                             <hr/>
                             <div className="row">
                                 <div ref="listingcarerating" className="col-xs-6">
                                     <p>Care Rating:</p>
-                                    <img src={this.getRatingSrc()} data-tip="The care rating is provided by the Care Quality Commission, a government body that inspects care providers." className="rating"/>
+                                    <img src={this.getRatingSrc()} data-tip="The care rating is provided by the Care Quality Commission, a government body that inspects care providers." className="rating" onClick={this.trackinghomerating}/>
                                 </div>
                                 <div className="col-xs-6">
                                     {
@@ -138,7 +148,7 @@ var HomesListing = React.createClass({
                         </div>
                         <div ref="listingimage" className="col-xs-4">
                         { this.props.home.thumbnail_url !== null &&
-                            <img src={this.props.home.thumbnail_url} className="home-image" />
+                            <img src={this.props.home.thumbnail_url} className="home-image" onClick={this.trackinghomeimage} />
                             }
 
                         </div>
