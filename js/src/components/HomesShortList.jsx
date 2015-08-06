@@ -101,7 +101,7 @@ module.exports = React.createClass({
                         }
 
                         { ! this.state.isLoading &&
-                            <div onClick={this.postShortlist} className="pink-button">Compare Care Providers On My Shortlist</div>
+                            <div onClick={this.postShortlist} className="orange-button">Compare Care Providers On My Shortlist</div>
                         }
 
                     </div>
