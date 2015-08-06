@@ -39,33 +39,3 @@ gulp.task('watch', function() {
 
     return rebundle();
 });
-
-gulp.task('build', function() {
-    var bundler = browserify({
-        entries:['./js/src/main.js'],
-        cache:{},
-        packageCache: {},
-        fullPaths: true
-    });
-    bundler.transform(reactify);
-    bundler.transform(stringify(['.html']));
-    var bundler = watchify(bundler);
-
-    function rebundle() {
-        bundler.bundle()
-            .pipe(source('app.js'))
-            .pipe(buffer())
-            .pipe(sourcemaps.init({loadMaps: true}))
-            .pipe(uglify())
-            .pipe(sourcemaps.write('./js/dist/'))
-            .pipe(gulp.dest('./js/dist/'));
-    }
-
-    bundler.on('log', function (msg) {
-        console.log(msg);
-    });
-
-    rebundle();
-
-    return rebundle();
-});
