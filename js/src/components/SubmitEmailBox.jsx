@@ -39,7 +39,7 @@ var SubmitEmailBox = React.createClass({
                 <div className="col-sm-6 col-sm-offset-1"><img src="img/table.gif" /></div>
                 <div className="col-sm-4">
                 <h4><strong>Reports Include</strong></h4>
-                <ul>
+                <ul className="tick">
                     <li>In depth information on how each provider can meet your loved ones needs</li>
                     <li>Up to date <strong>availability</strong></li>
                     <li>Up to date <strong>prices</strong></li>
@@ -48,13 +48,12 @@ var SubmitEmailBox = React.createClass({
             </div>
             <div className="row">
                 <div className="col-sm-10 col-sm-offset-1">
-                <br/>
                 <h4 className="text-left"><strong>Where should we send your chart when it is done&#63;</strong></h4>
                 <input ref="email" type="email" className="form-control input-lg" placeholder="Enter your email" />
                 <br/>
                 <div id="message"></div>
                 <div className="text-center">
-                    <div href="#" className="btn btn-lg pink-button" onClick={this.submit}>Send Me My Comparison</div>
+                    <div href="#" className="hvr-wobble-horizontal btn btn-lg orange-button" onClick={this.submit}>Send Me My Comparison Report</div>
                 </div>
                 <br></br><br></br>
             </div>

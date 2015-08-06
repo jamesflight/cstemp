@@ -585,30 +585,9 @@ border-radius: 10px 0 0 10px;
     color: #fff;
     cursor: pointer;    
     background: #F7941D;
-    /* Old browsers */
-
-    background: -moz-linear-gradient(to bottom, #CC7B19 0%, #F7941D 5%, #F7941D 89%, #CC7B19 100%);
-    /* FF3.6+ */
-
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F7941D), color-stop(5%, #CC7B19), color-stop(89%, #F7941D), color-stop(100%, #CC7B19));
-    /* Chrome,Safari4+ */
-
-    background: -webkit-linear-gradient(to bottom, #CC7B19 0%, #F7941D 5%, #F7941D 89%, #CC7B19 100%);
-    /* Chrome10+,Safari5.1+ */
-
-    background: -o-linear-gradient(to bottom, #CC7B19 0%, #F7941D 5%, #F7941D 89%, #CC7B19 100%);
-    /* Opera 11.10+ */
-
-    background: -ms-linear-gradient(to bottom, #CC7B19 0%, #F7941D 5%, #F7941D 89%, #CC7B19 100%);
-    /* IE10+ */
-
-    background: linear-gradient(to bottom, #CC7B19 0%, #F7941D 5%, #F7941D 89%, #CC7B19 100%);
-    /* W3C */
-
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#F7941D', endColorstr='#CC7B19', GradientType=0);
-    /* IE6-9 */
     font-size: 2em;
     width: 100%;
+    border:0;
 }
 .orange-button:active {
     display: block;
@@ -617,28 +596,6 @@ border-radius: 10px 0 0 10px;
     color: #fff;
     cursor: pointer;    
     background: #F7941D;
-    /* Old browsers */
-
-    background: -moz-linear-gradient(to bottom, #F7941D 0%, #CC7B19 5%, #CC7B19 89%, #F7941D 100%);
-    /* FF3.6+ */
-
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #CC7B19), color-stop(5%, #F7941D), color-stop(89%, #CC7B19), color-stop(100%, #F7941D));
-    /* Chrome,Safari4+ */
-
-    background: -webkit-linear-gradient(to bottom,  #F7941D 0%,#CC7B19  5%, #CC7B19 89%,#F7941D  100%);
-    /* Chrome10+,Safari5.1+ */
-
-    background: -o-linear-gradient(to bottom,#F7941D  0%,#CC7B19  5%, #CC7B19 89%, #F7941D 100%);
-    /* Opera 11.10+ */
-
-    background: -ms-linear-gradient(to bottom,#F7941D  0%,#CC7B19  5%, #CC7B19 89%,#F7941D  100%);
-    /* IE10+ */
-
-    background: linear-gradient(to bottom,#F7941D  0%,#CC7B19  5%, #CC7B19 89%,#F7941D 100%);
-    /* W3C */
-
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#CC7B19', endColorstr='#F7941D', GradientType=0);
-    /* IE6-9 */
     font-size: 2em;
 }
 .orange-button:hover {    

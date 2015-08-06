@@ -22,10 +22,13 @@ module.exports = React.createClass({
             <div>
                 <div className="container">
                     <div className="row">
-                        <div className="col-xs-12">
+                        <div className="col-xs-8 col-xs-offset-2">
                             <br/><br/>
-                            <h1 className="text-center">Thank you, your chart will be with you shortly.</h1><br></br>
-                            <a href={this.getReportUrl()} target="_blank"><button className="hvr-wobble-horizontal">Get your report instantly!</button></a>
+                            <h1 className="text-center">Thanks! Your Report Has Been Sent To You</h1><br></br>
+                            <h3 className="text-center">We’re busy talking to your chosen care providers and updating their latest availability and prices. You can see the latest version of your report here.</h3>
+                            <h3 className="text-center">We’ll notify you when its complete!</h3><br></br>
+                            <a href={this.getReportUrl()} target="_blank"><button className="hvr-wobble-horizontal orange-button">See your Comparison Report Now</button></a>
+                            <br/><br/>
                             <br/><br/>
                         </div>
                     </div>
