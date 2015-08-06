@@ -16,12 +16,13 @@ var HomesList = React.createClass({
         }
     },
     componentDidMount: function() {
-        
-        // Initialize the tour
-        tour.init();
+        try {
+            // Initialize the tour
+            tour.init();
 
-        // Start the tour
-        tour.restart();
+            // Start the tour
+            tour.restart();
+        } catch(err){}
     },
     render: function(){
         return (
