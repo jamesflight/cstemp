@@ -126,8 +126,7 @@ var HomesListing = React.createClass({
                             <div className="add-listing-triangle"></div>
                         </div>
                         <div ref="listingbody" className="col-xs-6">
-                            <h4 ref="listingtitle" data-toggle="tooltip" data-tip="Add to your shortlist to find out more."><strong onClick={this.trackinghomename}>{this.props.home.name}</strong> - within <span className="blue-text">{this.props.home.distance}km</span></h4>
-                            <ReactTooltip effect="solid" />
+                            <h4 ref="listingtitle" ><strong onClick={this.trackinghomename}>{this.props.home.name}</strong> - within <span className="blue-text">{this.props.home.distance}km</span></h4>
                             <div>{this.props.home.address_1}, {this.props.home.address_3}, {this.props.home.postcode}</div>
                             <hr/>
                             <div className="row">
