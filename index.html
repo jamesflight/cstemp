@@ -152,7 +152,23 @@ olark.identify('8577-881-10-1786');/*]]>*/</script><noscript><a href="https://ww
             content: "Complete by clicking here. We’ll send your report right away!"
           }
           ],
-          backdrop: true
+          backdrop: true,
+          onNext: function (tour){
+            var step = tour.getCurrentStep();
+            switch (step){
+                case 0:
+                    ga('send','event','item','tour_1','click','next',1);
+                    break;
+                case 1:
+                    ga('send','event','item','tour_2','click','next',1);
+                    break;
+                case 2:
+                    ga('send','event','item','tour_3','click','next',1);
+                    break;
+
+            }
+          }
+
       });
 </script>
 </body>
