@@ -166,7 +166,11 @@ olark.identify('8577-881-10-1786');/*]]>*/</script><noscript><a href="https://ww
                     ga('send','event','item','tour_3','click','next',1);
                     break;
 
+
             }
+          },
+          onEnd: function (tour){
+            ga('send','event','item','quit_tour','click','quit',1);
           }
 
       });
