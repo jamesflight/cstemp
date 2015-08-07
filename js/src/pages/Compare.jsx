@@ -12,6 +12,7 @@ module.exports = React.createClass({
        router: React.PropTypes.func
     },
     componentDidMount:function () {
+        $('#overlay').remove();
         ga('send', 'pageview', '/filtered');
     },
     render: function() {
