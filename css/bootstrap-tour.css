@@ -18,6 +18,15 @@
  * limitations under the License.
  * ========================================================================
  */
+.popover {
+  max-width: 365px;
+}
+
+.popover-content {
+  padding: 50px;
+  font-size: 20px;
+  text-align: center;
+}
 
 .popover-title {
 	background: #e81690;

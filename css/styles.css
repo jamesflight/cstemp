@@ -640,12 +640,12 @@ border-radius: 10px 0 0 10px;
 }
 .grey-button-small {
     display: block;
-    padding: 5px 25px 5px 25px;
+    padding: 20px 25px 20px 25px;
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
     background: #464646;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 a:hover {
     color: #fff;
