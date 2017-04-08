@@ -6,7 +6,7 @@ var Utils = require('./../utils.js');
 module.exports = Fluxxor.createStore({
     initialize: function () {
         this.addresses = [];
-        this.selectedAddress = {
+        this.selectedAddress = { 
             first_part:''
         };
         this.bindActions(

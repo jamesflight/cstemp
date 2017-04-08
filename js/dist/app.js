@@ -21,7 +21,7 @@ Router.run(routes, function (Handler) {
     React.render(React.createElement(Handler, {flux: flux}), document.getElementById("app"));
 });
 
-},{"./App.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\App.jsx","./actions.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\actions.js","./routes.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\routes.jsx","./stores/AddressStore.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\stores\\AddressStore.js","./stores/FilterStore.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\stores\\FilterStore.js","./stores/HomesStore.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\stores\\HomesStore.js","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\App.jsx":[function(require,module,exports){
+},{"./App.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\App.jsx","./actions.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\actions.js","./routes.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\routes.jsx","./stores/AddressStore.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\stores\\AddressStore.js","./stores/FilterStore.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\stores\\FilterStore.js","./stores/HomesStore.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\stores\\HomesStore.js","fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\App.jsx":[function(require,module,exports){
 var React = require('react');
 var Router = require('react-router'); // or var Router = ReactRouter; in browsers
 var actions = require('./actions.js');
@@ -59,7 +59,7 @@ var App = React.createClass({displayName: "App",
 
 module.exports = App;
 
-},{"./actions.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\actions.js","./conversionpixels/adwords-remarketing.html":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\conversionpixels\\adwords-remarketing.html","./conversionpixels/facebook-remarketing.html":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\conversionpixels\\facebook-remarketing.html","./models/HomesModel.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\models\\HomesModel.js","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\actions.js":[function(require,module,exports){
+},{"./actions.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\actions.js","./conversionpixels/adwords-remarketing.html":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\conversionpixels\\adwords-remarketing.html","./conversionpixels/facebook-remarketing.html":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\conversionpixels\\facebook-remarketing.html","./models/HomesModel.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\models\\HomesModel.js","fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js","react-router":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\actions.js":[function(require,module,exports){
 var constants = require('./constants.js');
 var HomesModel = require('./models/HomesModel.js');
 var GoogleApiService = require('./models/GoogleGeocodeApiService.js');
@@ -106,7 +106,7 @@ module.exports = {
     }
 };
 
-},{"./constants.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\constants.js","./models/CareseekerService.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\models\\CareseekerService.js","./models/GoogleGeocodeApiService.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\models\\GoogleGeocodeApiService.js","./models/HomesModel.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\models\\HomesModel.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\ActiveFilters.jsx":[function(require,module,exports){
+},{"./constants.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\constants.js","./models/CareseekerService.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\models\\CareseekerService.js","./models/GoogleGeocodeApiService.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\models\\GoogleGeocodeApiService.js","./models/HomesModel.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\models\\HomesModel.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\ActiveFilters.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -214,7 +214,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./AddressSearchBox.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\AddressSearchBox.jsx","./CareTypeDropdown.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\CareTypeDropdown.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\AddressSearchBox.jsx":[function(require,module,exports){
+},{"./AddressSearchBox.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\AddressSearchBox.jsx","./CareTypeDropdown.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\CareTypeDropdown.jsx","fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\AddressSearchBox.jsx":[function(require,module,exports){
 var React = require('react');
 var Link = require('react-router').Link;
 var Navigation = require('react-router').Navigation;
@@ -282,7 +282,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./ErrorBox.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\ErrorBox.jsx","./LoadingButton.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\LoadingButton.jsx","classnames":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\classnames\\index.js","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\CareTypeDropdown.jsx":[function(require,module,exports){
+},{"./ErrorBox.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\ErrorBox.jsx","./LoadingButton.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\LoadingButton.jsx","classnames":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\classnames\\index.js","fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\CareTypeDropdown.jsx":[function(require,module,exports){
 var React = require('react');
 var ga = require('react-google-analytics');
 var $ = require('jquery-browserify');
@@ -315,7 +315,7 @@ var LoadingButton = React.createClass({displayName: "LoadingButton",
 
 module.exports = LoadingButton;
 
-},{"jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\ErrorBox.jsx":[function(require,module,exports){
+},{"jquery-browserify":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\ErrorBox.jsx":[function(require,module,exports){
 var React = require('react');
 
 var ErrorBox = React.createClass({displayName: "ErrorBox",
@@ -361,7 +361,7 @@ var ErrorBox = React.createClass({displayName: "ErrorBox",
 
 module.exports = ErrorBox;
 
-},{"react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\FilterSelector.jsx":[function(require,module,exports){
+},{"react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\FilterSelector.jsx":[function(require,module,exports){
 var React = require('react');
 var Link = require('react-router').Link;
 var Fluxxor = require('fluxxor');
@@ -421,7 +421,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./FilterSelectorOption.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\FilterSelectorOption.jsx","./LoadingButton.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\LoadingButton.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\FilterSelectorOption.jsx":[function(require,module,exports){
+},{"./FilterSelectorOption.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\FilterSelectorOption.jsx","./LoadingButton.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\LoadingButton.jsx","fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\FilterSelectorOption.jsx":[function(require,module,exports){
 var React = require('react/addons');
 var cx = require('classnames');
 var Link = require('react-router').Link;
@@ -469,7 +469,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"classnames":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\classnames\\index.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js","react/addons":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\addons.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomeListing.jsx":[function(require,module,exports){
+},{"classnames":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\classnames\\index.js","react-router":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\index.js","react/addons":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\addons.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\HomeListing.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -623,7 +623,7 @@ var HomesListing = React.createClass({displayName: "HomesListing",
 
 module.exports = HomesListing;
 
-},{"./../utils.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\utils.js","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js","react-tooltip":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-tooltip\\dist\\react-tooltip.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\Homes.jsx":[function(require,module,exports){
+},{"./../utils.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\utils.js","fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js","react-tooltip":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-tooltip\\dist\\react-tooltip.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\Homes.jsx":[function(require,module,exports){
 var React = require('react');
 var HomesHeader = require('./HomesHeader.jsx');
 var HomesFilterPanel = require('./HomesFilterPanel.jsx');
@@ -666,7 +666,7 @@ var Homes = React.createClass({displayName: "Homes",
 
 module.exports = Homes;
 
-},{"./HomesFilterPanel.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesFilterPanel.jsx","./HomesHeader.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesHeader.jsx","./HomesList.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesList.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesFilterPanel.jsx":[function(require,module,exports){
+},{"./HomesFilterPanel.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\HomesFilterPanel.jsx","./HomesHeader.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\HomesHeader.jsx","./HomesList.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\HomesList.jsx","fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\HomesFilterPanel.jsx":[function(require,module,exports){
 var React = require('react');
 var Flux = require('fluxxor');
 var FluxMixin = Flux.FluxMixin(React);
@@ -793,7 +793,7 @@ var HomesFilterPanel = React.createClass({displayName: "HomesFilterPanel",
 
 module.exports = HomesFilterPanel;
 
-},{"fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesHeader.jsx":[function(require,module,exports){
+},{"fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\HomesHeader.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -849,7 +849,7 @@ var HomesHeader = React.createClass({displayName: "HomesHeader",
 
 module.exports = HomesHeader;
 
-},{"fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesList.jsx":[function(require,module,exports){
+},{"fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\HomesList.jsx":[function(require,module,exports){
 var React = require('react');
 var HomeListing = require('./HomeListing.jsx');
 var Fluxxor = require('fluxxor');
@@ -891,7 +891,7 @@ var HomesList = React.createClass({displayName: "HomesList",
 
 module.exports = HomesList;
 
-},{"./HomeListing.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomeListing.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesShortList.jsx":[function(require,module,exports){
+},{"./HomeListing.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\HomeListing.jsx","fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\HomesShortList.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -984,7 +984,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./LoadingButton.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\LoadingButton.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\LoadingButton.jsx":[function(require,module,exports){
+},{"./LoadingButton.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\LoadingButton.jsx","fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js","react-router":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\LoadingButton.jsx":[function(require,module,exports){
 var React = require('react');
 
 var LoadingButton = React.createClass({displayName: "LoadingButton",
@@ -1020,7 +1020,7 @@ var LoadingButton = React.createClass({displayName: "LoadingButton",
 
 module.exports = LoadingButton;
 
-},{"react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\NumberOfCareHomesBanner.jsx":[function(require,module,exports){
+},{"react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\NumberOfCareHomesBanner.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -1058,7 +1058,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\PostcodeSearch.jsx":[function(require,module,exports){
+},{"fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\PostcodeSearch.jsx":[function(require,module,exports){
 var React = require('react');
 var Link = require('react-router').Link;
 var Navigation = require('react-router').Navigation;
@@ -1152,7 +1152,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./AddressSearchBox.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\AddressSearchBox.jsx","./CareTypeDropdown.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\CareTypeDropdown.jsx","./ErrorBox.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\ErrorBox.jsx","./LoadingButton.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\LoadingButton.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\SubmitEmailBox.jsx":[function(require,module,exports){
+},{"./AddressSearchBox.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\AddressSearchBox.jsx","./CareTypeDropdown.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\CareTypeDropdown.jsx","./ErrorBox.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\ErrorBox.jsx","./LoadingButton.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\LoadingButton.jsx","fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","jquery-browserify":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\SubmitEmailBox.jsx":[function(require,module,exports){
 var React = require('react');
 var Navigation = require('react-router').Navigation;
 var Fluxxor = require('fluxxor');
@@ -1202,12 +1202,12 @@ var SubmitEmailBox = React.createClass({displayName: "SubmitEmailBox",
 
 module.exports = SubmitEmailBox;
 
-},{"fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\config.js":[function(require,module,exports){
+},{"fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\config.js":[function(require,module,exports){
 module.exports = {
-    API_URL: 'http://careselector-core.herokuapp.com/api/'
+    API_URL: 'https://careselector-core.herokuapp.com/api/' 
 };
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\constants.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\constants.js":[function(require,module,exports){
 module.exports = {
     LOAD_HOMES: "LOAD_HOMES",
     LOAD_HOMES_SUCCESS: "LOAD_HOMES_SUCCESS",
@@ -1222,19 +1222,19 @@ module.exports = {
     UPDATE_CARESEEKER_EMAIL_SUCCESS:"UPDATE_CARESEEKER_EMAIL_SUCCESS"
 };
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\conversionpixels\\adwords-conversion.html":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\conversionpixels\\adwords-conversion.html":[function(require,module,exports){
 module.exports = "<!-- Google Code for 7.0 Share Details Conversion Page -->\r\n<script type=\"text/javascript\">\r\n/* <![CDATA[ */\r\nvar google_conversion_id = 974625854;\r\nvar google_conversion_language = \"en\";\r\nvar google_conversion_format = \"3\";\r\nvar google_conversion_color = \"ffffff\";\r\nvar google_conversion_label = \"3e0rCNyc4lwQvrje0AM\";\r\nvar google_remarketing_only = false;\r\n/* ]]> */\r\n</script>\r\n<script type=\"text/javascript\" src=\"//www.googleadservices.com/pagead/conversion.js\">\r\n        </script>\r\n<noscript>\r\n    <div style=\"display:inline;\">\r\n    <img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\" src=\"//www.googleadservices.com/pagead/conversion/974625854/?label=3e0rCNyc4lwQvrje0AM&amp;guid=ON&amp;script=0\"/>\r\n    </div>\r\n</noscript>";
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\conversionpixels\\adwords-remarketing.html":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\conversionpixels\\adwords-remarketing.html":[function(require,module,exports){
 module.exports = "<!-- Google Code for Remarketing Tag -->\r\n<!--------------------------------------------------\r\nRemarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup\r\n--------------------------------------------------->\r\n<script type=\"text/javascript\">\r\n/* <![CDATA[ */\r\nvar google_conversion_id = 974625854;\r\nvar google_custom_params = window.google_tag_params;\r\nvar google_remarketing_only = true;\r\n/* ]]> */\r\n\r\n</script>\r\n<script type=\"text/javascript\" src=\"//www.googleadservices.com/pagead/conversion.js\">\r\n        </script>\r\n<noscript>\r\n    <div style=\"display:inline;\">\r\n    <img height=\"1\" width=\"1\" style=\"border-style:none;\" alt=\"\" src=\"//googleads.g.doubleclick.net/pagead/viewthroughconversion/974625854/?value=0&amp;guid=ON&amp;script=0\"/>\r\n    </div>\r\n</noscript>";
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\conversionpixels\\facebook-conversion.html":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\conversionpixels\\facebook-conversion.html":[function(require,module,exports){
 module.exports = "<!-- Facebook Conversion Code for Request Comparison -->\r\n<script>(function() {\r\n    var _fbq = window._fbq || (window._fbq = []);\r\n    if (!_fbq.loaded) {\r\n        var fbds = document.createElement('script');\r\n        fbds.async = true;\r\n        fbds.src = '//connect.facebook.net/en_US/fbds.js';\r\n        var s = document.getElementsByTagName('script')[0];\r\n        s.parentNode.insertBefore(fbds, s);\r\n        _fbq.loaded = true;\r\n    }\r\n})();\r\nwindow._fbq = window._fbq || [];\r\nwindow._fbq.push(['track', '6023095392834', {'value':'0.01','currency':'GBP'}]);\r\n</script>\r\n<noscript><img height=\"1\" width=\"1\" alt=\"\" style=\"display:none\" src=\"https://www.facebook.com/tr?ev=6023095392834&amp;cd[value]=0.01&amp;cd[currency]=GBP&amp;noscript=1\" /></noscript>";
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\conversionpixels\\facebook-remarketing.html":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\conversionpixels\\facebook-remarketing.html":[function(require,module,exports){
 module.exports = "<script>(function() {\r\n    var _fbq = window._fbq || (window._fbq = []);\r\n    if (!_fbq.loaded) {\r\n        var fbds = document.createElement('script');\r\n        fbds.async = true;\r\n        fbds.src = '//connect.facebook.net/en_US/fbds.js';\r\n        var s = document.getElementsByTagName('script')[0];\r\n        s.parentNode.insertBefore(fbds, s);\r\n        _fbq.loaded = true;\r\n    }\r\n    _fbq.push(['addPixelId', '273592576098324']);\r\n})();\r\nwindow._fbq = window._fbq || [];\r\nwindow._fbq.push(['track', 'PixelInitialized', {}]);\r\n</script>\r\n<noscript><img height=\"1\" width=\"1\" alt=\"\" style=\"display:none\" src=\"https://www.facebook.com/tr?id=273592576098324&amp;ev=PixelInitialized\" /></noscript>";
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\models\\CareseekerService.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\models\\CareseekerService.js":[function(require,module,exports){
 var $ = require('jquery-browserify');
 var config = require('./../config.js');
 
@@ -1257,7 +1257,7 @@ module.exports = {
    }
 };
 
-},{"./../config.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\config.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\models\\GoogleGeocodeApiService.js":[function(require,module,exports){
+},{"./../config.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\config.js","jquery-browserify":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\models\\GoogleGeocodeApiService.js":[function(require,module,exports){
 var $ = require('jquery-browserify');
 
 module.exports = {
@@ -1273,7 +1273,7 @@ module.exports = {
     }
 };
 
-},{"jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\models\\HomesModel.js":[function(require,module,exports){
+},{"jquery-browserify":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\models\\HomesModel.js":[function(require,module,exports){
 var $ = require('jquery-browserify');
 var config = require('./../config.js');
 var GeocodeService = require('./GoogleGeocodeApiService.js');
@@ -1321,7 +1321,7 @@ module.exports = {
     }
 };
 
-},{"./../config.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\config.js","./GoogleGeocodeApiService.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\models\\GoogleGeocodeApiService.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\Compare.jsx":[function(require,module,exports){
+},{"./../config.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\config.js","./GoogleGeocodeApiService.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\models\\GoogleGeocodeApiService.js","jquery-browserify":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\pages\\Compare.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -1354,7 +1354,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./../components/ActiveFilters.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\ActiveFilters.jsx","./../components/HomesList.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesList.jsx","./../components/HomesShortList.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\HomesShortList.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\Home.jsx":[function(require,module,exports){
+},{"./../components/ActiveFilters.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\ActiveFilters.jsx","./../components/HomesList.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\HomesList.jsx","./../components/HomesShortList.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\HomesShortList.jsx","fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\pages\\Home.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -1396,7 +1396,7 @@ var Home = React.createClass({displayName: "Home",
 
 module.exports = Home;
 
-},{"./../components/AddressSearchBox.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\AddressSearchBox.jsx","./../components/PostcodeSearch.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\PostcodeSearch.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\SelectFilters.jsx":[function(require,module,exports){
+},{"./../components/AddressSearchBox.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\AddressSearchBox.jsx","./../components/PostcodeSearch.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\PostcodeSearch.jsx","fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\pages\\SelectFilters.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -1432,7 +1432,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./../components/FilterSelector.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\FilterSelector.jsx","./../components/NumberOfCareHomesBanner.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\NumberOfCareHomesBanner.jsx","./../components/PostcodeSearch.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\PostcodeSearch.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\SubmitEmail.jsx":[function(require,module,exports){
+},{"./../components/FilterSelector.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\FilterSelector.jsx","./../components/NumberOfCareHomesBanner.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\NumberOfCareHomesBanner.jsx","./../components/PostcodeSearch.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\PostcodeSearch.jsx","fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\pages\\SubmitEmail.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -1459,7 +1459,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./../components/SubmitEmailBox.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\SubmitEmailBox.jsx","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\ThankYou.jsx":[function(require,module,exports){
+},{"./../components/SubmitEmailBox.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\SubmitEmailBox.jsx","fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\pages\\ThankYou.jsx":[function(require,module,exports){
 var React = require('react');
 var Fluxxor = require('fluxxor');
 var FluxMixin = Fluxxor.FluxMixin(React);
@@ -1492,7 +1492,7 @@ module.exports = React.createClass({displayName: "exports",
     }
 });
 
-},{"./../conversionpixels/adwords-conversion.html":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\conversionpixels\\adwords-conversion.html","./../conversionpixels/facebook-conversion.html":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\conversionpixels\\facebook-conversion.html","fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\routes.jsx":[function(require,module,exports){
+},{"./../conversionpixels/adwords-conversion.html":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\conversionpixels\\adwords-conversion.html","./../conversionpixels/facebook-conversion.html":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\conversionpixels\\facebook-conversion.html","fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js","react-google-analytics":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\routes.jsx":[function(require,module,exports){
 var App = require('./App.jsx');
 var React = require('react');
 var Router = require('react-router');
@@ -1519,7 +1519,7 @@ var routes = (
 
 module.exports = routes;
 
-},{"./App.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\App.jsx","./components/Homes.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\components\\Homes.jsx","./pages/Compare.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\Compare.jsx","./pages/Home.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\Home.jsx","./pages/SelectFilters.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\SelectFilters.jsx","./pages/SubmitEmail.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\SubmitEmail.jsx","./pages/ThankYou.jsx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\pages\\ThankYou.jsx","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\stores\\AddressStore.js":[function(require,module,exports){
+},{"./App.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\App.jsx","./components/Homes.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\components\\Homes.jsx","./pages/Compare.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\pages\\Compare.jsx","./pages/Home.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\pages\\Home.jsx","./pages/SelectFilters.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\pages\\SelectFilters.jsx","./pages/SubmitEmail.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\pages\\SubmitEmail.jsx","./pages/ThankYou.jsx":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\pages\\ThankYou.jsx","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js","react-router":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\stores\\AddressStore.js":[function(require,module,exports){
 var Fluxxor = require('Fluxxor');
 var constants = require('./../constants.js');
 var $ = require('jquery-browserify');
@@ -1528,7 +1528,7 @@ var Utils = require('./../utils.js');
 module.exports = Fluxxor.createStore({
     initialize: function () {
         this.addresses = [];
-        this.selectedAddress = {
+        this.selectedAddress = { 
             first_part:''
         };
         this.bindActions(
@@ -1625,7 +1625,7 @@ module.exports = Fluxxor.createStore({
     }
 });
 
-},{"./../constants.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\constants.js","./../utils.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\utils.js","Fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\index.js","jquery-browserify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\stores\\FilterStore.js":[function(require,module,exports){
+},{"./../constants.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\constants.js","./../utils.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\utils.js","Fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\index.js","jquery-browserify":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\stores\\FilterStore.js":[function(require,module,exports){
 var Fluxxor = require('Fluxxor');
 var constants = require('./../constants.js');
 
@@ -1690,7 +1690,7 @@ module.exports = Fluxxor.createStore({
 });
 
 
-},{"./../constants.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\constants.js","Fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\stores\\HomesStore.js":[function(require,module,exports){
+},{"./../constants.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\constants.js","Fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\stores\\HomesStore.js":[function(require,module,exports){
 var Fluxxor = require('Fluxxor');
 var constants = require('./../constants.js');
 
@@ -1811,14 +1811,14 @@ module.exports = Fluxxor.createStore({
     }
 });
 
-},{"./../constants.js":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\constants.js","Fluxxor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\js\\src\\utils.js":[function(require,module,exports){
+},{"./../constants.js":"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\constants.js","Fluxxor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\js\\src\\utils.js":[function(require,module,exports){
 module.exports = {
     arrayContains: function (array, value) {
         return array.indexOf(value) !== -1;
     }
 };
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\index.js":[function(require,module,exports){
 var Dispatcher = require("./lib/dispatcher"),
     Flux = require("./lib/flux"),
     FluxMixin = require("./lib/flux_mixin"),
@@ -1838,7 +1838,7 @@ var Fluxxor = {
 
 module.exports = Fluxxor;
 
-},{"./lib/create_store":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\create_store.js","./lib/dispatcher":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\dispatcher.js","./lib/flux":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux.js","./lib/flux_child_mixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_child_mixin.js","./lib/flux_mixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_mixin.js","./lib/store_watch_mixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\store_watch_mixin.js","./version":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\version.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\create_store.js":[function(require,module,exports){
+},{"./lib/create_store":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\create_store.js","./lib/dispatcher":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\dispatcher.js","./lib/flux":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux.js","./lib/flux_child_mixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_child_mixin.js","./lib/flux_mixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_mixin.js","./lib/store_watch_mixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\store_watch_mixin.js","./version":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\version.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\create_store.js":[function(require,module,exports){
 var _each = require("lodash/collection/forEach"),
     _isFunction = require("lodash/lang/isFunction"),
     Store = require("./store"),
@@ -1880,7 +1880,7 @@ var createStore = function(spec) {
 
 module.exports = createStore;
 
-},{"./store":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\store.js","./util/inherits":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\util\\inherits.js","lodash/collection/forEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\forEach.js","lodash/lang/isFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isFunction.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\dispatcher.js":[function(require,module,exports){
+},{"./store":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\store.js","./util/inherits":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\util\\inherits.js","lodash/collection/forEach":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\forEach.js","lodash/lang/isFunction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isFunction.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\dispatcher.js":[function(require,module,exports){
 var _clone = require("lodash/lang/clone"),
     _mapValues = require("lodash/object/mapValues"),
     _forOwn = require("lodash/object/forOwn"),
@@ -2044,7 +2044,7 @@ Dispatcher.prototype.setDispatchInterceptor = function(fn) {
 
 module.exports = Dispatcher;
 
-},{"lodash/array/intersection":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\intersection.js","lodash/array/uniq":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\uniq.js","lodash/collection/forEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\forEach.js","lodash/collection/map":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\map.js","lodash/collection/size":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\size.js","lodash/lang/clone":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\clone.js","lodash/object/findKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\findKey.js","lodash/object/forOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\forOwn.js","lodash/object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keys.js","lodash/object/mapValues":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\mapValues.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux.js":[function(require,module,exports){
+},{"lodash/array/intersection":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\array\\intersection.js","lodash/array/uniq":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\array\\uniq.js","lodash/collection/forEach":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\forEach.js","lodash/collection/map":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\map.js","lodash/collection/size":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\size.js","lodash/lang/clone":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\clone.js","lodash/object/findKey":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\findKey.js","lodash/object/forOwn":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\forOwn.js","lodash/object/keys":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\keys.js","lodash/object/mapValues":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\mapValues.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux.js":[function(require,module,exports){
 var EventEmitter = require("eventemitter3"),
     inherits = require("./util/inherits"),
     objectPath = require("object-path"),
@@ -2146,6 +2146,10 @@ Flux.prototype.store = function(name) {
   return this.stores[name];
 };
 
+Flux.prototype.getAllStores = function() {
+  return this.stores;
+};
+
 Flux.prototype.addStore = function(name, store) {
   if (name in this.stores) {
     throw new Error("A store named '" + name + "' already exists");
@@ -2169,7 +2173,7 @@ Flux.prototype.setDispatchInterceptor = function(fn) {
 
 module.exports = Flux;
 
-},{"./dispatcher":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\dispatcher.js","./util/inherits":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\util\\inherits.js","eventemitter3":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\eventemitter3\\index.js","lodash/collection/forEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\forEach.js","lodash/collection/reduce":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\reduce.js","lodash/lang/isFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isFunction.js","lodash/lang/isString":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isString.js","object-path":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\object-path\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_child_mixin.js":[function(require,module,exports){
+},{"./dispatcher":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\dispatcher.js","./util/inherits":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\util\\inherits.js","eventemitter3":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\eventemitter3\\index.js","lodash/collection/forEach":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\forEach.js","lodash/collection/reduce":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\reduce.js","lodash/lang/isFunction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isFunction.js","lodash/lang/isString":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isString.js","object-path":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\object-path\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_child_mixin.js":[function(require,module,exports){
 var FluxChildMixin = function(React) {
   return {
     componentWillMount: function() {
@@ -2198,7 +2202,7 @@ FluxChildMixin.componentWillMount = function() {
 
 module.exports = FluxChildMixin;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_mixin.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_mixin.js":[function(require,module,exports){
 var FluxMixin = function(React) {
   return {
     componentWillMount: function() {
@@ -2235,7 +2239,7 @@ FluxMixin.componentWillMount = function() {
 
 module.exports = FluxMixin;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\store.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\store.js":[function(require,module,exports){
 var EventEmitter = require("eventemitter3"),
     inherits = require("./util/inherits"),
     _isFunction = require("lodash/lang/isFunction"),
@@ -2307,7 +2311,7 @@ Store.prototype.waitFor = function(stores, fn) {
 
 module.exports = Store;
 
-},{"./util/inherits":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\util\\inherits.js","eventemitter3":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\eventemitter3\\index.js","lodash/lang/isFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isFunction.js","lodash/lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\store_watch_mixin.js":[function(require,module,exports){
+},{"./util/inherits":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\util\\inherits.js","eventemitter3":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\eventemitter3\\index.js","lodash/lang/isFunction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isFunction.js","lodash/lang/isObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\store_watch_mixin.js":[function(require,module,exports){
 var _each = require("lodash/collection/forEach");
 
 var StoreWatchMixin = function() {
@@ -2315,6 +2319,15 @@ var StoreWatchMixin = function() {
   return {
     componentDidMount: function() {
       var flux = this.props.flux || this.context.flux;
+      this.mounted = true;
+
+      // No autobinding in ES6 classes
+      this._setStateFromFlux = function() {
+        if(this.mounted) {
+          this.setState(this.getStateFromFlux());
+        }
+      }.bind(this);
+
       _each(storeNames, function(store) {
         flux.store(store).on("change", this._setStateFromFlux);
       }, this);
@@ -2322,15 +2335,10 @@ var StoreWatchMixin = function() {
 
     componentWillUnmount: function() {
       var flux = this.props.flux || this.context.flux;
+      this.mounted = false;
       _each(storeNames, function(store) {
         flux.store(store).removeListener("change", this._setStateFromFlux);
       }, this);
-    },
-
-    _setStateFromFlux: function() {
-      if(this.isMounted()) {
-        this.setState(this.getStateFromFlux());
-      }
     },
 
     getInitialState: function() {
@@ -2347,7 +2355,7 @@ StoreWatchMixin.componentWillMount = function() {
 
 module.exports = StoreWatchMixin;
 
-},{"lodash/collection/forEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\forEach.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\util\\inherits.js":[function(require,module,exports){
+},{"lodash/collection/forEach":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\forEach.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\util\\inherits.js":[function(require,module,exports){
 // From https://github.com/isaacs/inherits
 // inherits is licensed under the ISC license:
 //
@@ -2392,7 +2400,67 @@ if (typeof Object.create === 'function') {
   };
 }
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\eventemitter3\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\version.js":[function(require,module,exports){
+module.exports = "1.7.3"
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\can-use-dom\\index.js":[function(require,module,exports){
+var canUseDOM = !!(
+  typeof window !== 'undefined' &&
+  window.document &&
+  window.document.createElement
+);
+
+module.exports = canUseDOM;
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\classnames\\index.js":[function(require,module,exports){
+/*!
+  Copyright (c) 2016 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/
+/* global define */
+
+(function () {
+	'use strict';
+
+	var hasOwn = {}.hasOwnProperty;
+
+	function classNames () {
+		var classes = [];
+
+		for (var i = 0; i < arguments.length; i++) {
+			var arg = arguments[i];
+			if (!arg) continue;
+
+			var argType = typeof arg;
+
+			if (argType === 'string' || argType === 'number') {
+				classes.push(arg);
+			} else if (Array.isArray(arg)) {
+				classes.push(classNames.apply(null, arg));
+			} else if (argType === 'object') {
+				for (var key in arg) {
+					if (hasOwn.call(arg, key) && arg[key]) {
+						classes.push(key);
+					}
+				}
+			}
+		}
+
+		return classes.join(' ');
+	}
+
+	if (typeof module !== 'undefined' && module.exports) {
+		module.exports = classNames;
+	} else if (typeof define === 'function' && typeof define.amd === 'object' && define.amd) {
+		// register as 'classnames', consistent with npm package name
+		define('classnames', [], function () {
+			return classNames;
+		});
+	} else {
+		window.classNames = classNames;
+	}
+}());
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\eventemitter3\\index.js":[function(require,module,exports){
 'use strict';
 
 /**
@@ -2623,3739 +2691,82 @@ EventEmitter.EventEmitter3 = EventEmitter;
 //
 module.exports = EventEmitter;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\intersection.js":[function(require,module,exports){
-var baseIndexOf = require('../internal/baseIndexOf'),
-    cacheIndexOf = require('../internal/cacheIndexOf'),
-    createCache = require('../internal/createCache'),
-    isArrayLike = require('../internal/isArrayLike');
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\index.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\index.js"][0].apply(exports,arguments)
+},{"./lib/create_store":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\create_store.js","./lib/dispatcher":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\dispatcher.js","./lib/flux":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\flux.js","./lib/flux_child_mixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\flux_child_mixin.js","./lib/flux_mixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\flux_mixin.js","./lib/store_watch_mixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\store_watch_mixin.js","./version":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\version.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\create_store.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\create_store.js"][0].apply(exports,arguments)
+},{"./store":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\store.js","./util/inherits":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\util\\inherits.js","lodash/collection/forEach":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\forEach.js","lodash/lang/isFunction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isFunction.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\dispatcher.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\dispatcher.js"][0].apply(exports,arguments)
+},{"lodash/array/intersection":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\array\\intersection.js","lodash/array/uniq":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\array\\uniq.js","lodash/collection/forEach":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\forEach.js","lodash/collection/map":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\map.js","lodash/collection/size":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\size.js","lodash/lang/clone":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\clone.js","lodash/object/findKey":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\findKey.js","lodash/object/forOwn":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\forOwn.js","lodash/object/keys":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\keys.js","lodash/object/mapValues":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\mapValues.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\flux.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux.js"][0].apply(exports,arguments)
+},{"./dispatcher":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\dispatcher.js","./util/inherits":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\util\\inherits.js","eventemitter3":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\eventemitter3\\index.js","lodash/collection/forEach":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\forEach.js","lodash/collection/reduce":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\reduce.js","lodash/lang/isFunction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isFunction.js","lodash/lang/isString":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isString.js","object-path":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\object-path\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\flux_child_mixin.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_child_mixin.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\flux_mixin.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_mixin.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\store.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\store.js"][0].apply(exports,arguments)
+},{"./util/inherits":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\util\\inherits.js","eventemitter3":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\eventemitter3\\index.js","lodash/lang/isFunction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isFunction.js","lodash/lang/isObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\store_watch_mixin.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\store_watch_mixin.js"][0].apply(exports,arguments)
+},{"lodash/collection/forEach":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\forEach.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\lib\\util\\inherits.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\lib\\util\\inherits.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\fluxxor\\version.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\Fluxxor\\version.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\invariant\\browser.js":[function(require,module,exports){
+(function (process){
+/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ */
+
+'use strict';
 
 /**
- * Creates an array of unique values in all provided arrays using
- * [`SameValueZero`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-samevaluezero)
- * for equality comparisons.
+ * Use invariant() to assert state which your program assumes to be true.
  *
- * @static
- * @memberOf _
- * @category Array
- * @param {...Array} [arrays] The arrays to inspect.
- * @returns {Array} Returns the new array of shared values.
- * @example
- * _.intersection([1, 2], [4, 2], [2, 1]);
- * // => [2]
+ * Provide sprintf-style format (only %s is supported) and arguments
+ * to provide information about what broke and what you were
+ * expecting.
+ *
+ * The invariant message will be stripped in production, but the invariant
+ * will remain to ensure logic does not differ in production.
  */
-function intersection() {
-  var args = [],
-      argsIndex = -1,
-      argsLength = arguments.length,
-      caches = [],
-      indexOf = baseIndexOf,
-      isCommon = true,
-      result = [];
 
-  while (++argsIndex < argsLength) {
-    var value = arguments[argsIndex];
-    if (isArrayLike(value)) {
-      args.push(value);
-      caches.push((isCommon && value.length >= 120) ? createCache(argsIndex && value) : null);
+var invariant = function(condition, format, a, b, c, d, e, f) {
+  if (process.env.NODE_ENV !== 'production') {
+    if (format === undefined) {
+      throw new Error('invariant requires an error message argument');
     }
   }
-  argsLength = args.length;
-  if (argsLength < 2) {
-    return result;
-  }
-  var array = args[0],
-      index = -1,
-      length = array ? array.length : 0,
-      seen = caches[0];
 
-  outer:
-  while (++index < length) {
-    value = array[index];
-    if ((seen ? cacheIndexOf(seen, value) : indexOf(result, value, 0)) < 0) {
-      argsIndex = argsLength;
-      while (--argsIndex) {
-        var cache = caches[argsIndex];
-        if ((cache ? cacheIndexOf(cache, value) : indexOf(args[argsIndex], value, 0)) < 0) {
-          continue outer;
-        }
-      }
-      if (seen) {
-        seen.push(value);
-      }
-      result.push(value);
-    }
-  }
-  return result;
-}
-
-module.exports = intersection;
-
-},{"../internal/baseIndexOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIndexOf.js","../internal/cacheIndexOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\cacheIndexOf.js","../internal/createCache":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createCache.js","../internal/isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\last.js":[function(require,module,exports){
-/**
- * Gets the last element of `array`.
- *
- * @static
- * @memberOf _
- * @category Array
- * @param {Array} array The array to query.
- * @returns {*} Returns the last element of `array`.
- * @example
- *
- * _.last([1, 2, 3]);
- * // => 3
- */
-function last(array) {
-  var length = array ? array.length : 0;
-  return length ? array[length - 1] : undefined;
-}
-
-module.exports = last;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\uniq.js":[function(require,module,exports){
-var baseCallback = require('../internal/baseCallback'),
-    baseUniq = require('../internal/baseUniq'),
-    isIterateeCall = require('../internal/isIterateeCall'),
-    sortedUniq = require('../internal/sortedUniq');
-
-/**
- * Creates a duplicate-free version of an array, using
- * [`SameValueZero`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-samevaluezero)
- * for equality comparisons, in which only the first occurence of each element
- * is kept. Providing `true` for `isSorted` performs a faster search algorithm
- * for sorted arrays. If an iteratee function is provided it is invoked for
- * each element in the array to generate the criterion by which uniqueness
- * is computed. The `iteratee` is bound to `thisArg` and invoked with three
- * arguments: (value, index, array).
- *
- * If a property name is provided for `iteratee` the created `_.property`
- * style callback returns the property value of the given element.
- *
- * If a value is also provided for `thisArg` the created `_.matchesProperty`
- * style callback returns `true` for elements that have a matching property
- * value, else `false`.
- *
- * If an object is provided for `iteratee` the created `_.matches` style
- * callback returns `true` for elements that have the properties of the given
- * object, else `false`.
- *
- * @static
- * @memberOf _
- * @alias unique
- * @category Array
- * @param {Array} array The array to inspect.
- * @param {boolean} [isSorted] Specify the array is sorted.
- * @param {Function|Object|string} [iteratee] The function invoked per iteration.
- * @param {*} [thisArg] The `this` binding of `iteratee`.
- * @returns {Array} Returns the new duplicate-value-free array.
- * @example
- *
- * _.uniq([2, 1, 2]);
- * // => [2, 1]
- *
- * // using `isSorted`
- * _.uniq([1, 1, 2], true);
- * // => [1, 2]
- *
- * // using an iteratee function
- * _.uniq([1, 2.5, 1.5, 2], function(n) {
- *   return this.floor(n);
- * }, Math);
- * // => [1, 2.5]
- *
- * // using the `_.property` callback shorthand
- * _.uniq([{ 'x': 1 }, { 'x': 2 }, { 'x': 1 }], 'x');
- * // => [{ 'x': 1 }, { 'x': 2 }]
- */
-function uniq(array, isSorted, iteratee, thisArg) {
-  var length = array ? array.length : 0;
-  if (!length) {
-    return [];
-  }
-  if (isSorted != null && typeof isSorted != 'boolean') {
-    thisArg = iteratee;
-    iteratee = isIterateeCall(array, isSorted, thisArg) ? null : isSorted;
-    isSorted = false;
-  }
-  iteratee = iteratee == null ? iteratee : baseCallback(iteratee, thisArg, 3);
-  return (isSorted)
-    ? sortedUniq(array, iteratee)
-    : baseUniq(array, iteratee);
-}
-
-module.exports = uniq;
-
-},{"../internal/baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","../internal/baseUniq":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseUniq.js","../internal/isIterateeCall":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIterateeCall.js","../internal/sortedUniq":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\sortedUniq.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\forEach.js":[function(require,module,exports){
-var arrayEach = require('../internal/arrayEach'),
-    baseEach = require('../internal/baseEach'),
-    createForEach = require('../internal/createForEach');
-
-/**
- * Iterates over elements of `collection` invoking `iteratee` for each element.
- * The `iteratee` is bound to `thisArg` and invoked with three arguments:
- * (value, index|key, collection). Iteratee functions may exit iteration early
- * by explicitly returning `false`.
- *
- * **Note:** As with other "Collections" methods, objects with a "length" property
- * are iterated like arrays. To avoid this behavior `_.forIn` or `_.forOwn`
- * may be used for object iteration.
- *
- * @static
- * @memberOf _
- * @alias each
- * @category Collection
- * @param {Array|Object|string} collection The collection to iterate over.
- * @param {Function} [iteratee=_.identity] The function invoked per iteration.
- * @param {*} [thisArg] The `this` binding of `iteratee`.
- * @returns {Array|Object|string} Returns `collection`.
- * @example
- *
- * _([1, 2]).forEach(function(n) {
- *   console.log(n);
- * }).value();
- * // => logs each value from left to right and returns the array
- *
- * _.forEach({ 'a': 1, 'b': 2 }, function(n, key) {
- *   console.log(n, key);
- * });
- * // => logs each value-key pair and returns the object (iteration order is not guaranteed)
- */
-var forEach = createForEach(arrayEach, baseEach);
-
-module.exports = forEach;
-
-},{"../internal/arrayEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayEach.js","../internal/baseEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseEach.js","../internal/createForEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createForEach.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\map.js":[function(require,module,exports){
-var arrayMap = require('../internal/arrayMap'),
-    baseCallback = require('../internal/baseCallback'),
-    baseMap = require('../internal/baseMap'),
-    isArray = require('../lang/isArray');
-
-/**
- * Creates an array of values by running each element in `collection` through
- * `iteratee`. The `iteratee` is bound to `thisArg` and invoked with three
- * arguments: (value, index|key, collection).
- *
- * If a property name is provided for `iteratee` the created `_.property`
- * style callback returns the property value of the given element.
- *
- * If a value is also provided for `thisArg` the created `_.matchesProperty`
- * style callback returns `true` for elements that have a matching property
- * value, else `false`.
- *
- * If an object is provided for `iteratee` the created `_.matches` style
- * callback returns `true` for elements that have the properties of the given
- * object, else `false`.
- *
- * Many lodash methods are guarded to work as interatees for methods like
- * `_.every`, `_.filter`, `_.map`, `_.mapValues`, `_.reject`, and `_.some`.
- *
- * The guarded methods are:
- * `ary`, `callback`, `chunk`, `clone`, `create`, `curry`, `curryRight`,
- * `drop`, `dropRight`, `every`, `fill`, `flatten`, `invert`, `max`, `min`,
- * `parseInt`, `slice`, `sortBy`, `take`, `takeRight`, `template`, `trim`,
- * `trimLeft`, `trimRight`, `trunc`, `random`, `range`, `sample`, `some`,
- * `sum`, `uniq`, and `words`
- *
- * @static
- * @memberOf _
- * @alias collect
- * @category Collection
- * @param {Array|Object|string} collection The collection to iterate over.
- * @param {Function|Object|string} [iteratee=_.identity] The function invoked
- *  per iteration.
- * @param {*} [thisArg] The `this` binding of `iteratee`.
- * @returns {Array} Returns the new mapped array.
- * @example
- *
- * function timesThree(n) {
- *   return n * 3;
- * }
- *
- * _.map([1, 2], timesThree);
- * // => [3, 6]
- *
- * _.map({ 'a': 1, 'b': 2 }, timesThree);
- * // => [3, 6] (iteration order is not guaranteed)
- *
- * var users = [
- *   { 'user': 'barney' },
- *   { 'user': 'fred' }
- * ];
- *
- * // using the `_.property` callback shorthand
- * _.map(users, 'user');
- * // => ['barney', 'fred']
- */
-function map(collection, iteratee, thisArg) {
-  var func = isArray(collection) ? arrayMap : baseMap;
-  iteratee = baseCallback(iteratee, thisArg, 3);
-  return func(collection, iteratee);
-}
-
-module.exports = map;
-
-},{"../internal/arrayMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayMap.js","../internal/baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","../internal/baseMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMap.js","../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\reduce.js":[function(require,module,exports){
-var arrayReduce = require('../internal/arrayReduce'),
-    baseEach = require('../internal/baseEach'),
-    createReduce = require('../internal/createReduce');
-
-/**
- * Reduces `collection` to a value which is the accumulated result of running
- * each element in `collection` through `iteratee`, where each successive
- * invocation is supplied the return value of the previous. If `accumulator`
- * is not provided the first element of `collection` is used as the initial
- * value. The `iteratee` is bound to `thisArg` and invoked with four arguments:
- * (accumulator, value, index|key, collection).
- *
- * Many lodash methods are guarded to work as interatees for methods like
- * `_.reduce`, `_.reduceRight`, and `_.transform`.
- *
- * The guarded methods are:
- * `assign`, `defaults`, `includes`, `merge`, `sortByAll`, and `sortByOrder`
- *
- * @static
- * @memberOf _
- * @alias foldl, inject
- * @category Collection
- * @param {Array|Object|string} collection The collection to iterate over.
- * @param {Function} [iteratee=_.identity] The function invoked per iteration.
- * @param {*} [accumulator] The initial value.
- * @param {*} [thisArg] The `this` binding of `iteratee`.
- * @returns {*} Returns the accumulated value.
- * @example
- *
- * _.reduce([1, 2], function(total, n) {
- *   return total + n;
- * });
- * // => 3
- *
- * _.reduce({ 'a': 1, 'b': 2 }, function(result, n, key) {
- *   result[key] = n * 3;
- *   return result;
- * }, {});
- * // => { 'a': 3, 'b': 6 } (iteration order is not guaranteed)
- */
-var reduce = createReduce(arrayReduce, baseEach);
-
-module.exports = reduce;
-
-},{"../internal/arrayReduce":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayReduce.js","../internal/baseEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseEach.js","../internal/createReduce":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createReduce.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\size.js":[function(require,module,exports){
-var getLength = require('../internal/getLength'),
-    isLength = require('../internal/isLength'),
-    keys = require('../object/keys');
-
-/**
- * Gets the size of `collection` by returning its length for array-like
- * values or the number of own enumerable properties for objects.
- *
- * @static
- * @memberOf _
- * @category Collection
- * @param {Array|Object|string} collection The collection to inspect.
- * @returns {number} Returns the size of `collection`.
- * @example
- *
- * _.size([1, 2, 3]);
- * // => 3
- *
- * _.size({ 'a': 1, 'b': 2 });
- * // => 2
- *
- * _.size('pebbles');
- * // => 7
- */
-function size(collection) {
-  var length = collection ? getLength(collection) : 0;
-  return isLength(length) ? length : keys(collection).length;
-}
-
-module.exports = size;
-
-},{"../internal/getLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\getLength.js","../internal/isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js","../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keys.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\SetCache.js":[function(require,module,exports){
-(function (global){
-var cachePush = require('./cachePush'),
-    isNative = require('../lang/isNative');
-
-/** Native method references. */
-var Set = isNative(Set = global.Set) && Set;
-
-/* Native method references for those with the same name as other `lodash` methods. */
-var nativeCreate = isNative(nativeCreate = Object.create) && nativeCreate;
-
-/**
- *
- * Creates a cache object to store unique values.
- *
- * @private
- * @param {Array} [values] The values to cache.
- */
-function SetCache(values) {
-  var length = values ? values.length : 0;
-
-  this.data = { 'hash': nativeCreate(null), 'set': new Set };
-  while (length--) {
-    this.push(values[length]);
-  }
-}
-
-// Add functions to the `Set` cache.
-SetCache.prototype.push = cachePush;
-
-module.exports = SetCache;
-
-}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js","./cachePush":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\cachePush.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayCopy.js":[function(require,module,exports){
-/**
- * Copies the values of `source` to `array`.
- *
- * @private
- * @param {Array} source The array to copy values from.
- * @param {Array} [array=[]] The array to copy values to.
- * @returns {Array} Returns `array`.
- */
-function arrayCopy(source, array) {
-  var index = -1,
-      length = source.length;
-
-  array || (array = Array(length));
-  while (++index < length) {
-    array[index] = source[index];
-  }
-  return array;
-}
-
-module.exports = arrayCopy;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayEach.js":[function(require,module,exports){
-/**
- * A specialized version of `_.forEach` for arrays without support for callback
- * shorthands and `this` binding.
- *
- * @private
- * @param {Array} array The array to iterate over.
- * @param {Function} iteratee The function invoked per iteration.
- * @returns {Array} Returns `array`.
- */
-function arrayEach(array, iteratee) {
-  var index = -1,
-      length = array.length;
-
-  while (++index < length) {
-    if (iteratee(array[index], index, array) === false) {
-      break;
-    }
-  }
-  return array;
-}
-
-module.exports = arrayEach;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayMap.js":[function(require,module,exports){
-/**
- * A specialized version of `_.map` for arrays without support for callback
- * shorthands and `this` binding.
- *
- * @private
- * @param {Array} array The array to iterate over.
- * @param {Function} iteratee The function invoked per iteration.
- * @returns {Array} Returns the new mapped array.
- */
-function arrayMap(array, iteratee) {
-  var index = -1,
-      length = array.length,
-      result = Array(length);
-
-  while (++index < length) {
-    result[index] = iteratee(array[index], index, array);
-  }
-  return result;
-}
-
-module.exports = arrayMap;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayReduce.js":[function(require,module,exports){
-/**
- * A specialized version of `_.reduce` for arrays without support for callback
- * shorthands and `this` binding.
- *
- * @private
- * @param {Array} array The array to iterate over.
- * @param {Function} iteratee The function invoked per iteration.
- * @param {*} [accumulator] The initial value.
- * @param {boolean} [initFromArray] Specify using the first element of `array`
- *  as the initial value.
- * @returns {*} Returns the accumulated value.
- */
-function arrayReduce(array, iteratee, accumulator, initFromArray) {
-  var index = -1,
-      length = array.length;
-
-  if (initFromArray && length) {
-    accumulator = array[++index];
-  }
-  while (++index < length) {
-    accumulator = iteratee(accumulator, array[index], index, array);
-  }
-  return accumulator;
-}
-
-module.exports = arrayReduce;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseAssign.js":[function(require,module,exports){
-var baseCopy = require('./baseCopy'),
-    getSymbols = require('./getSymbols'),
-    isNative = require('../lang/isNative'),
-    keys = require('../object/keys');
-
-/** Native method references. */
-var preventExtensions = isNative(preventExtensions = Object.preventExtensions) && preventExtensions;
-
-/** Used as `baseAssign`. */
-var nativeAssign = (function() {
-  // Avoid `Object.assign` in Firefox 34-37 which have an early implementation
-  // with a now defunct try/catch behavior. See https://bugzilla.mozilla.org/show_bug.cgi?id=1103344
-  // for more details.
-  //
-  // Use `Object.preventExtensions` on a plain object instead of simply using
-  // `Object('x')` because Chrome and IE fail to throw an error when attempting
-  // to assign values to readonly indexes of strings.
-  var func = preventExtensions && isNative(func = Object.assign) && func;
-  try {
-    if (func) {
-      var object = preventExtensions({ '1': 0 });
-      object[0] = 1;
-    }
-  } catch(e) {
-    // Only attempt in strict mode.
-    try { func(object, 'xo'); } catch(e) {}
-    return !object[1] && func;
-  }
-  return false;
-}());
-
-/**
- * The base implementation of `_.assign` without support for argument juggling,
- * multiple sources, and `customizer` functions.
- *
- * @private
- * @param {Object} object The destination object.
- * @param {Object} source The source object.
- * @returns {Object} Returns `object`.
- */
-var baseAssign = nativeAssign || function(object, source) {
-  return source == null
-    ? object
-    : baseCopy(source, getSymbols(source), baseCopy(source, keys(source), object));
-};
-
-module.exports = baseAssign;
-
-},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js","../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keys.js","./baseCopy":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCopy.js","./getSymbols":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\getSymbols.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCallback.js":[function(require,module,exports){
-var baseMatches = require('./baseMatches'),
-    baseMatchesProperty = require('./baseMatchesProperty'),
-    bindCallback = require('./bindCallback'),
-    identity = require('../utility/identity'),
-    property = require('../utility/property');
-
-/**
- * The base implementation of `_.callback` which supports specifying the
- * number of arguments to provide to `func`.
- *
- * @private
- * @param {*} [func=_.identity] The value to convert to a callback.
- * @param {*} [thisArg] The `this` binding of `func`.
- * @param {number} [argCount] The number of arguments to provide to `func`.
- * @returns {Function} Returns the callback.
- */
-function baseCallback(func, thisArg, argCount) {
-  var type = typeof func;
-  if (type == 'function') {
-    return thisArg === undefined
-      ? func
-      : bindCallback(func, thisArg, argCount);
-  }
-  if (func == null) {
-    return identity;
-  }
-  if (type == 'object') {
-    return baseMatches(func);
-  }
-  return thisArg === undefined
-    ? property(func)
-    : baseMatchesProperty(func, thisArg);
-}
-
-module.exports = baseCallback;
-
-},{"../utility/identity":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\identity.js","../utility/property":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\property.js","./baseMatches":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMatches.js","./baseMatchesProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMatchesProperty.js","./bindCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bindCallback.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseClone.js":[function(require,module,exports){
-var arrayCopy = require('./arrayCopy'),
-    arrayEach = require('./arrayEach'),
-    baseAssign = require('./baseAssign'),
-    baseForOwn = require('./baseForOwn'),
-    initCloneArray = require('./initCloneArray'),
-    initCloneByTag = require('./initCloneByTag'),
-    initCloneObject = require('./initCloneObject'),
-    isArray = require('../lang/isArray'),
-    isObject = require('../lang/isObject');
-
-/** `Object#toString` result references. */
-var argsTag = '[object Arguments]',
-    arrayTag = '[object Array]',
-    boolTag = '[object Boolean]',
-    dateTag = '[object Date]',
-    errorTag = '[object Error]',
-    funcTag = '[object Function]',
-    mapTag = '[object Map]',
-    numberTag = '[object Number]',
-    objectTag = '[object Object]',
-    regexpTag = '[object RegExp]',
-    setTag = '[object Set]',
-    stringTag = '[object String]',
-    weakMapTag = '[object WeakMap]';
-
-var arrayBufferTag = '[object ArrayBuffer]',
-    float32Tag = '[object Float32Array]',
-    float64Tag = '[object Float64Array]',
-    int8Tag = '[object Int8Array]',
-    int16Tag = '[object Int16Array]',
-    int32Tag = '[object Int32Array]',
-    uint8Tag = '[object Uint8Array]',
-    uint8ClampedTag = '[object Uint8ClampedArray]',
-    uint16Tag = '[object Uint16Array]',
-    uint32Tag = '[object Uint32Array]';
-
-/** Used to identify `toStringTag` values supported by `_.clone`. */
-var cloneableTags = {};
-cloneableTags[argsTag] = cloneableTags[arrayTag] =
-cloneableTags[arrayBufferTag] = cloneableTags[boolTag] =
-cloneableTags[dateTag] = cloneableTags[float32Tag] =
-cloneableTags[float64Tag] = cloneableTags[int8Tag] =
-cloneableTags[int16Tag] = cloneableTags[int32Tag] =
-cloneableTags[numberTag] = cloneableTags[objectTag] =
-cloneableTags[regexpTag] = cloneableTags[stringTag] =
-cloneableTags[uint8Tag] = cloneableTags[uint8ClampedTag] =
-cloneableTags[uint16Tag] = cloneableTags[uint32Tag] = true;
-cloneableTags[errorTag] = cloneableTags[funcTag] =
-cloneableTags[mapTag] = cloneableTags[setTag] =
-cloneableTags[weakMapTag] = false;
-
-/** Used for native method references. */
-var objectProto = Object.prototype;
-
-/**
- * Used to resolve the [`toStringTag`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.prototype.tostring)
- * of values.
- */
-var objToString = objectProto.toString;
-
-/**
- * The base implementation of `_.clone` without support for argument juggling
- * and `this` binding `customizer` functions.
- *
- * @private
- * @param {*} value The value to clone.
- * @param {boolean} [isDeep] Specify a deep clone.
- * @param {Function} [customizer] The function to customize cloning values.
- * @param {string} [key] The key of `value`.
- * @param {Object} [object] The object `value` belongs to.
- * @param {Array} [stackA=[]] Tracks traversed source objects.
- * @param {Array} [stackB=[]] Associates clones with source counterparts.
- * @returns {*} Returns the cloned value.
- */
-function baseClone(value, isDeep, customizer, key, object, stackA, stackB) {
-  var result;
-  if (customizer) {
-    result = object ? customizer(value, key, object) : customizer(value);
-  }
-  if (result !== undefined) {
-    return result;
-  }
-  if (!isObject(value)) {
-    return value;
-  }
-  var isArr = isArray(value);
-  if (isArr) {
-    result = initCloneArray(value);
-    if (!isDeep) {
-      return arrayCopy(value, result);
-    }
-  } else {
-    var tag = objToString.call(value),
-        isFunc = tag == funcTag;
-
-    if (tag == objectTag || tag == argsTag || (isFunc && !object)) {
-      result = initCloneObject(isFunc ? {} : value);
-      if (!isDeep) {
-        return baseAssign(result, value);
-      }
+  if (!condition) {
+    var error;
+    if (format === undefined) {
+      error = new Error(
+        'Minified exception occurred; use the non-minified dev environment ' +
+        'for the full error message and additional helpful warnings.'
+      );
     } else {
-      return cloneableTags[tag]
-        ? initCloneByTag(value, tag, isDeep)
-        : (object ? value : {});
+      var args = [a, b, c, d, e, f];
+      var argIndex = 0;
+      error = new Error(
+        format.replace(/%s/g, function() { return args[argIndex++]; })
+      );
+      error.name = 'Invariant Violation';
     }
+
+    error.framesToPop = 1; // we don't care about invariant's own frame
+    throw error;
   }
-  // Check for circular references and return corresponding clone.
-  stackA || (stackA = []);
-  stackB || (stackB = []);
-
-  var length = stackA.length;
-  while (length--) {
-    if (stackA[length] == value) {
-      return stackB[length];
-    }
-  }
-  // Add the source value to the stack of traversed objects and associate it with its clone.
-  stackA.push(value);
-  stackB.push(result);
-
-  // Recursively populate clone (susceptible to call stack limits).
-  (isArr ? arrayEach : baseForOwn)(value, function(subValue, key) {
-    result[key] = baseClone(subValue, isDeep, customizer, key, value, stackA, stackB);
-  });
-  return result;
-}
-
-module.exports = baseClone;
-
-},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js","./arrayCopy":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayCopy.js","./arrayEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayEach.js","./baseAssign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseAssign.js","./baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js","./initCloneArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneArray.js","./initCloneByTag":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneByTag.js","./initCloneObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCopy.js":[function(require,module,exports){
-/**
- * Copies properties of `source` to `object`.
- *
- * @private
- * @param {Object} source The object to copy properties from.
- * @param {Array} props The property names to copy.
- * @param {Object} [object={}] The object to copy properties to.
- * @returns {Object} Returns `object`.
- */
-function baseCopy(source, props, object) {
-  object || (object = {});
-
-  var index = -1,
-      length = props.length;
-
-  while (++index < length) {
-    var key = props[index];
-    object[key] = source[key];
-  }
-  return object;
-}
-
-module.exports = baseCopy;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseEach.js":[function(require,module,exports){
-var baseForOwn = require('./baseForOwn'),
-    createBaseEach = require('./createBaseEach');
-
-/**
- * The base implementation of `_.forEach` without support for callback
- * shorthands and `this` binding.
- *
- * @private
- * @param {Array|Object|string} collection The collection to iterate over.
- * @param {Function} iteratee The function invoked per iteration.
- * @returns {Array|Object|string} Returns `collection`.
- */
-var baseEach = createBaseEach(baseForOwn);
-
-module.exports = baseEach;
-
-},{"./baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js","./createBaseEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createBaseEach.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseFind.js":[function(require,module,exports){
-/**
- * The base implementation of `_.find`, `_.findLast`, `_.findKey`, and `_.findLastKey`,
- * without support for callback shorthands and `this` binding, which iterates
- * over `collection` using the provided `eachFunc`.
- *
- * @private
- * @param {Array|Object|string} collection The collection to search.
- * @param {Function} predicate The function invoked per iteration.
- * @param {Function} eachFunc The function to iterate over `collection`.
- * @param {boolean} [retKey] Specify returning the key of the found element
- *  instead of the element itself.
- * @returns {*} Returns the found element or its key, else `undefined`.
- */
-function baseFind(collection, predicate, eachFunc, retKey) {
-  var result;
-  eachFunc(collection, function(value, key, collection) {
-    if (predicate(value, key, collection)) {
-      result = retKey ? key : value;
-      return false;
-    }
-  });
-  return result;
-}
-
-module.exports = baseFind;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseFor.js":[function(require,module,exports){
-var createBaseFor = require('./createBaseFor');
-
-/**
- * The base implementation of `baseForIn` and `baseForOwn` which iterates
- * over `object` properties returned by `keysFunc` invoking `iteratee` for
- * each property. Iteratee functions may exit iteration early by explicitly
- * returning `false`.
- *
- * @private
- * @param {Object} object The object to iterate over.
- * @param {Function} iteratee The function invoked per iteration.
- * @param {Function} keysFunc The function to get the keys of `object`.
- * @returns {Object} Returns `object`.
- */
-var baseFor = createBaseFor();
-
-module.exports = baseFor;
-
-},{"./createBaseFor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createBaseFor.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js":[function(require,module,exports){
-var baseFor = require('./baseFor'),
-    keys = require('../object/keys');
-
-/**
- * The base implementation of `_.forOwn` without support for callback
- * shorthands and `this` binding.
- *
- * @private
- * @param {Object} object The object to iterate over.
- * @param {Function} iteratee The function invoked per iteration.
- * @returns {Object} Returns `object`.
- */
-function baseForOwn(object, iteratee) {
-  return baseFor(object, iteratee, keys);
-}
-
-module.exports = baseForOwn;
-
-},{"../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keys.js","./baseFor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseFor.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseGet.js":[function(require,module,exports){
-var toObject = require('./toObject');
-
-/**
- * The base implementation of `get` without support for string paths
- * and default values.
- *
- * @private
- * @param {Object} object The object to query.
- * @param {Array} path The path of the property to get.
- * @param {string} [pathKey] The key representation of path.
- * @returns {*} Returns the resolved value.
- */
-function baseGet(object, path, pathKey) {
-  if (object == null) {
-    return;
-  }
-  if (pathKey !== undefined && pathKey in toObject(object)) {
-    path = [pathKey];
-  }
-  var index = -1,
-      length = path.length;
-
-  while (object != null && ++index < length) {
-    object = object[path[index]];
-  }
-  return (index && index == length) ? object : undefined;
-}
-
-module.exports = baseGet;
-
-},{"./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIndexOf.js":[function(require,module,exports){
-var indexOfNaN = require('./indexOfNaN');
-
-/**
- * The base implementation of `_.indexOf` without support for binary searches.
- *
- * @private
- * @param {Array} array The array to search.
- * @param {*} value The value to search for.
- * @param {number} fromIndex The index to search from.
- * @returns {number} Returns the index of the matched value, else `-1`.
- */
-function baseIndexOf(array, value, fromIndex) {
-  if (value !== value) {
-    return indexOfNaN(array, fromIndex);
-  }
-  var index = fromIndex - 1,
-      length = array.length;
-
-  while (++index < length) {
-    if (array[index] === value) {
-      return index;
-    }
-  }
-  return -1;
-}
-
-module.exports = baseIndexOf;
-
-},{"./indexOfNaN":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\indexOfNaN.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsEqual.js":[function(require,module,exports){
-var baseIsEqualDeep = require('./baseIsEqualDeep');
-
-/**
- * The base implementation of `_.isEqual` without support for `this` binding
- * `customizer` functions.
- *
- * @private
- * @param {*} value The value to compare.
- * @param {*} other The other value to compare.
- * @param {Function} [customizer] The function to customize comparing values.
- * @param {boolean} [isLoose] Specify performing partial comparisons.
- * @param {Array} [stackA] Tracks traversed `value` objects.
- * @param {Array} [stackB] Tracks traversed `other` objects.
- * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
- */
-function baseIsEqual(value, other, customizer, isLoose, stackA, stackB) {
-  // Exit early for identical values.
-  if (value === other) {
-    return true;
-  }
-  var valType = typeof value,
-      othType = typeof other;
-
-  // Exit early for unlike primitive values.
-  if ((valType != 'function' && valType != 'object' && othType != 'function' && othType != 'object') ||
-      value == null || other == null) {
-    // Return `false` unless both values are `NaN`.
-    return value !== value && other !== other;
-  }
-  return baseIsEqualDeep(value, other, baseIsEqual, customizer, isLoose, stackA, stackB);
-}
-
-module.exports = baseIsEqual;
-
-},{"./baseIsEqualDeep":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsEqualDeep.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsEqualDeep.js":[function(require,module,exports){
-var equalArrays = require('./equalArrays'),
-    equalByTag = require('./equalByTag'),
-    equalObjects = require('./equalObjects'),
-    isArray = require('../lang/isArray'),
-    isTypedArray = require('../lang/isTypedArray');
-
-/** `Object#toString` result references. */
-var argsTag = '[object Arguments]',
-    arrayTag = '[object Array]',
-    objectTag = '[object Object]';
-
-/** Used for native method references. */
-var objectProto = Object.prototype;
-
-/** Used to check objects for own properties. */
-var hasOwnProperty = objectProto.hasOwnProperty;
-
-/**
- * Used to resolve the [`toStringTag`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.prototype.tostring)
- * of values.
- */
-var objToString = objectProto.toString;
-
-/**
- * A specialized version of `baseIsEqual` for arrays and objects which performs
- * deep comparisons and tracks traversed objects enabling objects with circular
- * references to be compared.
- *
- * @private
- * @param {Object} object The object to compare.
- * @param {Object} other The other object to compare.
- * @param {Function} equalFunc The function to determine equivalents of values.
- * @param {Function} [customizer] The function to customize comparing objects.
- * @param {boolean} [isLoose] Specify performing partial comparisons.
- * @param {Array} [stackA=[]] Tracks traversed `value` objects.
- * @param {Array} [stackB=[]] Tracks traversed `other` objects.
- * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
- */
-function baseIsEqualDeep(object, other, equalFunc, customizer, isLoose, stackA, stackB) {
-  var objIsArr = isArray(object),
-      othIsArr = isArray(other),
-      objTag = arrayTag,
-      othTag = arrayTag;
-
-  if (!objIsArr) {
-    objTag = objToString.call(object);
-    if (objTag == argsTag) {
-      objTag = objectTag;
-    } else if (objTag != objectTag) {
-      objIsArr = isTypedArray(object);
-    }
-  }
-  if (!othIsArr) {
-    othTag = objToString.call(other);
-    if (othTag == argsTag) {
-      othTag = objectTag;
-    } else if (othTag != objectTag) {
-      othIsArr = isTypedArray(other);
-    }
-  }
-  var objIsObj = objTag == objectTag,
-      othIsObj = othTag == objectTag,
-      isSameTag = objTag == othTag;
-
-  if (isSameTag && !(objIsArr || objIsObj)) {
-    return equalByTag(object, other, objTag);
-  }
-  if (!isLoose) {
-    var valWrapped = objIsObj && hasOwnProperty.call(object, '__wrapped__'),
-        othWrapped = othIsObj && hasOwnProperty.call(other, '__wrapped__');
-
-    if (valWrapped || othWrapped) {
-      return equalFunc(valWrapped ? object.value() : object, othWrapped ? other.value() : other, customizer, isLoose, stackA, stackB);
-    }
-  }
-  if (!isSameTag) {
-    return false;
-  }
-  // Assume cyclic values are equal.
-  // For more information on detecting circular references see https://es5.github.io/#JO.
-  stackA || (stackA = []);
-  stackB || (stackB = []);
-
-  var length = stackA.length;
-  while (length--) {
-    if (stackA[length] == object) {
-      return stackB[length] == other;
-    }
-  }
-  // Add `object` and `other` to the stack of traversed objects.
-  stackA.push(object);
-  stackB.push(other);
-
-  var result = (objIsArr ? equalArrays : equalObjects)(object, other, equalFunc, customizer, isLoose, stackA, stackB);
-
-  stackA.pop();
-  stackB.pop();
-
-  return result;
-}
-
-module.exports = baseIsEqualDeep;
-
-},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","../lang/isTypedArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isTypedArray.js","./equalArrays":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalArrays.js","./equalByTag":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalByTag.js","./equalObjects":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalObjects.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsFunction.js":[function(require,module,exports){
-/**
- * The base implementation of `_.isFunction` without support for environments
- * with incorrect `typeof` results.
- *
- * @private
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
- */
-function baseIsFunction(value) {
-  // Avoid a Chakra JIT bug in compatibility modes of IE 11.
-  // See https://github.com/jashkenas/underscore/issues/1621 for more details.
-  return typeof value == 'function' || false;
-}
-
-module.exports = baseIsFunction;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsMatch.js":[function(require,module,exports){
-var baseIsEqual = require('./baseIsEqual');
-
-/**
- * The base implementation of `_.isMatch` without support for callback
- * shorthands and `this` binding.
- *
- * @private
- * @param {Object} object The object to inspect.
- * @param {Array} props The source property names to match.
- * @param {Array} values The source values to match.
- * @param {Array} strictCompareFlags Strict comparison flags for source values.
- * @param {Function} [customizer] The function to customize comparing objects.
- * @returns {boolean} Returns `true` if `object` is a match, else `false`.
- */
-function baseIsMatch(object, props, values, strictCompareFlags, customizer) {
-  var index = -1,
-      length = props.length,
-      noCustomizer = !customizer;
-
-  while (++index < length) {
-    if ((noCustomizer && strictCompareFlags[index])
-          ? values[index] !== object[props[index]]
-          : !(props[index] in object)
-        ) {
-      return false;
-    }
-  }
-  index = -1;
-  while (++index < length) {
-    var key = props[index],
-        objValue = object[key],
-        srcValue = values[index];
-
-    if (noCustomizer && strictCompareFlags[index]) {
-      var result = objValue !== undefined || (key in object);
-    } else {
-      result = customizer ? customizer(objValue, srcValue, key) : undefined;
-      if (result === undefined) {
-        result = baseIsEqual(srcValue, objValue, customizer, true);
-      }
-    }
-    if (!result) {
-      return false;
-    }
-  }
-  return true;
-}
-
-module.exports = baseIsMatch;
-
-},{"./baseIsEqual":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsEqual.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMap.js":[function(require,module,exports){
-var baseEach = require('./baseEach'),
-    isArrayLike = require('./isArrayLike');
-
-/**
- * The base implementation of `_.map` without support for callback shorthands
- * and `this` binding.
- *
- * @private
- * @param {Array|Object|string} collection The collection to iterate over.
- * @param {Function} iteratee The function invoked per iteration.
- * @returns {Array} Returns the new mapped array.
- */
-function baseMap(collection, iteratee) {
-  var index = -1,
-      result = isArrayLike(collection) ? Array(collection.length) : [];
-
-  baseEach(collection, function(value, key, collection) {
-    result[++index] = iteratee(value, key, collection);
-  });
-  return result;
-}
-
-module.exports = baseMap;
-
-},{"./baseEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseEach.js","./isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMatches.js":[function(require,module,exports){
-var baseIsMatch = require('./baseIsMatch'),
-    constant = require('../utility/constant'),
-    isStrictComparable = require('./isStrictComparable'),
-    keys = require('../object/keys'),
-    toObject = require('./toObject');
-
-/**
- * The base implementation of `_.matches` which does not clone `source`.
- *
- * @private
- * @param {Object} source The object of property values to match.
- * @returns {Function} Returns the new function.
- */
-function baseMatches(source) {
-  var props = keys(source),
-      length = props.length;
-
-  if (!length) {
-    return constant(true);
-  }
-  if (length == 1) {
-    var key = props[0],
-        value = source[key];
-
-    if (isStrictComparable(value)) {
-      return function(object) {
-        if (object == null) {
-          return false;
-        }
-        return object[key] === value && (value !== undefined || (key in toObject(object)));
-      };
-    }
-  }
-  var values = Array(length),
-      strictCompareFlags = Array(length);
-
-  while (length--) {
-    value = source[props[length]];
-    values[length] = value;
-    strictCompareFlags[length] = isStrictComparable(value);
-  }
-  return function(object) {
-    return object != null && baseIsMatch(toObject(object), props, values, strictCompareFlags);
-  };
-}
-
-module.exports = baseMatches;
-
-},{"../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keys.js","../utility/constant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\constant.js","./baseIsMatch":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsMatch.js","./isStrictComparable":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isStrictComparable.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMatchesProperty.js":[function(require,module,exports){
-var baseGet = require('./baseGet'),
-    baseIsEqual = require('./baseIsEqual'),
-    baseSlice = require('./baseSlice'),
-    isArray = require('../lang/isArray'),
-    isKey = require('./isKey'),
-    isStrictComparable = require('./isStrictComparable'),
-    last = require('../array/last'),
-    toObject = require('./toObject'),
-    toPath = require('./toPath');
-
-/**
- * The base implementation of `_.matchesProperty` which does not which does
- * not clone `value`.
- *
- * @private
- * @param {string} path The path of the property to get.
- * @param {*} value The value to compare.
- * @returns {Function} Returns the new function.
- */
-function baseMatchesProperty(path, value) {
-  var isArr = isArray(path),
-      isCommon = isKey(path) && isStrictComparable(value),
-      pathKey = (path + '');
-
-  path = toPath(path);
-  return function(object) {
-    if (object == null) {
-      return false;
-    }
-    var key = pathKey;
-    object = toObject(object);
-    if ((isArr || !isCommon) && !(key in object)) {
-      object = path.length == 1 ? object : baseGet(object, baseSlice(path, 0, -1));
-      if (object == null) {
-        return false;
-      }
-      key = last(path);
-      object = toObject(object);
-    }
-    return object[key] === value
-      ? (value !== undefined || (key in object))
-      : baseIsEqual(value, object[key], null, true);
-  };
-}
-
-module.exports = baseMatchesProperty;
-
-},{"../array/last":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\last.js","../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","./baseGet":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseGet.js","./baseIsEqual":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsEqual.js","./baseSlice":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseSlice.js","./isKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isKey.js","./isStrictComparable":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isStrictComparable.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js","./toPath":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toPath.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseProperty.js":[function(require,module,exports){
-/**
- * The base implementation of `_.property` without support for deep paths.
- *
- * @private
- * @param {string} key The key of the property to get.
- * @returns {Function} Returns the new function.
- */
-function baseProperty(key) {
-  return function(object) {
-    return object == null ? undefined : object[key];
-  };
-}
-
-module.exports = baseProperty;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\basePropertyDeep.js":[function(require,module,exports){
-var baseGet = require('./baseGet'),
-    toPath = require('./toPath');
-
-/**
- * A specialized version of `baseProperty` which supports deep paths.
- *
- * @private
- * @param {Array|string} path The path of the property to get.
- * @returns {Function} Returns the new function.
- */
-function basePropertyDeep(path) {
-  var pathKey = (path + '');
-  path = toPath(path);
-  return function(object) {
-    return baseGet(object, path, pathKey);
-  };
-}
-
-module.exports = basePropertyDeep;
-
-},{"./baseGet":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseGet.js","./toPath":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toPath.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseReduce.js":[function(require,module,exports){
-/**
- * The base implementation of `_.reduce` and `_.reduceRight` without support
- * for callback shorthands and `this` binding, which iterates over `collection`
- * using the provided `eachFunc`.
- *
- * @private
- * @param {Array|Object|string} collection The collection to iterate over.
- * @param {Function} iteratee The function invoked per iteration.
- * @param {*} accumulator The initial value.
- * @param {boolean} initFromCollection Specify using the first or last element
- *  of `collection` as the initial value.
- * @param {Function} eachFunc The function to iterate over `collection`.
- * @returns {*} Returns the accumulated value.
- */
-function baseReduce(collection, iteratee, accumulator, initFromCollection, eachFunc) {
-  eachFunc(collection, function(value, index, collection) {
-    accumulator = initFromCollection
-      ? (initFromCollection = false, value)
-      : iteratee(accumulator, value, index, collection);
-  });
-  return accumulator;
-}
-
-module.exports = baseReduce;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseSlice.js":[function(require,module,exports){
-/**
- * The base implementation of `_.slice` without an iteratee call guard.
- *
- * @private
- * @param {Array} array The array to slice.
- * @param {number} [start=0] The start position.
- * @param {number} [end=array.length] The end position.
- * @returns {Array} Returns the slice of `array`.
- */
-function baseSlice(array, start, end) {
-  var index = -1,
-      length = array.length;
-
-  start = start == null ? 0 : (+start || 0);
-  if (start < 0) {
-    start = -start > length ? 0 : (length + start);
-  }
-  end = (end === undefined || end > length) ? length : (+end || 0);
-  if (end < 0) {
-    end += length;
-  }
-  length = start > end ? 0 : ((end - start) >>> 0);
-  start >>>= 0;
-
-  var result = Array(length);
-  while (++index < length) {
-    result[index] = array[index + start];
-  }
-  return result;
-}
-
-module.exports = baseSlice;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseToString.js":[function(require,module,exports){
-/**
- * Converts `value` to a string if it is not one. An empty string is returned
- * for `null` or `undefined` values.
- *
- * @private
- * @param {*} value The value to process.
- * @returns {string} Returns the string.
- */
-function baseToString(value) {
-  if (typeof value == 'string') {
-    return value;
-  }
-  return value == null ? '' : (value + '');
-}
-
-module.exports = baseToString;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseUniq.js":[function(require,module,exports){
-var baseIndexOf = require('./baseIndexOf'),
-    cacheIndexOf = require('./cacheIndexOf'),
-    createCache = require('./createCache');
-
-/**
- * The base implementation of `_.uniq` without support for callback shorthands
- * and `this` binding.
- *
- * @private
- * @param {Array} array The array to inspect.
- * @param {Function} [iteratee] The function invoked per iteration.
- * @returns {Array} Returns the new duplicate-value-free array.
- */
-function baseUniq(array, iteratee) {
-  var index = -1,
-      indexOf = baseIndexOf,
-      length = array.length,
-      isCommon = true,
-      isLarge = isCommon && length >= 200,
-      seen = isLarge ? createCache() : null,
-      result = [];
-
-  if (seen) {
-    indexOf = cacheIndexOf;
-    isCommon = false;
-  } else {
-    isLarge = false;
-    seen = iteratee ? [] : result;
-  }
-  outer:
-  while (++index < length) {
-    var value = array[index],
-        computed = iteratee ? iteratee(value, index, array) : value;
-
-    if (isCommon && value === value) {
-      var seenIndex = seen.length;
-      while (seenIndex--) {
-        if (seen[seenIndex] === computed) {
-          continue outer;
-        }
-      }
-      if (iteratee) {
-        seen.push(computed);
-      }
-      result.push(value);
-    }
-    else if (indexOf(seen, computed, 0) < 0) {
-      if (iteratee || isLarge) {
-        seen.push(computed);
-      }
-      result.push(value);
-    }
-  }
-  return result;
-}
-
-module.exports = baseUniq;
-
-},{"./baseIndexOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIndexOf.js","./cacheIndexOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\cacheIndexOf.js","./createCache":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createCache.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bindCallback.js":[function(require,module,exports){
-var identity = require('../utility/identity');
-
-/**
- * A specialized version of `baseCallback` which only supports `this` binding
- * and specifying the number of arguments to provide to `func`.
- *
- * @private
- * @param {Function} func The function to bind.
- * @param {*} thisArg The `this` binding of `func`.
- * @param {number} [argCount] The number of arguments to provide to `func`.
- * @returns {Function} Returns the callback.
- */
-function bindCallback(func, thisArg, argCount) {
-  if (typeof func != 'function') {
-    return identity;
-  }
-  if (thisArg === undefined) {
-    return func;
-  }
-  switch (argCount) {
-    case 1: return function(value) {
-      return func.call(thisArg, value);
-    };
-    case 3: return function(value, index, collection) {
-      return func.call(thisArg, value, index, collection);
-    };
-    case 4: return function(accumulator, value, index, collection) {
-      return func.call(thisArg, accumulator, value, index, collection);
-    };
-    case 5: return function(value, other, key, object, source) {
-      return func.call(thisArg, value, other, key, object, source);
-    };
-  }
-  return function() {
-    return func.apply(thisArg, arguments);
-  };
-}
-
-module.exports = bindCallback;
-
-},{"../utility/identity":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\identity.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bufferClone.js":[function(require,module,exports){
-(function (global){
-var constant = require('../utility/constant'),
-    isNative = require('../lang/isNative');
-
-/** Native method references. */
-var ArrayBuffer = isNative(ArrayBuffer = global.ArrayBuffer) && ArrayBuffer,
-    bufferSlice = isNative(bufferSlice = ArrayBuffer && new ArrayBuffer(0).slice) && bufferSlice,
-    floor = Math.floor,
-    Uint8Array = isNative(Uint8Array = global.Uint8Array) && Uint8Array;
-
-/** Used to clone array buffers. */
-var Float64Array = (function() {
-  // Safari 5 errors when using an array buffer to initialize a typed array
-  // where the array buffer's `byteLength` is not a multiple of the typed
-  // array's `BYTES_PER_ELEMENT`.
-  try {
-    var func = isNative(func = global.Float64Array) && func,
-        result = new func(new ArrayBuffer(10), 0, 1) && func;
-  } catch(e) {}
-  return result;
-}());
-
-/** Used as the size, in bytes, of each `Float64Array` element. */
-var FLOAT64_BYTES_PER_ELEMENT = Float64Array ? Float64Array.BYTES_PER_ELEMENT : 0;
-
-/**
- * Creates a clone of the given array buffer.
- *
- * @private
- * @param {ArrayBuffer} buffer The array buffer to clone.
- * @returns {ArrayBuffer} Returns the cloned array buffer.
- */
-function bufferClone(buffer) {
-  return bufferSlice.call(buffer, 0);
-}
-if (!bufferSlice) {
-  // PhantomJS has `ArrayBuffer` and `Uint8Array` but not `Float64Array`.
-  bufferClone = !(ArrayBuffer && Uint8Array) ? constant(null) : function(buffer) {
-    var byteLength = buffer.byteLength,
-        floatLength = Float64Array ? floor(byteLength / FLOAT64_BYTES_PER_ELEMENT) : 0,
-        offset = floatLength * FLOAT64_BYTES_PER_ELEMENT,
-        result = new ArrayBuffer(byteLength);
-
-    if (floatLength) {
-      var view = new Float64Array(result, 0, floatLength);
-      view.set(new Float64Array(buffer, 0, floatLength));
-    }
-    if (byteLength != offset) {
-      view = new Uint8Array(result, offset);
-      view.set(new Uint8Array(buffer, offset));
-    }
-    return result;
-  };
-}
-
-module.exports = bufferClone;
-
-}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js","../utility/constant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\constant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\cacheIndexOf.js":[function(require,module,exports){
-var isObject = require('../lang/isObject');
-
-/**
- * Checks if `value` is in `cache` mimicking the return signature of
- * `_.indexOf` by returning `0` if the value is found, else `-1`.
- *
- * @private
- * @param {Object} cache The cache to search.
- * @param {*} value The value to search for.
- * @returns {number} Returns `0` if `value` is found, else `-1`.
- */
-function cacheIndexOf(cache, value) {
-  var data = cache.data,
-      result = (typeof value == 'string' || isObject(value)) ? data.set.has(value) : data.hash[value];
-
-  return result ? 0 : -1;
-}
-
-module.exports = cacheIndexOf;
-
-},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\cachePush.js":[function(require,module,exports){
-var isObject = require('../lang/isObject');
-
-/**
- * Adds `value` to the cache.
- *
- * @private
- * @name push
- * @memberOf SetCache
- * @param {*} value The value to cache.
- */
-function cachePush(value) {
-  var data = this.data;
-  if (typeof value == 'string' || isObject(value)) {
-    data.set.add(value);
-  } else {
-    data.hash[value] = true;
-  }
-}
-
-module.exports = cachePush;
-
-},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createBaseEach.js":[function(require,module,exports){
-var getLength = require('./getLength'),
-    isLength = require('./isLength'),
-    toObject = require('./toObject');
-
-/**
- * Creates a `baseEach` or `baseEachRight` function.
- *
- * @private
- * @param {Function} eachFunc The function to iterate over a collection.
- * @param {boolean} [fromRight] Specify iterating from right to left.
- * @returns {Function} Returns the new base function.
- */
-function createBaseEach(eachFunc, fromRight) {
-  return function(collection, iteratee) {
-    var length = collection ? getLength(collection) : 0;
-    if (!isLength(length)) {
-      return eachFunc(collection, iteratee);
-    }
-    var index = fromRight ? length : -1,
-        iterable = toObject(collection);
-
-    while ((fromRight ? index-- : ++index < length)) {
-      if (iteratee(iterable[index], index, iterable) === false) {
-        break;
-      }
-    }
-    return collection;
-  };
-}
-
-module.exports = createBaseEach;
-
-},{"./getLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\getLength.js","./isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createBaseFor.js":[function(require,module,exports){
-var toObject = require('./toObject');
-
-/**
- * Creates a base function for `_.forIn` or `_.forInRight`.
- *
- * @private
- * @param {boolean} [fromRight] Specify iterating from right to left.
- * @returns {Function} Returns the new base function.
- */
-function createBaseFor(fromRight) {
-  return function(object, iteratee, keysFunc) {
-    var iterable = toObject(object),
-        props = keysFunc(object),
-        length = props.length,
-        index = fromRight ? length : -1;
-
-    while ((fromRight ? index-- : ++index < length)) {
-      var key = props[index];
-      if (iteratee(iterable[key], key, iterable) === false) {
-        break;
-      }
-    }
-    return object;
-  };
-}
-
-module.exports = createBaseFor;
-
-},{"./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createCache.js":[function(require,module,exports){
-(function (global){
-var SetCache = require('./SetCache'),
-    constant = require('../utility/constant'),
-    isNative = require('../lang/isNative');
-
-/** Native method references. */
-var Set = isNative(Set = global.Set) && Set;
-
-/* Native method references for those with the same name as other `lodash` methods. */
-var nativeCreate = isNative(nativeCreate = Object.create) && nativeCreate;
-
-/**
- * Creates a `Set` cache object to optimize linear searches of large arrays.
- *
- * @private
- * @param {Array} [values] The values to cache.
- * @returns {null|Object} Returns the new cache object if `Set` is supported, else `null`.
- */
-var createCache = !(nativeCreate && Set) ? constant(null) : function(values) {
-  return new SetCache(values);
 };
 
-module.exports = createCache;
+module.exports = invariant;
 
-}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js","../utility/constant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\constant.js","./SetCache":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\SetCache.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createFindKey.js":[function(require,module,exports){
-var baseCallback = require('./baseCallback'),
-    baseFind = require('./baseFind');
-
-/**
- * Creates a `_.findKey` or `_.findLastKey` function.
- *
- * @private
- * @param {Function} objectFunc The function to iterate over an object.
- * @returns {Function} Returns the new find function.
- */
-function createFindKey(objectFunc) {
-  return function(object, predicate, thisArg) {
-    predicate = baseCallback(predicate, thisArg, 3);
-    return baseFind(object, predicate, objectFunc, true);
-  };
-}
-
-module.exports = createFindKey;
-
-},{"./baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","./baseFind":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseFind.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createForEach.js":[function(require,module,exports){
-var bindCallback = require('./bindCallback'),
-    isArray = require('../lang/isArray');
-
-/**
- * Creates a function for `_.forEach` or `_.forEachRight`.
- *
- * @private
- * @param {Function} arrayFunc The function to iterate over an array.
- * @param {Function} eachFunc The function to iterate over a collection.
- * @returns {Function} Returns the new each function.
- */
-function createForEach(arrayFunc, eachFunc) {
-  return function(collection, iteratee, thisArg) {
-    return (typeof iteratee == 'function' && thisArg === undefined && isArray(collection))
-      ? arrayFunc(collection, iteratee)
-      : eachFunc(collection, bindCallback(iteratee, thisArg, 3));
-  };
-}
-
-module.exports = createForEach;
-
-},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","./bindCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bindCallback.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createForOwn.js":[function(require,module,exports){
-var bindCallback = require('./bindCallback');
-
-/**
- * Creates a function for `_.forOwn` or `_.forOwnRight`.
- *
- * @private
- * @param {Function} objectFunc The function to iterate over an object.
- * @returns {Function} Returns the new each function.
- */
-function createForOwn(objectFunc) {
-  return function(object, iteratee, thisArg) {
-    if (typeof iteratee != 'function' || thisArg !== undefined) {
-      iteratee = bindCallback(iteratee, thisArg, 3);
-    }
-    return objectFunc(object, iteratee);
-  };
-}
-
-module.exports = createForOwn;
-
-},{"./bindCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bindCallback.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createObjectMapper.js":[function(require,module,exports){
-var baseCallback = require('./baseCallback'),
-    baseForOwn = require('./baseForOwn');
-
-/**
- * Creates a function for `_.mapKeys` or `_.mapValues`.
- *
- * @private
- * @param {boolean} [isMapKeys] Specify mapping keys instead of values.
- * @returns {Function} Returns the new map function.
- */
-function createObjectMapper(isMapKeys) {
-  return function(object, iteratee, thisArg) {
-    var result = {};
-    iteratee = baseCallback(iteratee, thisArg, 3);
-
-    baseForOwn(object, function(value, key, object) {
-      var mapped = iteratee(value, key, object);
-      key = isMapKeys ? mapped : key;
-      value = isMapKeys ? value : mapped;
-      result[key] = value;
-    });
-    return result;
-  };
-}
-
-module.exports = createObjectMapper;
-
-},{"./baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","./baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createReduce.js":[function(require,module,exports){
-var baseCallback = require('./baseCallback'),
-    baseReduce = require('./baseReduce'),
-    isArray = require('../lang/isArray');
-
-/**
- * Creates a function for `_.reduce` or `_.reduceRight`.
- *
- * @private
- * @param {Function} arrayFunc The function to iterate over an array.
- * @param {Function} eachFunc The function to iterate over a collection.
- * @returns {Function} Returns the new each function.
- */
-function createReduce(arrayFunc, eachFunc) {
-  return function(collection, iteratee, accumulator, thisArg) {
-    var initFromArray = arguments.length < 3;
-    return (typeof iteratee == 'function' && thisArg === undefined && isArray(collection))
-      ? arrayFunc(collection, iteratee, accumulator, initFromArray)
-      : baseReduce(collection, baseCallback(iteratee, thisArg, 4), accumulator, initFromArray, eachFunc);
-  };
-}
-
-module.exports = createReduce;
-
-},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","./baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","./baseReduce":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseReduce.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalArrays.js":[function(require,module,exports){
-/**
- * A specialized version of `baseIsEqualDeep` for arrays with support for
- * partial deep comparisons.
- *
- * @private
- * @param {Array} array The array to compare.
- * @param {Array} other The other array to compare.
- * @param {Function} equalFunc The function to determine equivalents of values.
- * @param {Function} [customizer] The function to customize comparing arrays.
- * @param {boolean} [isLoose] Specify performing partial comparisons.
- * @param {Array} [stackA] Tracks traversed `value` objects.
- * @param {Array} [stackB] Tracks traversed `other` objects.
- * @returns {boolean} Returns `true` if the arrays are equivalent, else `false`.
- */
-function equalArrays(array, other, equalFunc, customizer, isLoose, stackA, stackB) {
-  var index = -1,
-      arrLength = array.length,
-      othLength = other.length,
-      result = true;
-
-  if (arrLength != othLength && !(isLoose && othLength > arrLength)) {
-    return false;
-  }
-  // Deep compare the contents, ignoring non-numeric properties.
-  while (result && ++index < arrLength) {
-    var arrValue = array[index],
-        othValue = other[index];
-
-    result = undefined;
-    if (customizer) {
-      result = isLoose
-        ? customizer(othValue, arrValue, index)
-        : customizer(arrValue, othValue, index);
-    }
-    if (result === undefined) {
-      // Recursively compare arrays (susceptible to call stack limits).
-      if (isLoose) {
-        var othIndex = othLength;
-        while (othIndex--) {
-          othValue = other[othIndex];
-          result = (arrValue && arrValue === othValue) || equalFunc(arrValue, othValue, customizer, isLoose, stackA, stackB);
-          if (result) {
-            break;
-          }
-        }
-      } else {
-        result = (arrValue && arrValue === othValue) || equalFunc(arrValue, othValue, customizer, isLoose, stackA, stackB);
-      }
-    }
-  }
-  return !!result;
-}
-
-module.exports = equalArrays;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalByTag.js":[function(require,module,exports){
-/** `Object#toString` result references. */
-var boolTag = '[object Boolean]',
-    dateTag = '[object Date]',
-    errorTag = '[object Error]',
-    numberTag = '[object Number]',
-    regexpTag = '[object RegExp]',
-    stringTag = '[object String]';
-
-/**
- * A specialized version of `baseIsEqualDeep` for comparing objects of
- * the same `toStringTag`.
- *
- * **Note:** This function only supports comparing values with tags of
- * `Boolean`, `Date`, `Error`, `Number`, `RegExp`, or `String`.
- *
- * @private
- * @param {Object} value The object to compare.
- * @param {Object} other The other object to compare.
- * @param {string} tag The `toStringTag` of the objects to compare.
- * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
- */
-function equalByTag(object, other, tag) {
-  switch (tag) {
-    case boolTag:
-    case dateTag:
-      // Coerce dates and booleans to numbers, dates to milliseconds and booleans
-      // to `1` or `0` treating invalid dates coerced to `NaN` as not equal.
-      return +object == +other;
-
-    case errorTag:
-      return object.name == other.name && object.message == other.message;
-
-    case numberTag:
-      // Treat `NaN` vs. `NaN` as equal.
-      return (object != +object)
-        ? other != +other
-        : object == +other;
-
-    case regexpTag:
-    case stringTag:
-      // Coerce regexes to strings and treat strings primitives and string
-      // objects as equal. See https://es5.github.io/#x15.10.6.4 for more details.
-      return object == (other + '');
-  }
-  return false;
-}
-
-module.exports = equalByTag;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalObjects.js":[function(require,module,exports){
-var keys = require('../object/keys');
-
-/** Used for native method references. */
-var objectProto = Object.prototype;
-
-/** Used to check objects for own properties. */
-var hasOwnProperty = objectProto.hasOwnProperty;
-
-/**
- * A specialized version of `baseIsEqualDeep` for objects with support for
- * partial deep comparisons.
- *
- * @private
- * @param {Object} object The object to compare.
- * @param {Object} other The other object to compare.
- * @param {Function} equalFunc The function to determine equivalents of values.
- * @param {Function} [customizer] The function to customize comparing values.
- * @param {boolean} [isLoose] Specify performing partial comparisons.
- * @param {Array} [stackA] Tracks traversed `value` objects.
- * @param {Array} [stackB] Tracks traversed `other` objects.
- * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
- */
-function equalObjects(object, other, equalFunc, customizer, isLoose, stackA, stackB) {
-  var objProps = keys(object),
-      objLength = objProps.length,
-      othProps = keys(other),
-      othLength = othProps.length;
-
-  if (objLength != othLength && !isLoose) {
-    return false;
-  }
-  var skipCtor = isLoose,
-      index = -1;
-
-  while (++index < objLength) {
-    var key = objProps[index],
-        result = isLoose ? key in other : hasOwnProperty.call(other, key);
-
-    if (result) {
-      var objValue = object[key],
-          othValue = other[key];
-
-      result = undefined;
-      if (customizer) {
-        result = isLoose
-          ? customizer(othValue, objValue, key)
-          : customizer(objValue, othValue, key);
-      }
-      if (result === undefined) {
-        // Recursively compare objects (susceptible to call stack limits).
-        result = (objValue && objValue === othValue) || equalFunc(objValue, othValue, customizer, isLoose, stackA, stackB);
-      }
-    }
-    if (!result) {
-      return false;
-    }
-    skipCtor || (skipCtor = key == 'constructor');
-  }
-  if (!skipCtor) {
-    var objCtor = object.constructor,
-        othCtor = other.constructor;
-
-    // Non `Object` object instances with different constructors are not equal.
-    if (objCtor != othCtor &&
-        ('constructor' in object && 'constructor' in other) &&
-        !(typeof objCtor == 'function' && objCtor instanceof objCtor &&
-          typeof othCtor == 'function' && othCtor instanceof othCtor)) {
-      return false;
-    }
-  }
-  return true;
-}
-
-module.exports = equalObjects;
-
-},{"../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keys.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\getLength.js":[function(require,module,exports){
-var baseProperty = require('./baseProperty');
-
-/**
- * Gets the "length" property value of `object`.
- *
- * **Note:** This function is used to avoid a [JIT bug](https://bugs.webkit.org/show_bug.cgi?id=142792)
- * that affects Safari on at least iOS 8.1-8.3 ARM64.
- *
- * @private
- * @param {Object} object The object to query.
- * @returns {*} Returns the "length" value.
- */
-var getLength = baseProperty('length');
-
-module.exports = getLength;
-
-},{"./baseProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseProperty.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\getSymbols.js":[function(require,module,exports){
-var constant = require('../utility/constant'),
-    isNative = require('../lang/isNative'),
-    toObject = require('./toObject');
-
-/** Native method references. */
-var getOwnPropertySymbols = isNative(getOwnPropertySymbols = Object.getOwnPropertySymbols) && getOwnPropertySymbols;
-
-/**
- * Creates an array of the own symbols of `object`.
- *
- * @private
- * @param {Object} object The object to query.
- * @returns {Array} Returns the array of symbols.
- */
-var getSymbols = !getOwnPropertySymbols ? constant([]) : function(object) {
-  return getOwnPropertySymbols(toObject(object));
-};
-
-module.exports = getSymbols;
-
-},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js","../utility/constant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\constant.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\indexOfNaN.js":[function(require,module,exports){
-/**
- * Gets the index at which the first occurrence of `NaN` is found in `array`.
- *
- * @private
- * @param {Array} array The array to search.
- * @param {number} fromIndex The index to search from.
- * @param {boolean} [fromRight] Specify iterating from right to left.
- * @returns {number} Returns the index of the matched `NaN`, else `-1`.
- */
-function indexOfNaN(array, fromIndex, fromRight) {
-  var length = array.length,
-      index = fromIndex + (fromRight ? 0 : -1);
-
-  while ((fromRight ? index-- : ++index < length)) {
-    var other = array[index];
-    if (other !== other) {
-      return index;
-    }
-  }
-  return -1;
-}
-
-module.exports = indexOfNaN;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneArray.js":[function(require,module,exports){
-/** Used for native method references. */
-var objectProto = Object.prototype;
-
-/** Used to check objects for own properties. */
-var hasOwnProperty = objectProto.hasOwnProperty;
-
-/**
- * Initializes an array clone.
- *
- * @private
- * @param {Array} array The array to clone.
- * @returns {Array} Returns the initialized clone.
- */
-function initCloneArray(array) {
-  var length = array.length,
-      result = new array.constructor(length);
-
-  // Add array properties assigned by `RegExp#exec`.
-  if (length && typeof array[0] == 'string' && hasOwnProperty.call(array, 'index')) {
-    result.index = array.index;
-    result.input = array.input;
-  }
-  return result;
-}
-
-module.exports = initCloneArray;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneByTag.js":[function(require,module,exports){
-var bufferClone = require('./bufferClone');
-
-/** `Object#toString` result references. */
-var boolTag = '[object Boolean]',
-    dateTag = '[object Date]',
-    numberTag = '[object Number]',
-    regexpTag = '[object RegExp]',
-    stringTag = '[object String]';
-
-var arrayBufferTag = '[object ArrayBuffer]',
-    float32Tag = '[object Float32Array]',
-    float64Tag = '[object Float64Array]',
-    int8Tag = '[object Int8Array]',
-    int16Tag = '[object Int16Array]',
-    int32Tag = '[object Int32Array]',
-    uint8Tag = '[object Uint8Array]',
-    uint8ClampedTag = '[object Uint8ClampedArray]',
-    uint16Tag = '[object Uint16Array]',
-    uint32Tag = '[object Uint32Array]';
-
-/** Used to match `RegExp` flags from their coerced string values. */
-var reFlags = /\w*$/;
-
-/**
- * Initializes an object clone based on its `toStringTag`.
- *
- * **Note:** This function only supports cloning values with tags of
- * `Boolean`, `Date`, `Error`, `Number`, `RegExp`, or `String`.
- *
- * @private
- * @param {Object} object The object to clone.
- * @param {string} tag The `toStringTag` of the object to clone.
- * @param {boolean} [isDeep] Specify a deep clone.
- * @returns {Object} Returns the initialized clone.
- */
-function initCloneByTag(object, tag, isDeep) {
-  var Ctor = object.constructor;
-  switch (tag) {
-    case arrayBufferTag:
-      return bufferClone(object);
-
-    case boolTag:
-    case dateTag:
-      return new Ctor(+object);
-
-    case float32Tag: case float64Tag:
-    case int8Tag: case int16Tag: case int32Tag:
-    case uint8Tag: case uint8ClampedTag: case uint16Tag: case uint32Tag:
-      var buffer = object.buffer;
-      return new Ctor(isDeep ? bufferClone(buffer) : buffer, object.byteOffset, object.length);
-
-    case numberTag:
-    case stringTag:
-      return new Ctor(object);
-
-    case regexpTag:
-      var result = new Ctor(object.source, reFlags.exec(object));
-      result.lastIndex = object.lastIndex;
-  }
-  return result;
-}
-
-module.exports = initCloneByTag;
-
-},{"./bufferClone":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bufferClone.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneObject.js":[function(require,module,exports){
-/**
- * Initializes an object clone.
- *
- * @private
- * @param {Object} object The object to clone.
- * @returns {Object} Returns the initialized clone.
- */
-function initCloneObject(object) {
-  var Ctor = object.constructor;
-  if (!(typeof Ctor == 'function' && Ctor instanceof Ctor)) {
-    Ctor = Object;
-  }
-  return new Ctor;
-}
-
-module.exports = initCloneObject;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js":[function(require,module,exports){
-var getLength = require('./getLength'),
-    isLength = require('./isLength');
-
-/**
- * Checks if `value` is array-like.
- *
- * @private
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is array-like, else `false`.
- */
-function isArrayLike(value) {
-  return value != null && isLength(getLength(value));
-}
-
-module.exports = isArrayLike;
-
-},{"./getLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\getLength.js","./isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIndex.js":[function(require,module,exports){
-/**
- * Used as the [maximum length](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-number.max_safe_integer)
- * of an array-like value.
- */
-var MAX_SAFE_INTEGER = Math.pow(2, 53) - 1;
-
-/**
- * Checks if `value` is a valid array-like index.
- *
- * @private
- * @param {*} value The value to check.
- * @param {number} [length=MAX_SAFE_INTEGER] The upper bounds of a valid index.
- * @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
- */
-function isIndex(value, length) {
-  value = +value;
-  length = length == null ? MAX_SAFE_INTEGER : length;
-  return value > -1 && value % 1 == 0 && value < length;
-}
-
-module.exports = isIndex;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIterateeCall.js":[function(require,module,exports){
-var isArrayLike = require('./isArrayLike'),
-    isIndex = require('./isIndex'),
-    isObject = require('../lang/isObject');
-
-/**
- * Checks if the provided arguments are from an iteratee call.
- *
- * @private
- * @param {*} value The potential iteratee value argument.
- * @param {*} index The potential iteratee index or key argument.
- * @param {*} object The potential iteratee object argument.
- * @returns {boolean} Returns `true` if the arguments are from an iteratee call, else `false`.
- */
-function isIterateeCall(value, index, object) {
-  if (!isObject(object)) {
-    return false;
-  }
-  var type = typeof index;
-  if (type == 'number'
-      ? (isArrayLike(object) && isIndex(index, object.length))
-      : (type == 'string' && index in object)) {
-    var other = object[index];
-    return value === value ? (value === other) : (other !== other);
-  }
-  return false;
-}
-
-module.exports = isIterateeCall;
-
-},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js","./isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js","./isIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIndex.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isKey.js":[function(require,module,exports){
-var isArray = require('../lang/isArray'),
-    toObject = require('./toObject');
-
-/** Used to match property names within property paths. */
-var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\n\\]|\\.)*?\1)\]/,
-    reIsPlainProp = /^\w*$/;
-
-/**
- * Checks if `value` is a property name and not a property path.
- *
- * @private
- * @param {*} value The value to check.
- * @param {Object} [object] The object to query keys on.
- * @returns {boolean} Returns `true` if `value` is a property name, else `false`.
- */
-function isKey(value, object) {
-  var type = typeof value;
-  if ((type == 'string' && reIsPlainProp.test(value)) || type == 'number') {
-    return true;
-  }
-  if (isArray(value)) {
-    return false;
-  }
-  var result = !reIsDeepProp.test(value);
-  return result || (object != null && value in toObject(object));
-}
-
-module.exports = isKey;
-
-},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js":[function(require,module,exports){
-/**
- * Used as the [maximum length](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-number.max_safe_integer)
- * of an array-like value.
- */
-var MAX_SAFE_INTEGER = Math.pow(2, 53) - 1;
-
-/**
- * Checks if `value` is a valid array-like length.
- *
- * **Note:** This function is based on [`ToLength`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-tolength).
- *
- * @private
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
- */
-function isLength(value) {
-  return typeof value == 'number' && value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
-}
-
-module.exports = isLength;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js":[function(require,module,exports){
-/**
- * Checks if `value` is object-like.
- *
- * @private
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
- */
-function isObjectLike(value) {
-  return !!value && typeof value == 'object';
-}
-
-module.exports = isObjectLike;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isStrictComparable.js":[function(require,module,exports){
-var isObject = require('../lang/isObject');
-
-/**
- * Checks if `value` is suitable for strict equality comparisons, i.e. `===`.
- *
- * @private
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` if suitable for strict
- *  equality comparisons, else `false`.
- */
-function isStrictComparable(value) {
-  return value === value && !isObject(value);
-}
-
-module.exports = isStrictComparable;
-
-},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\shimKeys.js":[function(require,module,exports){
-var isArguments = require('../lang/isArguments'),
-    isArray = require('../lang/isArray'),
-    isIndex = require('./isIndex'),
-    isLength = require('./isLength'),
-    keysIn = require('../object/keysIn'),
-    support = require('../support');
-
-/** Used for native method references. */
-var objectProto = Object.prototype;
-
-/** Used to check objects for own properties. */
-var hasOwnProperty = objectProto.hasOwnProperty;
-
-/**
- * A fallback implementation of `Object.keys` which creates an array of the
- * own enumerable property names of `object`.
- *
- * @private
- * @param {Object} object The object to query.
- * @returns {Array} Returns the array of property names.
- */
-function shimKeys(object) {
-  var props = keysIn(object),
-      propsLength = props.length,
-      length = propsLength && object.length;
-
-  var allowIndexes = length && isLength(length) &&
-    (isArray(object) || (support.nonEnumArgs && isArguments(object)));
-
-  var index = -1,
-      result = [];
-
-  while (++index < propsLength) {
-    var key = props[index];
-    if ((allowIndexes && isIndex(key, length)) || hasOwnProperty.call(object, key)) {
-      result.push(key);
-    }
-  }
-  return result;
-}
-
-module.exports = shimKeys;
-
-},{"../lang/isArguments":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArguments.js","../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","../object/keysIn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keysIn.js","../support":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\support.js","./isIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIndex.js","./isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\sortedUniq.js":[function(require,module,exports){
-/**
- * An implementation of `_.uniq` optimized for sorted arrays without support
- * for callback shorthands and `this` binding.
- *
- * @private
- * @param {Array} array The array to inspect.
- * @param {Function} [iteratee] The function invoked per iteration.
- * @returns {Array} Returns the new duplicate-value-free array.
- */
-function sortedUniq(array, iteratee) {
-  var seen,
-      index = -1,
-      length = array.length,
-      resIndex = -1,
-      result = [];
-
-  while (++index < length) {
-    var value = array[index],
-        computed = iteratee ? iteratee(value, index, array) : value;
-
-    if (!index || seen !== computed) {
-      seen = computed;
-      result[++resIndex] = value;
-    }
-  }
-  return result;
-}
-
-module.exports = sortedUniq;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js":[function(require,module,exports){
-var isObject = require('../lang/isObject');
-
-/**
- * Converts `value` to an object if it is not one.
- *
- * @private
- * @param {*} value The value to process.
- * @returns {Object} Returns the object.
- */
-function toObject(value) {
-  return isObject(value) ? value : Object(value);
-}
-
-module.exports = toObject;
-
-},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toPath.js":[function(require,module,exports){
-var baseToString = require('./baseToString'),
-    isArray = require('../lang/isArray');
-
-/** Used to match property names within property paths. */
-var rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\n\\]|\\.)*?)\2)\]/g;
-
-/** Used to match backslashes in property paths. */
-var reEscapeChar = /\\(\\)?/g;
-
-/**
- * Converts `value` to property path array if it is not one.
- *
- * @private
- * @param {*} value The value to process.
- * @returns {Array} Returns the property path array.
- */
-function toPath(value) {
-  if (isArray(value)) {
-    return value;
-  }
-  var result = [];
-  baseToString(value).replace(rePropName, function(match, number, quote, string) {
-    result.push(quote ? string.replace(reEscapeChar, '$1') : (number || match));
-  });
-  return result;
-}
-
-module.exports = toPath;
-
-},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","./baseToString":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseToString.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\clone.js":[function(require,module,exports){
-var baseClone = require('../internal/baseClone'),
-    bindCallback = require('../internal/bindCallback'),
-    isIterateeCall = require('../internal/isIterateeCall');
-
-/**
- * Creates a clone of `value`. If `isDeep` is `true` nested objects are cloned,
- * otherwise they are assigned by reference. If `customizer` is provided it is
- * invoked to produce the cloned values. If `customizer` returns `undefined`
- * cloning is handled by the method instead. The `customizer` is bound to
- * `thisArg` and invoked with two argument; (value [, index|key, object]).
- *
- * **Note:** This method is loosely based on the
- * [structured clone algorithm](http://www.w3.org/TR/html5/infrastructure.html#internal-structured-cloning-algorithm).
- * The enumerable properties of `arguments` objects and objects created by
- * constructors other than `Object` are cloned to plain `Object` objects. An
- * empty object is returned for uncloneable values such as functions, DOM nodes,
- * Maps, Sets, and WeakMaps.
- *
- * @static
- * @memberOf _
- * @category Lang
- * @param {*} value The value to clone.
- * @param {boolean} [isDeep] Specify a deep clone.
- * @param {Function} [customizer] The function to customize cloning values.
- * @param {*} [thisArg] The `this` binding of `customizer`.
- * @returns {*} Returns the cloned value.
- * @example
- *
- * var users = [
- *   { 'user': 'barney' },
- *   { 'user': 'fred' }
- * ];
- *
- * var shallow = _.clone(users);
- * shallow[0] === users[0];
- * // => true
- *
- * var deep = _.clone(users, true);
- * deep[0] === users[0];
- * // => false
- *
- * // using a customizer callback
- * var el = _.clone(document.body, function(value) {
- *   if (_.isElement(value)) {
- *     return value.cloneNode(false);
- *   }
- * });
- *
- * el === document.body
- * // => false
- * el.nodeName
- * // => BODY
- * el.childNodes.length;
- * // => 0
- */
-function clone(value, isDeep, customizer, thisArg) {
-  if (isDeep && typeof isDeep != 'boolean' && isIterateeCall(value, isDeep, customizer)) {
-    isDeep = false;
-  }
-  else if (typeof isDeep == 'function') {
-    thisArg = customizer;
-    customizer = isDeep;
-    isDeep = false;
-  }
-  customizer = typeof customizer == 'function' && bindCallback(customizer, thisArg, 1);
-  return baseClone(value, isDeep, customizer);
-}
-
-module.exports = clone;
-
-},{"../internal/baseClone":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseClone.js","../internal/bindCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bindCallback.js","../internal/isIterateeCall":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIterateeCall.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArguments.js":[function(require,module,exports){
-var isArrayLike = require('../internal/isArrayLike'),
-    isObjectLike = require('../internal/isObjectLike');
-
-/** `Object#toString` result references. */
-var argsTag = '[object Arguments]';
-
-/** Used for native method references. */
-var objectProto = Object.prototype;
-
-/**
- * Used to resolve the [`toStringTag`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.prototype.tostring)
- * of values.
- */
-var objToString = objectProto.toString;
-
-/**
- * Checks if `value` is classified as an `arguments` object.
- *
- * @static
- * @memberOf _
- * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
- * @example
- *
- * _.isArguments(function() { return arguments; }());
- * // => true
- *
- * _.isArguments([1, 2, 3]);
- * // => false
- */
-function isArguments(value) {
-  return isObjectLike(value) && isArrayLike(value) && objToString.call(value) == argsTag;
-}
-
-module.exports = isArguments;
-
-},{"../internal/isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js","../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js":[function(require,module,exports){
-var isLength = require('../internal/isLength'),
-    isNative = require('./isNative'),
-    isObjectLike = require('../internal/isObjectLike');
-
-/** `Object#toString` result references. */
-var arrayTag = '[object Array]';
-
-/** Used for native method references. */
-var objectProto = Object.prototype;
-
-/**
- * Used to resolve the [`toStringTag`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.prototype.tostring)
- * of values.
- */
-var objToString = objectProto.toString;
-
-/* Native method references for those with the same name as other `lodash` methods. */
-var nativeIsArray = isNative(nativeIsArray = Array.isArray) && nativeIsArray;
-
-/**
- * Checks if `value` is classified as an `Array` object.
- *
- * @static
- * @memberOf _
- * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
- * @example
- *
- * _.isArray([1, 2, 3]);
- * // => true
- *
- * _.isArray(function() { return arguments; }());
- * // => false
- */
-var isArray = nativeIsArray || function(value) {
-  return isObjectLike(value) && isLength(value.length) && objToString.call(value) == arrayTag;
-};
-
-module.exports = isArray;
-
-},{"../internal/isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js","../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js","./isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isFunction.js":[function(require,module,exports){
-(function (global){
-var baseIsFunction = require('../internal/baseIsFunction'),
-    isNative = require('./isNative');
-
-/** `Object#toString` result references. */
-var funcTag = '[object Function]';
-
-/** Used for native method references. */
-var objectProto = Object.prototype;
-
-/**
- * Used to resolve the [`toStringTag`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.prototype.tostring)
- * of values.
- */
-var objToString = objectProto.toString;
-
-/** Native method references. */
-var Uint8Array = isNative(Uint8Array = global.Uint8Array) && Uint8Array;
-
-/**
- * Checks if `value` is classified as a `Function` object.
- *
- * @static
- * @memberOf _
- * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
- * @example
- *
- * _.isFunction(_);
- * // => true
- *
- * _.isFunction(/abc/);
- * // => false
- */
-var isFunction = !(baseIsFunction(/x/) || (Uint8Array && !baseIsFunction(Uint8Array))) ? baseIsFunction : function(value) {
-  // The use of `Object#toString` avoids issues with the `typeof` operator
-  // in older versions of Chrome and Safari which return 'function' for regexes
-  // and Safari 8 equivalents which return 'object' for typed array constructors.
-  return objToString.call(value) == funcTag;
-};
-
-module.exports = isFunction;
-
-}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"../internal/baseIsFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsFunction.js","./isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js":[function(require,module,exports){
-var escapeRegExp = require('../string/escapeRegExp'),
-    isObjectLike = require('../internal/isObjectLike');
-
-/** `Object#toString` result references. */
-var funcTag = '[object Function]';
-
-/** Used to detect host constructors (Safari > 5). */
-var reIsHostCtor = /^\[object .+?Constructor\]$/;
-
-/** Used for native method references. */
-var objectProto = Object.prototype;
-
-/** Used to resolve the decompiled source of functions. */
-var fnToString = Function.prototype.toString;
-
-/**
- * Used to resolve the [`toStringTag`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.prototype.tostring)
- * of values.
- */
-var objToString = objectProto.toString;
-
-/** Used to detect if a method is native. */
-var reIsNative = RegExp('^' +
-  escapeRegExp(objToString)
-  .replace(/toString|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
-);
-
-/**
- * Checks if `value` is a native function.
- *
- * @static
- * @memberOf _
- * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is a native function, else `false`.
- * @example
- *
- * _.isNative(Array.prototype.push);
- * // => true
- *
- * _.isNative(_);
- * // => false
- */
-function isNative(value) {
-  if (value == null) {
-    return false;
-  }
-  if (objToString.call(value) == funcTag) {
-    return reIsNative.test(fnToString.call(value));
-  }
-  return isObjectLike(value) && reIsHostCtor.test(value);
-}
-
-module.exports = isNative;
-
-},{"../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js","../string/escapeRegExp":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\string\\escapeRegExp.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js":[function(require,module,exports){
-/**
- * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
- * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
- *
- * @static
- * @memberOf _
- * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is an object, else `false`.
- * @example
- *
- * _.isObject({});
- * // => true
- *
- * _.isObject([1, 2, 3]);
- * // => true
- *
- * _.isObject(1);
- * // => false
- */
-function isObject(value) {
-  // Avoid a V8 JIT bug in Chrome 19-20.
-  // See https://code.google.com/p/v8/issues/detail?id=2291 for more details.
-  var type = typeof value;
-  return type == 'function' || (!!value && type == 'object');
-}
-
-module.exports = isObject;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isString.js":[function(require,module,exports){
-var isObjectLike = require('../internal/isObjectLike');
-
-/** `Object#toString` result references. */
-var stringTag = '[object String]';
-
-/** Used for native method references. */
-var objectProto = Object.prototype;
-
-/**
- * Used to resolve the [`toStringTag`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.prototype.tostring)
- * of values.
- */
-var objToString = objectProto.toString;
-
-/**
- * Checks if `value` is classified as a `String` primitive or object.
- *
- * @static
- * @memberOf _
- * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
- * @example
- *
- * _.isString('abc');
- * // => true
- *
- * _.isString(1);
- * // => false
- */
-function isString(value) {
-  return typeof value == 'string' || (isObjectLike(value) && objToString.call(value) == stringTag);
-}
-
-module.exports = isString;
-
-},{"../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isTypedArray.js":[function(require,module,exports){
-var isLength = require('../internal/isLength'),
-    isObjectLike = require('../internal/isObjectLike');
-
-/** `Object#toString` result references. */
-var argsTag = '[object Arguments]',
-    arrayTag = '[object Array]',
-    boolTag = '[object Boolean]',
-    dateTag = '[object Date]',
-    errorTag = '[object Error]',
-    funcTag = '[object Function]',
-    mapTag = '[object Map]',
-    numberTag = '[object Number]',
-    objectTag = '[object Object]',
-    regexpTag = '[object RegExp]',
-    setTag = '[object Set]',
-    stringTag = '[object String]',
-    weakMapTag = '[object WeakMap]';
-
-var arrayBufferTag = '[object ArrayBuffer]',
-    float32Tag = '[object Float32Array]',
-    float64Tag = '[object Float64Array]',
-    int8Tag = '[object Int8Array]',
-    int16Tag = '[object Int16Array]',
-    int32Tag = '[object Int32Array]',
-    uint8Tag = '[object Uint8Array]',
-    uint8ClampedTag = '[object Uint8ClampedArray]',
-    uint16Tag = '[object Uint16Array]',
-    uint32Tag = '[object Uint32Array]';
-
-/** Used to identify `toStringTag` values of typed arrays. */
-var typedArrayTags = {};
-typedArrayTags[float32Tag] = typedArrayTags[float64Tag] =
-typedArrayTags[int8Tag] = typedArrayTags[int16Tag] =
-typedArrayTags[int32Tag] = typedArrayTags[uint8Tag] =
-typedArrayTags[uint8ClampedTag] = typedArrayTags[uint16Tag] =
-typedArrayTags[uint32Tag] = true;
-typedArrayTags[argsTag] = typedArrayTags[arrayTag] =
-typedArrayTags[arrayBufferTag] = typedArrayTags[boolTag] =
-typedArrayTags[dateTag] = typedArrayTags[errorTag] =
-typedArrayTags[funcTag] = typedArrayTags[mapTag] =
-typedArrayTags[numberTag] = typedArrayTags[objectTag] =
-typedArrayTags[regexpTag] = typedArrayTags[setTag] =
-typedArrayTags[stringTag] = typedArrayTags[weakMapTag] = false;
-
-/** Used for native method references. */
-var objectProto = Object.prototype;
-
-/**
- * Used to resolve the [`toStringTag`](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.prototype.tostring)
- * of values.
- */
-var objToString = objectProto.toString;
-
-/**
- * Checks if `value` is classified as a typed array.
- *
- * @static
- * @memberOf _
- * @category Lang
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
- * @example
- *
- * _.isTypedArray(new Uint8Array);
- * // => true
- *
- * _.isTypedArray([]);
- * // => false
- */
-function isTypedArray(value) {
-  return isObjectLike(value) && isLength(value.length) && !!typedArrayTags[objToString.call(value)];
-}
-
-module.exports = isTypedArray;
-
-},{"../internal/isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js","../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\findKey.js":[function(require,module,exports){
-var baseForOwn = require('../internal/baseForOwn'),
-    createFindKey = require('../internal/createFindKey');
-
-/**
- * This method is like `_.find` except that it returns the key of the first
- * element `predicate` returns truthy for instead of the element itself.
- *
- * If a property name is provided for `predicate` the created `_.property`
- * style callback returns the property value of the given element.
- *
- * If a value is also provided for `thisArg` the created `_.matchesProperty`
- * style callback returns `true` for elements that have a matching property
- * value, else `false`.
- *
- * If an object is provided for `predicate` the created `_.matches` style
- * callback returns `true` for elements that have the properties of the given
- * object, else `false`.
- *
- * @static
- * @memberOf _
- * @category Object
- * @param {Object} object The object to search.
- * @param {Function|Object|string} [predicate=_.identity] The function invoked
- *  per iteration.
- * @param {*} [thisArg] The `this` binding of `predicate`.
- * @returns {string|undefined} Returns the key of the matched element, else `undefined`.
- * @example
- *
- * var users = {
- *   'barney':  { 'age': 36, 'active': true },
- *   'fred':    { 'age': 40, 'active': false },
- *   'pebbles': { 'age': 1,  'active': true }
- * };
- *
- * _.findKey(users, function(chr) {
- *   return chr.age < 40;
- * });
- * // => 'barney' (iteration order is not guaranteed)
- *
- * // using the `_.matches` callback shorthand
- * _.findKey(users, { 'age': 1, 'active': true });
- * // => 'pebbles'
- *
- * // using the `_.matchesProperty` callback shorthand
- * _.findKey(users, 'active', false);
- * // => 'fred'
- *
- * // using the `_.property` callback shorthand
- * _.findKey(users, 'active');
- * // => 'barney'
- */
-var findKey = createFindKey(baseForOwn);
-
-module.exports = findKey;
-
-},{"../internal/baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js","../internal/createFindKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createFindKey.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\forOwn.js":[function(require,module,exports){
-var baseForOwn = require('../internal/baseForOwn'),
-    createForOwn = require('../internal/createForOwn');
-
-/**
- * Iterates over own enumerable properties of an object invoking `iteratee`
- * for each property. The `iteratee` is bound to `thisArg` and invoked with
- * three arguments: (value, key, object). Iteratee functions may exit iteration
- * early by explicitly returning `false`.
- *
- * @static
- * @memberOf _
- * @category Object
- * @param {Object} object The object to iterate over.
- * @param {Function} [iteratee=_.identity] The function invoked per iteration.
- * @param {*} [thisArg] The `this` binding of `iteratee`.
- * @returns {Object} Returns `object`.
- * @example
- *
- * function Foo() {
- *   this.a = 1;
- *   this.b = 2;
- * }
- *
- * Foo.prototype.c = 3;
- *
- * _.forOwn(new Foo, function(value, key) {
- *   console.log(key);
- * });
- * // => logs 'a' and 'b' (iteration order is not guaranteed)
- */
-var forOwn = createForOwn(baseForOwn);
-
-module.exports = forOwn;
-
-},{"../internal/baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js","../internal/createForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createForOwn.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keys.js":[function(require,module,exports){
-var isArrayLike = require('../internal/isArrayLike'),
-    isNative = require('../lang/isNative'),
-    isObject = require('../lang/isObject'),
-    shimKeys = require('../internal/shimKeys');
-
-/* Native method references for those with the same name as other `lodash` methods. */
-var nativeKeys = isNative(nativeKeys = Object.keys) && nativeKeys;
-
-/**
- * Creates an array of the own enumerable property names of `object`.
- *
- * **Note:** Non-object values are coerced to objects. See the
- * [ES spec](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.keys)
- * for more details.
- *
- * @static
- * @memberOf _
- * @category Object
- * @param {Object} object The object to query.
- * @returns {Array} Returns the array of property names.
- * @example
- *
- * function Foo() {
- *   this.a = 1;
- *   this.b = 2;
- * }
- *
- * Foo.prototype.c = 3;
- *
- * _.keys(new Foo);
- * // => ['a', 'b'] (iteration order is not guaranteed)
- *
- * _.keys('hi');
- * // => ['0', '1']
- */
-var keys = !nativeKeys ? shimKeys : function(object) {
-  var Ctor = object != null && object.constructor;
-  if ((typeof Ctor == 'function' && Ctor.prototype === object) ||
-      (typeof object != 'function' && isArrayLike(object))) {
-    return shimKeys(object);
-  }
-  return isObject(object) ? nativeKeys(object) : [];
-};
-
-module.exports = keys;
-
-},{"../internal/isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js","../internal/shimKeys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\shimKeys.js","../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js","../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keysIn.js":[function(require,module,exports){
-var isArguments = require('../lang/isArguments'),
-    isArray = require('../lang/isArray'),
-    isIndex = require('../internal/isIndex'),
-    isLength = require('../internal/isLength'),
-    isObject = require('../lang/isObject'),
-    support = require('../support');
-
-/** Used for native method references. */
-var objectProto = Object.prototype;
-
-/** Used to check objects for own properties. */
-var hasOwnProperty = objectProto.hasOwnProperty;
-
-/**
- * Creates an array of the own and inherited enumerable property names of `object`.
- *
- * **Note:** Non-object values are coerced to objects.
- *
- * @static
- * @memberOf _
- * @category Object
- * @param {Object} object The object to query.
- * @returns {Array} Returns the array of property names.
- * @example
- *
- * function Foo() {
- *   this.a = 1;
- *   this.b = 2;
- * }
- *
- * Foo.prototype.c = 3;
- *
- * _.keysIn(new Foo);
- * // => ['a', 'b', 'c'] (iteration order is not guaranteed)
- */
-function keysIn(object) {
-  if (object == null) {
-    return [];
-  }
-  if (!isObject(object)) {
-    object = Object(object);
-  }
-  var length = object.length;
-  length = (length && isLength(length) &&
-    (isArray(object) || (support.nonEnumArgs && isArguments(object))) && length) || 0;
-
-  var Ctor = object.constructor,
-      index = -1,
-      isProto = typeof Ctor == 'function' && Ctor.prototype === object,
-      result = Array(length),
-      skipIndexes = length > 0;
-
-  while (++index < length) {
-    result[index] = (index + '');
-  }
-  for (var key in object) {
-    if (!(skipIndexes && isIndex(key, length)) &&
-        !(key == 'constructor' && (isProto || !hasOwnProperty.call(object, key)))) {
-      result.push(key);
-    }
-  }
-  return result;
-}
-
-module.exports = keysIn;
-
-},{"../internal/isIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIndex.js","../internal/isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js","../lang/isArguments":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArguments.js","../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js","../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js","../support":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\support.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\mapValues.js":[function(require,module,exports){
-var createObjectMapper = require('../internal/createObjectMapper');
-
-/**
- * Creates an object with the same keys as `object` and values generated by
- * running each own enumerable property of `object` through `iteratee`. The
- * iteratee function is bound to `thisArg` and invoked with three arguments:
- * (value, key, object).
- *
- * If a property name is provided for `iteratee` the created `_.property`
- * style callback returns the property value of the given element.
- *
- * If a value is also provided for `thisArg` the created `_.matchesProperty`
- * style callback returns `true` for elements that have a matching property
- * value, else `false`.
- *
- * If an object is provided for `iteratee` the created `_.matches` style
- * callback returns `true` for elements that have the properties of the given
- * object, else `false`.
- *
- * @static
- * @memberOf _
- * @category Object
- * @param {Object} object The object to iterate over.
- * @param {Function|Object|string} [iteratee=_.identity] The function invoked
- *  per iteration.
- * @param {*} [thisArg] The `this` binding of `iteratee`.
- * @returns {Object} Returns the new mapped object.
- * @example
- *
- * _.mapValues({ 'a': 1, 'b': 2 }, function(n) {
- *   return n * 3;
- * });
- * // => { 'a': 3, 'b': 6 }
- *
- * var users = {
- *   'fred':    { 'user': 'fred',    'age': 40 },
- *   'pebbles': { 'user': 'pebbles', 'age': 1 }
- * };
- *
- * // using the `_.property` callback shorthand
- * _.mapValues(users, 'age');
- * // => { 'fred': 40, 'pebbles': 1 } (iteration order is not guaranteed)
- */
-var mapValues = createObjectMapper();
-
-module.exports = mapValues;
-
-},{"../internal/createObjectMapper":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createObjectMapper.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\string\\escapeRegExp.js":[function(require,module,exports){
-var baseToString = require('../internal/baseToString');
-
-/**
- * Used to match `RegExp` [special characters](http://www.regular-expressions.info/characters.html#special).
- * In addition to special characters the forward slash is escaped to allow for
- * easier `eval` use and `Function` compilation.
- */
-var reRegExpChars = /[.*+?^${}()|[\]\/\\]/g,
-    reHasRegExpChars = RegExp(reRegExpChars.source);
-
-/**
- * Escapes the `RegExp` special characters "\", "/", "^", "$", ".", "|", "?",
- * "*", "+", "(", ")", "[", "]", "{" and "}" in `string`.
- *
- * @static
- * @memberOf _
- * @category String
- * @param {string} [string=''] The string to escape.
- * @returns {string} Returns the escaped string.
- * @example
- *
- * _.escapeRegExp('[lodash](https://lodash.com/)');
- * // => '\[lodash\]\(https:\/\/lodash\.com\/\)'
- */
-function escapeRegExp(string) {
-  string = baseToString(string);
-  return (string && reHasRegExpChars.test(string))
-    ? string.replace(reRegExpChars, '\\$&')
-    : string;
-}
-
-module.exports = escapeRegExp;
-
-},{"../internal/baseToString":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseToString.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\support.js":[function(require,module,exports){
-(function (global){
-/** Used for native method references. */
-var objectProto = Object.prototype;
-
-/** Used to detect DOM support. */
-var document = (document = global.window) && document.document;
-
-/** Native method references. */
-var propertyIsEnumerable = objectProto.propertyIsEnumerable;
-
-/**
- * An object environment feature flags.
- *
- * @static
- * @memberOf _
- * @type Object
- */
-var support = {};
-
-(function(x) {
-  var Ctor = function() { this.x = x; },
-      args = arguments,
-      object = { '0': x, 'length': x },
-      props = [];
-
-  Ctor.prototype = { 'valueOf': x, 'y': x };
-  for (var key in new Ctor) { props.push(key); }
-
-  /**
-   * Detect if functions can be decompiled by `Function#toString`
-   * (all but Firefox OS certified apps, older Opera mobile browsers, and
-   * the PlayStation 3; forced `false` for Windows 8 apps).
-   *
-   * @memberOf _.support
-   * @type boolean
-   */
-  support.funcDecomp = /\bthis\b/.test(function() { return this; });
-
-  /**
-   * Detect if `Function#name` is supported (all but IE).
-   *
-   * @memberOf _.support
-   * @type boolean
-   */
-  support.funcNames = typeof Function.name == 'string';
-
-  /**
-   * Detect if the DOM is supported.
-   *
-   * @memberOf _.support
-   * @type boolean
-   */
-  try {
-    support.dom = document.createDocumentFragment().nodeType === 11;
-  } catch(e) {
-    support.dom = false;
-  }
-
-  /**
-   * Detect if `arguments` object indexes are non-enumerable.
-   *
-   * In Firefox < 4, IE < 9, PhantomJS, and Safari < 5.1 `arguments` object
-   * indexes are non-enumerable. Chrome < 25 and Node.js < 0.11.0 treat
-   * `arguments` object indexes as non-enumerable and fail `hasOwnProperty`
-   * checks for indexes that exceed the number of function parameters and
-   * whose associated argument values are `0`.
-   *
-   * @memberOf _.support
-   * @type boolean
-   */
-  try {
-    support.nonEnumArgs = !propertyIsEnumerable.call(args, 1);
-  } catch(e) {
-    support.nonEnumArgs = true;
-  }
-}(1, 0));
-
-module.exports = support;
-
-}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\constant.js":[function(require,module,exports){
-/**
- * Creates a function that returns `value`.
- *
- * @static
- * @memberOf _
- * @category Utility
- * @param {*} value The value to return from the new function.
- * @returns {Function} Returns the new function.
- * @example
- *
- * var object = { 'user': 'fred' };
- * var getter = _.constant(object);
- *
- * getter() === object;
- * // => true
- */
-function constant(value) {
-  return function() {
-    return value;
-  };
-}
-
-module.exports = constant;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\identity.js":[function(require,module,exports){
-/**
- * This method returns the first argument provided to it.
- *
- * @static
- * @memberOf _
- * @category Utility
- * @param {*} value Any value.
- * @returns {*} Returns `value`.
- * @example
- *
- * var object = { 'user': 'fred' };
- *
- * _.identity(object) === object;
- * // => true
- */
-function identity(value) {
-  return value;
-}
-
-module.exports = identity;
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\property.js":[function(require,module,exports){
-var baseProperty = require('../internal/baseProperty'),
-    basePropertyDeep = require('../internal/basePropertyDeep'),
-    isKey = require('../internal/isKey');
-
-/**
- * Creates a function which returns the property value at `path` on a
- * given object.
- *
- * @static
- * @memberOf _
- * @category Utility
- * @param {Array|string} path The path of the property to get.
- * @returns {Function} Returns the new function.
- * @example
- *
- * var objects = [
- *   { 'a': { 'b': { 'c': 2 } } },
- *   { 'a': { 'b': { 'c': 1 } } }
- * ];
- *
- * _.map(objects, _.property('a.b.c'));
- * // => [2, 1]
- *
- * _.pluck(_.sortBy(objects, _.property(['a', 'b', 'c'])), 'a.b.c');
- * // => [1, 2]
- */
-function property(path) {
-  return isKey(path) ? baseProperty(path) : basePropertyDeep(path);
-}
-
-module.exports = property;
-
-},{"../internal/baseProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseProperty.js","../internal/basePropertyDeep":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\basePropertyDeep.js","../internal/isKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isKey.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\object-path\\index.js":[function(require,module,exports){
-(function (root, factory){
-  'use strict';
-
-  /*istanbul ignore next:cant test*/
-  if (typeof module === 'object' && typeof module.exports === 'object') {
-    module.exports = factory();
-  } else if (typeof define === 'function' && define.amd) {
-    // AMD. Register as an anonymous module.
-    define([], factory);
-  } else {
-    // Browser globals
-    root.objectPath = factory();
-  }
-})(this, function(){
-  'use strict';
-
-  var
-    toStr = Object.prototype.toString,
-    _hasOwnProperty = Object.prototype.hasOwnProperty;
-
-  function isEmpty(value){
-    if (!value) {
-      return true;
-    }
-    if (isArray(value) && value.length === 0) {
-      return true;
-    } else {
-      for (var i in value) {
-        if (_hasOwnProperty.call(value, i)) {
-          return false;
-        }
-      }
-      return true;
-    }
-  }
-
-  function toString(type){
-    return toStr.call(type);
-  }
-
-  function isNumber(value){
-    return typeof value === 'number' || toString(value) === "[object Number]";
-  }
-
-  function isString(obj){
-    return typeof obj === 'string' || toString(obj) === "[object String]";
-  }
-
-  function isObject(obj){
-    return typeof obj === 'object' && toString(obj) === "[object Object]";
-  }
-
-  function isArray(obj){
-    return typeof obj === 'object' && typeof obj.length === 'number' && toString(obj) === '[object Array]';
-  }
-
-  function isBoolean(obj){
-    return typeof obj === 'boolean' || toString(obj) === '[object Boolean]';
-  }
-
-  function getKey(key){
-    var intKey = parseInt(key);
-    if (intKey.toString() === key) {
-      return intKey;
-    }
-    return key;
-  }
-
-  function set(obj, path, value, doNotReplace){
-    if (isNumber(path)) {
-      path = [path];
-    }
-    if (isEmpty(path)) {
-      return obj;
-    }
-    if (isString(path)) {
-      return set(obj, path.split('.'), value, doNotReplace);
-    }
-    var currentPath = getKey(path[0]);
-
-    if (path.length === 1) {
-      var oldVal = obj[currentPath];
-      if (oldVal === void 0 || !doNotReplace) {
-        obj[currentPath] = value;
-      }
-      return oldVal;
-    }
-
-    if (obj[currentPath] === void 0) {
-      if (isNumber(currentPath)) {
-        obj[currentPath] = [];
-      } else {
-        obj[currentPath] = {};
-      }
-    }
-
-    return set(obj[currentPath], path.slice(1), value, doNotReplace);
-  }
-
-  function del(obj, path) {
-    if (isNumber(path)) {
-      path = [path];
-    }
-
-    if (isEmpty(obj)) {
-      return void 0;
-    }
-
-    if (isEmpty(path)) {
-      return obj;
-    }
-    if(isString(path)) {
-      return del(obj, path.split('.'));
-    }
-
-    var currentPath = getKey(path[0]);
-    var oldVal = obj[currentPath];
-
-    if(path.length === 1) {
-      if (oldVal !== void 0) {
-        if (isArray(obj)) {
-          obj.splice(currentPath, 1);
-        } else {
-          delete obj[currentPath];
-        }
-      }
-    } else {
-      if (obj[currentPath] !== void 0) {
-        return del(obj[currentPath], path.slice(1));
-      }
-    }
-
-    return obj;
-  }
-
-  var objectPath = {};
-
-  objectPath.ensureExists = function (obj, path, value){
-    return set(obj, path, value, true);
-  };
-
-  objectPath.set = function (obj, path, value, doNotReplace){
-    return set(obj, path, value, doNotReplace);
-  };
-
-  objectPath.insert = function (obj, path, value, at){
-    var arr = objectPath.get(obj, path);
-    at = ~~at;
-    if (!isArray(arr)) {
-      arr = [];
-      objectPath.set(obj, path, arr);
-    }
-    arr.splice(at, 0, value);
-  };
-
-  objectPath.empty = function(obj, path) {
-    if (isEmpty(path)) {
-      return obj;
-    }
-    if (isEmpty(obj)) {
-      return void 0;
-    }
-
-    var value, i;
-    if (!(value = objectPath.get(obj, path))) {
-      return obj;
-    }
-
-    if (isString(value)) {
-      return objectPath.set(obj, path, '');
-    } else if (isBoolean(value)) {
-      return objectPath.set(obj, path, false);
-    } else if (isNumber(value)) {
-      return objectPath.set(obj, path, 0);
-    } else if (isArray(value)) {
-      value.length = 0;
-    } else if (isObject(value)) {
-      for (i in value) {
-        if (_hasOwnProperty.call(value, i)) {
-          delete value[i];
-        }
-      }
-    } else {
-      return objectPath.set(obj, path, null);
-    }
-  };
-
-  objectPath.push = function (obj, path /*, values */){
-    var arr = objectPath.get(obj, path);
-    if (!isArray(arr)) {
-      arr = [];
-      objectPath.set(obj, path, arr);
-    }
-
-    arr.push.apply(arr, Array.prototype.slice.call(arguments, 2));
-  };
-
-  objectPath.coalesce = function (obj, paths, defaultValue) {
-    var value;
-
-    for (var i = 0, len = paths.length; i < len; i++) {
-      if ((value = objectPath.get(obj, paths[i])) !== void 0) {
-        return value;
-      }
-    }
-
-    return defaultValue;
-  };
-
-  objectPath.get = function (obj, path, defaultValue){
-    if (isNumber(path)) {
-      path = [path];
-    }
-    if (isEmpty(path)) {
-      return obj;
-    }
-    if (isEmpty(obj)) {
-      return defaultValue;
-    }
-    if (isString(path)) {
-      return objectPath.get(obj, path.split('.'), defaultValue);
-    }
-
-    var currentPath = getKey(path[0]);
-
-    if (path.length === 1) {
-      if (obj[currentPath] === void 0) {
-        return defaultValue;
-      }
-      return obj[currentPath];
-    }
-
-    return objectPath.get(obj[currentPath], path.slice(1), defaultValue);
-  };
-
-  objectPath.del = function(obj, path) {
-    return del(obj, path);
-  };
-
-  return objectPath;
-});
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\version.js":[function(require,module,exports){
-module.exports = "1.6.0"
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js":[function(require,module,exports){
-// shim for using process in browser
-
-var process = module.exports = {};
-var queue = [];
-var draining = false;
-
-function drainQueue() {
-    if (draining) {
-        return;
-    }
-    draining = true;
-    var currentQueue;
-    var len = queue.length;
-    while(len) {
-        currentQueue = queue;
-        queue = [];
-        var i = -1;
-        while (++i < len) {
-            currentQueue[i]();
-        }
-        len = queue.length;
-    }
-    draining = false;
-}
-process.nextTick = function (fun) {
-    queue.push(fun);
-    if (!draining) {
-        setTimeout(drainQueue, 0);
-    }
-};
-
-process.title = 'browser';
-process.browser = true;
-process.env = {};
-process.argv = [];
-process.version = ''; // empty string to avoid regexp issues
-process.versions = {};
-
-function noop() {}
-
-process.on = noop;
-process.addListener = noop;
-process.once = noop;
-process.off = noop;
-process.removeListener = noop;
-process.removeAllListeners = noop;
-process.emit = noop;
-
-process.binding = function (name) {
-    throw new Error('process.binding is not supported');
-};
-
-// TODO(shtylman)
-process.cwd = function () { return '/' };
-process.chdir = function (dir) {
-    throw new Error('process.chdir is not supported');
-};
-process.umask = function() { return 0; };
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\classnames\\index.js":[function(require,module,exports){
-/*!
-  Copyright (c) 2015 Jed Watson.
-  Licensed under the MIT License (MIT), see
-  http://jedwatson.github.io/classnames
-*/
-
-(function () {
-	'use strict';
-
-	function classNames () {
-
-		var classes = '';
-
-		for (var i = 0; i < arguments.length; i++) {
-			var arg = arguments[i];
-			if (!arg) continue;
-
-			var argType = typeof arg;
-
-			if ('string' === argType || 'number' === argType) {
-				classes += ' ' + arg;
-
-			} else if (Array.isArray(arg)) {
-				classes += ' ' + classNames.apply(null, arg);
-
-			} else if ('object' === argType) {
-				for (var key in arg) {
-					if (arg.hasOwnProperty(key) && arg[key]) {
-						classes += ' ' + key;
-					}
-				}
-			}
-		}
-
-		return classes.substr(1);
-	}
-
-	if (typeof define === 'function' && typeof define.amd === 'object' && define.amd) {
-		// AMD. Register as an anonymous module.
-		define(function () {
-			return classNames;
-		});
-	} else if (typeof module !== 'undefined' && module.exports) {
-		module.exports = classNames;
-	} else {
-		window.classNames = classNames;
-	}
-
-}());
-
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\index.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\index.js"][0].apply(exports,arguments)
-},{"./lib/create_store":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\create_store.js","./lib/dispatcher":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\dispatcher.js","./lib/flux":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\flux.js","./lib/flux_child_mixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\flux_child_mixin.js","./lib/flux_mixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\flux_mixin.js","./lib/store_watch_mixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\store_watch_mixin.js","./version":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\version.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\create_store.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\create_store.js"][0].apply(exports,arguments)
-},{"./store":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\store.js","./util/inherits":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\util\\inherits.js","lodash/collection/forEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\forEach.js","lodash/lang/isFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isFunction.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\dispatcher.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\dispatcher.js"][0].apply(exports,arguments)
-},{"lodash/array/intersection":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\array\\intersection.js","lodash/array/uniq":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\array\\uniq.js","lodash/collection/forEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\forEach.js","lodash/collection/map":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\map.js","lodash/collection/size":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\size.js","lodash/lang/clone":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\clone.js","lodash/object/findKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\findKey.js","lodash/object/forOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\forOwn.js","lodash/object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keys.js","lodash/object/mapValues":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\mapValues.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\flux.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux.js"][0].apply(exports,arguments)
-},{"./dispatcher":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\dispatcher.js","./util/inherits":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\util\\inherits.js","eventemitter3":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\eventemitter3\\index.js","lodash/collection/forEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\forEach.js","lodash/collection/reduce":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\reduce.js","lodash/lang/isFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isFunction.js","lodash/lang/isString":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isString.js","object-path":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\object-path\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\flux_child_mixin.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_child_mixin.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\flux_mixin.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\flux_mixin.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\store.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\store.js"][0].apply(exports,arguments)
-},{"./util/inherits":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\util\\inherits.js","eventemitter3":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\eventemitter3\\index.js","lodash/lang/isFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isFunction.js","lodash/lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\store_watch_mixin.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\store_watch_mixin.js"][0].apply(exports,arguments)
-},{"lodash/collection/forEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\forEach.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\lib\\util\\inherits.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\lib\\util\\inherits.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\eventemitter3\\index.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\eventemitter3\\index.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\array\\intersection.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\intersection.js"][0].apply(exports,arguments)
-},{"../internal/baseIndexOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIndexOf.js","../internal/cacheIndexOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\cacheIndexOf.js","../internal/createCache":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createCache.js","../internal/isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\array\\last.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\last.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\array\\uniq.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\array\\uniq.js"][0].apply(exports,arguments)
-},{"../internal/baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","../internal/baseUniq":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseUniq.js","../internal/isIterateeCall":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isIterateeCall.js","../internal/sortedUniq":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\sortedUniq.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\forEach.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\forEach.js"][0].apply(exports,arguments)
-},{"../internal/arrayEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayEach.js","../internal/baseEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseEach.js","../internal/createForEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createForEach.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\map.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\map.js"][0].apply(exports,arguments)
-},{"../internal/arrayMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayMap.js","../internal/baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","../internal/baseMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseMap.js","../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\reduce.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\reduce.js"][0].apply(exports,arguments)
-},{"../internal/arrayReduce":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayReduce.js","../internal/baseEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseEach.js","../internal/createReduce":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createReduce.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\collection\\size.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\collection\\size.js"][0].apply(exports,arguments)
-},{"../internal/getLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\getLength.js","../internal/isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isLength.js","../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keys.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\SetCache.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\SetCache.js"][0].apply(exports,arguments)
-},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js","./cachePush":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\cachePush.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayCopy.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayCopy.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayEach.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayEach.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayMap.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayMap.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayReduce.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\arrayReduce.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseAssign.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseAssign.js"][0].apply(exports,arguments)
-},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js","../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keys.js","./baseCopy":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseCopy.js","./getSymbols":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\getSymbols.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseCallback.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCallback.js"][0].apply(exports,arguments)
-},{"../utility/identity":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\identity.js","../utility/property":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\property.js","./baseMatches":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseMatches.js","./baseMatchesProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseMatchesProperty.js","./bindCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\bindCallback.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseClone.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseClone.js"][0].apply(exports,arguments)
-},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js","./arrayCopy":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayCopy.js","./arrayEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\arrayEach.js","./baseAssign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseAssign.js","./baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js","./initCloneArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\initCloneArray.js","./initCloneByTag":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\initCloneByTag.js","./initCloneObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\initCloneObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseCopy.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseCopy.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseEach.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseEach.js"][0].apply(exports,arguments)
-},{"./baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js","./createBaseEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createBaseEach.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseFind.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseFind.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseFor.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseFor.js"][0].apply(exports,arguments)
-},{"./createBaseFor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createBaseFor.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js"][0].apply(exports,arguments)
-},{"../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keys.js","./baseFor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseFor.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseGet.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseGet.js"][0].apply(exports,arguments)
-},{"./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIndexOf.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIndexOf.js"][0].apply(exports,arguments)
-},{"./indexOfNaN":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\indexOfNaN.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsEqual.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsEqual.js"][0].apply(exports,arguments)
-},{"./baseIsEqualDeep":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsEqualDeep.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsEqualDeep.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsEqualDeep.js"][0].apply(exports,arguments)
-},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","../lang/isTypedArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isTypedArray.js","./equalArrays":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\equalArrays.js","./equalByTag":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\equalByTag.js","./equalObjects":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\equalObjects.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsFunction.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsFunction.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsMatch.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseIsMatch.js"][0].apply(exports,arguments)
-},{"./baseIsEqual":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsEqual.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseMap.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMap.js"][0].apply(exports,arguments)
-},{"./baseEach":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseEach.js","./isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseMatches.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMatches.js"][0].apply(exports,arguments)
-},{"../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keys.js","../utility/constant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\constant.js","./baseIsMatch":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsMatch.js","./isStrictComparable":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isStrictComparable.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseMatchesProperty.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseMatchesProperty.js"][0].apply(exports,arguments)
-},{"../array/last":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\array\\last.js","../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","./baseGet":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseGet.js","./baseIsEqual":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsEqual.js","./baseSlice":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseSlice.js","./isKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isKey.js","./isStrictComparable":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isStrictComparable.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toObject.js","./toPath":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toPath.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseProperty.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseProperty.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\basePropertyDeep.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\basePropertyDeep.js"][0].apply(exports,arguments)
-},{"./baseGet":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseGet.js","./toPath":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toPath.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseReduce.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseReduce.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseSlice.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseSlice.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseToString.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseToString.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseUniq.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\baseUniq.js"][0].apply(exports,arguments)
-},{"./baseIndexOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIndexOf.js","./cacheIndexOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\cacheIndexOf.js","./createCache":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createCache.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\bindCallback.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bindCallback.js"][0].apply(exports,arguments)
-},{"../utility/identity":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\identity.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\bufferClone.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\bufferClone.js"][0].apply(exports,arguments)
-},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js","../utility/constant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\constant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\cacheIndexOf.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\cacheIndexOf.js"][0].apply(exports,arguments)
-},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\cachePush.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\cachePush.js"][0].apply(exports,arguments)
-},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createBaseEach.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createBaseEach.js"][0].apply(exports,arguments)
-},{"./getLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\getLength.js","./isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isLength.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createBaseFor.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createBaseFor.js"][0].apply(exports,arguments)
-},{"./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createCache.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createCache.js"][0].apply(exports,arguments)
-},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js","../utility/constant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\constant.js","./SetCache":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\SetCache.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createFindKey.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createFindKey.js"][0].apply(exports,arguments)
-},{"./baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","./baseFind":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseFind.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createForEach.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createForEach.js"][0].apply(exports,arguments)
-},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","./bindCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\bindCallback.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createForOwn.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createForOwn.js"][0].apply(exports,arguments)
-},{"./bindCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\bindCallback.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createObjectMapper.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createObjectMapper.js"][0].apply(exports,arguments)
-},{"./baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","./baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createReduce.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\createReduce.js"][0].apply(exports,arguments)
-},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","./baseCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseCallback.js","./baseReduce":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseReduce.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\equalArrays.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalArrays.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\equalByTag.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalByTag.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\equalObjects.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\equalObjects.js"][0].apply(exports,arguments)
-},{"../object/keys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keys.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\getLength.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\getLength.js"][0].apply(exports,arguments)
-},{"./baseProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseProperty.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\getSymbols.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\getSymbols.js"][0].apply(exports,arguments)
-},{"../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js","../utility/constant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\constant.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\indexOfNaN.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\indexOfNaN.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\initCloneArray.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneArray.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\initCloneByTag.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneByTag.js"][0].apply(exports,arguments)
-},{"./bufferClone":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\bufferClone.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\initCloneObject.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\initCloneObject.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js"][0].apply(exports,arguments)
-},{"./getLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\getLength.js","./isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isLength.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isIndex.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIndex.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isIterateeCall.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isIterateeCall.js"][0].apply(exports,arguments)
-},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js","./isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js","./isIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isIndex.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isKey.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isKey.js"][0].apply(exports,arguments)
-},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","./toObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isLength.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isLength.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isStrictComparable.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\isStrictComparable.js"][0].apply(exports,arguments)
-},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\shimKeys.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\shimKeys.js"][0].apply(exports,arguments)
-},{"../lang/isArguments":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArguments.js","../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","../object/keysIn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keysIn.js","../support":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\support.js","./isIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isIndex.js","./isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isLength.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\sortedUniq.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\sortedUniq.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toObject.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toObject.js"][0].apply(exports,arguments)
-},{"../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\toPath.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\internal\\toPath.js"][0].apply(exports,arguments)
-},{"../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","./baseToString":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseToString.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\clone.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\clone.js"][0].apply(exports,arguments)
-},{"../internal/baseClone":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseClone.js","../internal/bindCallback":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\bindCallback.js","../internal/isIterateeCall":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isIterateeCall.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArguments.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArguments.js"][0].apply(exports,arguments)
-},{"../internal/isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js","../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isArray.js"][0].apply(exports,arguments)
-},{"../internal/isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isLength.js","../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js","./isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isFunction.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isFunction.js"][0].apply(exports,arguments)
-},{"../internal/baseIsFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseIsFunction.js","./isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isNative.js"][0].apply(exports,arguments)
-},{"../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js","../string/escapeRegExp":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\string\\escapeRegExp.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isObject.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isString.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isString.js"][0].apply(exports,arguments)
-},{"../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isTypedArray.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\lang\\isTypedArray.js"][0].apply(exports,arguments)
-},{"../internal/isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isLength.js","../internal/isObjectLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isObjectLike.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\findKey.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\findKey.js"][0].apply(exports,arguments)
-},{"../internal/baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js","../internal/createFindKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createFindKey.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\forOwn.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\forOwn.js"][0].apply(exports,arguments)
-},{"../internal/baseForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseForOwn.js","../internal/createForOwn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createForOwn.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keys.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keys.js"][0].apply(exports,arguments)
-},{"../internal/isArrayLike":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isArrayLike.js","../internal/shimKeys":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\shimKeys.js","../lang/isNative":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isNative.js","../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\keysIn.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\keysIn.js"][0].apply(exports,arguments)
-},{"../internal/isIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isIndex.js","../internal/isLength":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isLength.js","../lang/isArguments":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArguments.js","../lang/isArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isArray.js","../lang/isObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\lang\\isObject.js","../support":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\support.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\object\\mapValues.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\object\\mapValues.js"][0].apply(exports,arguments)
-},{"../internal/createObjectMapper":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\createObjectMapper.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\string\\escapeRegExp.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\string\\escapeRegExp.js"][0].apply(exports,arguments)
-},{"../internal/baseToString":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseToString.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\support.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\support.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\constant.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\constant.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\identity.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\identity.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\utility\\property.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\lodash\\utility\\property.js"][0].apply(exports,arguments)
-},{"../internal/baseProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\baseProperty.js","../internal/basePropertyDeep":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\basePropertyDeep.js","../internal/isKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\lodash\\internal\\isKey.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\node_modules\\object-path\\index.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\node_modules\\object-path\\index.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\fluxxor\\version.js":[function(require,module,exports){
-arguments[4]["C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\Fluxxor\\version.js"][0].apply(exports,arguments)
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js":[function(require,module,exports){
+}).call(this,require('_process'))
+},{"_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\jquery-browserify\\lib\\jquery.js":[function(require,module,exports){
 // Uses Node, AMD or browser globals to create a module.
 
 // If you want something that will work in other stricter CommonJS environments,
@@ -15689,7 +12100,3363 @@ return jQuery;
 
 })( window ); }));
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\array\\intersection.js":[function(require,module,exports){
+var baseIndexOf = require('../internal/baseIndexOf'),
+    cacheIndexOf = require('../internal/cacheIndexOf'),
+    createCache = require('../internal/createCache'),
+    isArrayLike = require('../internal/isArrayLike'),
+    restParam = require('../function/restParam');
+
+/**
+ * Creates an array of unique values that are included in all of the provided
+ * arrays using [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
+ * for equality comparisons.
+ *
+ * @static
+ * @memberOf _
+ * @category Array
+ * @param {...Array} [arrays] The arrays to inspect.
+ * @returns {Array} Returns the new array of shared values.
+ * @example
+ * _.intersection([1, 2], [4, 2], [2, 1]);
+ * // => [2]
+ */
+var intersection = restParam(function(arrays) {
+  var othLength = arrays.length,
+      othIndex = othLength,
+      caches = Array(length),
+      indexOf = baseIndexOf,
+      isCommon = true,
+      result = [];
+
+  while (othIndex--) {
+    var value = arrays[othIndex] = isArrayLike(value = arrays[othIndex]) ? value : [];
+    caches[othIndex] = (isCommon && value.length >= 120) ? createCache(othIndex && value) : null;
+  }
+  var array = arrays[0],
+      index = -1,
+      length = array ? array.length : 0,
+      seen = caches[0];
+
+  outer:
+  while (++index < length) {
+    value = array[index];
+    if ((seen ? cacheIndexOf(seen, value) : indexOf(result, value, 0)) < 0) {
+      var othIndex = othLength;
+      while (--othIndex) {
+        var cache = caches[othIndex];
+        if ((cache ? cacheIndexOf(cache, value) : indexOf(arrays[othIndex], value, 0)) < 0) {
+          continue outer;
+        }
+      }
+      if (seen) {
+        seen.push(value);
+      }
+      result.push(value);
+    }
+  }
+  return result;
+});
+
+module.exports = intersection;
+
+},{"../function/restParam":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\function\\restParam.js","../internal/baseIndexOf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseIndexOf.js","../internal/cacheIndexOf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\cacheIndexOf.js","../internal/createCache":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\createCache.js","../internal/isArrayLike":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isArrayLike.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\array\\last.js":[function(require,module,exports){
+/**
+ * Gets the last element of `array`.
+ *
+ * @static
+ * @memberOf _
+ * @category Array
+ * @param {Array} array The array to query.
+ * @returns {*} Returns the last element of `array`.
+ * @example
+ *
+ * _.last([1, 2, 3]);
+ * // => 3
+ */
+function last(array) {
+  var length = array ? array.length : 0;
+  return length ? array[length - 1] : undefined;
+}
+
+module.exports = last;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\array\\uniq.js":[function(require,module,exports){
+var baseCallback = require('../internal/baseCallback'),
+    baseUniq = require('../internal/baseUniq'),
+    isIterateeCall = require('../internal/isIterateeCall'),
+    sortedUniq = require('../internal/sortedUniq');
+
+/**
+ * Creates a duplicate-free version of an array, using
+ * [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
+ * for equality comparisons, in which only the first occurence of each element
+ * is kept. Providing `true` for `isSorted` performs a faster search algorithm
+ * for sorted arrays. If an iteratee function is provided it's invoked for
+ * each element in the array to generate the criterion by which uniqueness
+ * is computed. The `iteratee` is bound to `thisArg` and invoked with three
+ * arguments: (value, index, array).
+ *
+ * If a property name is provided for `iteratee` the created `_.property`
+ * style callback returns the property value of the given element.
+ *
+ * If a value is also provided for `thisArg` the created `_.matchesProperty`
+ * style callback returns `true` for elements that have a matching property
+ * value, else `false`.
+ *
+ * If an object is provided for `iteratee` the created `_.matches` style
+ * callback returns `true` for elements that have the properties of the given
+ * object, else `false`.
+ *
+ * @static
+ * @memberOf _
+ * @alias unique
+ * @category Array
+ * @param {Array} array The array to inspect.
+ * @param {boolean} [isSorted] Specify the array is sorted.
+ * @param {Function|Object|string} [iteratee] The function invoked per iteration.
+ * @param {*} [thisArg] The `this` binding of `iteratee`.
+ * @returns {Array} Returns the new duplicate-value-free array.
+ * @example
+ *
+ * _.uniq([2, 1, 2]);
+ * // => [2, 1]
+ *
+ * // using `isSorted`
+ * _.uniq([1, 1, 2], true);
+ * // => [1, 2]
+ *
+ * // using an iteratee function
+ * _.uniq([1, 2.5, 1.5, 2], function(n) {
+ *   return this.floor(n);
+ * }, Math);
+ * // => [1, 2.5]
+ *
+ * // using the `_.property` callback shorthand
+ * _.uniq([{ 'x': 1 }, { 'x': 2 }, { 'x': 1 }], 'x');
+ * // => [{ 'x': 1 }, { 'x': 2 }]
+ */
+function uniq(array, isSorted, iteratee, thisArg) {
+  var length = array ? array.length : 0;
+  if (!length) {
+    return [];
+  }
+  if (isSorted != null && typeof isSorted != 'boolean') {
+    thisArg = iteratee;
+    iteratee = isIterateeCall(array, isSorted, thisArg) ? undefined : isSorted;
+    isSorted = false;
+  }
+  iteratee = iteratee == null ? iteratee : baseCallback(iteratee, thisArg, 3);
+  return (isSorted)
+    ? sortedUniq(array, iteratee)
+    : baseUniq(array, iteratee);
+}
+
+module.exports = uniq;
+
+},{"../internal/baseCallback":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseCallback.js","../internal/baseUniq":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseUniq.js","../internal/isIterateeCall":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isIterateeCall.js","../internal/sortedUniq":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\sortedUniq.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\forEach.js":[function(require,module,exports){
+var arrayEach = require('../internal/arrayEach'),
+    baseEach = require('../internal/baseEach'),
+    createForEach = require('../internal/createForEach');
+
+/**
+ * Iterates over elements of `collection` invoking `iteratee` for each element.
+ * The `iteratee` is bound to `thisArg` and invoked with three arguments:
+ * (value, index|key, collection). Iteratee functions may exit iteration early
+ * by explicitly returning `false`.
+ *
+ * **Note:** As with other "Collections" methods, objects with a "length" property
+ * are iterated like arrays. To avoid this behavior `_.forIn` or `_.forOwn`
+ * may be used for object iteration.
+ *
+ * @static
+ * @memberOf _
+ * @alias each
+ * @category Collection
+ * @param {Array|Object|string} collection The collection to iterate over.
+ * @param {Function} [iteratee=_.identity] The function invoked per iteration.
+ * @param {*} [thisArg] The `this` binding of `iteratee`.
+ * @returns {Array|Object|string} Returns `collection`.
+ * @example
+ *
+ * _([1, 2]).forEach(function(n) {
+ *   console.log(n);
+ * }).value();
+ * // => logs each value from left to right and returns the array
+ *
+ * _.forEach({ 'a': 1, 'b': 2 }, function(n, key) {
+ *   console.log(n, key);
+ * });
+ * // => logs each value-key pair and returns the object (iteration order is not guaranteed)
+ */
+var forEach = createForEach(arrayEach, baseEach);
+
+module.exports = forEach;
+
+},{"../internal/arrayEach":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\arrayEach.js","../internal/baseEach":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseEach.js","../internal/createForEach":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\createForEach.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\map.js":[function(require,module,exports){
+var arrayMap = require('../internal/arrayMap'),
+    baseCallback = require('../internal/baseCallback'),
+    baseMap = require('../internal/baseMap'),
+    isArray = require('../lang/isArray');
+
+/**
+ * Creates an array of values by running each element in `collection` through
+ * `iteratee`. The `iteratee` is bound to `thisArg` and invoked with three
+ * arguments: (value, index|key, collection).
+ *
+ * If a property name is provided for `iteratee` the created `_.property`
+ * style callback returns the property value of the given element.
+ *
+ * If a value is also provided for `thisArg` the created `_.matchesProperty`
+ * style callback returns `true` for elements that have a matching property
+ * value, else `false`.
+ *
+ * If an object is provided for `iteratee` the created `_.matches` style
+ * callback returns `true` for elements that have the properties of the given
+ * object, else `false`.
+ *
+ * Many lodash methods are guarded to work as iteratees for methods like
+ * `_.every`, `_.filter`, `_.map`, `_.mapValues`, `_.reject`, and `_.some`.
+ *
+ * The guarded methods are:
+ * `ary`, `callback`, `chunk`, `clone`, `create`, `curry`, `curryRight`,
+ * `drop`, `dropRight`, `every`, `fill`, `flatten`, `invert`, `max`, `min`,
+ * `parseInt`, `slice`, `sortBy`, `take`, `takeRight`, `template`, `trim`,
+ * `trimLeft`, `trimRight`, `trunc`, `random`, `range`, `sample`, `some`,
+ * `sum`, `uniq`, and `words`
+ *
+ * @static
+ * @memberOf _
+ * @alias collect
+ * @category Collection
+ * @param {Array|Object|string} collection The collection to iterate over.
+ * @param {Function|Object|string} [iteratee=_.identity] The function invoked
+ *  per iteration.
+ * @param {*} [thisArg] The `this` binding of `iteratee`.
+ * @returns {Array} Returns the new mapped array.
+ * @example
+ *
+ * function timesThree(n) {
+ *   return n * 3;
+ * }
+ *
+ * _.map([1, 2], timesThree);
+ * // => [3, 6]
+ *
+ * _.map({ 'a': 1, 'b': 2 }, timesThree);
+ * // => [3, 6] (iteration order is not guaranteed)
+ *
+ * var users = [
+ *   { 'user': 'barney' },
+ *   { 'user': 'fred' }
+ * ];
+ *
+ * // using the `_.property` callback shorthand
+ * _.map(users, 'user');
+ * // => ['barney', 'fred']
+ */
+function map(collection, iteratee, thisArg) {
+  var func = isArray(collection) ? arrayMap : baseMap;
+  iteratee = baseCallback(iteratee, thisArg, 3);
+  return func(collection, iteratee);
+}
+
+module.exports = map;
+
+},{"../internal/arrayMap":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\arrayMap.js","../internal/baseCallback":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseCallback.js","../internal/baseMap":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseMap.js","../lang/isArray":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isArray.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\reduce.js":[function(require,module,exports){
+var arrayReduce = require('../internal/arrayReduce'),
+    baseEach = require('../internal/baseEach'),
+    createReduce = require('../internal/createReduce');
+
+/**
+ * Reduces `collection` to a value which is the accumulated result of running
+ * each element in `collection` through `iteratee`, where each successive
+ * invocation is supplied the return value of the previous. If `accumulator`
+ * is not provided the first element of `collection` is used as the initial
+ * value. The `iteratee` is bound to `thisArg` and invoked with four arguments:
+ * (accumulator, value, index|key, collection).
+ *
+ * Many lodash methods are guarded to work as iteratees for methods like
+ * `_.reduce`, `_.reduceRight`, and `_.transform`.
+ *
+ * The guarded methods are:
+ * `assign`, `defaults`, `defaultsDeep`, `includes`, `merge`, `sortByAll`,
+ * and `sortByOrder`
+ *
+ * @static
+ * @memberOf _
+ * @alias foldl, inject
+ * @category Collection
+ * @param {Array|Object|string} collection The collection to iterate over.
+ * @param {Function} [iteratee=_.identity] The function invoked per iteration.
+ * @param {*} [accumulator] The initial value.
+ * @param {*} [thisArg] The `this` binding of `iteratee`.
+ * @returns {*} Returns the accumulated value.
+ * @example
+ *
+ * _.reduce([1, 2], function(total, n) {
+ *   return total + n;
+ * });
+ * // => 3
+ *
+ * _.reduce({ 'a': 1, 'b': 2 }, function(result, n, key) {
+ *   result[key] = n * 3;
+ *   return result;
+ * }, {});
+ * // => { 'a': 3, 'b': 6 } (iteration order is not guaranteed)
+ */
+var reduce = createReduce(arrayReduce, baseEach);
+
+module.exports = reduce;
+
+},{"../internal/arrayReduce":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\arrayReduce.js","../internal/baseEach":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseEach.js","../internal/createReduce":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\createReduce.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\collection\\size.js":[function(require,module,exports){
+var getLength = require('../internal/getLength'),
+    isLength = require('../internal/isLength'),
+    keys = require('../object/keys');
+
+/**
+ * Gets the size of `collection` by returning its length for array-like
+ * values or the number of own enumerable properties for objects.
+ *
+ * @static
+ * @memberOf _
+ * @category Collection
+ * @param {Array|Object|string} collection The collection to inspect.
+ * @returns {number} Returns the size of `collection`.
+ * @example
+ *
+ * _.size([1, 2, 3]);
+ * // => 3
+ *
+ * _.size({ 'a': 1, 'b': 2 });
+ * // => 2
+ *
+ * _.size('pebbles');
+ * // => 7
+ */
+function size(collection) {
+  var length = collection ? getLength(collection) : 0;
+  return isLength(length) ? length : keys(collection).length;
+}
+
+module.exports = size;
+
+},{"../internal/getLength":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\getLength.js","../internal/isLength":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isLength.js","../object/keys":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\keys.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\function\\restParam.js":[function(require,module,exports){
+/** Used as the `TypeError` message for "Functions" methods. */
+var FUNC_ERROR_TEXT = 'Expected a function';
+
+/* Native method references for those with the same name as other `lodash` methods. */
+var nativeMax = Math.max;
+
+/**
+ * Creates a function that invokes `func` with the `this` binding of the
+ * created function and arguments from `start` and beyond provided as an array.
+ *
+ * **Note:** This method is based on the [rest parameter](https://developer.mozilla.org/Web/JavaScript/Reference/Functions/rest_parameters).
+ *
+ * @static
+ * @memberOf _
+ * @category Function
+ * @param {Function} func The function to apply a rest parameter to.
+ * @param {number} [start=func.length-1] The start position of the rest parameter.
+ * @returns {Function} Returns the new function.
+ * @example
+ *
+ * var say = _.restParam(function(what, names) {
+ *   return what + ' ' + _.initial(names).join(', ') +
+ *     (_.size(names) > 1 ? ', & ' : '') + _.last(names);
+ * });
+ *
+ * say('hello', 'fred', 'barney', 'pebbles');
+ * // => 'hello fred, barney, & pebbles'
+ */
+function restParam(func, start) {
+  if (typeof func != 'function') {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  start = nativeMax(start === undefined ? (func.length - 1) : (+start || 0), 0);
+  return function() {
+    var args = arguments,
+        index = -1,
+        length = nativeMax(args.length - start, 0),
+        rest = Array(length);
+
+    while (++index < length) {
+      rest[index] = args[start + index];
+    }
+    switch (start) {
+      case 0: return func.call(this, rest);
+      case 1: return func.call(this, args[0], rest);
+      case 2: return func.call(this, args[0], args[1], rest);
+    }
+    var otherArgs = Array(start + 1);
+    index = -1;
+    while (++index < start) {
+      otherArgs[index] = args[index];
+    }
+    otherArgs[start] = rest;
+    return func.apply(this, otherArgs);
+  };
+}
+
+module.exports = restParam;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\SetCache.js":[function(require,module,exports){
+(function (global){
+var cachePush = require('./cachePush'),
+    getNative = require('./getNative');
+
+/** Native method references. */
+var Set = getNative(global, 'Set');
+
+/* Native method references for those with the same name as other `lodash` methods. */
+var nativeCreate = getNative(Object, 'create');
+
+/**
+ *
+ * Creates a cache object to store unique values.
+ *
+ * @private
+ * @param {Array} [values] The values to cache.
+ */
+function SetCache(values) {
+  var length = values ? values.length : 0;
+
+  this.data = { 'hash': nativeCreate(null), 'set': new Set };
+  while (length--) {
+    this.push(values[length]);
+  }
+}
+
+// Add functions to the `Set` cache.
+SetCache.prototype.push = cachePush;
+
+module.exports = SetCache;
+
+}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{"./cachePush":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\cachePush.js","./getNative":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\getNative.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\arrayCopy.js":[function(require,module,exports){
+/**
+ * Copies the values of `source` to `array`.
+ *
+ * @private
+ * @param {Array} source The array to copy values from.
+ * @param {Array} [array=[]] The array to copy values to.
+ * @returns {Array} Returns `array`.
+ */
+function arrayCopy(source, array) {
+  var index = -1,
+      length = source.length;
+
+  array || (array = Array(length));
+  while (++index < length) {
+    array[index] = source[index];
+  }
+  return array;
+}
+
+module.exports = arrayCopy;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\arrayEach.js":[function(require,module,exports){
+/**
+ * A specialized version of `_.forEach` for arrays without support for callback
+ * shorthands and `this` binding.
+ *
+ * @private
+ * @param {Array} array The array to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Array} Returns `array`.
+ */
+function arrayEach(array, iteratee) {
+  var index = -1,
+      length = array.length;
+
+  while (++index < length) {
+    if (iteratee(array[index], index, array) === false) {
+      break;
+    }
+  }
+  return array;
+}
+
+module.exports = arrayEach;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\arrayMap.js":[function(require,module,exports){
+/**
+ * A specialized version of `_.map` for arrays without support for callback
+ * shorthands and `this` binding.
+ *
+ * @private
+ * @param {Array} array The array to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Array} Returns the new mapped array.
+ */
+function arrayMap(array, iteratee) {
+  var index = -1,
+      length = array.length,
+      result = Array(length);
+
+  while (++index < length) {
+    result[index] = iteratee(array[index], index, array);
+  }
+  return result;
+}
+
+module.exports = arrayMap;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\arrayReduce.js":[function(require,module,exports){
+/**
+ * A specialized version of `_.reduce` for arrays without support for callback
+ * shorthands and `this` binding.
+ *
+ * @private
+ * @param {Array} array The array to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @param {*} [accumulator] The initial value.
+ * @param {boolean} [initFromArray] Specify using the first element of `array`
+ *  as the initial value.
+ * @returns {*} Returns the accumulated value.
+ */
+function arrayReduce(array, iteratee, accumulator, initFromArray) {
+  var index = -1,
+      length = array.length;
+
+  if (initFromArray && length) {
+    accumulator = array[++index];
+  }
+  while (++index < length) {
+    accumulator = iteratee(accumulator, array[index], index, array);
+  }
+  return accumulator;
+}
+
+module.exports = arrayReduce;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\arraySome.js":[function(require,module,exports){
+/**
+ * A specialized version of `_.some` for arrays without support for callback
+ * shorthands and `this` binding.
+ *
+ * @private
+ * @param {Array} array The array to iterate over.
+ * @param {Function} predicate The function invoked per iteration.
+ * @returns {boolean} Returns `true` if any element passes the predicate check,
+ *  else `false`.
+ */
+function arraySome(array, predicate) {
+  var index = -1,
+      length = array.length;
+
+  while (++index < length) {
+    if (predicate(array[index], index, array)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+module.exports = arraySome;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseAssign.js":[function(require,module,exports){
+var baseCopy = require('./baseCopy'),
+    keys = require('../object/keys');
+
+/**
+ * The base implementation of `_.assign` without support for argument juggling,
+ * multiple sources, and `customizer` functions.
+ *
+ * @private
+ * @param {Object} object The destination object.
+ * @param {Object} source The source object.
+ * @returns {Object} Returns `object`.
+ */
+function baseAssign(object, source) {
+  return source == null
+    ? object
+    : baseCopy(source, keys(source), object);
+}
+
+module.exports = baseAssign;
+
+},{"../object/keys":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\keys.js","./baseCopy":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseCopy.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseCallback.js":[function(require,module,exports){
+var baseMatches = require('./baseMatches'),
+    baseMatchesProperty = require('./baseMatchesProperty'),
+    bindCallback = require('./bindCallback'),
+    identity = require('../utility/identity'),
+    property = require('../utility/property');
+
+/**
+ * The base implementation of `_.callback` which supports specifying the
+ * number of arguments to provide to `func`.
+ *
+ * @private
+ * @param {*} [func=_.identity] The value to convert to a callback.
+ * @param {*} [thisArg] The `this` binding of `func`.
+ * @param {number} [argCount] The number of arguments to provide to `func`.
+ * @returns {Function} Returns the callback.
+ */
+function baseCallback(func, thisArg, argCount) {
+  var type = typeof func;
+  if (type == 'function') {
+    return thisArg === undefined
+      ? func
+      : bindCallback(func, thisArg, argCount);
+  }
+  if (func == null) {
+    return identity;
+  }
+  if (type == 'object') {
+    return baseMatches(func);
+  }
+  return thisArg === undefined
+    ? property(func)
+    : baseMatchesProperty(func, thisArg);
+}
+
+module.exports = baseCallback;
+
+},{"../utility/identity":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\utility\\identity.js","../utility/property":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\utility\\property.js","./baseMatches":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseMatches.js","./baseMatchesProperty":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseMatchesProperty.js","./bindCallback":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\bindCallback.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseClone.js":[function(require,module,exports){
+var arrayCopy = require('./arrayCopy'),
+    arrayEach = require('./arrayEach'),
+    baseAssign = require('./baseAssign'),
+    baseForOwn = require('./baseForOwn'),
+    initCloneArray = require('./initCloneArray'),
+    initCloneByTag = require('./initCloneByTag'),
+    initCloneObject = require('./initCloneObject'),
+    isArray = require('../lang/isArray'),
+    isObject = require('../lang/isObject');
+
+/** `Object#toString` result references. */
+var argsTag = '[object Arguments]',
+    arrayTag = '[object Array]',
+    boolTag = '[object Boolean]',
+    dateTag = '[object Date]',
+    errorTag = '[object Error]',
+    funcTag = '[object Function]',
+    mapTag = '[object Map]',
+    numberTag = '[object Number]',
+    objectTag = '[object Object]',
+    regexpTag = '[object RegExp]',
+    setTag = '[object Set]',
+    stringTag = '[object String]',
+    weakMapTag = '[object WeakMap]';
+
+var arrayBufferTag = '[object ArrayBuffer]',
+    float32Tag = '[object Float32Array]',
+    float64Tag = '[object Float64Array]',
+    int8Tag = '[object Int8Array]',
+    int16Tag = '[object Int16Array]',
+    int32Tag = '[object Int32Array]',
+    uint8Tag = '[object Uint8Array]',
+    uint8ClampedTag = '[object Uint8ClampedArray]',
+    uint16Tag = '[object Uint16Array]',
+    uint32Tag = '[object Uint32Array]';
+
+/** Used to identify `toStringTag` values supported by `_.clone`. */
+var cloneableTags = {};
+cloneableTags[argsTag] = cloneableTags[arrayTag] =
+cloneableTags[arrayBufferTag] = cloneableTags[boolTag] =
+cloneableTags[dateTag] = cloneableTags[float32Tag] =
+cloneableTags[float64Tag] = cloneableTags[int8Tag] =
+cloneableTags[int16Tag] = cloneableTags[int32Tag] =
+cloneableTags[numberTag] = cloneableTags[objectTag] =
+cloneableTags[regexpTag] = cloneableTags[stringTag] =
+cloneableTags[uint8Tag] = cloneableTags[uint8ClampedTag] =
+cloneableTags[uint16Tag] = cloneableTags[uint32Tag] = true;
+cloneableTags[errorTag] = cloneableTags[funcTag] =
+cloneableTags[mapTag] = cloneableTags[setTag] =
+cloneableTags[weakMapTag] = false;
+
+/** Used for native method references. */
+var objectProto = Object.prototype;
+
+/**
+ * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var objToString = objectProto.toString;
+
+/**
+ * The base implementation of `_.clone` without support for argument juggling
+ * and `this` binding `customizer` functions.
+ *
+ * @private
+ * @param {*} value The value to clone.
+ * @param {boolean} [isDeep] Specify a deep clone.
+ * @param {Function} [customizer] The function to customize cloning values.
+ * @param {string} [key] The key of `value`.
+ * @param {Object} [object] The object `value` belongs to.
+ * @param {Array} [stackA=[]] Tracks traversed source objects.
+ * @param {Array} [stackB=[]] Associates clones with source counterparts.
+ * @returns {*} Returns the cloned value.
+ */
+function baseClone(value, isDeep, customizer, key, object, stackA, stackB) {
+  var result;
+  if (customizer) {
+    result = object ? customizer(value, key, object) : customizer(value);
+  }
+  if (result !== undefined) {
+    return result;
+  }
+  if (!isObject(value)) {
+    return value;
+  }
+  var isArr = isArray(value);
+  if (isArr) {
+    result = initCloneArray(value);
+    if (!isDeep) {
+      return arrayCopy(value, result);
+    }
+  } else {
+    var tag = objToString.call(value),
+        isFunc = tag == funcTag;
+
+    if (tag == objectTag || tag == argsTag || (isFunc && !object)) {
+      result = initCloneObject(isFunc ? {} : value);
+      if (!isDeep) {
+        return baseAssign(result, value);
+      }
+    } else {
+      return cloneableTags[tag]
+        ? initCloneByTag(value, tag, isDeep)
+        : (object ? value : {});
+    }
+  }
+  // Check for circular references and return its corresponding clone.
+  stackA || (stackA = []);
+  stackB || (stackB = []);
+
+  var length = stackA.length;
+  while (length--) {
+    if (stackA[length] == value) {
+      return stackB[length];
+    }
+  }
+  // Add the source value to the stack of traversed objects and associate it with its clone.
+  stackA.push(value);
+  stackB.push(result);
+
+  // Recursively populate clone (susceptible to call stack limits).
+  (isArr ? arrayEach : baseForOwn)(value, function(subValue, key) {
+    result[key] = baseClone(subValue, isDeep, customizer, key, value, stackA, stackB);
+  });
+  return result;
+}
+
+module.exports = baseClone;
+
+},{"../lang/isArray":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isArray.js","../lang/isObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isObject.js","./arrayCopy":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\arrayCopy.js","./arrayEach":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\arrayEach.js","./baseAssign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseAssign.js","./baseForOwn":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseForOwn.js","./initCloneArray":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\initCloneArray.js","./initCloneByTag":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\initCloneByTag.js","./initCloneObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\initCloneObject.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseCopy.js":[function(require,module,exports){
+/**
+ * Copies properties of `source` to `object`.
+ *
+ * @private
+ * @param {Object} source The object to copy properties from.
+ * @param {Array} props The property names to copy.
+ * @param {Object} [object={}] The object to copy properties to.
+ * @returns {Object} Returns `object`.
+ */
+function baseCopy(source, props, object) {
+  object || (object = {});
+
+  var index = -1,
+      length = props.length;
+
+  while (++index < length) {
+    var key = props[index];
+    object[key] = source[key];
+  }
+  return object;
+}
+
+module.exports = baseCopy;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseEach.js":[function(require,module,exports){
+var baseForOwn = require('./baseForOwn'),
+    createBaseEach = require('./createBaseEach');
+
+/**
+ * The base implementation of `_.forEach` without support for callback
+ * shorthands and `this` binding.
+ *
+ * @private
+ * @param {Array|Object|string} collection The collection to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Array|Object|string} Returns `collection`.
+ */
+var baseEach = createBaseEach(baseForOwn);
+
+module.exports = baseEach;
+
+},{"./baseForOwn":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseForOwn.js","./createBaseEach":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\createBaseEach.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseFind.js":[function(require,module,exports){
+/**
+ * The base implementation of `_.find`, `_.findLast`, `_.findKey`, and `_.findLastKey`,
+ * without support for callback shorthands and `this` binding, which iterates
+ * over `collection` using the provided `eachFunc`.
+ *
+ * @private
+ * @param {Array|Object|string} collection The collection to search.
+ * @param {Function} predicate The function invoked per iteration.
+ * @param {Function} eachFunc The function to iterate over `collection`.
+ * @param {boolean} [retKey] Specify returning the key of the found element
+ *  instead of the element itself.
+ * @returns {*} Returns the found element or its key, else `undefined`.
+ */
+function baseFind(collection, predicate, eachFunc, retKey) {
+  var result;
+  eachFunc(collection, function(value, key, collection) {
+    if (predicate(value, key, collection)) {
+      result = retKey ? key : value;
+      return false;
+    }
+  });
+  return result;
+}
+
+module.exports = baseFind;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseFor.js":[function(require,module,exports){
+var createBaseFor = require('./createBaseFor');
+
+/**
+ * The base implementation of `baseForIn` and `baseForOwn` which iterates
+ * over `object` properties returned by `keysFunc` invoking `iteratee` for
+ * each property. Iteratee functions may exit iteration early by explicitly
+ * returning `false`.
+ *
+ * @private
+ * @param {Object} object The object to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @param {Function} keysFunc The function to get the keys of `object`.
+ * @returns {Object} Returns `object`.
+ */
+var baseFor = createBaseFor();
+
+module.exports = baseFor;
+
+},{"./createBaseFor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\createBaseFor.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseForOwn.js":[function(require,module,exports){
+var baseFor = require('./baseFor'),
+    keys = require('../object/keys');
+
+/**
+ * The base implementation of `_.forOwn` without support for callback
+ * shorthands and `this` binding.
+ *
+ * @private
+ * @param {Object} object The object to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Object} Returns `object`.
+ */
+function baseForOwn(object, iteratee) {
+  return baseFor(object, iteratee, keys);
+}
+
+module.exports = baseForOwn;
+
+},{"../object/keys":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\keys.js","./baseFor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseFor.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseGet.js":[function(require,module,exports){
+var toObject = require('./toObject');
+
+/**
+ * The base implementation of `get` without support for string paths
+ * and default values.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @param {Array} path The path of the property to get.
+ * @param {string} [pathKey] The key representation of path.
+ * @returns {*} Returns the resolved value.
+ */
+function baseGet(object, path, pathKey) {
+  if (object == null) {
+    return;
+  }
+  if (pathKey !== undefined && pathKey in toObject(object)) {
+    path = [pathKey];
+  }
+  var index = 0,
+      length = path.length;
+
+  while (object != null && index < length) {
+    object = object[path[index++]];
+  }
+  return (index && index == length) ? object : undefined;
+}
+
+module.exports = baseGet;
+
+},{"./toObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseIndexOf.js":[function(require,module,exports){
+var indexOfNaN = require('./indexOfNaN');
+
+/**
+ * The base implementation of `_.indexOf` without support for binary searches.
+ *
+ * @private
+ * @param {Array} array The array to search.
+ * @param {*} value The value to search for.
+ * @param {number} fromIndex The index to search from.
+ * @returns {number} Returns the index of the matched value, else `-1`.
+ */
+function baseIndexOf(array, value, fromIndex) {
+  if (value !== value) {
+    return indexOfNaN(array, fromIndex);
+  }
+  var index = fromIndex - 1,
+      length = array.length;
+
+  while (++index < length) {
+    if (array[index] === value) {
+      return index;
+    }
+  }
+  return -1;
+}
+
+module.exports = baseIndexOf;
+
+},{"./indexOfNaN":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\indexOfNaN.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseIsEqual.js":[function(require,module,exports){
+var baseIsEqualDeep = require('./baseIsEqualDeep'),
+    isObject = require('../lang/isObject'),
+    isObjectLike = require('./isObjectLike');
+
+/**
+ * The base implementation of `_.isEqual` without support for `this` binding
+ * `customizer` functions.
+ *
+ * @private
+ * @param {*} value The value to compare.
+ * @param {*} other The other value to compare.
+ * @param {Function} [customizer] The function to customize comparing values.
+ * @param {boolean} [isLoose] Specify performing partial comparisons.
+ * @param {Array} [stackA] Tracks traversed `value` objects.
+ * @param {Array} [stackB] Tracks traversed `other` objects.
+ * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
+ */
+function baseIsEqual(value, other, customizer, isLoose, stackA, stackB) {
+  if (value === other) {
+    return true;
+  }
+  if (value == null || other == null || (!isObject(value) && !isObjectLike(other))) {
+    return value !== value && other !== other;
+  }
+  return baseIsEqualDeep(value, other, baseIsEqual, customizer, isLoose, stackA, stackB);
+}
+
+module.exports = baseIsEqual;
+
+},{"../lang/isObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isObject.js","./baseIsEqualDeep":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseIsEqualDeep.js","./isObjectLike":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isObjectLike.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseIsEqualDeep.js":[function(require,module,exports){
+var equalArrays = require('./equalArrays'),
+    equalByTag = require('./equalByTag'),
+    equalObjects = require('./equalObjects'),
+    isArray = require('../lang/isArray'),
+    isTypedArray = require('../lang/isTypedArray');
+
+/** `Object#toString` result references. */
+var argsTag = '[object Arguments]',
+    arrayTag = '[object Array]',
+    objectTag = '[object Object]';
+
+/** Used for native method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/**
+ * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var objToString = objectProto.toString;
+
+/**
+ * A specialized version of `baseIsEqual` for arrays and objects which performs
+ * deep comparisons and tracks traversed objects enabling objects with circular
+ * references to be compared.
+ *
+ * @private
+ * @param {Object} object The object to compare.
+ * @param {Object} other The other object to compare.
+ * @param {Function} equalFunc The function to determine equivalents of values.
+ * @param {Function} [customizer] The function to customize comparing objects.
+ * @param {boolean} [isLoose] Specify performing partial comparisons.
+ * @param {Array} [stackA=[]] Tracks traversed `value` objects.
+ * @param {Array} [stackB=[]] Tracks traversed `other` objects.
+ * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
+ */
+function baseIsEqualDeep(object, other, equalFunc, customizer, isLoose, stackA, stackB) {
+  var objIsArr = isArray(object),
+      othIsArr = isArray(other),
+      objTag = arrayTag,
+      othTag = arrayTag;
+
+  if (!objIsArr) {
+    objTag = objToString.call(object);
+    if (objTag == argsTag) {
+      objTag = objectTag;
+    } else if (objTag != objectTag) {
+      objIsArr = isTypedArray(object);
+    }
+  }
+  if (!othIsArr) {
+    othTag = objToString.call(other);
+    if (othTag == argsTag) {
+      othTag = objectTag;
+    } else if (othTag != objectTag) {
+      othIsArr = isTypedArray(other);
+    }
+  }
+  var objIsObj = objTag == objectTag,
+      othIsObj = othTag == objectTag,
+      isSameTag = objTag == othTag;
+
+  if (isSameTag && !(objIsArr || objIsObj)) {
+    return equalByTag(object, other, objTag);
+  }
+  if (!isLoose) {
+    var objIsWrapped = objIsObj && hasOwnProperty.call(object, '__wrapped__'),
+        othIsWrapped = othIsObj && hasOwnProperty.call(other, '__wrapped__');
+
+    if (objIsWrapped || othIsWrapped) {
+      return equalFunc(objIsWrapped ? object.value() : object, othIsWrapped ? other.value() : other, customizer, isLoose, stackA, stackB);
+    }
+  }
+  if (!isSameTag) {
+    return false;
+  }
+  // Assume cyclic values are equal.
+  // For more information on detecting circular references see https://es5.github.io/#JO.
+  stackA || (stackA = []);
+  stackB || (stackB = []);
+
+  var length = stackA.length;
+  while (length--) {
+    if (stackA[length] == object) {
+      return stackB[length] == other;
+    }
+  }
+  // Add `object` and `other` to the stack of traversed objects.
+  stackA.push(object);
+  stackB.push(other);
+
+  var result = (objIsArr ? equalArrays : equalObjects)(object, other, equalFunc, customizer, isLoose, stackA, stackB);
+
+  stackA.pop();
+  stackB.pop();
+
+  return result;
+}
+
+module.exports = baseIsEqualDeep;
+
+},{"../lang/isArray":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isArray.js","../lang/isTypedArray":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isTypedArray.js","./equalArrays":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\equalArrays.js","./equalByTag":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\equalByTag.js","./equalObjects":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\equalObjects.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseIsMatch.js":[function(require,module,exports){
+var baseIsEqual = require('./baseIsEqual'),
+    toObject = require('./toObject');
+
+/**
+ * The base implementation of `_.isMatch` without support for callback
+ * shorthands and `this` binding.
+ *
+ * @private
+ * @param {Object} object The object to inspect.
+ * @param {Array} matchData The propery names, values, and compare flags to match.
+ * @param {Function} [customizer] The function to customize comparing objects.
+ * @returns {boolean} Returns `true` if `object` is a match, else `false`.
+ */
+function baseIsMatch(object, matchData, customizer) {
+  var index = matchData.length,
+      length = index,
+      noCustomizer = !customizer;
+
+  if (object == null) {
+    return !length;
+  }
+  object = toObject(object);
+  while (index--) {
+    var data = matchData[index];
+    if ((noCustomizer && data[2])
+          ? data[1] !== object[data[0]]
+          : !(data[0] in object)
+        ) {
+      return false;
+    }
+  }
+  while (++index < length) {
+    data = matchData[index];
+    var key = data[0],
+        objValue = object[key],
+        srcValue = data[1];
+
+    if (noCustomizer && data[2]) {
+      if (objValue === undefined && !(key in object)) {
+        return false;
+      }
+    } else {
+      var result = customizer ? customizer(objValue, srcValue, key) : undefined;
+      if (!(result === undefined ? baseIsEqual(srcValue, objValue, customizer, true) : result)) {
+        return false;
+      }
+    }
+  }
+  return true;
+}
+
+module.exports = baseIsMatch;
+
+},{"./baseIsEqual":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseIsEqual.js","./toObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseMap.js":[function(require,module,exports){
+var baseEach = require('./baseEach'),
+    isArrayLike = require('./isArrayLike');
+
+/**
+ * The base implementation of `_.map` without support for callback shorthands
+ * and `this` binding.
+ *
+ * @private
+ * @param {Array|Object|string} collection The collection to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Array} Returns the new mapped array.
+ */
+function baseMap(collection, iteratee) {
+  var index = -1,
+      result = isArrayLike(collection) ? Array(collection.length) : [];
+
+  baseEach(collection, function(value, key, collection) {
+    result[++index] = iteratee(value, key, collection);
+  });
+  return result;
+}
+
+module.exports = baseMap;
+
+},{"./baseEach":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseEach.js","./isArrayLike":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isArrayLike.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseMatches.js":[function(require,module,exports){
+var baseIsMatch = require('./baseIsMatch'),
+    getMatchData = require('./getMatchData'),
+    toObject = require('./toObject');
+
+/**
+ * The base implementation of `_.matches` which does not clone `source`.
+ *
+ * @private
+ * @param {Object} source The object of property values to match.
+ * @returns {Function} Returns the new function.
+ */
+function baseMatches(source) {
+  var matchData = getMatchData(source);
+  if (matchData.length == 1 && matchData[0][2]) {
+    var key = matchData[0][0],
+        value = matchData[0][1];
+
+    return function(object) {
+      if (object == null) {
+        return false;
+      }
+      return object[key] === value && (value !== undefined || (key in toObject(object)));
+    };
+  }
+  return function(object) {
+    return baseIsMatch(object, matchData);
+  };
+}
+
+module.exports = baseMatches;
+
+},{"./baseIsMatch":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseIsMatch.js","./getMatchData":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\getMatchData.js","./toObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseMatchesProperty.js":[function(require,module,exports){
+var baseGet = require('./baseGet'),
+    baseIsEqual = require('./baseIsEqual'),
+    baseSlice = require('./baseSlice'),
+    isArray = require('../lang/isArray'),
+    isKey = require('./isKey'),
+    isStrictComparable = require('./isStrictComparable'),
+    last = require('../array/last'),
+    toObject = require('./toObject'),
+    toPath = require('./toPath');
+
+/**
+ * The base implementation of `_.matchesProperty` which does not clone `srcValue`.
+ *
+ * @private
+ * @param {string} path The path of the property to get.
+ * @param {*} srcValue The value to compare.
+ * @returns {Function} Returns the new function.
+ */
+function baseMatchesProperty(path, srcValue) {
+  var isArr = isArray(path),
+      isCommon = isKey(path) && isStrictComparable(srcValue),
+      pathKey = (path + '');
+
+  path = toPath(path);
+  return function(object) {
+    if (object == null) {
+      return false;
+    }
+    var key = pathKey;
+    object = toObject(object);
+    if ((isArr || !isCommon) && !(key in object)) {
+      object = path.length == 1 ? object : baseGet(object, baseSlice(path, 0, -1));
+      if (object == null) {
+        return false;
+      }
+      key = last(path);
+      object = toObject(object);
+    }
+    return object[key] === srcValue
+      ? (srcValue !== undefined || (key in object))
+      : baseIsEqual(srcValue, object[key], undefined, true);
+  };
+}
+
+module.exports = baseMatchesProperty;
+
+},{"../array/last":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\array\\last.js","../lang/isArray":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isArray.js","./baseGet":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseGet.js","./baseIsEqual":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseIsEqual.js","./baseSlice":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseSlice.js","./isKey":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isKey.js","./isStrictComparable":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isStrictComparable.js","./toObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\toObject.js","./toPath":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\toPath.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseProperty.js":[function(require,module,exports){
+/**
+ * The base implementation of `_.property` without support for deep paths.
+ *
+ * @private
+ * @param {string} key The key of the property to get.
+ * @returns {Function} Returns the new function.
+ */
+function baseProperty(key) {
+  return function(object) {
+    return object == null ? undefined : object[key];
+  };
+}
+
+module.exports = baseProperty;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\basePropertyDeep.js":[function(require,module,exports){
+var baseGet = require('./baseGet'),
+    toPath = require('./toPath');
+
+/**
+ * A specialized version of `baseProperty` which supports deep paths.
+ *
+ * @private
+ * @param {Array|string} path The path of the property to get.
+ * @returns {Function} Returns the new function.
+ */
+function basePropertyDeep(path) {
+  var pathKey = (path + '');
+  path = toPath(path);
+  return function(object) {
+    return baseGet(object, path, pathKey);
+  };
+}
+
+module.exports = basePropertyDeep;
+
+},{"./baseGet":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseGet.js","./toPath":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\toPath.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseReduce.js":[function(require,module,exports){
+/**
+ * The base implementation of `_.reduce` and `_.reduceRight` without support
+ * for callback shorthands and `this` binding, which iterates over `collection`
+ * using the provided `eachFunc`.
+ *
+ * @private
+ * @param {Array|Object|string} collection The collection to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @param {*} accumulator The initial value.
+ * @param {boolean} initFromCollection Specify using the first or last element
+ *  of `collection` as the initial value.
+ * @param {Function} eachFunc The function to iterate over `collection`.
+ * @returns {*} Returns the accumulated value.
+ */
+function baseReduce(collection, iteratee, accumulator, initFromCollection, eachFunc) {
+  eachFunc(collection, function(value, index, collection) {
+    accumulator = initFromCollection
+      ? (initFromCollection = false, value)
+      : iteratee(accumulator, value, index, collection);
+  });
+  return accumulator;
+}
+
+module.exports = baseReduce;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseSlice.js":[function(require,module,exports){
+/**
+ * The base implementation of `_.slice` without an iteratee call guard.
+ *
+ * @private
+ * @param {Array} array The array to slice.
+ * @param {number} [start=0] The start position.
+ * @param {number} [end=array.length] The end position.
+ * @returns {Array} Returns the slice of `array`.
+ */
+function baseSlice(array, start, end) {
+  var index = -1,
+      length = array.length;
+
+  start = start == null ? 0 : (+start || 0);
+  if (start < 0) {
+    start = -start > length ? 0 : (length + start);
+  }
+  end = (end === undefined || end > length) ? length : (+end || 0);
+  if (end < 0) {
+    end += length;
+  }
+  length = start > end ? 0 : ((end - start) >>> 0);
+  start >>>= 0;
+
+  var result = Array(length);
+  while (++index < length) {
+    result[index] = array[index + start];
+  }
+  return result;
+}
+
+module.exports = baseSlice;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseToString.js":[function(require,module,exports){
+/**
+ * Converts `value` to a string if it's not one. An empty string is returned
+ * for `null` or `undefined` values.
+ *
+ * @private
+ * @param {*} value The value to process.
+ * @returns {string} Returns the string.
+ */
+function baseToString(value) {
+  return value == null ? '' : (value + '');
+}
+
+module.exports = baseToString;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseUniq.js":[function(require,module,exports){
+var baseIndexOf = require('./baseIndexOf'),
+    cacheIndexOf = require('./cacheIndexOf'),
+    createCache = require('./createCache');
+
+/** Used as the size to enable large array optimizations. */
+var LARGE_ARRAY_SIZE = 200;
+
+/**
+ * The base implementation of `_.uniq` without support for callback shorthands
+ * and `this` binding.
+ *
+ * @private
+ * @param {Array} array The array to inspect.
+ * @param {Function} [iteratee] The function invoked per iteration.
+ * @returns {Array} Returns the new duplicate free array.
+ */
+function baseUniq(array, iteratee) {
+  var index = -1,
+      indexOf = baseIndexOf,
+      length = array.length,
+      isCommon = true,
+      isLarge = isCommon && length >= LARGE_ARRAY_SIZE,
+      seen = isLarge ? createCache() : null,
+      result = [];
+
+  if (seen) {
+    indexOf = cacheIndexOf;
+    isCommon = false;
+  } else {
+    isLarge = false;
+    seen = iteratee ? [] : result;
+  }
+  outer:
+  while (++index < length) {
+    var value = array[index],
+        computed = iteratee ? iteratee(value, index, array) : value;
+
+    if (isCommon && value === value) {
+      var seenIndex = seen.length;
+      while (seenIndex--) {
+        if (seen[seenIndex] === computed) {
+          continue outer;
+        }
+      }
+      if (iteratee) {
+        seen.push(computed);
+      }
+      result.push(value);
+    }
+    else if (indexOf(seen, computed, 0) < 0) {
+      if (iteratee || isLarge) {
+        seen.push(computed);
+      }
+      result.push(value);
+    }
+  }
+  return result;
+}
+
+module.exports = baseUniq;
+
+},{"./baseIndexOf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseIndexOf.js","./cacheIndexOf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\cacheIndexOf.js","./createCache":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\createCache.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\bindCallback.js":[function(require,module,exports){
+var identity = require('../utility/identity');
+
+/**
+ * A specialized version of `baseCallback` which only supports `this` binding
+ * and specifying the number of arguments to provide to `func`.
+ *
+ * @private
+ * @param {Function} func The function to bind.
+ * @param {*} thisArg The `this` binding of `func`.
+ * @param {number} [argCount] The number of arguments to provide to `func`.
+ * @returns {Function} Returns the callback.
+ */
+function bindCallback(func, thisArg, argCount) {
+  if (typeof func != 'function') {
+    return identity;
+  }
+  if (thisArg === undefined) {
+    return func;
+  }
+  switch (argCount) {
+    case 1: return function(value) {
+      return func.call(thisArg, value);
+    };
+    case 3: return function(value, index, collection) {
+      return func.call(thisArg, value, index, collection);
+    };
+    case 4: return function(accumulator, value, index, collection) {
+      return func.call(thisArg, accumulator, value, index, collection);
+    };
+    case 5: return function(value, other, key, object, source) {
+      return func.call(thisArg, value, other, key, object, source);
+    };
+  }
+  return function() {
+    return func.apply(thisArg, arguments);
+  };
+}
+
+module.exports = bindCallback;
+
+},{"../utility/identity":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\utility\\identity.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\bufferClone.js":[function(require,module,exports){
+(function (global){
+/** Native method references. */
+var ArrayBuffer = global.ArrayBuffer,
+    Uint8Array = global.Uint8Array;
+
+/**
+ * Creates a clone of the given array buffer.
+ *
+ * @private
+ * @param {ArrayBuffer} buffer The array buffer to clone.
+ * @returns {ArrayBuffer} Returns the cloned array buffer.
+ */
+function bufferClone(buffer) {
+  var result = new ArrayBuffer(buffer.byteLength),
+      view = new Uint8Array(result);
+
+  view.set(new Uint8Array(buffer));
+  return result;
+}
+
+module.exports = bufferClone;
+
+}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\cacheIndexOf.js":[function(require,module,exports){
+var isObject = require('../lang/isObject');
+
+/**
+ * Checks if `value` is in `cache` mimicking the return signature of
+ * `_.indexOf` by returning `0` if the value is found, else `-1`.
+ *
+ * @private
+ * @param {Object} cache The cache to search.
+ * @param {*} value The value to search for.
+ * @returns {number} Returns `0` if `value` is found, else `-1`.
+ */
+function cacheIndexOf(cache, value) {
+  var data = cache.data,
+      result = (typeof value == 'string' || isObject(value)) ? data.set.has(value) : data.hash[value];
+
+  return result ? 0 : -1;
+}
+
+module.exports = cacheIndexOf;
+
+},{"../lang/isObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\cachePush.js":[function(require,module,exports){
+var isObject = require('../lang/isObject');
+
+/**
+ * Adds `value` to the cache.
+ *
+ * @private
+ * @name push
+ * @memberOf SetCache
+ * @param {*} value The value to cache.
+ */
+function cachePush(value) {
+  var data = this.data;
+  if (typeof value == 'string' || isObject(value)) {
+    data.set.add(value);
+  } else {
+    data.hash[value] = true;
+  }
+}
+
+module.exports = cachePush;
+
+},{"../lang/isObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\createBaseEach.js":[function(require,module,exports){
+var getLength = require('./getLength'),
+    isLength = require('./isLength'),
+    toObject = require('./toObject');
+
+/**
+ * Creates a `baseEach` or `baseEachRight` function.
+ *
+ * @private
+ * @param {Function} eachFunc The function to iterate over a collection.
+ * @param {boolean} [fromRight] Specify iterating from right to left.
+ * @returns {Function} Returns the new base function.
+ */
+function createBaseEach(eachFunc, fromRight) {
+  return function(collection, iteratee) {
+    var length = collection ? getLength(collection) : 0;
+    if (!isLength(length)) {
+      return eachFunc(collection, iteratee);
+    }
+    var index = fromRight ? length : -1,
+        iterable = toObject(collection);
+
+    while ((fromRight ? index-- : ++index < length)) {
+      if (iteratee(iterable[index], index, iterable) === false) {
+        break;
+      }
+    }
+    return collection;
+  };
+}
+
+module.exports = createBaseEach;
+
+},{"./getLength":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\getLength.js","./isLength":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isLength.js","./toObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\createBaseFor.js":[function(require,module,exports){
+var toObject = require('./toObject');
+
+/**
+ * Creates a base function for `_.forIn` or `_.forInRight`.
+ *
+ * @private
+ * @param {boolean} [fromRight] Specify iterating from right to left.
+ * @returns {Function} Returns the new base function.
+ */
+function createBaseFor(fromRight) {
+  return function(object, iteratee, keysFunc) {
+    var iterable = toObject(object),
+        props = keysFunc(object),
+        length = props.length,
+        index = fromRight ? length : -1;
+
+    while ((fromRight ? index-- : ++index < length)) {
+      var key = props[index];
+      if (iteratee(iterable[key], key, iterable) === false) {
+        break;
+      }
+    }
+    return object;
+  };
+}
+
+module.exports = createBaseFor;
+
+},{"./toObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\createCache.js":[function(require,module,exports){
+(function (global){
+var SetCache = require('./SetCache'),
+    getNative = require('./getNative');
+
+/** Native method references. */
+var Set = getNative(global, 'Set');
+
+/* Native method references for those with the same name as other `lodash` methods. */
+var nativeCreate = getNative(Object, 'create');
+
+/**
+ * Creates a `Set` cache object to optimize linear searches of large arrays.
+ *
+ * @private
+ * @param {Array} [values] The values to cache.
+ * @returns {null|Object} Returns the new cache object if `Set` is supported, else `null`.
+ */
+function createCache(values) {
+  return (nativeCreate && Set) ? new SetCache(values) : null;
+}
+
+module.exports = createCache;
+
+}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{"./SetCache":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\SetCache.js","./getNative":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\getNative.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\createFindKey.js":[function(require,module,exports){
+var baseCallback = require('./baseCallback'),
+    baseFind = require('./baseFind');
+
+/**
+ * Creates a `_.findKey` or `_.findLastKey` function.
+ *
+ * @private
+ * @param {Function} objectFunc The function to iterate over an object.
+ * @returns {Function} Returns the new find function.
+ */
+function createFindKey(objectFunc) {
+  return function(object, predicate, thisArg) {
+    predicate = baseCallback(predicate, thisArg, 3);
+    return baseFind(object, predicate, objectFunc, true);
+  };
+}
+
+module.exports = createFindKey;
+
+},{"./baseCallback":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseCallback.js","./baseFind":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseFind.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\createForEach.js":[function(require,module,exports){
+var bindCallback = require('./bindCallback'),
+    isArray = require('../lang/isArray');
+
+/**
+ * Creates a function for `_.forEach` or `_.forEachRight`.
+ *
+ * @private
+ * @param {Function} arrayFunc The function to iterate over an array.
+ * @param {Function} eachFunc The function to iterate over a collection.
+ * @returns {Function} Returns the new each function.
+ */
+function createForEach(arrayFunc, eachFunc) {
+  return function(collection, iteratee, thisArg) {
+    return (typeof iteratee == 'function' && thisArg === undefined && isArray(collection))
+      ? arrayFunc(collection, iteratee)
+      : eachFunc(collection, bindCallback(iteratee, thisArg, 3));
+  };
+}
+
+module.exports = createForEach;
+
+},{"../lang/isArray":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isArray.js","./bindCallback":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\bindCallback.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\createForOwn.js":[function(require,module,exports){
+var bindCallback = require('./bindCallback');
+
+/**
+ * Creates a function for `_.forOwn` or `_.forOwnRight`.
+ *
+ * @private
+ * @param {Function} objectFunc The function to iterate over an object.
+ * @returns {Function} Returns the new each function.
+ */
+function createForOwn(objectFunc) {
+  return function(object, iteratee, thisArg) {
+    if (typeof iteratee != 'function' || thisArg !== undefined) {
+      iteratee = bindCallback(iteratee, thisArg, 3);
+    }
+    return objectFunc(object, iteratee);
+  };
+}
+
+module.exports = createForOwn;
+
+},{"./bindCallback":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\bindCallback.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\createObjectMapper.js":[function(require,module,exports){
+var baseCallback = require('./baseCallback'),
+    baseForOwn = require('./baseForOwn');
+
+/**
+ * Creates a function for `_.mapKeys` or `_.mapValues`.
+ *
+ * @private
+ * @param {boolean} [isMapKeys] Specify mapping keys instead of values.
+ * @returns {Function} Returns the new map function.
+ */
+function createObjectMapper(isMapKeys) {
+  return function(object, iteratee, thisArg) {
+    var result = {};
+    iteratee = baseCallback(iteratee, thisArg, 3);
+
+    baseForOwn(object, function(value, key, object) {
+      var mapped = iteratee(value, key, object);
+      key = isMapKeys ? mapped : key;
+      value = isMapKeys ? value : mapped;
+      result[key] = value;
+    });
+    return result;
+  };
+}
+
+module.exports = createObjectMapper;
+
+},{"./baseCallback":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseCallback.js","./baseForOwn":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseForOwn.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\createReduce.js":[function(require,module,exports){
+var baseCallback = require('./baseCallback'),
+    baseReduce = require('./baseReduce'),
+    isArray = require('../lang/isArray');
+
+/**
+ * Creates a function for `_.reduce` or `_.reduceRight`.
+ *
+ * @private
+ * @param {Function} arrayFunc The function to iterate over an array.
+ * @param {Function} eachFunc The function to iterate over a collection.
+ * @returns {Function} Returns the new each function.
+ */
+function createReduce(arrayFunc, eachFunc) {
+  return function(collection, iteratee, accumulator, thisArg) {
+    var initFromArray = arguments.length < 3;
+    return (typeof iteratee == 'function' && thisArg === undefined && isArray(collection))
+      ? arrayFunc(collection, iteratee, accumulator, initFromArray)
+      : baseReduce(collection, baseCallback(iteratee, thisArg, 4), accumulator, initFromArray, eachFunc);
+  };
+}
+
+module.exports = createReduce;
+
+},{"../lang/isArray":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isArray.js","./baseCallback":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseCallback.js","./baseReduce":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseReduce.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\equalArrays.js":[function(require,module,exports){
+var arraySome = require('./arraySome');
+
+/**
+ * A specialized version of `baseIsEqualDeep` for arrays with support for
+ * partial deep comparisons.
+ *
+ * @private
+ * @param {Array} array The array to compare.
+ * @param {Array} other The other array to compare.
+ * @param {Function} equalFunc The function to determine equivalents of values.
+ * @param {Function} [customizer] The function to customize comparing arrays.
+ * @param {boolean} [isLoose] Specify performing partial comparisons.
+ * @param {Array} [stackA] Tracks traversed `value` objects.
+ * @param {Array} [stackB] Tracks traversed `other` objects.
+ * @returns {boolean} Returns `true` if the arrays are equivalent, else `false`.
+ */
+function equalArrays(array, other, equalFunc, customizer, isLoose, stackA, stackB) {
+  var index = -1,
+      arrLength = array.length,
+      othLength = other.length;
+
+  if (arrLength != othLength && !(isLoose && othLength > arrLength)) {
+    return false;
+  }
+  // Ignore non-index properties.
+  while (++index < arrLength) {
+    var arrValue = array[index],
+        othValue = other[index],
+        result = customizer ? customizer(isLoose ? othValue : arrValue, isLoose ? arrValue : othValue, index) : undefined;
+
+    if (result !== undefined) {
+      if (result) {
+        continue;
+      }
+      return false;
+    }
+    // Recursively compare arrays (susceptible to call stack limits).
+    if (isLoose) {
+      if (!arraySome(other, function(othValue) {
+            return arrValue === othValue || equalFunc(arrValue, othValue, customizer, isLoose, stackA, stackB);
+          })) {
+        return false;
+      }
+    } else if (!(arrValue === othValue || equalFunc(arrValue, othValue, customizer, isLoose, stackA, stackB))) {
+      return false;
+    }
+  }
+  return true;
+}
+
+module.exports = equalArrays;
+
+},{"./arraySome":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\arraySome.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\equalByTag.js":[function(require,module,exports){
+/** `Object#toString` result references. */
+var boolTag = '[object Boolean]',
+    dateTag = '[object Date]',
+    errorTag = '[object Error]',
+    numberTag = '[object Number]',
+    regexpTag = '[object RegExp]',
+    stringTag = '[object String]';
+
+/**
+ * A specialized version of `baseIsEqualDeep` for comparing objects of
+ * the same `toStringTag`.
+ *
+ * **Note:** This function only supports comparing values with tags of
+ * `Boolean`, `Date`, `Error`, `Number`, `RegExp`, or `String`.
+ *
+ * @private
+ * @param {Object} object The object to compare.
+ * @param {Object} other The other object to compare.
+ * @param {string} tag The `toStringTag` of the objects to compare.
+ * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
+ */
+function equalByTag(object, other, tag) {
+  switch (tag) {
+    case boolTag:
+    case dateTag:
+      // Coerce dates and booleans to numbers, dates to milliseconds and booleans
+      // to `1` or `0` treating invalid dates coerced to `NaN` as not equal.
+      return +object == +other;
+
+    case errorTag:
+      return object.name == other.name && object.message == other.message;
+
+    case numberTag:
+      // Treat `NaN` vs. `NaN` as equal.
+      return (object != +object)
+        ? other != +other
+        : object == +other;
+
+    case regexpTag:
+    case stringTag:
+      // Coerce regexes to strings and treat strings primitives and string
+      // objects as equal. See https://es5.github.io/#x15.10.6.4 for more details.
+      return object == (other + '');
+  }
+  return false;
+}
+
+module.exports = equalByTag;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\equalObjects.js":[function(require,module,exports){
+var keys = require('../object/keys');
+
+/** Used for native method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/**
+ * A specialized version of `baseIsEqualDeep` for objects with support for
+ * partial deep comparisons.
+ *
+ * @private
+ * @param {Object} object The object to compare.
+ * @param {Object} other The other object to compare.
+ * @param {Function} equalFunc The function to determine equivalents of values.
+ * @param {Function} [customizer] The function to customize comparing values.
+ * @param {boolean} [isLoose] Specify performing partial comparisons.
+ * @param {Array} [stackA] Tracks traversed `value` objects.
+ * @param {Array} [stackB] Tracks traversed `other` objects.
+ * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
+ */
+function equalObjects(object, other, equalFunc, customizer, isLoose, stackA, stackB) {
+  var objProps = keys(object),
+      objLength = objProps.length,
+      othProps = keys(other),
+      othLength = othProps.length;
+
+  if (objLength != othLength && !isLoose) {
+    return false;
+  }
+  var index = objLength;
+  while (index--) {
+    var key = objProps[index];
+    if (!(isLoose ? key in other : hasOwnProperty.call(other, key))) {
+      return false;
+    }
+  }
+  var skipCtor = isLoose;
+  while (++index < objLength) {
+    key = objProps[index];
+    var objValue = object[key],
+        othValue = other[key],
+        result = customizer ? customizer(isLoose ? othValue : objValue, isLoose? objValue : othValue, key) : undefined;
+
+    // Recursively compare objects (susceptible to call stack limits).
+    if (!(result === undefined ? equalFunc(objValue, othValue, customizer, isLoose, stackA, stackB) : result)) {
+      return false;
+    }
+    skipCtor || (skipCtor = key == 'constructor');
+  }
+  if (!skipCtor) {
+    var objCtor = object.constructor,
+        othCtor = other.constructor;
+
+    // Non `Object` object instances with different constructors are not equal.
+    if (objCtor != othCtor &&
+        ('constructor' in object && 'constructor' in other) &&
+        !(typeof objCtor == 'function' && objCtor instanceof objCtor &&
+          typeof othCtor == 'function' && othCtor instanceof othCtor)) {
+      return false;
+    }
+  }
+  return true;
+}
+
+module.exports = equalObjects;
+
+},{"../object/keys":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\keys.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\getLength.js":[function(require,module,exports){
+var baseProperty = require('./baseProperty');
+
+/**
+ * Gets the "length" property value of `object`.
+ *
+ * **Note:** This function is used to avoid a [JIT bug](https://bugs.webkit.org/show_bug.cgi?id=142792)
+ * that affects Safari on at least iOS 8.1-8.3 ARM64.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {*} Returns the "length" value.
+ */
+var getLength = baseProperty('length');
+
+module.exports = getLength;
+
+},{"./baseProperty":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseProperty.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\getMatchData.js":[function(require,module,exports){
+var isStrictComparable = require('./isStrictComparable'),
+    pairs = require('../object/pairs');
+
+/**
+ * Gets the propery names, values, and compare flags of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the match data of `object`.
+ */
+function getMatchData(object) {
+  var result = pairs(object),
+      length = result.length;
+
+  while (length--) {
+    result[length][2] = isStrictComparable(result[length][1]);
+  }
+  return result;
+}
+
+module.exports = getMatchData;
+
+},{"../object/pairs":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\pairs.js","./isStrictComparable":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isStrictComparable.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\getNative.js":[function(require,module,exports){
+var isNative = require('../lang/isNative');
+
+/**
+ * Gets the native function at `key` of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @param {string} key The key of the method to get.
+ * @returns {*} Returns the function if it's native, else `undefined`.
+ */
+function getNative(object, key) {
+  var value = object == null ? undefined : object[key];
+  return isNative(value) ? value : undefined;
+}
+
+module.exports = getNative;
+
+},{"../lang/isNative":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isNative.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\indexOfNaN.js":[function(require,module,exports){
+/**
+ * Gets the index at which the first occurrence of `NaN` is found in `array`.
+ *
+ * @private
+ * @param {Array} array The array to search.
+ * @param {number} fromIndex The index to search from.
+ * @param {boolean} [fromRight] Specify iterating from right to left.
+ * @returns {number} Returns the index of the matched `NaN`, else `-1`.
+ */
+function indexOfNaN(array, fromIndex, fromRight) {
+  var length = array.length,
+      index = fromIndex + (fromRight ? 0 : -1);
+
+  while ((fromRight ? index-- : ++index < length)) {
+    var other = array[index];
+    if (other !== other) {
+      return index;
+    }
+  }
+  return -1;
+}
+
+module.exports = indexOfNaN;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\initCloneArray.js":[function(require,module,exports){
+/** Used for native method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/**
+ * Initializes an array clone.
+ *
+ * @private
+ * @param {Array} array The array to clone.
+ * @returns {Array} Returns the initialized clone.
+ */
+function initCloneArray(array) {
+  var length = array.length,
+      result = new array.constructor(length);
+
+  // Add array properties assigned by `RegExp#exec`.
+  if (length && typeof array[0] == 'string' && hasOwnProperty.call(array, 'index')) {
+    result.index = array.index;
+    result.input = array.input;
+  }
+  return result;
+}
+
+module.exports = initCloneArray;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\initCloneByTag.js":[function(require,module,exports){
+var bufferClone = require('./bufferClone');
+
+/** `Object#toString` result references. */
+var boolTag = '[object Boolean]',
+    dateTag = '[object Date]',
+    numberTag = '[object Number]',
+    regexpTag = '[object RegExp]',
+    stringTag = '[object String]';
+
+var arrayBufferTag = '[object ArrayBuffer]',
+    float32Tag = '[object Float32Array]',
+    float64Tag = '[object Float64Array]',
+    int8Tag = '[object Int8Array]',
+    int16Tag = '[object Int16Array]',
+    int32Tag = '[object Int32Array]',
+    uint8Tag = '[object Uint8Array]',
+    uint8ClampedTag = '[object Uint8ClampedArray]',
+    uint16Tag = '[object Uint16Array]',
+    uint32Tag = '[object Uint32Array]';
+
+/** Used to match `RegExp` flags from their coerced string values. */
+var reFlags = /\w*$/;
+
+/**
+ * Initializes an object clone based on its `toStringTag`.
+ *
+ * **Note:** This function only supports cloning values with tags of
+ * `Boolean`, `Date`, `Error`, `Number`, `RegExp`, or `String`.
+ *
+ * @private
+ * @param {Object} object The object to clone.
+ * @param {string} tag The `toStringTag` of the object to clone.
+ * @param {boolean} [isDeep] Specify a deep clone.
+ * @returns {Object} Returns the initialized clone.
+ */
+function initCloneByTag(object, tag, isDeep) {
+  var Ctor = object.constructor;
+  switch (tag) {
+    case arrayBufferTag:
+      return bufferClone(object);
+
+    case boolTag:
+    case dateTag:
+      return new Ctor(+object);
+
+    case float32Tag: case float64Tag:
+    case int8Tag: case int16Tag: case int32Tag:
+    case uint8Tag: case uint8ClampedTag: case uint16Tag: case uint32Tag:
+      var buffer = object.buffer;
+      return new Ctor(isDeep ? bufferClone(buffer) : buffer, object.byteOffset, object.length);
+
+    case numberTag:
+    case stringTag:
+      return new Ctor(object);
+
+    case regexpTag:
+      var result = new Ctor(object.source, reFlags.exec(object));
+      result.lastIndex = object.lastIndex;
+  }
+  return result;
+}
+
+module.exports = initCloneByTag;
+
+},{"./bufferClone":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\bufferClone.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\initCloneObject.js":[function(require,module,exports){
+/**
+ * Initializes an object clone.
+ *
+ * @private
+ * @param {Object} object The object to clone.
+ * @returns {Object} Returns the initialized clone.
+ */
+function initCloneObject(object) {
+  var Ctor = object.constructor;
+  if (!(typeof Ctor == 'function' && Ctor instanceof Ctor)) {
+    Ctor = Object;
+  }
+  return new Ctor;
+}
+
+module.exports = initCloneObject;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isArrayLike.js":[function(require,module,exports){
+var getLength = require('./getLength'),
+    isLength = require('./isLength');
+
+/**
+ * Checks if `value` is array-like.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is array-like, else `false`.
+ */
+function isArrayLike(value) {
+  return value != null && isLength(getLength(value));
+}
+
+module.exports = isArrayLike;
+
+},{"./getLength":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\getLength.js","./isLength":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isLength.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isIndex.js":[function(require,module,exports){
+/** Used to detect unsigned integer values. */
+var reIsUint = /^\d+$/;
+
+/**
+ * Used as the [maximum length](http://ecma-international.org/ecma-262/6.0/#sec-number.max_safe_integer)
+ * of an array-like value.
+ */
+var MAX_SAFE_INTEGER = 9007199254740991;
+
+/**
+ * Checks if `value` is a valid array-like index.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @param {number} [length=MAX_SAFE_INTEGER] The upper bounds of a valid index.
+ * @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
+ */
+function isIndex(value, length) {
+  value = (typeof value == 'number' || reIsUint.test(value)) ? +value : -1;
+  length = length == null ? MAX_SAFE_INTEGER : length;
+  return value > -1 && value % 1 == 0 && value < length;
+}
+
+module.exports = isIndex;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isIterateeCall.js":[function(require,module,exports){
+var isArrayLike = require('./isArrayLike'),
+    isIndex = require('./isIndex'),
+    isObject = require('../lang/isObject');
+
+/**
+ * Checks if the provided arguments are from an iteratee call.
+ *
+ * @private
+ * @param {*} value The potential iteratee value argument.
+ * @param {*} index The potential iteratee index or key argument.
+ * @param {*} object The potential iteratee object argument.
+ * @returns {boolean} Returns `true` if the arguments are from an iteratee call, else `false`.
+ */
+function isIterateeCall(value, index, object) {
+  if (!isObject(object)) {
+    return false;
+  }
+  var type = typeof index;
+  if (type == 'number'
+      ? (isArrayLike(object) && isIndex(index, object.length))
+      : (type == 'string' && index in object)) {
+    var other = object[index];
+    return value === value ? (value === other) : (other !== other);
+  }
+  return false;
+}
+
+module.exports = isIterateeCall;
+
+},{"../lang/isObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isObject.js","./isArrayLike":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isArrayLike.js","./isIndex":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isIndex.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isKey.js":[function(require,module,exports){
+var isArray = require('../lang/isArray'),
+    toObject = require('./toObject');
+
+/** Used to match property names within property paths. */
+var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\n\\]|\\.)*?\1)\]/,
+    reIsPlainProp = /^\w*$/;
+
+/**
+ * Checks if `value` is a property name and not a property path.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @param {Object} [object] The object to query keys on.
+ * @returns {boolean} Returns `true` if `value` is a property name, else `false`.
+ */
+function isKey(value, object) {
+  var type = typeof value;
+  if ((type == 'string' && reIsPlainProp.test(value)) || type == 'number') {
+    return true;
+  }
+  if (isArray(value)) {
+    return false;
+  }
+  var result = !reIsDeepProp.test(value);
+  return result || (object != null && value in toObject(object));
+}
+
+module.exports = isKey;
+
+},{"../lang/isArray":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isArray.js","./toObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\toObject.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isLength.js":[function(require,module,exports){
+/**
+ * Used as the [maximum length](http://ecma-international.org/ecma-262/6.0/#sec-number.max_safe_integer)
+ * of an array-like value.
+ */
+var MAX_SAFE_INTEGER = 9007199254740991;
+
+/**
+ * Checks if `value` is a valid array-like length.
+ *
+ * **Note:** This function is based on [`ToLength`](http://ecma-international.org/ecma-262/6.0/#sec-tolength).
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
+ */
+function isLength(value) {
+  return typeof value == 'number' && value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
+}
+
+module.exports = isLength;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isObjectLike.js":[function(require,module,exports){
+/**
+ * Checks if `value` is object-like.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+ */
+function isObjectLike(value) {
+  return !!value && typeof value == 'object';
+}
+
+module.exports = isObjectLike;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isStrictComparable.js":[function(require,module,exports){
+var isObject = require('../lang/isObject');
+
+/**
+ * Checks if `value` is suitable for strict equality comparisons, i.e. `===`.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` if suitable for strict
+ *  equality comparisons, else `false`.
+ */
+function isStrictComparable(value) {
+  return value === value && !isObject(value);
+}
+
+module.exports = isStrictComparable;
+
+},{"../lang/isObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\shimKeys.js":[function(require,module,exports){
+var isArguments = require('../lang/isArguments'),
+    isArray = require('../lang/isArray'),
+    isIndex = require('./isIndex'),
+    isLength = require('./isLength'),
+    keysIn = require('../object/keysIn');
+
+/** Used for native method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/**
+ * A fallback implementation of `Object.keys` which creates an array of the
+ * own enumerable property names of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names.
+ */
+function shimKeys(object) {
+  var props = keysIn(object),
+      propsLength = props.length,
+      length = propsLength && object.length;
+
+  var allowIndexes = !!length && isLength(length) &&
+    (isArray(object) || isArguments(object));
+
+  var index = -1,
+      result = [];
+
+  while (++index < propsLength) {
+    var key = props[index];
+    if ((allowIndexes && isIndex(key, length)) || hasOwnProperty.call(object, key)) {
+      result.push(key);
+    }
+  }
+  return result;
+}
+
+module.exports = shimKeys;
+
+},{"../lang/isArguments":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isArguments.js","../lang/isArray":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isArray.js","../object/keysIn":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\keysIn.js","./isIndex":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isIndex.js","./isLength":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isLength.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\sortedUniq.js":[function(require,module,exports){
+/**
+ * An implementation of `_.uniq` optimized for sorted arrays without support
+ * for callback shorthands and `this` binding.
+ *
+ * @private
+ * @param {Array} array The array to inspect.
+ * @param {Function} [iteratee] The function invoked per iteration.
+ * @returns {Array} Returns the new duplicate free array.
+ */
+function sortedUniq(array, iteratee) {
+  var seen,
+      index = -1,
+      length = array.length,
+      resIndex = -1,
+      result = [];
+
+  while (++index < length) {
+    var value = array[index],
+        computed = iteratee ? iteratee(value, index, array) : value;
+
+    if (!index || seen !== computed) {
+      seen = computed;
+      result[++resIndex] = value;
+    }
+  }
+  return result;
+}
+
+module.exports = sortedUniq;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\toObject.js":[function(require,module,exports){
+var isObject = require('../lang/isObject');
+
+/**
+ * Converts `value` to an object if it's not one.
+ *
+ * @private
+ * @param {*} value The value to process.
+ * @returns {Object} Returns the object.
+ */
+function toObject(value) {
+  return isObject(value) ? value : Object(value);
+}
+
+module.exports = toObject;
+
+},{"../lang/isObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\toPath.js":[function(require,module,exports){
+var baseToString = require('./baseToString'),
+    isArray = require('../lang/isArray');
+
+/** Used to match property names within property paths. */
+var rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\n\\]|\\.)*?)\2)\]/g;
+
+/** Used to match backslashes in property paths. */
+var reEscapeChar = /\\(\\)?/g;
+
+/**
+ * Converts `value` to property path array if it's not one.
+ *
+ * @private
+ * @param {*} value The value to process.
+ * @returns {Array} Returns the property path array.
+ */
+function toPath(value) {
+  if (isArray(value)) {
+    return value;
+  }
+  var result = [];
+  baseToString(value).replace(rePropName, function(match, number, quote, string) {
+    result.push(quote ? string.replace(reEscapeChar, '$1') : (number || match));
+  });
+  return result;
+}
+
+module.exports = toPath;
+
+},{"../lang/isArray":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isArray.js","./baseToString":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseToString.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\clone.js":[function(require,module,exports){
+var baseClone = require('../internal/baseClone'),
+    bindCallback = require('../internal/bindCallback'),
+    isIterateeCall = require('../internal/isIterateeCall');
+
+/**
+ * Creates a clone of `value`. If `isDeep` is `true` nested objects are cloned,
+ * otherwise they are assigned by reference. If `customizer` is provided it's
+ * invoked to produce the cloned values. If `customizer` returns `undefined`
+ * cloning is handled by the method instead. The `customizer` is bound to
+ * `thisArg` and invoked with up to three argument; (value [, index|key, object]).
+ *
+ * **Note:** This method is loosely based on the
+ * [structured clone algorithm](http://www.w3.org/TR/html5/infrastructure.html#internal-structured-cloning-algorithm).
+ * The enumerable properties of `arguments` objects and objects created by
+ * constructors other than `Object` are cloned to plain `Object` objects. An
+ * empty object is returned for uncloneable values such as functions, DOM nodes,
+ * Maps, Sets, and WeakMaps.
+ *
+ * @static
+ * @memberOf _
+ * @category Lang
+ * @param {*} value The value to clone.
+ * @param {boolean} [isDeep] Specify a deep clone.
+ * @param {Function} [customizer] The function to customize cloning values.
+ * @param {*} [thisArg] The `this` binding of `customizer`.
+ * @returns {*} Returns the cloned value.
+ * @example
+ *
+ * var users = [
+ *   { 'user': 'barney' },
+ *   { 'user': 'fred' }
+ * ];
+ *
+ * var shallow = _.clone(users);
+ * shallow[0] === users[0];
+ * // => true
+ *
+ * var deep = _.clone(users, true);
+ * deep[0] === users[0];
+ * // => false
+ *
+ * // using a customizer callback
+ * var el = _.clone(document.body, function(value) {
+ *   if (_.isElement(value)) {
+ *     return value.cloneNode(false);
+ *   }
+ * });
+ *
+ * el === document.body
+ * // => false
+ * el.nodeName
+ * // => BODY
+ * el.childNodes.length;
+ * // => 0
+ */
+function clone(value, isDeep, customizer, thisArg) {
+  if (isDeep && typeof isDeep != 'boolean' && isIterateeCall(value, isDeep, customizer)) {
+    isDeep = false;
+  }
+  else if (typeof isDeep == 'function') {
+    thisArg = customizer;
+    customizer = isDeep;
+    isDeep = false;
+  }
+  return typeof customizer == 'function'
+    ? baseClone(value, isDeep, bindCallback(customizer, thisArg, 3))
+    : baseClone(value, isDeep);
+}
+
+module.exports = clone;
+
+},{"../internal/baseClone":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseClone.js","../internal/bindCallback":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\bindCallback.js","../internal/isIterateeCall":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isIterateeCall.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isArguments.js":[function(require,module,exports){
+var isArrayLike = require('../internal/isArrayLike'),
+    isObjectLike = require('../internal/isObjectLike');
+
+/** Used for native method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/** Native method references. */
+var propertyIsEnumerable = objectProto.propertyIsEnumerable;
+
+/**
+ * Checks if `value` is classified as an `arguments` object.
+ *
+ * @static
+ * @memberOf _
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+ * @example
+ *
+ * _.isArguments(function() { return arguments; }());
+ * // => true
+ *
+ * _.isArguments([1, 2, 3]);
+ * // => false
+ */
+function isArguments(value) {
+  return isObjectLike(value) && isArrayLike(value) &&
+    hasOwnProperty.call(value, 'callee') && !propertyIsEnumerable.call(value, 'callee');
+}
+
+module.exports = isArguments;
+
+},{"../internal/isArrayLike":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isArrayLike.js","../internal/isObjectLike":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isObjectLike.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isArray.js":[function(require,module,exports){
+var getNative = require('../internal/getNative'),
+    isLength = require('../internal/isLength'),
+    isObjectLike = require('../internal/isObjectLike');
+
+/** `Object#toString` result references. */
+var arrayTag = '[object Array]';
+
+/** Used for native method references. */
+var objectProto = Object.prototype;
+
+/**
+ * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var objToString = objectProto.toString;
+
+/* Native method references for those with the same name as other `lodash` methods. */
+var nativeIsArray = getNative(Array, 'isArray');
+
+/**
+ * Checks if `value` is classified as an `Array` object.
+ *
+ * @static
+ * @memberOf _
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+ * @example
+ *
+ * _.isArray([1, 2, 3]);
+ * // => true
+ *
+ * _.isArray(function() { return arguments; }());
+ * // => false
+ */
+var isArray = nativeIsArray || function(value) {
+  return isObjectLike(value) && isLength(value.length) && objToString.call(value) == arrayTag;
+};
+
+module.exports = isArray;
+
+},{"../internal/getNative":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\getNative.js","../internal/isLength":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isLength.js","../internal/isObjectLike":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isObjectLike.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isFunction.js":[function(require,module,exports){
+var isObject = require('./isObject');
+
+/** `Object#toString` result references. */
+var funcTag = '[object Function]';
+
+/** Used for native method references. */
+var objectProto = Object.prototype;
+
+/**
+ * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var objToString = objectProto.toString;
+
+/**
+ * Checks if `value` is classified as a `Function` object.
+ *
+ * @static
+ * @memberOf _
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+ * @example
+ *
+ * _.isFunction(_);
+ * // => true
+ *
+ * _.isFunction(/abc/);
+ * // => false
+ */
+function isFunction(value) {
+  // The use of `Object#toString` avoids issues with the `typeof` operator
+  // in older versions of Chrome and Safari which return 'function' for regexes
+  // and Safari 8 which returns 'object' for typed array constructors.
+  return isObject(value) && objToString.call(value) == funcTag;
+}
+
+module.exports = isFunction;
+
+},{"./isObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isNative.js":[function(require,module,exports){
+var isFunction = require('./isFunction'),
+    isObjectLike = require('../internal/isObjectLike');
+
+/** Used to detect host constructors (Safari > 5). */
+var reIsHostCtor = /^\[object .+?Constructor\]$/;
+
+/** Used for native method references. */
+var objectProto = Object.prototype;
+
+/** Used to resolve the decompiled source of functions. */
+var fnToString = Function.prototype.toString;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/** Used to detect if a method is native. */
+var reIsNative = RegExp('^' +
+  fnToString.call(hasOwnProperty).replace(/[\\^$.*+?()[\]{}|]/g, '\\$&')
+  .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
+);
+
+/**
+ * Checks if `value` is a native function.
+ *
+ * @static
+ * @memberOf _
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a native function, else `false`.
+ * @example
+ *
+ * _.isNative(Array.prototype.push);
+ * // => true
+ *
+ * _.isNative(_);
+ * // => false
+ */
+function isNative(value) {
+  if (value == null) {
+    return false;
+  }
+  if (isFunction(value)) {
+    return reIsNative.test(fnToString.call(value));
+  }
+  return isObjectLike(value) && reIsHostCtor.test(value);
+}
+
+module.exports = isNative;
+
+},{"../internal/isObjectLike":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isObjectLike.js","./isFunction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isFunction.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isObject.js":[function(require,module,exports){
+/**
+ * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
+ * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+ *
+ * @static
+ * @memberOf _
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+ * @example
+ *
+ * _.isObject({});
+ * // => true
+ *
+ * _.isObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isObject(1);
+ * // => false
+ */
+function isObject(value) {
+  // Avoid a V8 JIT bug in Chrome 19-20.
+  // See https://code.google.com/p/v8/issues/detail?id=2291 for more details.
+  var type = typeof value;
+  return !!value && (type == 'object' || type == 'function');
+}
+
+module.exports = isObject;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isString.js":[function(require,module,exports){
+var isObjectLike = require('../internal/isObjectLike');
+
+/** `Object#toString` result references. */
+var stringTag = '[object String]';
+
+/** Used for native method references. */
+var objectProto = Object.prototype;
+
+/**
+ * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var objToString = objectProto.toString;
+
+/**
+ * Checks if `value` is classified as a `String` primitive or object.
+ *
+ * @static
+ * @memberOf _
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+ * @example
+ *
+ * _.isString('abc');
+ * // => true
+ *
+ * _.isString(1);
+ * // => false
+ */
+function isString(value) {
+  return typeof value == 'string' || (isObjectLike(value) && objToString.call(value) == stringTag);
+}
+
+module.exports = isString;
+
+},{"../internal/isObjectLike":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isObjectLike.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isTypedArray.js":[function(require,module,exports){
+var isLength = require('../internal/isLength'),
+    isObjectLike = require('../internal/isObjectLike');
+
+/** `Object#toString` result references. */
+var argsTag = '[object Arguments]',
+    arrayTag = '[object Array]',
+    boolTag = '[object Boolean]',
+    dateTag = '[object Date]',
+    errorTag = '[object Error]',
+    funcTag = '[object Function]',
+    mapTag = '[object Map]',
+    numberTag = '[object Number]',
+    objectTag = '[object Object]',
+    regexpTag = '[object RegExp]',
+    setTag = '[object Set]',
+    stringTag = '[object String]',
+    weakMapTag = '[object WeakMap]';
+
+var arrayBufferTag = '[object ArrayBuffer]',
+    float32Tag = '[object Float32Array]',
+    float64Tag = '[object Float64Array]',
+    int8Tag = '[object Int8Array]',
+    int16Tag = '[object Int16Array]',
+    int32Tag = '[object Int32Array]',
+    uint8Tag = '[object Uint8Array]',
+    uint8ClampedTag = '[object Uint8ClampedArray]',
+    uint16Tag = '[object Uint16Array]',
+    uint32Tag = '[object Uint32Array]';
+
+/** Used to identify `toStringTag` values of typed arrays. */
+var typedArrayTags = {};
+typedArrayTags[float32Tag] = typedArrayTags[float64Tag] =
+typedArrayTags[int8Tag] = typedArrayTags[int16Tag] =
+typedArrayTags[int32Tag] = typedArrayTags[uint8Tag] =
+typedArrayTags[uint8ClampedTag] = typedArrayTags[uint16Tag] =
+typedArrayTags[uint32Tag] = true;
+typedArrayTags[argsTag] = typedArrayTags[arrayTag] =
+typedArrayTags[arrayBufferTag] = typedArrayTags[boolTag] =
+typedArrayTags[dateTag] = typedArrayTags[errorTag] =
+typedArrayTags[funcTag] = typedArrayTags[mapTag] =
+typedArrayTags[numberTag] = typedArrayTags[objectTag] =
+typedArrayTags[regexpTag] = typedArrayTags[setTag] =
+typedArrayTags[stringTag] = typedArrayTags[weakMapTag] = false;
+
+/** Used for native method references. */
+var objectProto = Object.prototype;
+
+/**
+ * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var objToString = objectProto.toString;
+
+/**
+ * Checks if `value` is classified as a typed array.
+ *
+ * @static
+ * @memberOf _
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+ * @example
+ *
+ * _.isTypedArray(new Uint8Array);
+ * // => true
+ *
+ * _.isTypedArray([]);
+ * // => false
+ */
+function isTypedArray(value) {
+  return isObjectLike(value) && isLength(value.length) && !!typedArrayTags[objToString.call(value)];
+}
+
+module.exports = isTypedArray;
+
+},{"../internal/isLength":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isLength.js","../internal/isObjectLike":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isObjectLike.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\findKey.js":[function(require,module,exports){
+var baseForOwn = require('../internal/baseForOwn'),
+    createFindKey = require('../internal/createFindKey');
+
+/**
+ * This method is like `_.find` except that it returns the key of the first
+ * element `predicate` returns truthy for instead of the element itself.
+ *
+ * If a property name is provided for `predicate` the created `_.property`
+ * style callback returns the property value of the given element.
+ *
+ * If a value is also provided for `thisArg` the created `_.matchesProperty`
+ * style callback returns `true` for elements that have a matching property
+ * value, else `false`.
+ *
+ * If an object is provided for `predicate` the created `_.matches` style
+ * callback returns `true` for elements that have the properties of the given
+ * object, else `false`.
+ *
+ * @static
+ * @memberOf _
+ * @category Object
+ * @param {Object} object The object to search.
+ * @param {Function|Object|string} [predicate=_.identity] The function invoked
+ *  per iteration.
+ * @param {*} [thisArg] The `this` binding of `predicate`.
+ * @returns {string|undefined} Returns the key of the matched element, else `undefined`.
+ * @example
+ *
+ * var users = {
+ *   'barney':  { 'age': 36, 'active': true },
+ *   'fred':    { 'age': 40, 'active': false },
+ *   'pebbles': { 'age': 1,  'active': true }
+ * };
+ *
+ * _.findKey(users, function(chr) {
+ *   return chr.age < 40;
+ * });
+ * // => 'barney' (iteration order is not guaranteed)
+ *
+ * // using the `_.matches` callback shorthand
+ * _.findKey(users, { 'age': 1, 'active': true });
+ * // => 'pebbles'
+ *
+ * // using the `_.matchesProperty` callback shorthand
+ * _.findKey(users, 'active', false);
+ * // => 'fred'
+ *
+ * // using the `_.property` callback shorthand
+ * _.findKey(users, 'active');
+ * // => 'barney'
+ */
+var findKey = createFindKey(baseForOwn);
+
+module.exports = findKey;
+
+},{"../internal/baseForOwn":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseForOwn.js","../internal/createFindKey":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\createFindKey.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\forOwn.js":[function(require,module,exports){
+var baseForOwn = require('../internal/baseForOwn'),
+    createForOwn = require('../internal/createForOwn');
+
+/**
+ * Iterates over own enumerable properties of an object invoking `iteratee`
+ * for each property. The `iteratee` is bound to `thisArg` and invoked with
+ * three arguments: (value, key, object). Iteratee functions may exit iteration
+ * early by explicitly returning `false`.
+ *
+ * @static
+ * @memberOf _
+ * @category Object
+ * @param {Object} object The object to iterate over.
+ * @param {Function} [iteratee=_.identity] The function invoked per iteration.
+ * @param {*} [thisArg] The `this` binding of `iteratee`.
+ * @returns {Object} Returns `object`.
+ * @example
+ *
+ * function Foo() {
+ *   this.a = 1;
+ *   this.b = 2;
+ * }
+ *
+ * Foo.prototype.c = 3;
+ *
+ * _.forOwn(new Foo, function(value, key) {
+ *   console.log(key);
+ * });
+ * // => logs 'a' and 'b' (iteration order is not guaranteed)
+ */
+var forOwn = createForOwn(baseForOwn);
+
+module.exports = forOwn;
+
+},{"../internal/baseForOwn":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseForOwn.js","../internal/createForOwn":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\createForOwn.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\keys.js":[function(require,module,exports){
+var getNative = require('../internal/getNative'),
+    isArrayLike = require('../internal/isArrayLike'),
+    isObject = require('../lang/isObject'),
+    shimKeys = require('../internal/shimKeys');
+
+/* Native method references for those with the same name as other `lodash` methods. */
+var nativeKeys = getNative(Object, 'keys');
+
+/**
+ * Creates an array of the own enumerable property names of `object`.
+ *
+ * **Note:** Non-object values are coerced to objects. See the
+ * [ES spec](http://ecma-international.org/ecma-262/6.0/#sec-object.keys)
+ * for more details.
+ *
+ * @static
+ * @memberOf _
+ * @category Object
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names.
+ * @example
+ *
+ * function Foo() {
+ *   this.a = 1;
+ *   this.b = 2;
+ * }
+ *
+ * Foo.prototype.c = 3;
+ *
+ * _.keys(new Foo);
+ * // => ['a', 'b'] (iteration order is not guaranteed)
+ *
+ * _.keys('hi');
+ * // => ['0', '1']
+ */
+var keys = !nativeKeys ? shimKeys : function(object) {
+  var Ctor = object == null ? undefined : object.constructor;
+  if ((typeof Ctor == 'function' && Ctor.prototype === object) ||
+      (typeof object != 'function' && isArrayLike(object))) {
+    return shimKeys(object);
+  }
+  return isObject(object) ? nativeKeys(object) : [];
+};
+
+module.exports = keys;
+
+},{"../internal/getNative":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\getNative.js","../internal/isArrayLike":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isArrayLike.js","../internal/shimKeys":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\shimKeys.js","../lang/isObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\keysIn.js":[function(require,module,exports){
+var isArguments = require('../lang/isArguments'),
+    isArray = require('../lang/isArray'),
+    isIndex = require('../internal/isIndex'),
+    isLength = require('../internal/isLength'),
+    isObject = require('../lang/isObject');
+
+/** Used for native method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/**
+ * Creates an array of the own and inherited enumerable property names of `object`.
+ *
+ * **Note:** Non-object values are coerced to objects.
+ *
+ * @static
+ * @memberOf _
+ * @category Object
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names.
+ * @example
+ *
+ * function Foo() {
+ *   this.a = 1;
+ *   this.b = 2;
+ * }
+ *
+ * Foo.prototype.c = 3;
+ *
+ * _.keysIn(new Foo);
+ * // => ['a', 'b', 'c'] (iteration order is not guaranteed)
+ */
+function keysIn(object) {
+  if (object == null) {
+    return [];
+  }
+  if (!isObject(object)) {
+    object = Object(object);
+  }
+  var length = object.length;
+  length = (length && isLength(length) &&
+    (isArray(object) || isArguments(object)) && length) || 0;
+
+  var Ctor = object.constructor,
+      index = -1,
+      isProto = typeof Ctor == 'function' && Ctor.prototype === object,
+      result = Array(length),
+      skipIndexes = length > 0;
+
+  while (++index < length) {
+    result[index] = (index + '');
+  }
+  for (var key in object) {
+    if (!(skipIndexes && isIndex(key, length)) &&
+        !(key == 'constructor' && (isProto || !hasOwnProperty.call(object, key)))) {
+      result.push(key);
+    }
+  }
+  return result;
+}
+
+module.exports = keysIn;
+
+},{"../internal/isIndex":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isIndex.js","../internal/isLength":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isLength.js","../lang/isArguments":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isArguments.js","../lang/isArray":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isArray.js","../lang/isObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\lang\\isObject.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\mapValues.js":[function(require,module,exports){
+var createObjectMapper = require('../internal/createObjectMapper');
+
+/**
+ * Creates an object with the same keys as `object` and values generated by
+ * running each own enumerable property of `object` through `iteratee`. The
+ * iteratee function is bound to `thisArg` and invoked with three arguments:
+ * (value, key, object).
+ *
+ * If a property name is provided for `iteratee` the created `_.property`
+ * style callback returns the property value of the given element.
+ *
+ * If a value is also provided for `thisArg` the created `_.matchesProperty`
+ * style callback returns `true` for elements that have a matching property
+ * value, else `false`.
+ *
+ * If an object is provided for `iteratee` the created `_.matches` style
+ * callback returns `true` for elements that have the properties of the given
+ * object, else `false`.
+ *
+ * @static
+ * @memberOf _
+ * @category Object
+ * @param {Object} object The object to iterate over.
+ * @param {Function|Object|string} [iteratee=_.identity] The function invoked
+ *  per iteration.
+ * @param {*} [thisArg] The `this` binding of `iteratee`.
+ * @returns {Object} Returns the new mapped object.
+ * @example
+ *
+ * _.mapValues({ 'a': 1, 'b': 2 }, function(n) {
+ *   return n * 3;
+ * });
+ * // => { 'a': 3, 'b': 6 }
+ *
+ * var users = {
+ *   'fred':    { 'user': 'fred',    'age': 40 },
+ *   'pebbles': { 'user': 'pebbles', 'age': 1 }
+ * };
+ *
+ * // using the `_.property` callback shorthand
+ * _.mapValues(users, 'age');
+ * // => { 'fred': 40, 'pebbles': 1 } (iteration order is not guaranteed)
+ */
+var mapValues = createObjectMapper();
+
+module.exports = mapValues;
+
+},{"../internal/createObjectMapper":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\createObjectMapper.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\pairs.js":[function(require,module,exports){
+var keys = require('./keys'),
+    toObject = require('../internal/toObject');
+
+/**
+ * Creates a two dimensional array of the key-value pairs for `object`,
+ * e.g. `[[key1, value1], [key2, value2]]`.
+ *
+ * @static
+ * @memberOf _
+ * @category Object
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the new array of key-value pairs.
+ * @example
+ *
+ * _.pairs({ 'barney': 36, 'fred': 40 });
+ * // => [['barney', 36], ['fred', 40]] (iteration order is not guaranteed)
+ */
+function pairs(object) {
+  object = toObject(object);
+
+  var index = -1,
+      props = keys(object),
+      length = props.length,
+      result = Array(length);
+
+  while (++index < length) {
+    var key = props[index];
+    result[index] = [key, object[key]];
+  }
+  return result;
+}
+
+module.exports = pairs;
+
+},{"../internal/toObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\toObject.js","./keys":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\object\\keys.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\utility\\identity.js":[function(require,module,exports){
+/**
+ * This method returns the first argument provided to it.
+ *
+ * @static
+ * @memberOf _
+ * @category Utility
+ * @param {*} value Any value.
+ * @returns {*} Returns `value`.
+ * @example
+ *
+ * var object = { 'user': 'fred' };
+ *
+ * _.identity(object) === object;
+ * // => true
+ */
+function identity(value) {
+  return value;
+}
+
+module.exports = identity;
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\utility\\property.js":[function(require,module,exports){
+var baseProperty = require('../internal/baseProperty'),
+    basePropertyDeep = require('../internal/basePropertyDeep'),
+    isKey = require('../internal/isKey');
+
+/**
+ * Creates a function that returns the property value at `path` on a
+ * given object.
+ *
+ * @static
+ * @memberOf _
+ * @category Utility
+ * @param {Array|string} path The path of the property to get.
+ * @returns {Function} Returns the new function.
+ * @example
+ *
+ * var objects = [
+ *   { 'a': { 'b': { 'c': 2 } } },
+ *   { 'a': { 'b': { 'c': 1 } } }
+ * ];
+ *
+ * _.map(objects, _.property('a.b.c'));
+ * // => [2, 1]
+ *
+ * _.pluck(_.sortBy(objects, _.property(['a', 'b', 'c'])), 'a.b.c');
+ * // => [1, 2]
+ */
+function property(path) {
+  return isKey(path) ? baseProperty(path) : basePropertyDeep(path);
+}
+
+module.exports = property;
+
+},{"../internal/baseProperty":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\baseProperty.js","../internal/basePropertyDeep":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\basePropertyDeep.js","../internal/isKey":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\lodash\\internal\\isKey.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\object-path\\index.js":[function(require,module,exports){
+(function (root, factory){
+  'use strict';
+
+  /*istanbul ignore next:cant test*/
+  if (typeof module === 'object' && typeof module.exports === 'object') {
+    module.exports = factory();
+  } else if (typeof define === 'function' && define.amd) {
+    // AMD. Register as an anonymous module.
+    define([], factory);
+  } else {
+    // Browser globals
+    root.objectPath = factory();
+  }
+})(this, function(){
+  'use strict';
+
+  var
+    toStr = Object.prototype.toString,
+    _hasOwnProperty = Object.prototype.hasOwnProperty;
+
+  function isEmpty(value){
+    if (!value) {
+      return true;
+    }
+    if (isArray(value) && value.length === 0) {
+      return true;
+    } else {
+      for (var i in value) {
+        if (_hasOwnProperty.call(value, i)) {
+          return false;
+        }
+      }
+      return true;
+    }
+  }
+
+  function toString(type){
+    return toStr.call(type);
+  }
+
+  function isNumber(value){
+    return typeof value === 'number' || toString(value) === "[object Number]";
+  }
+
+  function isString(obj){
+    return typeof obj === 'string' || toString(obj) === "[object String]";
+  }
+
+  function isObject(obj){
+    return typeof obj === 'object' && toString(obj) === "[object Object]";
+  }
+
+  function isArray(obj){
+    return typeof obj === 'object' && typeof obj.length === 'number' && toString(obj) === '[object Array]';
+  }
+
+  function isBoolean(obj){
+    return typeof obj === 'boolean' || toString(obj) === '[object Boolean]';
+  }
+
+  function getKey(key){
+    var intKey = parseInt(key);
+    if (intKey.toString() === key) {
+      return intKey;
+    }
+    return key;
+  }
+
+  function set(obj, path, value, doNotReplace){
+    if (isNumber(path)) {
+      path = [path];
+    }
+    if (isEmpty(path)) {
+      return obj;
+    }
+    if (isString(path)) {
+      return set(obj, path.split('.'), value, doNotReplace);
+    }
+    var currentPath = getKey(path[0]);
+
+    if (path.length === 1) {
+      var oldVal = obj[currentPath];
+      if (oldVal === void 0 || !doNotReplace) {
+        obj[currentPath] = value;
+      }
+      return oldVal;
+    }
+
+    if (obj[currentPath] === void 0) {
+      if (isNumber(currentPath)) {
+        obj[currentPath] = [];
+      } else {
+        obj[currentPath] = {};
+      }
+    }
+
+    return set(obj[currentPath], path.slice(1), value, doNotReplace);
+  }
+
+  function del(obj, path) {
+    if (isNumber(path)) {
+      path = [path];
+    }
+
+    if (isEmpty(obj)) {
+      return void 0;
+    }
+
+    if (isEmpty(path)) {
+      return obj;
+    }
+    if(isString(path)) {
+      return del(obj, path.split('.'));
+    }
+
+    var currentPath = getKey(path[0]);
+    var oldVal = obj[currentPath];
+
+    if(path.length === 1) {
+      if (oldVal !== void 0) {
+        if (isArray(obj)) {
+          obj.splice(currentPath, 1);
+        } else {
+          delete obj[currentPath];
+        }
+      }
+    } else {
+      if (obj[currentPath] !== void 0) {
+        return del(obj[currentPath], path.slice(1));
+      }
+    }
+
+    return obj;
+  }
+
+  var objectPath = {};
+
+  objectPath.ensureExists = function (obj, path, value){
+    return set(obj, path, value, true);
+  };
+
+  objectPath.set = function (obj, path, value, doNotReplace){
+    return set(obj, path, value, doNotReplace);
+  };
+
+  objectPath.insert = function (obj, path, value, at){
+    var arr = objectPath.get(obj, path);
+    at = ~~at;
+    if (!isArray(arr)) {
+      arr = [];
+      objectPath.set(obj, path, arr);
+    }
+    arr.splice(at, 0, value);
+  };
+
+  objectPath.empty = function(obj, path) {
+    if (isEmpty(path)) {
+      return obj;
+    }
+    if (isEmpty(obj)) {
+      return void 0;
+    }
+
+    var value, i;
+    if (!(value = objectPath.get(obj, path))) {
+      return obj;
+    }
+
+    if (isString(value)) {
+      return objectPath.set(obj, path, '');
+    } else if (isBoolean(value)) {
+      return objectPath.set(obj, path, false);
+    } else if (isNumber(value)) {
+      return objectPath.set(obj, path, 0);
+    } else if (isArray(value)) {
+      value.length = 0;
+    } else if (isObject(value)) {
+      for (i in value) {
+        if (_hasOwnProperty.call(value, i)) {
+          delete value[i];
+        }
+      }
+    } else {
+      return objectPath.set(obj, path, null);
+    }
+  };
+
+  objectPath.push = function (obj, path /*, values */){
+    var arr = objectPath.get(obj, path);
+    if (!isArray(arr)) {
+      arr = [];
+      objectPath.set(obj, path, arr);
+    }
+
+    arr.push.apply(arr, Array.prototype.slice.call(arguments, 2));
+  };
+
+  objectPath.coalesce = function (obj, paths, defaultValue) {
+    var value;
+
+    for (var i = 0, len = paths.length; i < len; i++) {
+      if ((value = objectPath.get(obj, paths[i])) !== void 0) {
+        return value;
+      }
+    }
+
+    return defaultValue;
+  };
+
+  objectPath.get = function (obj, path, defaultValue){
+    if (isNumber(path)) {
+      path = [path];
+    }
+    if (isEmpty(path)) {
+      return obj;
+    }
+    if (isEmpty(obj)) {
+      return defaultValue;
+    }
+    if (isString(path)) {
+      return objectPath.get(obj, path.split('.'), defaultValue);
+    }
+
+    var currentPath = getKey(path[0]);
+
+    if (path.length === 1) {
+      if (obj[currentPath] === void 0) {
+        return defaultValue;
+      }
+      return obj[currentPath];
+    }
+
+    return objectPath.get(obj[currentPath], path.slice(1), defaultValue);
+  };
+
+  objectPath.del = function(obj, path) {
+    return del(obj, path);
+  };
+
+  return objectPath;
+});
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js":[function(require,module,exports){
+// shim for using process in browser
+
+var process = module.exports = {};
+var queue = [];
+var draining = false;
+
+function drainQueue() {
+    if (draining) {
+        return;
+    }
+    draining = true;
+    var currentQueue;
+    var len = queue.length;
+    while(len) {
+        currentQueue = queue;
+        queue = [];
+        var i = -1;
+        while (++i < len) {
+            currentQueue[i]();
+        }
+        len = queue.length;
+    }
+    draining = false;
+}
+process.nextTick = function (fun) {
+    queue.push(fun);
+    if (!draining) {
+        setTimeout(drainQueue, 0);
+    }
+};
+
+process.title = 'browser';
+process.browser = true;
+process.env = {};
+process.argv = [];
+process.version = ''; // empty string to avoid regexp issues
+process.versions = {};
+
+function noop() {}
+
+process.on = noop;
+process.addListener = noop;
+process.once = noop;
+process.off = noop;
+process.removeListener = noop;
+process.removeAllListeners = noop;
+process.emit = noop;
+
+process.binding = function (name) {
+    throw new Error('process.binding is not supported');
+};
+
+// TODO(shtylman)
+process.cwd = function () { return '/' };
+process.chdir = function (dir) {
+    throw new Error('process.chdir is not supported');
+};
+process.umask = function() { return 0; };
+
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-google-analytics\\lib\\index.js":[function(require,module,exports){
 var React, ga, script, scriptIsAdded, _name,
   __slice = [].slice;
 
@@ -15753,7 +15520,7 @@ ga.Initializer = React.createClass({
 
 module.exports = ga;
 
-},{"react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Cancellation.js":[function(require,module,exports){
+},{"react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\Cancellation.js":[function(require,module,exports){
 /**
  * Represents a cancellation caused by navigating away
  * before the previous transition has fully resolved.
@@ -15763,11 +15530,11 @@ module.exports = ga;
 function Cancellation() {}
 
 module.exports = Cancellation;
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\History.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\History.js":[function(require,module,exports){
 'use strict';
 
-var invariant = require('react/lib/invariant');
-var canUseDOM = require('react/lib/ExecutionEnvironment').canUseDOM;
+var invariant = require('invariant');
+var canUseDOM = require('can-use-dom');
 
 var History = {
 
@@ -15794,14 +15561,14 @@ var History = {
 };
 
 module.exports = History;
-},{"react/lib/ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Match.js":[function(require,module,exports){
+},{"can-use-dom":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\can-use-dom\\index.js","invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\invariant\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\Match.js":[function(require,module,exports){
+/* jshint -W084 */
 'use strict';
-
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-/* jshint -W084 */
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
 var PathUtils = require('./PathUtils');
 
 function deepSearch(route, pathname, query) {
@@ -15824,29 +15591,20 @@ function deepSearch(route, pathname, query) {
 
   // No child routes matched; try the default route.
   var defaultRoute = route.defaultRoute;
-  if (defaultRoute && (params = PathUtils.extractParams(defaultRoute.path, pathname))) {
-    return new Match(pathname, params, query, [route, defaultRoute]);
-  } // Does the "not found" route match?
+  if (defaultRoute && (params = PathUtils.extractParams(defaultRoute.path, pathname))) return new Match(pathname, params, query, [route, defaultRoute]);
+
+  // Does the "not found" route match?
   var notFoundRoute = route.notFoundRoute;
-  if (notFoundRoute && (params = PathUtils.extractParams(notFoundRoute.path, pathname))) {
-    return new Match(pathname, params, query, [route, notFoundRoute]);
-  } // Last attempt: check this route.
+  if (notFoundRoute && (params = PathUtils.extractParams(notFoundRoute.path, pathname))) return new Match(pathname, params, query, [route, notFoundRoute]);
+
+  // Last attempt: check this route.
   var params = PathUtils.extractParams(route.path, pathname);
-  if (params) {
-    return new Match(pathname, params, query, [route]);
-  }return null;
+  if (params) return new Match(pathname, params, query, [route]);
+
+  return null;
 }
 
 var Match = (function () {
-  function Match(pathname, params, query, routes) {
-    _classCallCheck(this, Match);
-
-    this.pathname = pathname;
-    this.params = params;
-    this.query = query;
-    this.routes = routes;
-  }
-
   _createClass(Match, null, [{
     key: 'findMatch',
 
@@ -15866,11 +15624,20 @@ var Match = (function () {
     }
   }]);
 
+  function Match(pathname, params, query, routes) {
+    _classCallCheck(this, Match);
+
+    this.pathname = pathname;
+    this.params = params;
+    this.query = query;
+    this.routes = routes;
+  }
+
   return Match;
 })();
 
 module.exports = Match;
-},{"./PathUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PathUtils.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Navigation.js":[function(require,module,exports){
+},{"./PathUtils":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\PathUtils.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\Navigation.js":[function(require,module,exports){
 'use strict';
 
 var PropTypes = require('./PropTypes');
@@ -15941,16 +15708,16 @@ var Navigation = {
 };
 
 module.exports = Navigation;
-},{"./PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PathUtils.js":[function(require,module,exports){
+},{"./PropTypes":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\PathUtils.js":[function(require,module,exports){
 'use strict';
 
-var invariant = require('react/lib/invariant');
+var invariant = require('invariant');
 var assign = require('object-assign');
 var qs = require('qs');
 
 var paramCompileMatcher = /:([a-zA-Z_$][a-zA-Z0-9_$]*)|[*.()\[\]\\+|{}^$]/g;
 var paramInjectMatcher = /:([a-zA-Z_$][a-zA-Z0-9_$?]*[?]?)|[*]/g;
-var paramInjectTrailingSlashMatcher = /\/\/\?|\/\?\/|\/\?/g;
+var paramInjectTrailingSlashMatcher = /\/\/\?|\/\?\/|\/\?(?![^\/=]+=.*$)/g;
 var queryMatcher = /\?(.*)$/;
 
 var _compiledPatterns = {};
@@ -16015,9 +15782,9 @@ var PathUtils = {
 
     var match = path.match(matcher);
 
-    if (!match) {
-      return null;
-    }var params = {};
+    if (!match) return null;
+
+    var params = {};
 
     paramNames.forEach(function (paramName, index) {
       params[paramName] = match[index + 1];
@@ -16087,18 +15854,18 @@ var PathUtils = {
 
     var queryString = qs.stringify(query, { arrayFormat: 'brackets' });
 
-    if (queryString) {
-      return PathUtils.withoutQuery(path) + '?' + queryString;
-    }return PathUtils.withoutQuery(path);
+    if (queryString) return PathUtils.withoutQuery(path) + '?' + queryString;
+
+    return PathUtils.withoutQuery(path);
   }
 
 };
 
 module.exports = PathUtils;
-},{"object-assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\object-assign\\index.js","qs":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\index.js","react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js":[function(require,module,exports){
+},{"invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\invariant\\browser.js","object-assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\object-assign\\index.js","qs":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js":[function(require,module,exports){
 'use strict';
 
-var assign = require('react/lib/Object.assign');
+var assign = require('object-assign');
 var ReactPropTypes = require('react').PropTypes;
 var Route = require('./Route');
 
@@ -16108,9 +15875,7 @@ var PropTypes = assign({}, ReactPropTypes, {
    * Indicates that a prop should be falsy.
    */
   falsy: function falsy(props, propName, componentName) {
-    if (props[propName]) {
-      return new Error('<' + componentName + '> should not have a "' + propName + '" prop');
-    }
+    if (props[propName]) return new Error('<' + componentName + '> should not have a "' + propName + '" prop');
   },
 
   /**
@@ -16127,7 +15892,7 @@ var PropTypes = assign({}, ReactPropTypes, {
 });
 
 module.exports = PropTypes;
-},{"./Route":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Route.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react/lib/Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Redirect.js":[function(require,module,exports){
+},{"./Route":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\Route.js","object-assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\object-assign\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\Redirect.js":[function(require,module,exports){
 /**
  * Encapsulates a redirect to the given route.
  */
@@ -16140,60 +15905,22 @@ function Redirect(to, params, query) {
 }
 
 module.exports = Redirect;
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Route.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\Route.js":[function(require,module,exports){
 'use strict';
-
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var assign = require('react/lib/Object.assign');
-var invariant = require('react/lib/invariant');
-var warning = require('react/lib/warning');
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+var assign = require('object-assign');
+var invariant = require('invariant');
+var warning = require('./warning');
 var PathUtils = require('./PathUtils');
 
 var _currentRoute;
 
 var Route = (function () {
-  function Route(name, path, ignoreScrollBehavior, isDefault, isNotFound, onEnter, onLeave, handler) {
-    _classCallCheck(this, Route);
-
-    this.name = name;
-    this.path = path;
-    this.paramNames = PathUtils.extractParamNames(this.path);
-    this.ignoreScrollBehavior = !!ignoreScrollBehavior;
-    this.isDefault = !!isDefault;
-    this.isNotFound = !!isNotFound;
-    this.onEnter = onEnter;
-    this.onLeave = onLeave;
-    this.handler = handler;
-  }
-
-  _createClass(Route, [{
-    key: 'appendChild',
-
-    /**
-     * Appends the given route to this route's child routes.
-     */
-    value: function appendChild(route) {
-      invariant(route instanceof Route, 'route.appendChild must use a valid Route');
-
-      if (!this.childRoutes) this.childRoutes = [];
-
-      this.childRoutes.push(route);
-    }
-  }, {
-    key: 'toString',
-    value: function toString() {
-      var string = '<Route';
-
-      if (this.name) string += ' name="' + this.name + '"';
-
-      string += ' path="' + this.path + '">';
-
-      return string;
-    }
-  }], [{
+  _createClass(Route, null, [{
     key: 'createRoute',
 
     /**
@@ -16292,28 +16019,26 @@ var Route = (function () {
 
       return route;
     }
-  }, {
-    key: 'createDefaultRoute',
 
     /**
      * Creates and returns a route that is rendered when its parent matches
      * the current URL.
      */
+  }, {
+    key: 'createDefaultRoute',
     value: function createDefaultRoute(options) {
       return Route.createRoute(assign({}, options, { isDefault: true }));
     }
-  }, {
-    key: 'createNotFoundRoute',
 
     /**
      * Creates and returns a route that is rendered when its parent matches
      * the current URL but none of its siblings do.
      */
+  }, {
+    key: 'createNotFoundRoute',
     value: function createNotFoundRoute(options) {
       return Route.createRoute(assign({}, options, { isNotFound: true }));
     }
-  }, {
-    key: 'createRedirect',
 
     /**
      * Creates and returns a route that automatically redirects the transition
@@ -16327,6 +16052,8 @@ var Route = (function () {
      * - query        The query to use in the redirect URL. Defaults
      *                to using the current query
      */
+  }, {
+    key: 'createRedirect',
     value: function createRedirect(options) {
       return Route.createRoute(assign({}, options, {
         path: options.path || options.from || '*',
@@ -16337,24 +16064,64 @@ var Route = (function () {
     }
   }]);
 
+  function Route(name, path, ignoreScrollBehavior, isDefault, isNotFound, onEnter, onLeave, handler) {
+    _classCallCheck(this, Route);
+
+    this.name = name;
+    this.path = path;
+    this.paramNames = PathUtils.extractParamNames(this.path);
+    this.ignoreScrollBehavior = !!ignoreScrollBehavior;
+    this.isDefault = !!isDefault;
+    this.isNotFound = !!isNotFound;
+    this.onEnter = onEnter;
+    this.onLeave = onLeave;
+    this.handler = handler;
+  }
+
+  /**
+   * Appends the given route to this route's child routes.
+   */
+
+  _createClass(Route, [{
+    key: 'appendChild',
+    value: function appendChild(route) {
+      invariant(route instanceof Route, 'route.appendChild must use a valid Route');
+
+      if (!this.childRoutes) this.childRoutes = [];
+
+      this.childRoutes.push(route);
+    }
+  }, {
+    key: 'toString',
+    value: function toString() {
+      var string = '<Route';
+
+      if (this.name) string += ' name="' + this.name + '"';
+
+      string += ' path="' + this.path + '">';
+
+      return string;
+    }
+  }]);
+
   return Route;
 })();
 
 module.exports = Route;
-},{"./PathUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PathUtils.js","react/lib/Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","react/lib/warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\ScrollHistory.js":[function(require,module,exports){
+},{"./PathUtils":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\PathUtils.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\warning.js","invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\invariant\\browser.js","object-assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\object-assign\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\ScrollHistory.js":[function(require,module,exports){
 'use strict';
 
-var invariant = require('react/lib/invariant');
-var canUseDOM = require('react/lib/ExecutionEnvironment').canUseDOM;
+var invariant = require('invariant');
+var canUseDOM = require('can-use-dom');
 var getWindowScrollPosition = require('./getWindowScrollPosition');
 
 function shouldUpdateScroll(state, prevState) {
-  if (!prevState) {
-    return true;
-  } // Don't update scroll position when only the query has changed.
-  if (state.pathname === prevState.pathname) {
-    return false;
-  }var routes = state.routes;
+  if (!prevState) return true;
+
+  // Don't update scroll position when only the query has changed.
+  if (state.pathname === prevState.pathname) return false;
+
+  var routes = state.routes;
   var prevRoutes = prevState.routes;
 
   var sharedAncestorRoutes = routes.filter(function (route) {
@@ -16407,9 +16174,9 @@ var ScrollHistory = {
   },
 
   _updateScroll: function _updateScroll(prevState) {
-    if (!shouldUpdateScroll(this.state, prevState)) {
-      return;
-    }var scrollBehavior = this.constructor.getScrollBehavior();
+    if (!shouldUpdateScroll(this.state, prevState)) return;
+
+    var scrollBehavior = this.constructor.getScrollBehavior();
 
     if (scrollBehavior) scrollBehavior.updateScrollPosition(this.constructor.getScrollPosition(this.state.path), this.state.action);
   }
@@ -16417,7 +16184,7 @@ var ScrollHistory = {
 };
 
 module.exports = ScrollHistory;
-},{"./getWindowScrollPosition":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\getWindowScrollPosition.js","react/lib/ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\State.js":[function(require,module,exports){
+},{"./getWindowScrollPosition":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\getWindowScrollPosition.js","can-use-dom":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\can-use-dom\\index.js","invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\invariant\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\State.js":[function(require,module,exports){
 'use strict';
 
 var PropTypes = require('./PropTypes');
@@ -16492,7 +16259,7 @@ var State = {
 };
 
 module.exports = State;
-},{"./PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Transition.js":[function(require,module,exports){
+},{"./PropTypes":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\Transition.js":[function(require,module,exports){
 /* jshint -W058 */
 
 'use strict';
@@ -16568,7 +16335,7 @@ Transition.to = function (transition, routes, params, query, callback) {
 };
 
 module.exports = Transition;
-},{"./Cancellation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Cancellation.js","./Redirect":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Redirect.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js":[function(require,module,exports){
+},{"./Cancellation":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\Cancellation.js","./Redirect":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\Redirect.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js":[function(require,module,exports){
 /**
  * Actions that modify the URL.
  */
@@ -16594,7 +16361,7 @@ var LocationActions = {
 };
 
 module.exports = LocationActions;
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\behaviors\\ImitateBrowserBehavior.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\behaviors\\ImitateBrowserBehavior.js":[function(require,module,exports){
 'use strict';
 
 var LocationActions = require('../actions/LocationActions');
@@ -16624,7 +16391,7 @@ var ImitateBrowserBehavior = {
 };
 
 module.exports = ImitateBrowserBehavior;
-},{"../actions/LocationActions":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\behaviors\\ScrollToTopBehavior.js":[function(require,module,exports){
+},{"../actions/LocationActions":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\behaviors\\ScrollToTopBehavior.js":[function(require,module,exports){
 /**
  * A scroll behavior that always scrolls to the top of the page
  * after a transition.
@@ -16640,33 +16407,33 @@ var ScrollToTopBehavior = {
 };
 
 module.exports = ScrollToTopBehavior;
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\ContextWrapper.js":[function(require,module,exports){
-'use strict';
-
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
-
-var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-
-var _inherits = function (subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
-
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\ContextWrapper.js":[function(require,module,exports){
 /**
  * This component is necessary to get around a context warning
  * present in React 0.13.0. It sovles this by providing a separation
  * between the "owner" and "parent" contexts.
  */
 
+'use strict';
+
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 var React = require('react');
 
 var ContextWrapper = (function (_React$Component) {
+  _inherits(ContextWrapper, _React$Component);
+
   function ContextWrapper() {
     _classCallCheck(this, ContextWrapper);
 
-    if (_React$Component != null) {
-      _React$Component.apply(this, arguments);
-    }
+    _get(Object.getPrototypeOf(ContextWrapper.prototype), 'constructor', this).apply(this, arguments);
   }
-
-  _inherits(ContextWrapper, _React$Component);
 
   _createClass(ContextWrapper, [{
     key: 'render',
@@ -16679,12 +16446,14 @@ var ContextWrapper = (function (_React$Component) {
 })(React.Component);
 
 module.exports = ContextWrapper;
-},{"react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\DefaultRoute.js":[function(require,module,exports){
+},{"react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\DefaultRoute.js":[function(require,module,exports){
 'use strict';
 
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 
-var _inherits = function (subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var PropTypes = require('../PropTypes');
 var RouteHandler = require('./RouteHandler');
@@ -16698,22 +16467,20 @@ var Route = require('./Route');
  */
 
 var DefaultRoute = (function (_Route) {
+  _inherits(DefaultRoute, _Route);
+
   function DefaultRoute() {
     _classCallCheck(this, DefaultRoute);
 
-    if (_Route != null) {
-      _Route.apply(this, arguments);
-    }
+    _get(Object.getPrototypeOf(DefaultRoute.prototype), 'constructor', this).apply(this, arguments);
   }
 
-  _inherits(DefaultRoute, _Route);
+  // TODO: Include these in the above class definition
+  // once we can use ES7 property initializers.
+  // https://github.com/babel/babel/issues/619
 
   return DefaultRoute;
 })(Route);
-
-// TODO: Include these in the above class definition
-// once we can use ES7 property initializers.
-// https://github.com/babel/babel/issues/619
 
 DefaultRoute.propTypes = {
   name: PropTypes.string,
@@ -16727,17 +16494,19 @@ DefaultRoute.defaultProps = {
 };
 
 module.exports = DefaultRoute;
-},{"../PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./Route":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Route.js","./RouteHandler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\RouteHandler.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Link.js":[function(require,module,exports){
+},{"../PropTypes":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./Route":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\Route.js","./RouteHandler":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\RouteHandler.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\Link.js":[function(require,module,exports){
 'use strict';
-
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var _inherits = function (subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var React = require('react');
-var assign = require('react/lib/Object.assign');
+var assign = require('object-assign');
 var PropTypes = require('../PropTypes');
 
 function isLeftClickEvent(event) {
@@ -16768,15 +16537,17 @@ function isModifiedEvent(event) {
  */
 
 var Link = (function (_React$Component) {
+  _inherits(Link, _React$Component);
+
   function Link() {
     _classCallCheck(this, Link);
 
-    if (_React$Component != null) {
-      _React$Component.apply(this, arguments);
-    }
+    _get(Object.getPrototypeOf(Link.prototype), 'constructor', this).apply(this, arguments);
   }
 
-  _inherits(Link, _React$Component);
+  // TODO: Include these in the above class definition
+  // once we can use ES7 property initializers.
+  // https://github.com/babel/babel/issues/619
 
   _createClass(Link, [{
     key: 'handleClick',
@@ -16786,30 +16557,30 @@ var Link = (function (_React$Component) {
 
       if (this.props.onClick) clickResult = this.props.onClick(event);
 
-      if (isModifiedEvent(event) || !isLeftClickEvent(event)) {
-        return;
-      }if (clickResult === false || event.defaultPrevented === true) allowTransition = false;
+      if (isModifiedEvent(event) || !isLeftClickEvent(event)) return;
+
+      if (clickResult === false || event.defaultPrevented === true) allowTransition = false;
 
       event.preventDefault();
 
       if (allowTransition) this.context.router.transitionTo(this.props.to, this.props.params, this.props.query);
     }
-  }, {
-    key: 'getHref',
 
     /**
      * Returns the value of the "href" attribute to use on the DOM element.
      */
+  }, {
+    key: 'getHref',
     value: function getHref() {
       return this.context.router.makeHref(this.props.to, this.props.params, this.props.query);
     }
-  }, {
-    key: 'getClassName',
 
     /**
      * Returns the value of the "class" attribute to use on the DOM element, which contains
      * the value of the activeClassName property when this <Link> is active.
      */
+  }, {
+    key: 'getClassName',
     value: function getClassName() {
       var className = this.props.className;
 
@@ -16833,16 +16604,18 @@ var Link = (function (_React$Component) {
 
       if (props.activeStyle && this.getActiveState()) props.style = props.activeStyle;
 
+      delete props.to;
+      delete props.params;
+      delete props.query;
+      delete props.activeClassName;
+      delete props.activeStyle;
+
       return React.DOM.a(props, this.props.children);
     }
   }]);
 
   return Link;
 })(React.Component);
-
-// TODO: Include these in the above class definition
-// once we can use ES7 property initializers.
-// https://github.com/babel/babel/issues/619
 
 Link.contextTypes = {
   router: PropTypes.router.isRequired
@@ -16863,12 +16636,14 @@ Link.defaultProps = {
 };
 
 module.exports = Link;
-},{"../PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react/lib/Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\NotFoundRoute.js":[function(require,module,exports){
+},{"../PropTypes":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","object-assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\object-assign\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\NotFoundRoute.js":[function(require,module,exports){
 'use strict';
 
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 
-var _inherits = function (subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var PropTypes = require('../PropTypes');
 var RouteHandler = require('./RouteHandler');
@@ -16883,22 +16658,20 @@ var Route = require('./Route');
  */
 
 var NotFoundRoute = (function (_Route) {
+  _inherits(NotFoundRoute, _Route);
+
   function NotFoundRoute() {
     _classCallCheck(this, NotFoundRoute);
 
-    if (_Route != null) {
-      _Route.apply(this, arguments);
-    }
+    _get(Object.getPrototypeOf(NotFoundRoute.prototype), 'constructor', this).apply(this, arguments);
   }
 
-  _inherits(NotFoundRoute, _Route);
+  // TODO: Include these in the above class definition
+  // once we can use ES7 property initializers.
+  // https://github.com/babel/babel/issues/619
 
   return NotFoundRoute;
 })(Route);
-
-// TODO: Include these in the above class definition
-// once we can use ES7 property initializers.
-// https://github.com/babel/babel/issues/619
 
 NotFoundRoute.propTypes = {
   name: PropTypes.string,
@@ -16912,12 +16685,14 @@ NotFoundRoute.defaultProps = {
 };
 
 module.exports = NotFoundRoute;
-},{"../PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./Route":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Route.js","./RouteHandler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\RouteHandler.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Redirect.js":[function(require,module,exports){
+},{"../PropTypes":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./Route":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\Route.js","./RouteHandler":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\RouteHandler.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\Redirect.js":[function(require,module,exports){
 'use strict';
 
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 
-var _inherits = function (subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var PropTypes = require('../PropTypes');
 var Route = require('./Route');
@@ -16928,22 +16703,20 @@ var Route = require('./Route');
  */
 
 var Redirect = (function (_Route) {
+  _inherits(Redirect, _Route);
+
   function Redirect() {
     _classCallCheck(this, Redirect);
 
-    if (_Route != null) {
-      _Route.apply(this, arguments);
-    }
+    _get(Object.getPrototypeOf(Redirect.prototype), 'constructor', this).apply(this, arguments);
   }
 
-  _inherits(Redirect, _Route);
+  // TODO: Include these in the above class definition
+  // once we can use ES7 property initializers.
+  // https://github.com/babel/babel/issues/619
 
   return Redirect;
 })(Route);
-
-// TODO: Include these in the above class definition
-// once we can use ES7 property initializers.
-// https://github.com/babel/babel/issues/619
 
 Redirect.propTypes = {
   path: PropTypes.string,
@@ -16956,17 +16729,19 @@ Redirect.propTypes = {
 Redirect.defaultProps = {};
 
 module.exports = Redirect;
-},{"../PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./Route":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Route.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Route.js":[function(require,module,exports){
+},{"../PropTypes":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./Route":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\Route.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\Route.js":[function(require,module,exports){
 'use strict';
-
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var _inherits = function (subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var React = require('react');
-var invariant = require('react/lib/invariant');
+var invariant = require('invariant');
 var PropTypes = require('../PropTypes');
 var RouteHandler = require('./RouteHandler');
 
@@ -17001,7 +16776,7 @@ var RouteHandler = require('./RouteHandler');
  *   var App = React.createClass({
  *     render: function () {
  *       return (
- *         <div class="application">
+ *         <div className="application">
  *           <RouteHandler/>
  *         </div>
  *       );
@@ -17012,15 +16787,17 @@ var RouteHandler = require('./RouteHandler');
  */
 
 var Route = (function (_React$Component) {
+  _inherits(Route, _React$Component);
+
   function Route() {
     _classCallCheck(this, Route);
 
-    if (_React$Component != null) {
-      _React$Component.apply(this, arguments);
-    }
+    _get(Object.getPrototypeOf(Route.prototype), 'constructor', this).apply(this, arguments);
   }
 
-  _inherits(Route, _React$Component);
+  // TODO: Include these in the above class definition
+  // once we can use ES7 property initializers.
+  // https://github.com/babel/babel/issues/619
 
   _createClass(Route, [{
     key: 'render',
@@ -17031,10 +16808,6 @@ var Route = (function (_React$Component) {
 
   return Route;
 })(React.Component);
-
-// TODO: Include these in the above class definition
-// once we can use ES7 property initializers.
-// https://github.com/babel/babel/issues/619
 
 Route.propTypes = {
   name: PropTypes.string,
@@ -17048,18 +16821,20 @@ Route.defaultProps = {
 };
 
 module.exports = Route;
-},{"../PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./RouteHandler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\RouteHandler.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\RouteHandler.js":[function(require,module,exports){
+},{"../PropTypes":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./RouteHandler":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\RouteHandler.js","invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\invariant\\browser.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\RouteHandler.js":[function(require,module,exports){
 'use strict';
-
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var _inherits = function (subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; };
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var React = require('react');
 var ContextWrapper = require('./ContextWrapper');
-var assign = require('react/lib/Object.assign');
+var assign = require('object-assign');
 var PropTypes = require('../PropTypes');
 
 var REF_NAME = '__routeHandler__';
@@ -17070,15 +16845,17 @@ var REF_NAME = '__routeHandler__';
  */
 
 var RouteHandler = (function (_React$Component) {
+  _inherits(RouteHandler, _React$Component);
+
   function RouteHandler() {
     _classCallCheck(this, RouteHandler);
 
-    if (_React$Component != null) {
-      _React$Component.apply(this, arguments);
-    }
+    _get(Object.getPrototypeOf(RouteHandler.prototype), 'constructor', this).apply(this, arguments);
   }
 
-  _inherits(RouteHandler, _React$Component);
+  // TODO: Include these in the above class definition
+  // once we can use ES7 property initializers.
+  // https://github.com/babel/babel/issues/619
 
   _createClass(RouteHandler, [{
     key: 'getChildContext',
@@ -17117,9 +16894,9 @@ var RouteHandler = (function (_React$Component) {
     value: function createChildRouteHandler(props) {
       var route = this.context.router.getRouteAtDepth(this.getRouteDepth());
 
-      if (route == null) {
-        return null;
-      }var childProps = assign({}, props || this.props, {
+      if (route == null) return null;
+
+      var childProps = assign({}, props || this.props, {
         ref: REF_NAME,
         params: this.context.router.getCurrentParams(),
         query: this.context.router.getCurrentQuery()
@@ -17143,10 +16920,6 @@ var RouteHandler = (function (_React$Component) {
   return RouteHandler;
 })(React.Component);
 
-// TODO: Include these in the above class definition
-// once we can use ES7 property initializers.
-// https://github.com/babel/babel/issues/619
-
 RouteHandler.contextTypes = {
   routeDepth: PropTypes.number.isRequired,
   router: PropTypes.router.isRequired
@@ -17157,15 +16930,15 @@ RouteHandler.childContextTypes = {
 };
 
 module.exports = RouteHandler;
-},{"../PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./ContextWrapper":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\ContextWrapper.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react/lib/Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\createRouter.js":[function(require,module,exports){
+},{"../PropTypes":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./ContextWrapper":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\ContextWrapper.js","object-assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\object-assign\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\createRouter.js":[function(require,module,exports){
 (function (process){
 /* jshint -W058 */
 'use strict';
 
 var React = require('react');
-var warning = require('react/lib/warning');
-var invariant = require('react/lib/invariant');
-var canUseDOM = require('react/lib/ExecutionEnvironment').canUseDOM;
+var warning = require('./warning');
+var invariant = require('invariant');
+var canUseDOM = require('can-use-dom');
 var LocationActions = require('./actions/LocationActions');
 var ImitateBrowserBehavior = require('./behaviors/ImitateBrowserBehavior');
 var HashLocation = require('./locations/HashLocation');
@@ -17196,9 +16969,9 @@ var DEFAULT_LOCATION = canUseDOM ? HashLocation : '/';
 var DEFAULT_SCROLL_BEHAVIOR = canUseDOM ? ImitateBrowserBehavior : null;
 
 function hasProperties(object, properties) {
-  for (var propertyName in properties) if (properties.hasOwnProperty(propertyName) && object[propertyName] !== properties[propertyName]) {
-    return false;
-  }return true;
+  for (var propertyName in properties) if (properties.hasOwnProperty(propertyName) && object[propertyName] !== properties[propertyName]) return false;
+
+  return true;
 }
 
 function hasMatch(routes, route, prevParams, nextParams, prevQuery, nextQuery) {
@@ -17242,15 +17015,15 @@ function routeIsActive(activeRoutes, routeName) {
 }
 
 function paramsAreActive(activeParams, params) {
-  for (var property in params) if (String(activeParams[property]) !== String(params[property])) {
-    return false;
-  }return true;
+  for (var property in params) if (String(activeParams[property]) !== String(params[property])) return false;
+
+  return true;
 }
 
 function queryIsActive(activeQuery, query) {
-  for (var property in query) if (String(activeQuery[property]) !== String(query[property])) {
-    return false;
-  }return true;
+  for (var property in query) if (String(activeQuery[property]) !== String(query[property])) return false;
+
+  return true;
 }
 
 /**
@@ -17462,9 +17235,7 @@ function createRouter(options) {
         var prevPath = state.path;
         var isRefreshing = action == null;
 
-        if (prevPath === path && !isRefreshing) {
-          return;
-        } // Nothing to do!
+        if (prevPath === path && !isRefreshing) return; // Nothing to do!
 
         // Record the scroll position as early as possible to
         // get it before browsers try update it automatically.
@@ -17621,9 +17392,9 @@ function createRouter(options) {
        * Returns true if the given route, params, and query are active.
        */
       isActive: function isActive(to, params, query) {
-        if (PathUtils.isAbsolute(to)) {
-          return to === state.path;
-        }return routeIsActive(state.routes, to) && paramsAreActive(state.params, params) && (query == null || queryIsActive(state.query, query));
+        if (PathUtils.isAbsolute(to)) return to === state.path;
+
+        return routeIsActive(state.routes, to) && paramsAreActive(state.params, params) && (query == null || queryIsActive(state.query, query));
       }
 
     },
@@ -17674,13 +17445,13 @@ function createRouter(options) {
 
 module.exports = createRouter;
 }).call(this,require('_process'))
-},{"./Cancellation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Cancellation.js","./History":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\History.js","./Match":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Match.js","./PathUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PathUtils.js","./PropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./Redirect":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Redirect.js","./Route":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Route.js","./ScrollHistory":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\ScrollHistory.js","./Transition":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Transition.js","./actions/LocationActions":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js","./behaviors/ImitateBrowserBehavior":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\behaviors\\ImitateBrowserBehavior.js","./createRoutesFromReactChildren":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\createRoutesFromReactChildren.js","./isReactChildren":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\isReactChildren.js","./locations/HashLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HashLocation.js","./locations/HistoryLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HistoryLocation.js","./locations/RefreshLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\RefreshLocation.js","./locations/StaticLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\StaticLocation.js","./supportsHistory":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\supportsHistory.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react/lib/ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","react/lib/warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\createRoutesFromReactChildren.js":[function(require,module,exports){
+},{"./Cancellation":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\Cancellation.js","./History":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\History.js","./Match":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\Match.js","./PathUtils":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\PathUtils.js","./PropTypes":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\PropTypes.js","./Redirect":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\Redirect.js","./Route":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\Route.js","./ScrollHistory":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\ScrollHistory.js","./Transition":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\Transition.js","./actions/LocationActions":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js","./behaviors/ImitateBrowserBehavior":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\behaviors\\ImitateBrowserBehavior.js","./createRoutesFromReactChildren":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\createRoutesFromReactChildren.js","./isReactChildren":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\isReactChildren.js","./locations/HashLocation":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HashLocation.js","./locations/HistoryLocation":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HistoryLocation.js","./locations/RefreshLocation":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\locations\\RefreshLocation.js","./locations/StaticLocation":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\locations\\StaticLocation.js","./supportsHistory":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\supportsHistory.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js","can-use-dom":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\can-use-dom\\index.js","invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\invariant\\browser.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\createRoutesFromReactChildren.js":[function(require,module,exports){
 /* jshint -W084 */
 'use strict';
 
 var React = require('react');
-var assign = require('react/lib/Object.assign');
-var warning = require('react/lib/warning');
+var assign = require('object-assign');
+var warning = require('./warning');
 var DefaultRoute = require('./components/DefaultRoute');
 var NotFoundRoute = require('./components/NotFoundRoute');
 var Redirect = require('./components/Redirect');
@@ -17711,20 +17482,20 @@ function createRouteOptions(props) {
 }
 
 function createRouteFromReactElement(element) {
-  if (!React.isValidElement(element)) {
-    return;
-  }var type = element.type;
+  if (!React.isValidElement(element)) return;
+
+  var type = element.type;
   var props = assign({}, type.defaultProps, element.props);
 
   if (type.propTypes) checkPropTypes(type.displayName, type.propTypes, props);
 
-  if (type === DefaultRoute) {
-    return Route.createDefaultRoute(createRouteOptions(props));
-  }if (type === NotFoundRoute) {
-    return Route.createNotFoundRoute(createRouteOptions(props));
-  }if (type === Redirect) {
-    return Route.createRedirect(createRouteOptions(props));
-  }return Route.createRoute(createRouteOptions(props), function () {
+  if (type === DefaultRoute) return Route.createDefaultRoute(createRouteOptions(props));
+
+  if (type === NotFoundRoute) return Route.createNotFoundRoute(createRouteOptions(props));
+
+  if (type === Redirect) return Route.createRedirect(createRouteOptions(props));
+
+  return Route.createRoute(createRouteOptions(props), function () {
     if (props.children) createRoutesFromReactChildren(props.children);
   });
 }
@@ -17756,11 +17527,11 @@ function createRoutesFromReactChildren(children) {
 }
 
 module.exports = createRoutesFromReactChildren;
-},{"./Route":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Route.js","./components/DefaultRoute":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\DefaultRoute.js","./components/NotFoundRoute":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\NotFoundRoute.js","./components/Redirect":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Redirect.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js","react/lib/Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","react/lib/warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\getWindowScrollPosition.js":[function(require,module,exports){
+},{"./Route":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\Route.js","./components/DefaultRoute":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\DefaultRoute.js","./components/NotFoundRoute":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\NotFoundRoute.js","./components/Redirect":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\Redirect.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\warning.js","object-assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\object-assign\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\getWindowScrollPosition.js":[function(require,module,exports){
 'use strict';
 
-var invariant = require('react/lib/invariant');
-var canUseDOM = require('react/lib/ExecutionEnvironment').canUseDOM;
+var invariant = require('invariant');
+var canUseDOM = require('can-use-dom');
 
 /**
  * Returns the current scroll position of the window as { x, y }.
@@ -17775,7 +17546,7 @@ function getWindowScrollPosition() {
 }
 
 module.exports = getWindowScrollPosition;
-},{"react/lib/ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\index.js":[function(require,module,exports){
+},{"can-use-dom":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\can-use-dom\\index.js","invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\invariant\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\index.js":[function(require,module,exports){
 'use strict';
 
 exports.DefaultRoute = require('./components/DefaultRoute');
@@ -17807,7 +17578,7 @@ exports.createRoutesFromReactChildren = require('./createRoutesFromReactChildren
 
 exports.create = require('./createRouter');
 exports.run = require('./runRouter');
-},{"./History":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\History.js","./Navigation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Navigation.js","./Route":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\Route.js","./State":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\State.js","./behaviors/ImitateBrowserBehavior":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\behaviors\\ImitateBrowserBehavior.js","./behaviors/ScrollToTopBehavior":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\behaviors\\ScrollToTopBehavior.js","./components/DefaultRoute":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\DefaultRoute.js","./components/Link":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Link.js","./components/NotFoundRoute":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\NotFoundRoute.js","./components/Redirect":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Redirect.js","./components/Route":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\Route.js","./components/RouteHandler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\components\\RouteHandler.js","./createRouter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\createRouter.js","./createRoutesFromReactChildren":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\createRoutesFromReactChildren.js","./locations/HashLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HashLocation.js","./locations/HistoryLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HistoryLocation.js","./locations/RefreshLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\RefreshLocation.js","./locations/StaticLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\StaticLocation.js","./locations/TestLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\TestLocation.js","./runRouter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\runRouter.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\isReactChildren.js":[function(require,module,exports){
+},{"./History":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\History.js","./Navigation":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\Navigation.js","./Route":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\Route.js","./State":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\State.js","./behaviors/ImitateBrowserBehavior":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\behaviors\\ImitateBrowserBehavior.js","./behaviors/ScrollToTopBehavior":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\behaviors\\ScrollToTopBehavior.js","./components/DefaultRoute":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\DefaultRoute.js","./components/Link":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\Link.js","./components/NotFoundRoute":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\NotFoundRoute.js","./components/Redirect":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\Redirect.js","./components/Route":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\Route.js","./components/RouteHandler":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\components\\RouteHandler.js","./createRouter":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\createRouter.js","./createRoutesFromReactChildren":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\createRoutesFromReactChildren.js","./locations/HashLocation":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HashLocation.js","./locations/HistoryLocation":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HistoryLocation.js","./locations/RefreshLocation":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\locations\\RefreshLocation.js","./locations/StaticLocation":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\locations\\StaticLocation.js","./locations/TestLocation":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\locations\\TestLocation.js","./runRouter":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\runRouter.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\isReactChildren.js":[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -17821,7 +17592,7 @@ function isReactChildren(object) {
 }
 
 module.exports = isReactChildren;
-},{"react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HashLocation.js":[function(require,module,exports){
+},{"react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HashLocation.js":[function(require,module,exports){
 'use strict';
 
 var LocationActions = require('../actions/LocationActions');
@@ -17847,9 +17618,9 @@ function notifyChange(type) {
 function ensureSlash() {
   var path = HashLocation.getCurrentPath();
 
-  if (path.charAt(0) === '/') {
-    return true;
-  }HashLocation.replace('/' + path);
+  if (path.charAt(0) === '/') return true;
+
+  HashLocation.replace('/' + path);
 
   return false;
 }
@@ -17933,7 +17704,7 @@ var HashLocation = {
 };
 
 module.exports = HashLocation;
-},{"../History":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\History.js","../actions/LocationActions":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HistoryLocation.js":[function(require,module,exports){
+},{"../History":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\History.js","../actions/LocationActions":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HistoryLocation.js":[function(require,module,exports){
 'use strict';
 
 var LocationActions = require('../actions/LocationActions');
@@ -17954,9 +17725,7 @@ function notifyChange(type) {
 }
 
 function onPopState(event) {
-  if (event.state === undefined) {
-    return;
-  } // Ignore extraneous popstate events in WebKit.
+  if (event.state === undefined) return; // Ignore extraneous popstate events in WebKit.
 
   notifyChange(LocationActions.POP);
 }
@@ -18020,7 +17789,7 @@ var HistoryLocation = {
 };
 
 module.exports = HistoryLocation;
-},{"../History":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\History.js","../actions/LocationActions":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\RefreshLocation.js":[function(require,module,exports){
+},{"../History":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\History.js","../actions/LocationActions":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\locations\\RefreshLocation.js":[function(require,module,exports){
 'use strict';
 
 var HistoryLocation = require('./HistoryLocation');
@@ -18052,14 +17821,14 @@ var RefreshLocation = {
 };
 
 module.exports = RefreshLocation;
-},{"../History":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\History.js","./HistoryLocation":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HistoryLocation.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\StaticLocation.js":[function(require,module,exports){
+},{"../History":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\History.js","./HistoryLocation":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\locations\\HistoryLocation.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\locations\\StaticLocation.js":[function(require,module,exports){
 'use strict';
-
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var invariant = require('react/lib/invariant');
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+var invariant = require('invariant');
 
 function throwCannotModify() {
   invariant(false, 'You cannot modify a static location');
@@ -18078,6 +17847,10 @@ var StaticLocation = (function () {
     this.path = path;
   }
 
+  // TODO: Include these in the above class definition
+  // once we can use ES7 property initializers.
+  // https://github.com/babel/babel/issues/619
+
   _createClass(StaticLocation, [{
     key: 'getCurrentPath',
     value: function getCurrentPath() {
@@ -18093,23 +17866,19 @@ var StaticLocation = (function () {
   return StaticLocation;
 })();
 
-// TODO: Include these in the above class definition
-// once we can use ES7 property initializers.
-// https://github.com/babel/babel/issues/619
-
 StaticLocation.prototype.push = throwCannotModify;
 StaticLocation.prototype.replace = throwCannotModify;
 StaticLocation.prototype.pop = throwCannotModify;
 
 module.exports = StaticLocation;
-},{"react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\locations\\TestLocation.js":[function(require,module,exports){
+},{"invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\invariant\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\locations\\TestLocation.js":[function(require,module,exports){
 'use strict';
-
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-var invariant = require('react/lib/invariant');
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+var invariant = require('invariant');
 var LocationActions = require('../actions/LocationActions');
 var History = require('../History');
 
@@ -18123,15 +17892,11 @@ var TestLocation = (function () {
 
     this.history = history || [];
     this.listeners = [];
+    this.needsDOM = false;
     this._updateHistoryLength();
   }
 
   _createClass(TestLocation, [{
-    key: 'needsDOM',
-    get: function () {
-      return false;
-    }
-  }, {
     key: '_updateHistoryLength',
     value: function _updateHistoryLength() {
       History.length = this.history.length;
@@ -18197,7 +17962,7 @@ var TestLocation = (function () {
 })();
 
 module.exports = TestLocation;
-},{"../History":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\History.js","../actions/LocationActions":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js","react/lib/invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\runRouter.js":[function(require,module,exports){
+},{"../History":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\History.js","../actions/LocationActions":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\actions\\LocationActions.js","invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\invariant\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\runRouter.js":[function(require,module,exports){
 'use strict';
 
 var createRouter = require('./createRouter');
@@ -18248,7 +18013,7 @@ function runRouter(routes, location, callback) {
 }
 
 module.exports = runRouter;
-},{"./createRouter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\createRouter.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\lib\\supportsHistory.js":[function(require,module,exports){
+},{"./createRouter":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\createRouter.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\supportsHistory.js":[function(require,module,exports){
 'use strict';
 
 function supportsHistory() {
@@ -18265,7 +18030,69 @@ function supportsHistory() {
 }
 
 module.exports = supportsHistory;
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\object-assign\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\lib\\warning.js":[function(require,module,exports){
+(function (process){
+/**
+ * Copyright 2014-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of https://github.com/facebook/react/tree/0.13-stable.
+ * An additional grant of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * @providesModule warning
+ */
+
+"use strict";
+
+/**
+ * Similar to invariant but only logs a warning if the condition is not met.
+ * This can be used to log issues in development environments in critical
+ * paths. Removing the logging code for production environments will keep the
+ * same logic and follow the same code paths.
+ */
+
+var __DEV__ = process.env.NODE_ENV !== 'production';
+
+var warning = function warning() {};
+
+if (__DEV__) {
+  warning = function (condition, format) {
+    for (var _len = arguments.length, args = Array(_len > 2 ? _len - 2 : 0), _key = 2; _key < _len; _key++) {
+      args[_key - 2] = arguments[_key];
+    }
+
+    if (format === undefined) {
+      throw new Error('`warning(condition, format, ...args)` requires a warning ' + 'message argument');
+    }
+
+    if (format.length < 10 || /^[s\W]*$/.test(format)) {
+      throw new Error('The warning format should be able to uniquely identify this ' + 'warning. Please, use a more descriptive format than: ' + format);
+    }
+
+    if (format.indexOf('Failed Composite propType: ') === 0) {
+      return; // Ignore CompositeComponent proptype check.
+    }
+
+    if (!condition) {
+      var argIndex = 0;
+      var message = 'Warning: ' + format.replace(/%s/g, function () {
+        return args[argIndex++];
+      });
+      console.warn(message);
+      try {
+        // --- Welcome to debugging React ---
+        // This error was thrown as a convenience so that you can use this stack
+        // to find the callsite that caused this warning to fire.
+        throw new Error(message);
+      } catch (x) {}
+    }
+  };
+}
+
+module.exports = warning;
+}).call(this,require('_process'))
+},{"_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\object-assign\\index.js":[function(require,module,exports){
 'use strict';
 
 function ToObject(val) {
@@ -18293,10 +18120,10 @@ module.exports = Object.assign || function (target, source) {
 	return to;
 };
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\index.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\index.js":[function(require,module,exports){
 module.exports = require('./lib/');
 
-},{"./lib/":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\index.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\index.js":[function(require,module,exports){
+},{"./lib/":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\index.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\index.js":[function(require,module,exports){
 // Load modules
 
 var Stringify = require('./stringify');
@@ -18313,7 +18140,7 @@ module.exports = {
     parse: Parse
 };
 
-},{"./parse":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\parse.js","./stringify":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\stringify.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\parse.js":[function(require,module,exports){
+},{"./parse":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\parse.js","./stringify":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\stringify.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\parse.js":[function(require,module,exports){
 // Load modules
 
 var Utils = require('./utils');
@@ -18476,7 +18303,7 @@ module.exports = function (str, options) {
     return Utils.compact(obj);
 };
 
-},{"./utils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\utils.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\stringify.js":[function(require,module,exports){
+},{"./utils":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\utils.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\stringify.js":[function(require,module,exports){
 // Load modules
 
 var Utils = require('./utils');
@@ -18575,7 +18402,7 @@ module.exports = function (obj, options) {
     return keys.join(delimiter);
 };
 
-},{"./utils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\utils.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\utils.js":[function(require,module,exports){
+},{"./utils":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\utils.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-router\\node_modules\\qs\\lib\\utils.js":[function(require,module,exports){
 // Load modules
 
 
@@ -18709,14 +18536,22 @@ exports.isBuffer = function (obj) {
         obj.constructor.isBuffer(obj));
 };
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-tooltip\\dist\\react-tooltip.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-tooltip\\dist\\react-tooltip.js":[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var _react = require('react');
 
@@ -18726,196 +18561,277 @@ var _classnames = require('classnames');
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var ReactTooltip = _react2['default'].createClass({
+var ReactTooltip = (function (_React$Component) {
+  _inherits(ReactTooltip, _React$Component);
 
-  displayName: 'ReactTooltip',
+  _createClass(ReactTooltip, [{
+    key: '_bind',
+    value: function _bind() {
+      var _this = this;
 
-  propTypes: {
-    place: _react2['default'].PropTypes.string,
-    type: _react2['default'].PropTypes.string,
-    effect: _react2['default'].PropTypes.string,
-    positon: _react2['default'].PropTypes.object
-  },
-
-  _updatePosition: function _updatePosition() {
-    var tipWidth = document.querySelector('[data-id=\'tooltip\']') ? document.querySelector('[data-id=\'tooltip\']').clientWidth : 0;
-    var tipHeight = document.querySelector('[data-id=\'tooltip\']') ? document.querySelector('[data-id=\'tooltip\']').clientHeight : 0;
-    var offset = { x: 0, y: 0 };
-    var effect = this.state.effect;
-
-    if (effect === 'float') {
-      if (this.state.place === 'top') {
-        offset.x = -(tipWidth / 2);
-        offset.y = -50;
-      } else if (this.state.place === 'bottom') {
-        offset.x = -(tipWidth / 2);
-        offset.y = 30;
-      } else if (this.state.place === 'left') {
-        offset.x = -(tipWidth + 15);
-        offset.y = -(tipHeight / 2);
-      } else if (this.state.place === 'right') {
-        offset.x = 10;
-        offset.y = -(tipHeight / 2);
+      for (var _len = arguments.length, handlers = Array(_len), _key = 0; _key < _len; _key++) {
+        handlers[_key] = arguments[_key];
       }
+
+      handlers.forEach(function (handler) {
+        return _this[handler] = _this[handler].bind(_this);
+      });
     }
-    var xPosition = 0;var yPosition = 0;var position = this.state.position;
+  }]);
 
-    if (Object.prototype.toString.apply(position) === '[object String]') {
-      position = JSON.parse(position);
-    }
-    for (var key in position) {
-      if (key === 'top') {
-        yPosition -= parseInt(position[key]);
-      } else if (key === 'bottom') {
-        yPosition += parseInt(position[key]);
-      } else if (key === 'left') {
-        xPosition -= parseInt(position[key]);
-      } else if (key === 'right') {
-        xPosition += parseInt(position[key]);
-      }
-    }
+  function ReactTooltip() {
+    _classCallCheck(this, ReactTooltip);
 
-    var node = _react2['default'].findDOMNode(this);
-
-    node.style.left = this.state.x + offset.x + xPosition + 'px';
-    node.style.top = this.state.y + offset.y + yPosition + 'px';
-  },
-
-  getInitialState: function getInitialState() {
-    return {
+    _get(Object.getPrototypeOf(ReactTooltip.prototype), 'constructor', this).call(this);
+    this._bind("showTooltip", "updateTooltip", "hideTooltip");
+    this.state = {
       show: false,
-      placeholder: '',
-      x: 'NONE',
-      y: 'NONE',
-      place: '',
-      type: '',
-      effect: '',
+      multilineCount: 0,
+      placeholder: "",
+      x: "NONE",
+      y: "NONE",
+      place: "",
+      type: "",
+      effect: "",
+      multiline: false,
       position: {}
     };
-  },
-
-  componentDidMount: function componentDidMount() {
-
-    this._updatePosition();
-
-    var targetArray = document.querySelectorAll('[data-tip]');
-    for (var i = 0; i < targetArray.length; i++) {
-      targetArray[i].addEventListener('mouseenter', this.showTooltip, false);
-      targetArray[i].addEventListener('mousemove', this.updateTooltip, false);
-      targetArray[i].addEventListener('mouseleave', this.hideTooltip, false);
-    }
-  },
-
-  componentWillUnmount: function componentWillUnmount() {
-    var targetArray = document.querySelectorAll('[data-tip]');
-    for (var i = 0; i < targetArray.length; i++) {
-      targetArray[i].removeEventListener('mouseenter', this.showTooltip);
-      targetArray[i].removeEventListener('mousemove', this.updateTooltip);
-      targetArray[i].removeEventListener('mouseleave', this.hideTooltip);
-    }
-  },
-
-  componentDidUpdate: function componentDidUpdate() {
-    this._updatePosition();
-  },
-
-  showTooltip: function showTooltip(e) {
-    this.setState({
-      placeholder: e.target.getAttribute('data-tip'),
-      place: e.target.getAttribute('data-place') ? e.target.getAttribute('data-place') : this.props.place ? this.props.place : 'top',
-      type: e.target.getAttribute('data-type') ? e.target.getAttribute('data-type') : this.props.type ? this.props.type : 'dark',
-      effect: e.target.getAttribute('data-effect') ? e.target.getAttribute('data-effect') : this.props.effect ? this.props.effect : 'float',
-      position: e.target.getAttribute('data-position') ? e.target.getAttribute('data-position') : this.props.position ? this.props.position : {}
-    });
-    this.updateTooltip(e);
-  },
-
-  updateTooltip: function updateTooltip(e) {
-    if (this.trim(this.state.placeholder).length > 0) {
-      if (this.state.effect === 'float') {
-        this.setState({
-          show: true,
-          x: e.clientX,
-          y: e.clientY
-        });
-      } else if (this.state.effect === 'solid') {
-        var targetTop = e.target.getBoundingClientRect().top;
-        var targetLeft = e.target.getBoundingClientRect().left;
-        var tipWidth = document.querySelector('[data-id=\'tooltip\']') ? document.querySelector('[data-id=\'tooltip\']').clientWidth : 0;
-        var tipHeight = document.querySelector('[data-id=\'tooltip\']') ? document.querySelector('[data-id=\'tooltip\']').clientHeight : 0;
-        var targetWidth = e.target.clientWidth;
-        var targetHeight = e.target.clientHeight;
-        var place = this.state.place;
-
-        var x = undefined,
-            y = undefined;
-        if (place === 'top') {
-          x = targetLeft - tipWidth / 2 + targetWidth / 2;
-          y = targetTop - tipHeight - 8;
-        } else if (place === 'bottom') {
-          x = targetLeft - tipWidth / 2 + targetWidth / 2;
-          y = targetTop + targetHeight + 8;
-        } else if (place === 'left') {
-          x = targetLeft - tipWidth - 6;
-          y = targetTop + targetHeight / 2 - tipHeight / 2;
-        } else if (place === 'right') {
-          x = targetLeft + targetWidth + 6;
-          y = targetTop + targetHeight / 2 - tipHeight / 2;
-        }
-        this.setState({
-          show: true,
-          x: this.state.x === 'NONE' ? x : this.state.x,
-          y: this.state.y === 'NONE' ? y : this.state.y
-        });
-      }
-    }
-  },
-
-  hideTooltip: function hideTooltip(e) {
-    this.setState({
-      show: false,
-      x: 'NONE',
-      y: 'NONE'
-    });
-  },
-
-  trim: function trim(string) {
-    var newString = string.split('');
-    var firstCount = 0,
-        lastCount = 0;
-    for (var i = 0; i < string.length; i++) {
-      if (string[i] !== ' ') {
-        break;
-      }
-      firstCount++;
-    }
-    for (var i = string.length - 1; i >= 0; i--) {
-      if (string[i] !== ' ') {
-        break;
-      }
-      lastCount++;
-    }
-    newString.splice(0, firstCount);
-    newString.splice(-lastCount, lastCount);
-    return newString.join('');
-  },
-
-  render: function render() {
-
-    var tooltipClass = (0, _classnames2['default'])('reactTooltip', { 'show': this.state.show }, { 'place-top': this.state.place === 'top' }, { 'place-bottom': this.state.place === 'bottom' }, { 'place-left': this.state.place === 'left' }, { 'place-right': this.state.place === 'right' }, { 'type-dark': this.state.type === 'dark' }, { 'type-success': this.state.type === 'success' }, { 'type-warning': this.state.type === 'warning' }, { 'type-error': this.state.type === 'error' }, { 'type-info': this.state.type === 'info' }, { 'type-light': this.state.type === 'light' });
-
-    return _react2['default'].createElement(
-      'span',
-      { className: tooltipClass, 'data-id': 'tooltip' },
-      this.state.placeholder
-    );
   }
-});
+
+  _createClass(ReactTooltip, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      this._updatePosition();
+      this.bindListener();
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      this.unbindListener();
+    }
+  }, {
+    key: 'componentWillUpdate',
+    value: function componentWillUpdate() {
+      this.unbindListener();
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate() {
+      this._updatePosition();
+      this.bindListener();
+    }
+  }, {
+    key: 'bindListener',
+    value: function bindListener() {
+      var targetArray = document.querySelectorAll("[data-tip]");
+      for (var i = 0; i < targetArray.length; i++) {
+        targetArray[i].addEventListener("mouseenter", this.showTooltip, false);
+        targetArray[i].addEventListener("mousemove", this.updateTooltip, false);
+        targetArray[i].addEventListener("mouseleave", this.hideTooltip, false);
+      }
+    }
+  }, {
+    key: 'unbindListener',
+    value: function unbindListener() {
+      var targetArray = document.querySelectorAll("[data-tip]");
+      for (var i = 0; i < targetArray.length; i++) {
+        targetArray[i].removeEventListener("mouseenter", this.showTooltip);
+        targetArray[i].removeEventListener("mousemove", this.updateTooltip);
+        targetArray[i].removeEventListener("mouseleave", this.hideTooltip);
+      }
+    }
+  }, {
+    key: '_updatePosition',
+    value: function _updatePosition() {
+      var node = _react2['default'].findDOMNode(this);
+
+      var tipWidth = node.clientWidth;
+      var tipHeight = node.clientHeight;
+      var offset = { x: 0, y: 0 };
+      var effect = this.state.effect;
+
+      if (effect === "float") {
+        if (this.state.place === "top") {
+          offset.x = -(tipWidth / 2);
+          offset.y = -50;
+        } else if (this.state.place === "bottom") {
+          offset.x = -(tipWidth / 2);
+          offset.y = 30;
+        } else if (this.state.place === "left") {
+          offset.x = -(tipWidth + 15);
+          offset.y = -(tipHeight / 2);
+        } else if (this.state.place === "right") {
+          offset.x = 10;
+          offset.y = -(tipHeight / 2);
+        }
+      }
+      var xPosition = 0;var yPosition = 0;var position = this.state.position;
+
+      if (Object.prototype.toString.apply(position) === "[object String]") {
+        position = JSON.parse(position.toString().replace(/\'/g, "\""));
+      }
+      for (var key in position) {
+        if (key === "top") {
+          yPosition -= parseInt(position[key]);
+        } else if (key === "bottom") {
+          yPosition += parseInt(position[key]);
+        } else if (key === "left") {
+          xPosition -= parseInt(position[key]);
+        } else if (key === "right") {
+          xPosition += parseInt(position[key]);
+        }
+      }
+
+      node.style.left = this.state.x + offset.x + xPosition + 'px';
+      node.style.top = this.state.y + offset.y + yPosition + 'px';
+    }
+  }, {
+    key: 'showTooltip',
+    value: function showTooltip(e) {
+      var originTooltip = e.target.getAttribute("data-tip"),
+          regexp = /<br\s*\W*>|\W+/,
+          multiline = e.target.getAttribute("data-multiline") ? e.target.getAttribute("data-multiline") : this.props.multiline ? this.props.multiline : false;
+      var tooltipText = undefined,
+          multilineCount = 0;
+      if (!multiline || multiline === "false" || !regexp.test(originTooltip)) {
+        tooltipText = originTooltip;
+      } else {
+        tooltipText = originTooltip.split(regexp).map(function (d, i) {
+          multilineCount += 1;
+          return _react2['default'].createElement(
+            'span',
+            { key: i, className: 'multi-line' },
+            d
+          );
+        });
+      }
+      this.setState({
+        placeholder: tooltipText,
+        multilineCount: multilineCount,
+        place: e.target.getAttribute("data-place") ? e.target.getAttribute("data-place") : this.props.place ? this.props.place : "top",
+
+        type: e.target.getAttribute("data-type") ? e.target.getAttribute("data-type") : this.props.type ? this.props.type : "dark",
+
+        effect: e.target.getAttribute("data-effect") ? e.target.getAttribute("data-effect") : this.props.effect ? this.props.effect : "float",
+
+        position: e.target.getAttribute("data-position") ? e.target.getAttribute("data-position") : this.props.position ? this.props.position : {},
+
+        multiline: multiline
+
+      });
+      this.updateTooltip(e);
+    }
+  }, {
+    key: 'updateTooltip',
+    value: function updateTooltip(e) {
+      if (this.trim(this.state.placeholder).length > 0) {
+        var _state = this.state;
+        var multilineCount = _state.multilineCount;
+        var place = _state.place;
+
+        if (this.state.effect === "float") {
+          var offsetY = !multilineCount ? e.clientY : place !== "top" ? e.clientY : e.clientY - multilineCount * 14.5;
+
+          this.setState({
+            show: true,
+            x: e.clientX,
+            y: offsetY
+          });
+        } else if (this.state.effect === "solid") {
+          var targetTop = e.target.getBoundingClientRect().top;
+          var targetLeft = e.target.getBoundingClientRect().left;
+          var node = _react2['default'].findDOMNode(this);
+          var tipWidth = node.clientWidth;
+          var tipHeight = node.clientHeight;
+          var targetWidth = e.target.clientWidth;
+          var targetHeight = e.target.clientHeight;
+          var x = undefined,
+              y = undefined;
+          if (place === "top") {
+            x = targetLeft - tipWidth / 2 + targetWidth / 2;
+            y = targetTop - tipHeight - 8;
+          } else if (place === "bottom") {
+            x = targetLeft - tipWidth / 2 + targetWidth / 2;
+            y = targetTop + targetHeight + 8;
+          } else if (place === "left") {
+            x = targetLeft - tipWidth - 6;
+            y = targetTop + targetHeight / 2 - tipHeight / 2;
+          } else if (place === "right") {
+            x = targetLeft + targetWidth + 6;
+            y = targetTop + targetHeight / 2 - tipHeight / 2;
+          }
+          this.setState({
+            show: true,
+            x: this.state.x === "NONE" ? x : this.state.x,
+            y: this.state.y === "NONE" ? y : this.state.y
+          });
+        }
+      }
+    }
+  }, {
+    key: 'hideTooltip',
+    value: function hideTooltip(e) {
+      this.setState({
+        show: false,
+        x: "NONE",
+        y: "NONE"
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var tooltipClass = (0, _classnames2['default'])('reactTooltip', { "show": this.state.show }, { "place-top": this.state.place === "top" }, { "place-bottom": this.state.place === "bottom" }, { "place-left": this.state.place === "left" }, { "place-right": this.state.place === "right" }, { "type-dark": this.state.type === "dark" }, { "type-success": this.state.type === "success" }, { "type-warning": this.state.type === "warning" }, { "type-error": this.state.type === "error" }, { "type-info": this.state.type === "info" }, { "type-light": this.state.type === "light" });
+
+      return _react2['default'].createElement(
+        'span',
+        { className: tooltipClass, 'data-id': 'tooltip' },
+        this.state.placeholder
+      );
+    }
+  }, {
+    key: 'trim',
+    value: function trim(string) {
+      if (Object.prototype.toString.call(string) !== "[object String]") {
+        return string;
+      }
+      var newString = string.split("");
+      var firstCount = 0,
+          lastCount = 0;
+      for (var i = 0; i < string.length; i++) {
+        if (string[i] !== " ") {
+          break;
+        }
+        firstCount++;
+      }
+      for (var i = string.length - 1; i >= 0; i--) {
+        if (string[i] !== " ") {
+          break;
+        }
+        lastCount++;
+      }
+      newString.splice(0, firstCount);
+      newString.splice(-lastCount, lastCount);
+      return newString.join("");
+    }
+  }]);
+
+  return ReactTooltip;
+})(_react2['default'].Component);
+
+ReactTooltip.displayName = 'ReactTooltip';
+
+ReactTooltip.propTypes = {
+  place: _react.PropTypes.string,
+  type: _react.PropTypes.string,
+  effect: _react.PropTypes.string,
+  position: _react.PropTypes.object,
+  multiline: _react.PropTypes.bool
+};
 
 exports['default'] = ReactTooltip;
 module.exports = exports['default'];
 
-},{"classnames":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-tooltip\\node_modules\\classnames\\index.js","react":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react-tooltip\\node_modules\\classnames\\index.js":[function(require,module,exports){
+},{"classnames":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-tooltip\\node_modules\\classnames\\index.js","react":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react-tooltip\\node_modules\\classnames\\index.js":[function(require,module,exports){
 /*!
   Copyright (c) 2015 Jed Watson.
   Licensed under the MIT License (MIT), see
@@ -18960,10 +18876,10 @@ if (typeof define !== 'undefined' && define.amd) {
 	});
 }
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\addons.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\addons.js":[function(require,module,exports){
 module.exports = require('./lib/ReactWithAddons');
 
-},{"./lib/ReactWithAddons":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactWithAddons.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\AutoFocusMixin.js":[function(require,module,exports){
+},{"./lib/ReactWithAddons":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactWithAddons.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\AutoFocusMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18990,7 +18906,7 @@ var AutoFocusMixin = {
 
 module.exports = AutoFocusMixin;
 
-},{"./focusNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\focusNode.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\BeforeInputEventPlugin.js":[function(require,module,exports){
+},{"./focusNode":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\focusNode.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\BeforeInputEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015 Facebook, Inc.
  * All rights reserved.
@@ -19485,7 +19401,7 @@ var BeforeInputEventPlugin = {
 
 module.exports = BeforeInputEventPlugin;
 
-},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPropagators":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./FallbackCompositionState":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\FallbackCompositionState.js","./SyntheticCompositionEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticCompositionEvent.js","./SyntheticInputEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticInputEvent.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CSSCore.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPropagators":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./ExecutionEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./FallbackCompositionState":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\FallbackCompositionState.js","./SyntheticCompositionEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticCompositionEvent.js","./SyntheticInputEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticInputEvent.js","./keyOf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\keyOf.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\CSSCore.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19597,7 +19513,7 @@ var CSSCore = {
 module.exports = CSSCore;
 
 }).call(this,require('_process'))
-},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CSSProperty.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\CSSProperty.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19722,7 +19638,7 @@ var CSSProperty = {
 
 module.exports = CSSProperty;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CSSPropertyOperations.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\CSSPropertyOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19904,7 +19820,7 @@ var CSSPropertyOperations = {
 module.exports = CSSPropertyOperations;
 
 }).call(this,require('_process'))
-},{"./CSSProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CSSProperty.js","./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./camelizeStyleName":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\camelizeStyleName.js","./dangerousStyleValue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\dangerousStyleValue.js","./hyphenateStyleName":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\hyphenateStyleName.js","./memoizeStringOnly":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\memoizeStringOnly.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CallbackQueue.js":[function(require,module,exports){
+},{"./CSSProperty":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\CSSProperty.js","./ExecutionEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./camelizeStyleName":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\camelizeStyleName.js","./dangerousStyleValue":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\dangerousStyleValue.js","./hyphenateStyleName":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\hyphenateStyleName.js","./memoizeStringOnly":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\memoizeStringOnly.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\CallbackQueue.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -20004,7 +19920,7 @@ PooledClass.addPoolingTo(CallbackQueue);
 module.exports = CallbackQueue;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ChangeEventPlugin.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ChangeEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -20386,7 +20302,7 @@ var ChangeEventPlugin = {
 
 module.exports = ChangeEventPlugin;
 
-},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPluginHub":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js","./EventPropagators":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./SyntheticEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js","./isEventSupported":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isEventSupported.js","./isTextInputElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isTextInputElement.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ClientReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPluginHub":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js","./EventPropagators":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./ExecutionEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./ReactUpdates":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./SyntheticEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js","./isEventSupported":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\isEventSupported.js","./isTextInputElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\isTextInputElement.js","./keyOf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\keyOf.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ClientReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -20411,7 +20327,7 @@ var ClientReactRootIndex = {
 
 module.exports = ClientReactRootIndex;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMChildrenOperations.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DOMChildrenOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -20549,7 +20465,7 @@ var DOMChildrenOperations = {
 module.exports = DOMChildrenOperations;
 
 }).call(this,require('_process'))
-},{"./Danger":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Danger.js","./ReactMultiChildUpdateTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMultiChildUpdateTypes.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./setTextContent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\setTextContent.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js":[function(require,module,exports){
+},{"./Danger":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Danger.js","./ReactMultiChildUpdateTypes":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMultiChildUpdateTypes.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./setTextContent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\setTextContent.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -20848,7 +20764,7 @@ var DOMProperty = {
 module.exports = DOMProperty;
 
 }).call(this,require('_process'))
-},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -21040,7 +20956,7 @@ var DOMPropertyOperations = {
 module.exports = DOMPropertyOperations;
 
 }).call(this,require('_process'))
-},{"./DOMProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./quoteAttributeValueForBrowser":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\quoteAttributeValueForBrowser.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Danger.js":[function(require,module,exports){
+},{"./DOMProperty":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./quoteAttributeValueForBrowser":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\quoteAttributeValueForBrowser.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Danger.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -21227,7 +21143,7 @@ var Danger = {
 module.exports = Danger;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./createNodesFromMarkup":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\createNodesFromMarkup.js","./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js","./getMarkupWrap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getMarkupWrap.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DefaultEventPluginOrder.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./createNodesFromMarkup":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\createNodesFromMarkup.js","./emptyFunction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js","./getMarkupWrap":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getMarkupWrap.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DefaultEventPluginOrder.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -21266,7 +21182,7 @@ var DefaultEventPluginOrder = [
 
 module.exports = DefaultEventPluginOrder;
 
-},{"./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EnterLeaveEventPlugin.js":[function(require,module,exports){
+},{"./keyOf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\keyOf.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EnterLeaveEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -21406,7 +21322,7 @@ var EnterLeaveEventPlugin = {
 
 module.exports = EnterLeaveEventPlugin;
 
-},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPropagators":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./SyntheticMouseEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticMouseEvent.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPropagators":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./ReactMount":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./SyntheticMouseEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticMouseEvent.js","./keyOf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\keyOf.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -21478,7 +21394,7 @@ var EventConstants = {
 
 module.exports = EventConstants;
 
-},{"./keyMirror":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventListener.js":[function(require,module,exports){
+},{"./keyMirror":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventListener.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -21568,7 +21484,7 @@ var EventListener = {
 module.exports = EventListener;
 
 }).call(this,require('_process'))
-},{"./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js":[function(require,module,exports){
+},{"./emptyFunction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -21846,7 +21762,7 @@ var EventPluginHub = {
 module.exports = EventPluginHub;
 
 }).call(this,require('_process'))
-},{"./EventPluginRegistry":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginRegistry.js","./EventPluginUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginUtils.js","./accumulateInto":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\accumulateInto.js","./forEachAccumulated":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\forEachAccumulated.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginRegistry.js":[function(require,module,exports){
+},{"./EventPluginRegistry":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPluginRegistry.js","./EventPluginUtils":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPluginUtils.js","./accumulateInto":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\accumulateInto.js","./forEachAccumulated":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\forEachAccumulated.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPluginRegistry.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -22126,7 +22042,7 @@ var EventPluginRegistry = {
 module.exports = EventPluginRegistry;
 
 }).call(this,require('_process'))
-},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginUtils.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPluginUtils.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -22347,7 +22263,7 @@ var EventPluginUtils = {
 module.exports = EventPluginUtils;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -22489,7 +22405,7 @@ var EventPropagators = {
 module.exports = EventPropagators;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPluginHub":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js","./accumulateInto":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\accumulateInto.js","./forEachAccumulated":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\forEachAccumulated.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPluginHub":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js","./accumulateInto":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\accumulateInto.js","./forEachAccumulated":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\forEachAccumulated.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -22533,7 +22449,7 @@ var ExecutionEnvironment = {
 
 module.exports = ExecutionEnvironment;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\FallbackCompositionState.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\FallbackCompositionState.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -22624,7 +22540,7 @@ PooledClass.addPoolingTo(FallbackCompositionState);
 
 module.exports = FallbackCompositionState;
 
-},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./getTextContentAccessor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getTextContentAccessor.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\HTMLDOMPropertyConfig.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./getTextContentAccessor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getTextContentAccessor.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\HTMLDOMPropertyConfig.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -22835,7 +22751,7 @@ var HTMLDOMPropertyConfig = {
 
 module.exports = HTMLDOMPropertyConfig;
 
-},{"./DOMProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LinkedStateMixin.js":[function(require,module,exports){
+},{"./DOMProperty":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./ExecutionEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\LinkedStateMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -22876,7 +22792,7 @@ var LinkedStateMixin = {
 
 module.exports = LinkedStateMixin;
 
-},{"./ReactLink":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactLink.js","./ReactStateSetters":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactStateSetters.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LinkedValueUtils.js":[function(require,module,exports){
+},{"./ReactLink":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactLink.js","./ReactStateSetters":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactStateSetters.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\LinkedValueUtils.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -23032,7 +22948,7 @@ var LinkedValueUtils = {
 module.exports = LinkedValueUtils;
 
 }).call(this,require('_process'))
-},{"./ReactPropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypes.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LocalEventTrapMixin.js":[function(require,module,exports){
+},{"./ReactPropTypes":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypes.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\LocalEventTrapMixin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -23089,7 +23005,7 @@ var LocalEventTrapMixin = {
 module.exports = LocalEventTrapMixin;
 
 }).call(this,require('_process'))
-},{"./ReactBrowserEventEmitter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./accumulateInto":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\accumulateInto.js","./forEachAccumulated":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\forEachAccumulated.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\MobileSafariClickEventPlugin.js":[function(require,module,exports){
+},{"./ReactBrowserEventEmitter":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./accumulateInto":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\accumulateInto.js","./forEachAccumulated":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\forEachAccumulated.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\MobileSafariClickEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -23147,7 +23063,7 @@ var MobileSafariClickEventPlugin = {
 
 module.exports = MobileSafariClickEventPlugin;
 
-},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./emptyFunction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js":[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -23196,7 +23112,7 @@ function assign(target, sources) {
 
 module.exports = assign;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -23312,7 +23228,7 @@ var PooledClass = {
 module.exports = PooledClass;
 
 }).call(this,require('_process'))
-},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\React.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\React.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -23464,7 +23380,7 @@ React.version = '0.13.3';
 module.exports = React;
 
 }).call(this,require('_process'))
-},{"./EventPluginUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginUtils.js","./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactChildren":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactChildren.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponent.js","./ReactContext":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactContext.js","./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactDOM":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOM.js","./ReactDOMTextComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMTextComponent.js","./ReactDefaultInjection":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultInjection.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactElementValidator":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js","./ReactInstanceHandles":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./ReactPropTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypes.js","./ReactReconciler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js","./ReactServerRendering":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactServerRendering.js","./findDOMNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\findDOMNode.js","./onlyChild":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\onlyChild.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js":[function(require,module,exports){
+},{"./EventPluginUtils":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPluginUtils.js","./ExecutionEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactChildren":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactChildren.js","./ReactClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactComponent.js","./ReactContext":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactContext.js","./ReactCurrentOwner":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactDOM":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOM.js","./ReactDOMTextComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMTextComponent.js","./ReactDefaultInjection":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultInjection.js","./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactElementValidator":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js","./ReactInstanceHandles":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactMount":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactPerf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./ReactPropTypes":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypes.js","./ReactReconciler":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js","./ReactServerRendering":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactServerRendering.js","./findDOMNode":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\findDOMNode.js","./onlyChild":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\onlyChild.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -23495,7 +23411,7 @@ var ReactBrowserComponentMixin = {
 
 module.exports = ReactBrowserComponentMixin;
 
-},{"./findDOMNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\findDOMNode.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js":[function(require,module,exports){
+},{"./findDOMNode":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\findDOMNode.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -23848,7 +23764,7 @@ var ReactBrowserEventEmitter = assign({}, ReactEventEmitterMixin, {
 
 module.exports = ReactBrowserEventEmitter;
 
-},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPluginHub":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js","./EventPluginRegistry":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginRegistry.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactEventEmitterMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEventEmitterMixin.js","./ViewportMetrics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ViewportMetrics.js","./isEventSupported":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isEventSupported.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCSSTransitionGroup.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPluginHub":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js","./EventPluginRegistry":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPluginRegistry.js","./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactEventEmitterMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactEventEmitterMixin.js","./ViewportMetrics":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ViewportMetrics.js","./isEventSupported":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\isEventSupported.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactCSSTransitionGroup.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -23918,7 +23834,7 @@ var ReactCSSTransitionGroup = React.createClass({
 
 module.exports = ReactCSSTransitionGroup;
 
-},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./React":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\React.js","./ReactCSSTransitionGroupChild":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCSSTransitionGroupChild.js","./ReactTransitionGroup":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionGroup.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCSSTransitionGroupChild.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./React":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\React.js","./ReactCSSTransitionGroupChild":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactCSSTransitionGroupChild.js","./ReactTransitionGroup":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionGroup.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactCSSTransitionGroupChild.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -24066,7 +23982,7 @@ var ReactCSSTransitionGroupChild = React.createClass({
 module.exports = ReactCSSTransitionGroupChild;
 
 }).call(this,require('_process'))
-},{"./CSSCore":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CSSCore.js","./React":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\React.js","./ReactTransitionEvents":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionEvents.js","./onlyChild":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\onlyChild.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactChildReconciler.js":[function(require,module,exports){
+},{"./CSSCore":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\CSSCore.js","./React":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\React.js","./ReactTransitionEvents":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionEvents.js","./onlyChild":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\onlyChild.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactChildReconciler.js":[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -24193,7 +24109,7 @@ var ReactChildReconciler = {
 
 module.exports = ReactChildReconciler;
 
-},{"./ReactReconciler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js","./flattenChildren":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\flattenChildren.js","./instantiateReactComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\instantiateReactComponent.js","./shouldUpdateReactComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\shouldUpdateReactComponent.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactChildren.js":[function(require,module,exports){
+},{"./ReactReconciler":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js","./flattenChildren":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\flattenChildren.js","./instantiateReactComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\instantiateReactComponent.js","./shouldUpdateReactComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\shouldUpdateReactComponent.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -24346,7 +24262,7 @@ var ReactChildren = {
 module.exports = ReactChildren;
 
 }).call(this,require('_process'))
-},{"./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactFragment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js","./traverseAllChildren":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\traverseAllChildren.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js":[function(require,module,exports){
+},{"./PooledClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactFragment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js","./traverseAllChildren":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\traverseAllChildren.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -25292,7 +25208,7 @@ var ReactClass = {
 module.exports = ReactClass;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponent.js","./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactErrorUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactErrorUtils.js","./ReactInstanceMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactLifeCycle":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactLifeCycle.js","./ReactPropTypeLocationNames":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocations.js","./ReactUpdateQueue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdateQueue.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./keyMirror":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponent.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactComponent.js","./ReactCurrentOwner":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactErrorUtils":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactErrorUtils.js","./ReactInstanceMap":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactLifeCycle":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactLifeCycle.js","./ReactPropTypeLocationNames":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocations.js","./ReactUpdateQueue":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactUpdateQueue.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./keyMirror":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js","./keyOf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -25446,7 +25362,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = ReactComponent;
 
 }).call(this,require('_process'))
-},{"./ReactUpdateQueue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdateQueue.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentBrowserEnvironment.js":[function(require,module,exports){
+},{"./ReactUpdateQueue":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactUpdateQueue.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactComponentBrowserEnvironment.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -25493,7 +25409,7 @@ var ReactComponentBrowserEnvironment = {
 
 module.exports = ReactComponentBrowserEnvironment;
 
-},{"./ReactDOMIDOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMIDOperations.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentEnvironment.js":[function(require,module,exports){
+},{"./ReactDOMIDOperations":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMIDOperations.js","./ReactMount":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactComponentEnvironment.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -25554,7 +25470,7 @@ var ReactComponentEnvironment = {
 module.exports = ReactComponentEnvironment;
 
 }).call(this,require('_process'))
-},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentWithPureRenderMixin.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactComponentWithPureRenderMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -25603,7 +25519,7 @@ var ReactComponentWithPureRenderMixin = {
 
 module.exports = ReactComponentWithPureRenderMixin;
 
-},{"./shallowEqual":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\shallowEqual.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCompositeComponent.js":[function(require,module,exports){
+},{"./shallowEqual":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\shallowEqual.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactCompositeComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -26516,7 +26432,7 @@ var ReactCompositeComponent = {
 module.exports = ReactCompositeComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactComponentEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentEnvironment.js","./ReactContext":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactContext.js","./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactElementValidator":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js","./ReactInstanceMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactLifeCycle":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactLifeCycle.js","./ReactNativeComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactNativeComponent.js","./ReactPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./ReactPropTypeLocationNames":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocations.js","./ReactReconciler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./emptyObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./shouldUpdateReactComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\shouldUpdateReactComponent.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactContext.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactComponentEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactComponentEnvironment.js","./ReactContext":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactContext.js","./ReactCurrentOwner":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactElementValidator":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js","./ReactInstanceMap":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactLifeCycle":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactLifeCycle.js","./ReactNativeComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactNativeComponent.js","./ReactPerf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./ReactPropTypeLocationNames":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocations.js","./ReactReconciler":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js","./ReactUpdates":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./emptyObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./shouldUpdateReactComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\shouldUpdateReactComponent.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactContext.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -26594,7 +26510,7 @@ var ReactContext = {
 module.exports = ReactContext;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./emptyObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./emptyObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -26628,7 +26544,7 @@ var ReactCurrentOwner = {
 
 module.exports = ReactCurrentOwner;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOM.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOM.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -26807,7 +26723,7 @@ var ReactDOM = mapObject({
 module.exports = ReactDOM;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactElementValidator":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js","./mapObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\mapObject.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMButton.js":[function(require,module,exports){
+},{"./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactElementValidator":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js","./mapObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\mapObject.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMButton.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -26871,7 +26787,7 @@ var ReactDOMButton = ReactClass.createClass({
 
 module.exports = ReactDOMButton;
 
-},{"./AutoFocusMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\AutoFocusMixin.js","./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./keyMirror":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMComponent.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\AutoFocusMixin.js","./ReactBrowserComponentMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./keyMirror":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -27381,7 +27297,7 @@ ReactDOMComponent.injection = {
 module.exports = ReactDOMComponent;
 
 }).call(this,require('_process'))
-},{"./CSSPropertyOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CSSPropertyOperations.js","./DOMProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./DOMPropertyOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactBrowserEventEmitter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./ReactComponentBrowserEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentBrowserEnvironment.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactMultiChild":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMultiChild.js","./ReactPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./escapeTextContentForBrowser":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\escapeTextContentForBrowser.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./isEventSupported":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isEventSupported.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMForm.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\CSSPropertyOperations.js","./DOMProperty":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./DOMPropertyOperations":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js","./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactBrowserEventEmitter":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./ReactComponentBrowserEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactComponentBrowserEnvironment.js","./ReactMount":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactMultiChild":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMultiChild.js","./ReactPerf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./escapeTextContentForBrowser":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\escapeTextContentForBrowser.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./isEventSupported":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\isEventSupported.js","./keyOf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMForm.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -27430,7 +27346,7 @@ var ReactDOMForm = ReactClass.createClass({
 
 module.exports = ReactDOMForm;
 
-},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./LocalEventTrapMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMIDOperations.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./LocalEventTrapMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMIDOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -27598,7 +27514,7 @@ ReactPerf.measureMethods(ReactDOMIDOperations, 'ReactDOMIDOperations', {
 module.exports = ReactDOMIDOperations;
 
 }).call(this,require('_process'))
-},{"./CSSPropertyOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CSSPropertyOperations.js","./DOMChildrenOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMChildrenOperations.js","./DOMPropertyOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./setInnerHTML":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\setInnerHTML.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMIframe.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\CSSPropertyOperations.js","./DOMChildrenOperations":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DOMChildrenOperations.js","./DOMPropertyOperations":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js","./ReactMount":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactPerf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./setInnerHTML":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\setInnerHTML.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMIframe.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -27643,7 +27559,7 @@ var ReactDOMIframe = ReactClass.createClass({
 
 module.exports = ReactDOMIframe;
 
-},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./LocalEventTrapMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMImg.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./LocalEventTrapMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMImg.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -27689,7 +27605,7 @@ var ReactDOMImg = ReactClass.createClass({
 
 module.exports = ReactDOMImg;
 
-},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./LocalEventTrapMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMInput.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./LocalEventTrapMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMInput.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -27866,7 +27782,7 @@ var ReactDOMInput = ReactClass.createClass({
 module.exports = ReactDOMInput;
 
 }).call(this,require('_process'))
-},{"./AutoFocusMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\AutoFocusMixin.js","./DOMPropertyOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js","./LinkedValueUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LinkedValueUtils.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMOption.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\AutoFocusMixin.js","./DOMPropertyOperations":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js","./LinkedValueUtils":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\LinkedValueUtils.js","./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactBrowserComponentMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactMount":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactUpdates":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMOption.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -27918,7 +27834,7 @@ var ReactDOMOption = ReactClass.createClass({
 module.exports = ReactDOMOption;
 
 }).call(this,require('_process'))
-},{"./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMSelect.js":[function(require,module,exports){
+},{"./ReactBrowserComponentMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMSelect.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -28096,7 +28012,7 @@ var ReactDOMSelect = ReactClass.createClass({
 
 module.exports = ReactDOMSelect;
 
-},{"./AutoFocusMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\AutoFocusMixin.js","./LinkedValueUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LinkedValueUtils.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMSelection.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\AutoFocusMixin.js","./LinkedValueUtils":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\LinkedValueUtils.js","./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactBrowserComponentMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactUpdates":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMSelection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -28309,7 +28225,7 @@ var ReactDOMSelection = {
 
 module.exports = ReactDOMSelection;
 
-},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./getNodeForCharacterOffset":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getNodeForCharacterOffset.js","./getTextContentAccessor":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getTextContentAccessor.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMTextComponent.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./getNodeForCharacterOffset":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getNodeForCharacterOffset.js","./getTextContentAccessor":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getTextContentAccessor.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMTextComponent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -28426,7 +28342,7 @@ assign(ReactDOMTextComponent.prototype, {
 
 module.exports = ReactDOMTextComponent;
 
-},{"./DOMPropertyOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactComponentBrowserEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentBrowserEnvironment.js","./ReactDOMComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMComponent.js","./escapeTextContentForBrowser":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\escapeTextContentForBrowser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMTextarea.js":[function(require,module,exports){
+},{"./DOMPropertyOperations":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js","./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactComponentBrowserEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactComponentBrowserEnvironment.js","./ReactDOMComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMComponent.js","./escapeTextContentForBrowser":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\escapeTextContentForBrowser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMTextarea.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -28566,7 +28482,7 @@ var ReactDOMTextarea = ReactClass.createClass({
 module.exports = ReactDOMTextarea;
 
 }).call(this,require('_process'))
-},{"./AutoFocusMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\AutoFocusMixin.js","./DOMPropertyOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js","./LinkedValueUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LinkedValueUtils.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultBatchingStrategy.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\AutoFocusMixin.js","./DOMPropertyOperations":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DOMPropertyOperations.js","./LinkedValueUtils":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\LinkedValueUtils.js","./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactBrowserComponentMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactUpdates":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultBatchingStrategy.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -28639,7 +28555,7 @@ var ReactDefaultBatchingStrategy = {
 
 module.exports = ReactDefaultBatchingStrategy;
 
-},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./Transaction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Transaction.js","./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultInjection.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactUpdates":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./Transaction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Transaction.js","./emptyFunction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultInjection.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -28798,7 +28714,7 @@ module.exports = {
 };
 
 }).call(this,require('_process'))
-},{"./BeforeInputEventPlugin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\BeforeInputEventPlugin.js","./ChangeEventPlugin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ChangeEventPlugin.js","./ClientReactRootIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ClientReactRootIndex.js","./DefaultEventPluginOrder":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EnterLeaveEventPlugin.js","./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactComponentBrowserEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentBrowserEnvironment.js","./ReactDOMButton":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMButton.js","./ReactDOMComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMComponent.js","./ReactDOMForm":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMForm.js","./ReactDOMIDOperations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMIDOperations.js","./ReactDOMIframe":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMIframe.js","./ReactDOMImg":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMImg.js","./ReactDOMInput":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMInput.js","./ReactDOMOption":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMOption.js","./ReactDOMSelect":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMSelect.js","./ReactDOMTextComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMTextComponent.js","./ReactDOMTextarea":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultPerf.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactEventListener":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEventListener.js","./ReactInjection":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInjection.js","./ReactInstanceHandles":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactReconcileTransaction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconcileTransaction.js","./SVGDOMPropertyConfig":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SVGDOMPropertyConfig.js","./SelectEventPlugin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SelectEventPlugin.js","./ServerReactRootIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ServerReactRootIndex.js","./SimpleEventPlugin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SimpleEventPlugin.js","./createFullPageComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\createFullPageComponent.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultPerf.js":[function(require,module,exports){
+},{"./BeforeInputEventPlugin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\BeforeInputEventPlugin.js","./ChangeEventPlugin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ChangeEventPlugin.js","./ClientReactRootIndex":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ClientReactRootIndex.js","./DefaultEventPluginOrder":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EnterLeaveEventPlugin.js","./ExecutionEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserComponentMixin.js","./ReactClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactComponentBrowserEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactComponentBrowserEnvironment.js","./ReactDOMButton":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMButton.js","./ReactDOMComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMComponent.js","./ReactDOMForm":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMForm.js","./ReactDOMIDOperations":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMIDOperations.js","./ReactDOMIframe":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMIframe.js","./ReactDOMImg":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMImg.js","./ReactDOMInput":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMInput.js","./ReactDOMOption":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMOption.js","./ReactDOMSelect":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMSelect.js","./ReactDOMTextComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMTextComponent.js","./ReactDOMTextarea":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultPerf.js","./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactEventListener":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactEventListener.js","./ReactInjection":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInjection.js","./ReactInstanceHandles":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactMount":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactReconcileTransaction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactReconcileTransaction.js","./SVGDOMPropertyConfig":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SVGDOMPropertyConfig.js","./SelectEventPlugin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SelectEventPlugin.js","./ServerReactRootIndex":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ServerReactRootIndex.js","./SimpleEventPlugin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SimpleEventPlugin.js","./createFullPageComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\createFullPageComponent.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultPerf.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -29064,7 +28980,7 @@ var ReactDefaultPerf = {
 
 module.exports = ReactDefaultPerf;
 
-},{"./DOMProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./ReactDefaultPerfAnalysis":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultPerfAnalysis.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./performanceNow":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\performanceNow.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultPerfAnalysis.js":[function(require,module,exports){
+},{"./DOMProperty":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./ReactDefaultPerfAnalysis":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultPerfAnalysis.js","./ReactMount":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactPerf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./performanceNow":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\performanceNow.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultPerfAnalysis.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -29270,7 +29186,7 @@ var ReactDefaultPerfAnalysis = {
 
 module.exports = ReactDefaultPerfAnalysis;
 
-},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -29578,7 +29494,7 @@ ReactElement.isValidElement = function(object) {
 module.exports = ReactElement;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactContext":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactContext.js","./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactContext":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactContext.js","./ReactCurrentOwner":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -30043,7 +29959,7 @@ var ReactElementValidator = {
 module.exports = ReactElementValidator;
 
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactFragment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js","./ReactNativeComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactNativeComponent.js","./ReactPropTypeLocationNames":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocations.js","./getIteratorFn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getIteratorFn.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEmptyComponent.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactFragment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js","./ReactNativeComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactNativeComponent.js","./ReactPropTypeLocationNames":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocations.js","./getIteratorFn":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getIteratorFn.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactEmptyComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -30138,7 +30054,7 @@ var ReactEmptyComponent = {
 module.exports = ReactEmptyComponent;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactInstanceMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactErrorUtils.js":[function(require,module,exports){
+},{"./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactInstanceMap":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactErrorUtils.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -30170,7 +30086,7 @@ var ReactErrorUtils = {
 
 module.exports = ReactErrorUtils;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEventEmitterMixin.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactEventEmitterMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -30220,7 +30136,7 @@ var ReactEventEmitterMixin = {
 
 module.exports = ReactEventEmitterMixin;
 
-},{"./EventPluginHub":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEventListener.js":[function(require,module,exports){
+},{"./EventPluginHub":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactEventListener.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -30403,7 +30319,7 @@ var ReactEventListener = {
 
 module.exports = ReactEventListener;
 
-},{"./EventListener":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventListener.js","./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactInstanceHandles":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./getEventTarget":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventTarget.js","./getUnboundedScrollPosition":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getUnboundedScrollPosition.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js":[function(require,module,exports){
+},{"./EventListener":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventListener.js","./ExecutionEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactInstanceHandles":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactMount":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactUpdates":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./getEventTarget":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getEventTarget.js","./getUnboundedScrollPosition":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getUnboundedScrollPosition.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015, Facebook, Inc.
@@ -30588,7 +30504,7 @@ var ReactFragment = {
 module.exports = ReactFragment;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInjection.js":[function(require,module,exports){
+},{"./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInjection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -30630,7 +30546,7 @@ var ReactInjection = {
 
 module.exports = ReactInjection;
 
-},{"./DOMProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./EventPluginHub":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js","./ReactBrowserEventEmitter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactComponentEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentEnvironment.js","./ReactDOMComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMComponent.js","./ReactEmptyComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEmptyComponent.js","./ReactNativeComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactNativeComponent.js","./ReactPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./ReactRootIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactRootIndex.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInputSelection.js":[function(require,module,exports){
+},{"./DOMProperty":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./EventPluginHub":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js","./ReactBrowserEventEmitter":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./ReactClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactComponentEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactComponentEnvironment.js","./ReactDOMComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMComponent.js","./ReactEmptyComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactEmptyComponent.js","./ReactNativeComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactNativeComponent.js","./ReactPerf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./ReactRootIndex":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactRootIndex.js","./ReactUpdates":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInputSelection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -30765,7 +30681,7 @@ var ReactInputSelection = {
 
 module.exports = ReactInputSelection;
 
-},{"./ReactDOMSelection":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDOMSelection.js","./containsNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\containsNode.js","./focusNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\focusNode.js","./getActiveElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getActiveElement.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js":[function(require,module,exports){
+},{"./ReactDOMSelection":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDOMSelection.js","./containsNode":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\containsNode.js","./focusNode":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\focusNode.js","./getActiveElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getActiveElement.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -31101,7 +31017,7 @@ var ReactInstanceHandles = {
 module.exports = ReactInstanceHandles;
 
 }).call(this,require('_process'))
-},{"./ReactRootIndex":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactRootIndex.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js":[function(require,module,exports){
+},{"./ReactRootIndex":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactRootIndex.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -31150,7 +31066,7 @@ var ReactInstanceMap = {
 
 module.exports = ReactInstanceMap;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactLifeCycle.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactLifeCycle.js":[function(require,module,exports){
 /**
  * Copyright 2015, Facebook, Inc.
  * All rights reserved.
@@ -31187,7 +31103,7 @@ var ReactLifeCycle = {
 
 module.exports = ReactLifeCycle;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactLink.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactLink.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -31260,7 +31176,7 @@ ReactLink.PropTypes = {
 
 module.exports = ReactLink;
 
-},{"./React":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\React.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMarkupChecksum.js":[function(require,module,exports){
+},{"./React":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\React.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMarkupChecksum.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -31308,7 +31224,7 @@ var ReactMarkupChecksum = {
 
 module.exports = ReactMarkupChecksum;
 
-},{"./adler32":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\adler32.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js":[function(require,module,exports){
+},{"./adler32":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\adler32.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -32199,7 +32115,7 @@ ReactPerf.measureMethods(ReactMount, 'ReactMount', {
 module.exports = ReactMount;
 
 }).call(this,require('_process'))
-},{"./DOMProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./ReactBrowserEventEmitter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactElementValidator":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js","./ReactEmptyComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEmptyComponent.js","./ReactInstanceHandles":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactInstanceMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactMarkupChecksum":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMarkupChecksum.js","./ReactPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./ReactReconciler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js","./ReactUpdateQueue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdateQueue.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./containsNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\containsNode.js","./emptyObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js","./getReactRootElementInContainer":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getReactRootElementInContainer.js","./instantiateReactComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\instantiateReactComponent.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./setInnerHTML":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\setInnerHTML.js","./shouldUpdateReactComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\shouldUpdateReactComponent.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMultiChild.js":[function(require,module,exports){
+},{"./DOMProperty":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js","./ReactBrowserEventEmitter":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./ReactCurrentOwner":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactElementValidator":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js","./ReactEmptyComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactEmptyComponent.js","./ReactInstanceHandles":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactInstanceMap":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactMarkupChecksum":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMarkupChecksum.js","./ReactPerf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./ReactReconciler":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js","./ReactUpdateQueue":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactUpdateQueue.js","./ReactUpdates":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./containsNode":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\containsNode.js","./emptyObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js","./getReactRootElementInContainer":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getReactRootElementInContainer.js","./instantiateReactComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\instantiateReactComponent.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./setInnerHTML":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\setInnerHTML.js","./shouldUpdateReactComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\shouldUpdateReactComponent.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMultiChild.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -32629,7 +32545,7 @@ var ReactMultiChild = {
 
 module.exports = ReactMultiChild;
 
-},{"./ReactChildReconciler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactChildReconciler.js","./ReactComponentEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentEnvironment.js","./ReactMultiChildUpdateTypes":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMultiChildUpdateTypes.js","./ReactReconciler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMultiChildUpdateTypes.js":[function(require,module,exports){
+},{"./ReactChildReconciler":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactChildReconciler.js","./ReactComponentEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactComponentEnvironment.js","./ReactMultiChildUpdateTypes":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMultiChildUpdateTypes.js","./ReactReconciler":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMultiChildUpdateTypes.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -32662,7 +32578,7 @@ var ReactMultiChildUpdateTypes = keyMirror({
 
 module.exports = ReactMultiChildUpdateTypes;
 
-},{"./keyMirror":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactNativeComponent.js":[function(require,module,exports){
+},{"./keyMirror":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactNativeComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -32769,7 +32685,7 @@ var ReactNativeComponent = {
 module.exports = ReactNativeComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactOwner.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactOwner.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -32881,7 +32797,7 @@ var ReactOwner = {
 module.exports = ReactOwner;
 
 }).call(this,require('_process'))
-},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -32985,7 +32901,7 @@ function _noMeasure(objName, fnName, func) {
 module.exports = ReactPerf;
 
 }).call(this,require('_process'))
-},{"_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTransferer.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPropTransferer.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -33095,7 +33011,7 @@ var ReactPropTransferer = {
 
 module.exports = ReactPropTransferer;
 
-},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js","./joinClasses":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\joinClasses.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocationNames.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./emptyFunction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js","./joinClasses":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\joinClasses.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocationNames.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -33123,7 +33039,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = ReactPropTypeLocationNames;
 
 }).call(this,require('_process'))
-},{"_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocations.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocations.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -33147,7 +33063,7 @@ var ReactPropTypeLocations = keyMirror({
 
 module.exports = ReactPropTypeLocations;
 
-},{"./keyMirror":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypes.js":[function(require,module,exports){
+},{"./keyMirror":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypes.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -33496,7 +33412,7 @@ function getPreciseType(propValue) {
 
 module.exports = ReactPropTypes;
 
-},{"./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactFragment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js","./ReactPropTypeLocationNames":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocationNames.js","./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPutListenerQueue.js":[function(require,module,exports){
+},{"./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactFragment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js","./ReactPropTypeLocationNames":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPropTypeLocationNames.js","./emptyFunction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPutListenerQueue.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -33552,7 +33468,7 @@ PooledClass.addPoolingTo(ReactPutListenerQueue);
 
 module.exports = ReactPutListenerQueue;
 
-},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactBrowserEventEmitter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconcileTransaction.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactBrowserEventEmitter":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactReconcileTransaction.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -33728,7 +33644,7 @@ PooledClass.addPoolingTo(ReactReconcileTransaction);
 
 module.exports = ReactReconcileTransaction;
 
-},{"./CallbackQueue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CallbackQueue.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactBrowserEventEmitter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./ReactInputSelection":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInputSelection.js","./ReactPutListenerQueue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPutListenerQueue.js","./Transaction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Transaction.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js":[function(require,module,exports){
+},{"./CallbackQueue":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\CallbackQueue.js","./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactBrowserEventEmitter":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./ReactInputSelection":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInputSelection.js","./ReactPutListenerQueue":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPutListenerQueue.js","./Transaction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Transaction.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -33852,7 +33768,7 @@ var ReactReconciler = {
 module.exports = ReactReconciler;
 
 }).call(this,require('_process'))
-},{"./ReactElementValidator":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js","./ReactRef":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactRef.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactRef.js":[function(require,module,exports){
+},{"./ReactElementValidator":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElementValidator.js","./ReactRef":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactRef.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactRef.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -33923,7 +33839,7 @@ ReactRef.detachRefs = function(instance, element) {
 
 module.exports = ReactRef;
 
-},{"./ReactOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactOwner.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactRootIndex.js":[function(require,module,exports){
+},{"./ReactOwner":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactOwner.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -33954,7 +33870,7 @@ var ReactRootIndex = {
 
 module.exports = ReactRootIndex;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactServerRendering.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactServerRendering.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -34036,7 +33952,7 @@ module.exports = {
 };
 
 }).call(this,require('_process'))
-},{"./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactInstanceHandles":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactMarkupChecksum":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactServerRenderingTransaction.js","./emptyObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js","./instantiateReactComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\instantiateReactComponent.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactServerRenderingTransaction.js":[function(require,module,exports){
+},{"./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactInstanceHandles":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactMarkupChecksum":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactServerRenderingTransaction.js","./emptyObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js","./instantiateReactComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\instantiateReactComponent.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactServerRenderingTransaction.js":[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -34149,7 +34065,7 @@ PooledClass.addPoolingTo(ReactServerRenderingTransaction);
 
 module.exports = ReactServerRenderingTransaction;
 
-},{"./CallbackQueue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CallbackQueue.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactPutListenerQueue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPutListenerQueue.js","./Transaction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Transaction.js","./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactStateSetters.js":[function(require,module,exports){
+},{"./CallbackQueue":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\CallbackQueue.js","./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactPutListenerQueue":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPutListenerQueue.js","./Transaction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Transaction.js","./emptyFunction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactStateSetters.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -34255,7 +34171,7 @@ ReactStateSetters.Mixin = {
 
 module.exports = ReactStateSetters;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTestUtils.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactTestUtils.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -34769,7 +34685,7 @@ for (eventType in topLevelTypes) {
 
 module.exports = ReactTestUtils;
 
-},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPluginHub":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js","./EventPropagators":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./React":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\React.js","./ReactBrowserEventEmitter":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./ReactCompositeComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCompositeComponent.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactEmptyComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEmptyComponent.js","./ReactInstanceHandles":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactInstanceMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./SyntheticEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js","./emptyObject":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionChildMapping.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPluginHub":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPluginHub.js","./EventPropagators":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./React":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\React.js","./ReactBrowserEventEmitter":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactBrowserEventEmitter.js","./ReactCompositeComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactCompositeComponent.js","./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactEmptyComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactEmptyComponent.js","./ReactInstanceHandles":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./ReactInstanceMap":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactMount":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./ReactUpdates":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./SyntheticEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js","./emptyObject":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionChildMapping.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -34874,7 +34790,7 @@ var ReactTransitionChildMapping = {
 
 module.exports = ReactTransitionChildMapping;
 
-},{"./ReactChildren":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactChildren.js","./ReactFragment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionEvents.js":[function(require,module,exports){
+},{"./ReactChildren":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactChildren.js","./ReactFragment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionEvents.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -34985,7 +34901,7 @@ var ReactTransitionEvents = {
 
 module.exports = ReactTransitionEvents;
 
-},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionGroup.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionGroup.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -35215,7 +35131,7 @@ var ReactTransitionGroup = React.createClass({
 
 module.exports = ReactTransitionGroup;
 
-},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./React":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\React.js","./ReactTransitionChildMapping":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionChildMapping.js","./cloneWithProps":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\cloneWithProps.js","./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdateQueue.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./React":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\React.js","./ReactTransitionChildMapping":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionChildMapping.js","./cloneWithProps":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\cloneWithProps.js","./emptyFunction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactUpdateQueue.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015, Facebook, Inc.
@@ -35514,7 +35430,7 @@ var ReactUpdateQueue = {
 module.exports = ReactUpdateQueue;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactInstanceMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactLifeCycle":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactLifeCycle.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactCurrentOwner":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactInstanceMap":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactLifeCycle":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactLifeCycle.js","./ReactUpdates":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -35796,7 +35712,7 @@ var ReactUpdates = {
 module.exports = ReactUpdates;
 
 }).call(this,require('_process'))
-},{"./CallbackQueue":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CallbackQueue.js","./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./ReactReconciler":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js","./Transaction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Transaction.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactWithAddons.js":[function(require,module,exports){
+},{"./CallbackQueue":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\CallbackQueue.js","./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./ReactCurrentOwner":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactPerf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPerf.js","./ReactReconciler":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactReconciler.js","./Transaction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Transaction.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactWithAddons.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -35852,7 +35768,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = React;
 
 }).call(this,require('_process'))
-},{"./LinkedStateMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\LinkedStateMixin.js","./React":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\React.js","./ReactCSSTransitionGroup":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCSSTransitionGroup.js","./ReactComponentWithPureRenderMixin":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactComponentWithPureRenderMixin.js","./ReactDefaultPerf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultPerf.js","./ReactFragment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js","./ReactTestUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTestUtils.js","./ReactTransitionGroup":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionGroup.js","./ReactUpdates":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./cloneWithProps":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\cloneWithProps.js","./cx":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\cx.js","./update":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\update.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SVGDOMPropertyConfig.js":[function(require,module,exports){
+},{"./LinkedStateMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\LinkedStateMixin.js","./React":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\React.js","./ReactCSSTransitionGroup":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactCSSTransitionGroup.js","./ReactComponentWithPureRenderMixin":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactComponentWithPureRenderMixin.js","./ReactDefaultPerf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactDefaultPerf.js","./ReactFragment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js","./ReactTestUtils":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactTestUtils.js","./ReactTransitionGroup":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactTransitionGroup.js","./ReactUpdates":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactUpdates.js","./cloneWithProps":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\cloneWithProps.js","./cx":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\cx.js","./update":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\update.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SVGDOMPropertyConfig.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -35946,7 +35862,7 @@ var SVGDOMPropertyConfig = {
 
 module.exports = SVGDOMPropertyConfig;
 
-},{"./DOMProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SelectEventPlugin.js":[function(require,module,exports){
+},{"./DOMProperty":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\DOMProperty.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SelectEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36141,7 +36057,7 @@ var SelectEventPlugin = {
 
 module.exports = SelectEventPlugin;
 
-},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPropagators":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./ReactInputSelection":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInputSelection.js","./SyntheticEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js","./getActiveElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getActiveElement.js","./isTextInputElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isTextInputElement.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","./shallowEqual":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\shallowEqual.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ServerReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPropagators":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./ReactInputSelection":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInputSelection.js","./SyntheticEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js","./getActiveElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getActiveElement.js","./isTextInputElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\isTextInputElement.js","./keyOf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","./shallowEqual":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\shallowEqual.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ServerReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36172,7 +36088,7 @@ var ServerReactRootIndex = {
 
 module.exports = ServerReactRootIndex;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SimpleEventPlugin.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SimpleEventPlugin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -36600,7 +36516,7 @@ var SimpleEventPlugin = {
 module.exports = SimpleEventPlugin;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPluginUtils":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPluginUtils.js","./EventPropagators":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./SyntheticClipboardEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticClipboardEvent.js","./SyntheticDragEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticDragEvent.js","./SyntheticEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js","./SyntheticFocusEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticMouseEvent.js","./SyntheticTouchEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticTouchEvent.js","./SyntheticUIEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js","./SyntheticWheelEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticWheelEvent.js","./getEventCharCode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventCharCode.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticClipboardEvent.js":[function(require,module,exports){
+},{"./EventConstants":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventConstants.js","./EventPluginUtils":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPluginUtils.js","./EventPropagators":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\EventPropagators.js","./SyntheticClipboardEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticClipboardEvent.js","./SyntheticDragEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticDragEvent.js","./SyntheticEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js","./SyntheticFocusEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticMouseEvent.js","./SyntheticTouchEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticTouchEvent.js","./SyntheticUIEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js","./SyntheticWheelEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticWheelEvent.js","./getEventCharCode":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getEventCharCode.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./keyOf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticClipboardEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36645,7 +36561,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 
 module.exports = SyntheticClipboardEvent;
 
-},{"./SyntheticEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticCompositionEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticCompositionEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36690,7 +36606,7 @@ SyntheticEvent.augmentClass(
 
 module.exports = SyntheticCompositionEvent;
 
-},{"./SyntheticEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticDragEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticDragEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36729,7 +36645,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 
 module.exports = SyntheticDragEvent;
 
-},{"./SyntheticMouseEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticMouseEvent.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticMouseEvent.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36895,7 +36811,7 @@ PooledClass.addPoolingTo(SyntheticEvent, PooledClass.threeArgumentPooler);
 
 module.exports = SyntheticEvent;
 
-},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js","./getEventTarget":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventTarget.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticFocusEvent.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./PooledClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\PooledClass.js","./emptyFunction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js","./getEventTarget":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getEventTarget.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticFocusEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36934,7 +36850,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 
 module.exports = SyntheticFocusEvent;
 
-},{"./SyntheticUIEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticInputEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticInputEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36980,7 +36896,7 @@ SyntheticEvent.augmentClass(
 
 module.exports = SyntheticInputEvent;
 
-},{"./SyntheticEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticKeyboardEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticKeyboardEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37067,7 +36983,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 
 module.exports = SyntheticKeyboardEvent;
 
-},{"./SyntheticUIEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js","./getEventCharCode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventCharCode.js","./getEventKey":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventKey.js","./getEventModifierState":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventModifierState.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticMouseEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js","./getEventCharCode":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getEventCharCode.js","./getEventKey":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getEventKey.js","./getEventModifierState":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getEventModifierState.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticMouseEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37148,7 +37064,7 @@ SyntheticUIEvent.augmentClass(SyntheticMouseEvent, MouseEventInterface);
 
 module.exports = SyntheticMouseEvent;
 
-},{"./SyntheticUIEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js","./ViewportMetrics":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ViewportMetrics.js","./getEventModifierState":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventModifierState.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticTouchEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js","./ViewportMetrics":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ViewportMetrics.js","./getEventModifierState":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getEventModifierState.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticTouchEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37196,7 +37112,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 
 module.exports = SyntheticTouchEvent;
 
-},{"./SyntheticUIEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js","./getEventModifierState":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventModifierState.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js","./getEventModifierState":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getEventModifierState.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticUIEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37258,7 +37174,7 @@ SyntheticEvent.augmentClass(SyntheticUIEvent, UIEventInterface);
 
 module.exports = SyntheticUIEvent;
 
-},{"./SyntheticEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js","./getEventTarget":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventTarget.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticWheelEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticEvent.js","./getEventTarget":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getEventTarget.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticWheelEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37319,7 +37235,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 
 module.exports = SyntheticWheelEvent;
 
-},{"./SyntheticMouseEvent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\SyntheticMouseEvent.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Transaction.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\SyntheticMouseEvent.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Transaction.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -37560,7 +37476,7 @@ var Transaction = {
 module.exports = Transaction;
 
 }).call(this,require('_process'))
-},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ViewportMetrics.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ViewportMetrics.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37589,7 +37505,7 @@ var ViewportMetrics = {
 
 module.exports = ViewportMetrics;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\accumulateInto.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\accumulateInto.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -37655,7 +37571,7 @@ function accumulateInto(current, next) {
 module.exports = accumulateInto;
 
 }).call(this,require('_process'))
-},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\adler32.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\adler32.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37689,7 +37605,7 @@ function adler32(data) {
 
 module.exports = adler32;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\camelize.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\camelize.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37721,7 +37637,7 @@ function camelize(string) {
 
 module.exports = camelize;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\camelizeStyleName.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\camelizeStyleName.js":[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -37763,7 +37679,7 @@ function camelizeStyleName(string) {
 
 module.exports = camelizeStyleName;
 
-},{"./camelize":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\camelize.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\cloneWithProps.js":[function(require,module,exports){
+},{"./camelize":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\camelize.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\cloneWithProps.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -37822,7 +37738,7 @@ function cloneWithProps(child, props) {
 module.exports = cloneWithProps;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactPropTransferer":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactPropTransferer.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\containsNode.js":[function(require,module,exports){
+},{"./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactPropTransferer":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactPropTransferer.js","./keyOf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\containsNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37866,7 +37782,7 @@ function containsNode(outerNode, innerNode) {
 
 module.exports = containsNode;
 
-},{"./isTextNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isTextNode.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\createArrayFromMixed.js":[function(require,module,exports){
+},{"./isTextNode":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\isTextNode.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\createArrayFromMixed.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -37952,7 +37868,7 @@ function createArrayFromMixed(obj) {
 
 module.exports = createArrayFromMixed;
 
-},{"./toArray":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\toArray.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\createFullPageComponent.js":[function(require,module,exports){
+},{"./toArray":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\toArray.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\createFullPageComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -38014,7 +37930,7 @@ function createFullPageComponent(tag) {
 module.exports = createFullPageComponent;
 
 }).call(this,require('_process'))
-},{"./ReactClass":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\createNodesFromMarkup.js":[function(require,module,exports){
+},{"./ReactClass":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactClass.js","./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\createNodesFromMarkup.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -38104,7 +38020,7 @@ function createNodesFromMarkup(markup, handleScript) {
 module.exports = createNodesFromMarkup;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./createArrayFromMixed":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\createArrayFromMixed.js","./getMarkupWrap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getMarkupWrap.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\cx.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./createArrayFromMixed":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\createArrayFromMixed.js","./getMarkupWrap":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getMarkupWrap.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\cx.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -38160,7 +38076,7 @@ function cx(classNames) {
 module.exports = cx;
 
 }).call(this,require('_process'))
-},{"./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\dangerousStyleValue.js":[function(require,module,exports){
+},{"./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\dangerousStyleValue.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38218,7 +38134,7 @@ function dangerousStyleValue(name, value) {
 
 module.exports = dangerousStyleValue;
 
-},{"./CSSProperty":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\CSSProperty.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js":[function(require,module,exports){
+},{"./CSSProperty":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\CSSProperty.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38252,7 +38168,7 @@ emptyFunction.thatReturnsArgument = function(arg) { return arg; };
 
 module.exports = emptyFunction;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\emptyObject.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -38276,7 +38192,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = emptyObject;
 
 }).call(this,require('_process'))
-},{"_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\escapeTextContentForBrowser.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\escapeTextContentForBrowser.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38316,7 +38232,7 @@ function escapeTextContentForBrowser(text) {
 
 module.exports = escapeTextContentForBrowser;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\findDOMNode.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\findDOMNode.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -38389,7 +38305,7 @@ function findDOMNode(componentOrElement) {
 module.exports = findDOMNode;
 
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactInstanceMap":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactMount":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./isNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isNode.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\flattenChildren.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactCurrentOwner.js","./ReactInstanceMap":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceMap.js","./ReactMount":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactMount.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./isNode":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\isNode.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\flattenChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -38447,7 +38363,7 @@ function flattenChildren(children) {
 module.exports = flattenChildren;
 
 }).call(this,require('_process'))
-},{"./traverseAllChildren":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\traverseAllChildren.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\focusNode.js":[function(require,module,exports){
+},{"./traverseAllChildren":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\traverseAllChildren.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\focusNode.js":[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -38476,7 +38392,7 @@ function focusNode(node) {
 
 module.exports = focusNode;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\forEachAccumulated.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\forEachAccumulated.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38507,7 +38423,7 @@ var forEachAccumulated = function(arr, cb, scope) {
 
 module.exports = forEachAccumulated;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getActiveElement.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getActiveElement.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38536,7 +38452,7 @@ function getActiveElement() /*?DOMElement*/ {
 
 module.exports = getActiveElement;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventCharCode.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getEventCharCode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38588,7 +38504,7 @@ function getEventCharCode(nativeEvent) {
 
 module.exports = getEventCharCode;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventKey.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getEventKey.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38693,7 +38609,7 @@ function getEventKey(nativeEvent) {
 
 module.exports = getEventKey;
 
-},{"./getEventCharCode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventCharCode.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventModifierState.js":[function(require,module,exports){
+},{"./getEventCharCode":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getEventCharCode.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getEventModifierState.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38740,7 +38656,7 @@ function getEventModifierState(nativeEvent) {
 
 module.exports = getEventModifierState;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getEventTarget.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getEventTarget.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38771,7 +38687,7 @@ function getEventTarget(nativeEvent) {
 
 module.exports = getEventTarget;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getIteratorFn.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getIteratorFn.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -38815,7 +38731,7 @@ function getIteratorFn(maybeIterable) {
 
 module.exports = getIteratorFn;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getMarkupWrap.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getMarkupWrap.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -38934,7 +38850,7 @@ function getMarkupWrap(nodeName) {
 module.exports = getMarkupWrap;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getNodeForCharacterOffset.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getNodeForCharacterOffset.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39009,7 +38925,7 @@ function getNodeForCharacterOffset(root, offset) {
 
 module.exports = getNodeForCharacterOffset;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getReactRootElementInContainer.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getReactRootElementInContainer.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39044,7 +38960,7 @@ function getReactRootElementInContainer(container) {
 
 module.exports = getReactRootElementInContainer;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getTextContentAccessor.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getTextContentAccessor.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39081,7 +38997,7 @@ function getTextContentAccessor() {
 
 module.exports = getTextContentAccessor;
 
-},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getUnboundedScrollPosition.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getUnboundedScrollPosition.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39121,7 +39037,7 @@ function getUnboundedScrollPosition(scrollable) {
 
 module.exports = getUnboundedScrollPosition;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\hyphenate.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\hyphenate.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39154,7 +39070,7 @@ function hyphenate(string) {
 
 module.exports = hyphenate;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\hyphenateStyleName.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\hyphenateStyleName.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39195,7 +39111,7 @@ function hyphenateStyleName(string) {
 
 module.exports = hyphenateStyleName;
 
-},{"./hyphenate":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\hyphenate.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\instantiateReactComponent.js":[function(require,module,exports){
+},{"./hyphenate":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\hyphenate.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\instantiateReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -39333,7 +39249,7 @@ function instantiateReactComponent(node, parentCompositeType) {
 module.exports = instantiateReactComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactCompositeComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactCompositeComponent.js","./ReactEmptyComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactEmptyComponent.js","./ReactNativeComponent":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactNativeComponent.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./ReactCompositeComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactCompositeComponent.js","./ReactEmptyComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactEmptyComponent.js","./ReactNativeComponent":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactNativeComponent.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -39390,7 +39306,7 @@ var invariant = function(condition, format, a, b, c, d, e, f) {
 module.exports = invariant;
 
 }).call(this,require('_process'))
-},{"_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isEventSupported.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\isEventSupported.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39455,7 +39371,7 @@ function isEventSupported(eventNameSuffix, capture) {
 
 module.exports = isEventSupported;
 
-},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isNode.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\isNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39482,7 +39398,7 @@ function isNode(object) {
 
 module.exports = isNode;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isTextInputElement.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\isTextInputElement.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39525,7 +39441,7 @@ function isTextInputElement(elem) {
 
 module.exports = isTextInputElement;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isTextNode.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\isTextNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39550,7 +39466,7 @@ function isTextNode(object) {
 
 module.exports = isTextNode;
 
-},{"./isNode":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\isNode.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\joinClasses.js":[function(require,module,exports){
+},{"./isNode":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\isNode.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\joinClasses.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39591,7 +39507,7 @@ function joinClasses(className/*, ... */) {
 
 module.exports = joinClasses;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\keyMirror.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -39646,7 +39562,7 @@ var keyMirror = function(obj) {
 module.exports = keyMirror;
 
 }).call(this,require('_process'))
-},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\keyOf.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39682,7 +39598,7 @@ var keyOf = function(oneKeyObj) {
 
 module.exports = keyOf;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\mapObject.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\mapObject.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39735,7 +39651,7 @@ function mapObject(object, callback, context) {
 
 module.exports = mapObject;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\memoizeStringOnly.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\memoizeStringOnly.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39768,7 +39684,7 @@ function memoizeStringOnly(callback) {
 
 module.exports = memoizeStringOnly;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\onlyChild.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\onlyChild.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -39808,7 +39724,7 @@ function onlyChild(children) {
 module.exports = onlyChild;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\performance.js":[function(require,module,exports){
+},{"./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\performance.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39836,7 +39752,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = performance || {};
 
-},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\performanceNow.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\performanceNow.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39864,7 +39780,7 @@ var performanceNow = performance.now.bind(performance);
 
 module.exports = performanceNow;
 
-},{"./performance":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\performance.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\quoteAttributeValueForBrowser.js":[function(require,module,exports){
+},{"./performance":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\performance.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\quoteAttributeValueForBrowser.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39892,7 +39808,7 @@ function quoteAttributeValueForBrowser(value) {
 
 module.exports = quoteAttributeValueForBrowser;
 
-},{"./escapeTextContentForBrowser":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\escapeTextContentForBrowser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\setInnerHTML.js":[function(require,module,exports){
+},{"./escapeTextContentForBrowser":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\escapeTextContentForBrowser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\setInnerHTML.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -39981,7 +39897,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = setInnerHTML;
 
-},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\setTextContent.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\setTextContent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -40023,7 +39939,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = setTextContent;
 
-},{"./ExecutionEnvironment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./escapeTextContentForBrowser":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\escapeTextContentForBrowser.js","./setInnerHTML":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\setInnerHTML.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\shallowEqual.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ExecutionEnvironment.js","./escapeTextContentForBrowser":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\escapeTextContentForBrowser.js","./setInnerHTML":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\setInnerHTML.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\shallowEqual.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -40067,7 +39983,7 @@ function shallowEqual(objA, objB) {
 
 module.exports = shallowEqual;
 
-},{}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\shouldUpdateReactComponent.js":[function(require,module,exports){
+},{}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\shouldUpdateReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -40171,7 +40087,7 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 module.exports = shouldUpdateReactComponent;
 
 }).call(this,require('_process'))
-},{"./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\toArray.js":[function(require,module,exports){
+},{"./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\toArray.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -40243,7 +40159,7 @@ function toArray(obj) {
 module.exports = toArray;
 
 }).call(this,require('_process'))
-},{"./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\traverseAllChildren.js":[function(require,module,exports){
+},{"./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\traverseAllChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -40496,7 +40412,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 module.exports = traverseAllChildren;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactFragment":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js","./ReactInstanceHandles":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./getIteratorFn":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\getIteratorFn.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\update.js":[function(require,module,exports){
+},{"./ReactElement":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactElement.js","./ReactFragment":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactFragment.js","./ReactInstanceHandles":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\ReactInstanceHandles.js","./getIteratorFn":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\getIteratorFn.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./warning":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\update.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -40667,7 +40583,7 @@ function update(value, spec) {
 module.exports = update;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./invariant":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./keyOf":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\warning.js":[function(require,module,exports){
+},{"./Object.assign":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\Object.assign.js","./invariant":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\invariant.js","./keyOf":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\keyOf.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\warning.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -40730,7 +40646,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = warning;
 
 }).call(this,require('_process'))
-},{"./emptyFunction":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js","_process":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\browserify\\node_modules\\process\\browser.js"}],"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\react.js":[function(require,module,exports){
+},{"./emptyFunction":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\emptyFunction.js","_process":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\process\\browser.js"}],"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\react.js":[function(require,module,exports){
 module.exports = require('./lib/React');
 
-},{"./lib/React":"C:\\Users\\chris\\Desktop\\Creatrix\\CareSelector\\careselector-compare\\node_modules\\react\\lib\\React.js"}]},{},["./js/src/main.js"]);
+},{"./lib/React":"C:\\Users\\James Flight\\Code\\careselector-compare\\node_modules\\react\\lib\\React.js"}]},{},["./js/src/main.js"]);
